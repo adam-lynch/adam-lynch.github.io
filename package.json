@@ -1,0 +1,25 @@
+{
+  "name": "adam-lynch.github.io",
+  "version": "0.0.0",
+  "description": "Personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adam-lynch/adam-lynch.github.io.git"
+  },
+  "keywords": [
+    "adam",
+    "lynch",
+    "web",
+    "developer"
+  ],
+  "author": "Adam Lynch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adam-lynch/adam-lynch.github.io/issues"
+  },
+  "homepage": "https://github.com/adam-lynch/adam-lynch.github.io"
+}
