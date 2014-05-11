@@ -4,16 +4,16 @@
     text-align: center;
 }
 
-.links {
+ul {
    list-style: none;
    padding-left: 0;
 }
 
-.links li {
+li {
     display: inline-block;
 }
 
-.links a {
+li a {
     display: block;
     padding: 10px 15px;
 }
