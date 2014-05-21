@@ -29,6 +29,10 @@ gulp.task('generate', ['get-templates'], function(){
         .pipe($.htmlmin({
             collapseWhitespace: true
         }))
+        .pipe(gulp.dest('./'))
+        .pipe($.sitemap({
+            siteUrl: 'http://www.adamlynch.com'
+        }))
         .pipe(gulp.dest('./'));
 });
 
