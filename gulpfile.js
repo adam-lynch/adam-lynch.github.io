@@ -29,6 +29,17 @@ gulp.task('generate', ['get-templates'], function(){
         .pipe($.htmlmin({
             collapseWhitespace: true
         }))
+        .pipe($.w3cjs())
+        .pipe(es.map(function(file, cb){
+            var validation = file.w3cjs;
+            if (validation.success){
+                cb(null, file);
+            }
+            else {
+                cb(null, file);
+                throw new Error('HTML validation error(s) found');
+            }
+        }))
         .pipe(gulp.dest('./'))
         .pipe($.sitemap({
             siteUrl: 'http://www.adamlynch.com'
