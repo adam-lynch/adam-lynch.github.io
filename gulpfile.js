@@ -31,12 +31,8 @@ gulp.task('generate', ['get-templates'], function(){
         }))
         .pipe($.w3cjs())
         .pipe(es.map(function(file, cb){
-            var validation = file.w3cjs;
-            if (validation.success){
-                cb(null, file);
-            }
-            else {
-                cb(null, file);
+            cb(null, file);
+            if (!file.w3cjs.success){
                 throw new Error('HTML validation error(s) found');
             }
         }))
