@@ -1,16 +1,44 @@
-var gulp = require('gulp');
-var $ = require('gulp-load-plugins')();
-var swig = require('swig');
-var path = require('path');
-var es = require('event-stream');
+var gulp =  require('gulp');
+var $ =     require('gulp-load-plugins')();
+var swig =  require('swig');
+var path =  require('path');
+var es =    require('event-stream');
+var args =  require('yargs').argv;
+
 var site = {};
 var templates = {};
+var isDevMode = args.mode === 'dev';
+
+var paths = {
+    output: {}
+};
+paths.output.devRoot = './dev-mode-output';
+paths.output.prodRoot = './';
+paths.output.root = isDevMode ? paths.output.devRoot : paths.output.prodRoot;
 
 module.exports = gulp;
 
 gulp.task('default', ['generate']);
 
-gulp.task('generate', ['get-templates'], function(){
+gulp.task('clean', function(done){
+    var source = null;
+
+    if(isDevMode){
+        source = gulp.src(paths.output.root + '**/**');
+    }
+    else {
+        source = gulp.src('./content/**/*.md')
+            .pipe($.rename({extname: '.html'}))
+            .pipe($.ssg(site))
+            .pipe(gulp.dest(paths.output.root));
+    }
+
+    source
+        .pipe($.clean())
+        .on('end', done);
+});
+
+gulp.task('generate', ['get-templates'], function(done){
 
     gulp.src('./content/**/*.md')
         .pipe($.marked())
@@ -36,11 +64,12 @@ gulp.task('generate', ['get-templates'], function(){
                 throw new Error('HTML validation error(s) found');
             }
         }))
-        .pipe(gulp.dest('./'))
+        .pipe(gulp.dest(paths.output.root))
         .pipe($.sitemap({
             siteUrl: 'http://www.adamlynch.com'
         }))
-        .pipe(gulp.dest('./'));
+        .pipe(gulp.dest('./'))
+        .on('end', done);
 });
 
 gulp.task('get-templates', function(){
