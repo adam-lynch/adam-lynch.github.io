@@ -41,7 +41,7 @@ gulp.task('clean', function(done){
 gulp.task('generate', ['get-templates'], function(done){
 
     gulp.src('./content/**/*.md')
-        .pipe($.marked())
+        .pipe($.markdown())
         .pipe($.ssg(site))
         .pipe(es.map(function(file, cb) {
             var output = swig.render(templates['index'], {
