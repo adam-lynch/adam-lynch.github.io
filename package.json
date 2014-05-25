@@ -34,6 +34,7 @@
     "gulp-clean": "^0.2.4",
     "yargs": "^1.2.2",
     "gulp-rename": "^1.2.0",
-    "gulp-markdown": "^0.1.2"
+    "gulp-markdown": "^0.1.2",
+    "gulp-sitemap-files": "0.0.3"
   }
 }

@@ -12,7 +12,7 @@ var isDevMode = args.mode === 'dev';
 var paths = {
     output: {}
 };
-paths.output.devRoot = './dev-mode-output';
+paths.output.devRoot = './dev-mode-output/';
 paths.output.prodRoot = './';
 paths.output.root = isDevMode ? paths.output.devRoot : paths.output.prodRoot;
 
@@ -21,19 +21,8 @@ module.exports = gulp;
 gulp.task('default', ['generate']);
 
 gulp.task('clean', function(done){
-    var source = null;
-
-    if(isDevMode){
-        source = gulp.src(paths.output.root + '**/**');
-    }
-    else {
-        source = gulp.src('./content/**/*.md')
-            .pipe($.rename({extname: '.html'}))
-            .pipe($.ssg(site))
-            .pipe(gulp.dest(paths.output.root));
-    }
-
-    source
+    gulp.src(paths.output.root + 'sitemap.xml')
+        .pipe($.sitemapFiles('http://www.adamlynch.com'))
         .pipe($.clean())
         .on('end', done);
 });
@@ -68,7 +57,7 @@ gulp.task('generate', ['get-templates'], function(done){
         .pipe($.sitemap({
             siteUrl: 'http://www.adamlynch.com'
         }))
-        .pipe(gulp.dest('./'))
+        .pipe(gulp.dest(paths.output.root))
         .on('end', done);
 });
 
