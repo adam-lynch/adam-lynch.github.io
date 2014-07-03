@@ -70,7 +70,7 @@
 
         h1 {
             font-size: 43px;
-            line-height: 52px;
+            line-height: 47px;
 
             margin-top: 0;
             padding: 72px 0 0;
@@ -283,6 +283,10 @@ $(document).ready(function(){
 
     var changeFonts = function(index){
         var permutation = permutations[index];
+        if(!permutation) {
+            return;
+        }
+
         $('.wrapper').css('font-family', permutation.body)
                 .find('h1, h2')
                 .css('font-family', permutation.heading);
