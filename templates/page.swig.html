@@ -9,6 +9,10 @@
 <body>
     <div class="wrapper">
         {{ content | safe }}
+
+        {% include 'pattern.swig.html' with {
+            pattern: '<h1>Example heading</h1>'
+        } only %}
     </div>
 </body>
 </html>

@@ -1,0 +1,10 @@
+{% spaceless %}
+{#
+    Arguments:
+    pattern - {String}
+    type - Optional {String}; `html`|`markdown`. Defaults to `html`
+#}
+{{ pattern | safe }}
+<pre><code class="language-html">{{ pattern }}</code></pre>
+
+{% endspaceless %}
