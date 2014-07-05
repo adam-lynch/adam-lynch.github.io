@@ -1,9 +1,13 @@
 global.gulp =  require 'gulp'
 global.$ =     require('gulp-load-plugins')()
-swig =  require 'swig'
 path =  require 'path'
 es =    require 'event-stream'
 args =  require('yargs').argv
+marked =  require 'marked'
+swig =  require 'swig'
+
+swig.setFilter 'markdown', (input ) ->
+  return marked input
 
 site = {}
 templates = {}

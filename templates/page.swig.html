@@ -13,6 +13,11 @@
         {% include 'pattern.swig.html' with {
             pattern: '<h1>Example heading</h1>'
         } only %}
+
+        {% include 'pattern.swig.html' with {
+            pattern: '## Example sub-heading',
+            language: 'markdown'
+        } only %}
     </div>
 </body>
 </html>

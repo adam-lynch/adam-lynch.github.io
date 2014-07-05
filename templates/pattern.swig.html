@@ -1,10 +1,36 @@
-{% spaceless %}
 {#
     Arguments:
     pattern - {String}
-    type - Optional {String}; `html`|`markdown`. Defaults to `html`
+    language - Optional {String}; `html`, `markdown`, etc. Defaults to `html`
 #}
-{{ pattern | safe }}
-<pre><code class="language-html">{{ pattern }}</code></pre>
+{% if not language.length %}
+    {% set language = 'html' %}
+{% endif %}
 
-{% endspaceless %}
+{# show two code blocks for markdown; one for markdown, one for the resultant html #}
+{% if language == 'markdown' %}
+
+{% set html = pattern | markdown %}
+
+{{ html | safe }}
+
+{% include 'codeBlock.swig.html' with {
+    code: pattern,
+    language: language
+} only %}
+
+{% include 'codeBlock.swig.html' with {
+    code: html,
+    language: 'html'
+} only %}
+
+{% else %}
+
+{{ pattern | safe }}
+
+{% include 'codeBlock.swig.html' with {
+    code: pattern,
+    language: language
+} only %}
+
+{% endif %}
