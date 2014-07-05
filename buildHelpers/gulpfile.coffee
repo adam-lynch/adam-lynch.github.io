@@ -21,7 +21,7 @@ global.paths =
         stylesRoot: ->      paths.source.root() + 'styles/source/'
         stylesEntryFile: -> paths.source.stylesRoot() + 'index.less'
         templateRoot: ->    paths.source.root() + 'templates/'
-        templates: ->       paths.source.templateRoot() + '**/*'
+        templates: ->       paths.source.templateRoot() + '**/*.swig.html'
         sitemaps: ->        paths.output.root() + 'sitemap.xml'
     output:
         baseUrl: ->         'http://www.adamlynch.com'
@@ -31,29 +31,45 @@ global.paths =
         stylesRoot: ->      paths.output.root() + 'styles/'
         styles: ->          paths.output.stylesRoot() + '/*.css'
 
-
 module.exports = gulp
 
 require('./clean.coffee')()
 require('./subTasks.coffee')()
 
+getTemplate = (templateName) ->
+  template = build.templates[templateName]
+
+  if template?
+    return template
+  else
+    throw new Error "Template #{templateName} not found"
+
 gulp.task 'default', ['generate']
 
 gulp.task 'generate', ['get-templates', 'styles'], ->
 
-    throw new Error '[Generate] No templates found. Something is not right.' unless Object.keys(build.templates).length
+  throw new Error '[Generate] No templates found. Something is not right.' unless Object.keys(build.templates).length
 
-    return gulp.src paths.source.contentsFiles()
+  return gulp.src paths.source.contentsFiles()
         .pipe $.markdown()
         .pipe $.ssg site
         .pipe es.map (file, cb) ->
-            output = swig.render build.templates['index'],
-                locals:
-                    site: site
-                    content: String file.contents
+            template = getTemplate 'page'
 
-            file.contents = new Buffer output
-            cb null, file
+            templateArgs =
+              site: site
+              content: String file.contents
+
+            onRender = (err, output) ->
+              if err?
+                cb err
+                return
+
+              file.contents = new Buffer output
+              cb null, file
+
+            swig.renderFile template.path, templateArgs, onRender
+
         .pipe $.htmlmin
             collapseWhitespace: true
         .pipe $.w3cjs()

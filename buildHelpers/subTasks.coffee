@@ -9,7 +9,7 @@ module.exports = ->
         return gulp.src paths.source.templates()
             .pipe es.map (file, cb) ->
                 name = path.basename(file.path).split('.')[0]
-                build.templates[name] = String file.contents
+                build.templates[name] = file
 
                 cb null, file
 

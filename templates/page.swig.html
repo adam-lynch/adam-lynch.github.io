@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+{% include './head.swig.html' with {
+    title: 'Adam Lynch',
+    author: 'Adam Lynch',
+    description: 'Adam Lynch',
+    stylesheets: ['styles/index.css']
+} only %}
+<body>
+    <div class="wrapper">
+        {{ content | safe }}
+    </div>
+</body>
+</html>
