@@ -1,9 +1,18 @@
-<title>{{ title }}</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="{{ description }}">
-<meta name="author" content="{{ author }}">
-{% for stylesheet in stylesheets %}{% spaceless %}
+{#
+    args - {Object}
+        :title - {String}
+        :description - {String}
+        :author - {String}
+        :stylesheets - Array of {String}s
+#}
+{% macro head(args) %}
+    <title>{{ args.title }}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ args.description }}">
+    <meta name="author" content="{{ args.author }}">
+    {% for stylesheet in args.stylesheets %}
     <link rel="stylesheet" href="{{ stylesheet }}">
-{% endspaceless %}{% endfor %}
+    {% endfor %}
+{% endmacro %}

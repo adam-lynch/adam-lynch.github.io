@@ -4,10 +4,9 @@ path =  require 'path'
 es =    require 'event-stream'
 args =  require('yargs').argv
 marked =  require 'marked'
-swig =  require 'swig'
-
-swig.setFilter 'markdown', (input ) ->
-  return marked input
+nunjucks =  require 'nunjucks'
+nunjucks = new nunjucks.Environment new nunjucks.FileSystemLoader 'templates'
+nunjucks.addFilter 'markdown', (input) -> marked input
 
 site = {}
 templates = {}
@@ -53,7 +52,6 @@ gulp.task 'default', ['generate']
 gulp.task 'generate', ['get-templates', 'styles'], ->
 
   throw new Error '[Generate] No templates found. Something is not right.' unless Object.keys(build.templates).length
-
   return gulp.src paths.source.contentsFiles()
         .pipe $.markdown()
         .pipe $.ssg site
@@ -72,7 +70,7 @@ gulp.task 'generate', ['get-templates', 'styles'], ->
               file.contents = new Buffer output
               cb null, file
 
-            swig.renderFile template.path, templateArgs, onRender
+            nunjucks.render 'page.swig.html', templateArgs, onRender
 
         .pipe $.htmlmin
             collapseWhitespace: true

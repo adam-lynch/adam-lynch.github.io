@@ -1,36 +1,39 @@
 {#
-    Arguments:
-    pattern - {String}
-    language - Optional {String}; `html`, `markdown`, etc. Defaults to `html`
+    args - {Obejct}
+        :pattern - {String}
+        :language - Optional {String}; `html`, `markdown`, etc. Defaults to `html`
 #}
-{% if not language.length %}
-    {% set language = 'html' %}
-{% endif %}
+{% macro pattern(args) %}
+    {% from 'codeBlock.swig.html' import codeBlock as codeBlock %}
+    {% set pattern = args.pattern %}
+    {% set language = args.language or 'html' %}
 
-{# show two code blocks for markdown; one for markdown, one for the resultant html #}
-{% if language == 'markdown' %}
+    {# show two code blocks for markdown; one for markdown, one for the resultant html #}
+    {% if args.language == 'markdown' %}
 
-{% set html = pattern | markdown %}
+    {% set html = pattern | markdown %}
 
-{{ html | safe }}
+    {{ html | safe }}
 
-{% include 'codeBlock.swig.html' with {
+    {{ codeBlock({
     code: pattern,
     language: language
-} only %}
+    })}}
 
-{% include 'codeBlock.swig.html' with {
+    {{ codeBlock({
     code: html,
     language: 'html'
-} only %}
+    })}}
 
-{% else %}
+    {% else %}
 
-{{ pattern | safe }}
+    {{ pattern | safe }}
 
-{% include 'codeBlock.swig.html' with {
+    {{ codeBlock({
     code: pattern,
     language: language
-} only %}
+    })}}
 
-{% endif %}
+    {% endif %}
+
+{% endmacro %}

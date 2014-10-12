@@ -1,7 +1,8 @@
-{% spaceless %}
 {#
-    Arguments:
-    code - {String}
-    language - {String}
+    args - {Object}
+        :code - {String}
+        :language - {String}
 #}
-{% endspaceless %}<pre><code class="language-{{ language }}">{{ code }}</code></pre>
+{% macro codeBlock(args) %}
+<pre><code class="language-{{ args.language }}">{{ args.code | escape }}</code></pre>
+{% endmacro %}

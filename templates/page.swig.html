@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
-{% include './head.swig.html' with {
+{% from 'head.swig.html' import head as head %}
+{{ head({
     title: 'Adam Lynch',
     author: 'Adam Lynch',
     description: 'Adam Lynch',
     stylesheets: ['styles/index.css']
-} only %}
+})}}
 <body>
     <div class="wrapper">
         {{ content | safe }}
 
         {#
-        {% include 'pattern.swig.html' with {
-            pattern: '<h1>Example heading</h1>'
-        } only %}
+        {% from 'pattern.swig.html' import pattern as pattern %}
 
-        {% include 'pattern.swig.html' with {
+        {{ pattern({
+            pattern: '<h1>Example heading</h1>'
+        })}}
+
+        {{ pattern({
             pattern: '## Example sub-heading',
             language: 'markdown'
-        } only %}
+        })}}
         #}
+
     </div>
 </body>
 </html>
