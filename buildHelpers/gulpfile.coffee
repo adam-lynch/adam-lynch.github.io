@@ -4,15 +4,15 @@ path =  require 'path'
 es =    require 'event-stream'
 args =  require('yargs').argv
 marked =  require 'marked'
-nunjucks =  require 'nunjucks'
-nunjucks = new nunjucks.Environment new nunjucks.FileSystemLoader 'templates'
-nunjucks.addFilter 'markdown', (input) -> marked input
+nunjucks = require 'nunjucks'
+templates = new nunjucks.Environment new nunjucks.FileSystemLoader('templates'),
+    watch: false
+templates.addFilter 'markdown', (input) -> marked input
 
 site = {}
-templates = {}
 
 global.build =
-    templates: null
+    templates: {}
     isDevMode: args.mode is 'dev'
 
 global.paths =
@@ -39,38 +39,40 @@ module.exports = gulp
 require('./clean.coffee')()
 require('./subTasks.coffee')()
 
-getTemplate = (templateName) ->
+getTemplate = (templateName, cb) ->
   template = build.templates[templateName]
 
   if template?
-    return template
+    cb null, template
   else
-    throw new Error "Template #{templateName} not found"
+    templates.getTemplate templateName, true, (err, template) ->
+      build.templates[templateName] = template unless err
+      cb.apply this, arguments
 
 gulp.task 'default', ['generate']
 
-gulp.task 'generate', ['get-templates', 'styles'], ->
+gulp.task 'generate', ['styles'], (done) ->
 
-  throw new Error '[Generate] No templates found. Something is not right.' unless Object.keys(build.templates).length
-  return gulp.src paths.source.contentsFiles()
+  gulp.src paths.source.contentsFiles()
         .pipe $.markdown()
         .pipe $.ssg site
         .pipe es.map (file, cb) ->
-            template = getTemplate 'page'
+            getTemplate 'page.swig.html', (err, template) ->
+                throw err if err
 
-            templateArgs =
-              site: site
-              content: String file.contents
+                templateArgs =
+                  site: site
+                  content: String file.contents
 
-            onRender = (err, output) ->
-              if err?
-                cb err
-                return
+                onRender = (err, output) ->
+                  if err?
+                    cb err
+                    return
 
-              file.contents = new Buffer output
-              cb null, file
+                  file.contents = new Buffer output
+                  cb null, file
 
-            nunjucks.render 'page.swig.html', templateArgs, onRender
+                template.render templateArgs, onRender
 
         .pipe $.htmlmin
             collapseWhitespace: true
@@ -82,3 +84,5 @@ gulp.task 'generate', ['get-templates', 'styles'], ->
         .pipe $.sitemap
             siteUrl: paths.output.baseUrl()
         .pipe gulp.dest paths.output.root()
+        .on 'end', done
+    return
