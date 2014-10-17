@@ -40,12 +40,13 @@ require('./clean.coffee')()
 require('./subTasks.coffee')()
 
 getTemplate = (templateName, cb) ->
+  basename = templateName += '.swig.html'
   template = build.templates[templateName]
 
   if template?
     cb null, template
   else
-    templates.getTemplate templateName, true, (err, template) ->
+    templates.getTemplate basename, true, (err, template) ->
       build.templates[templateName] = template unless err
       cb.apply this, arguments
 
@@ -57,7 +58,7 @@ gulp.task 'generate', ['styles'], (done) ->
         .pipe $.markdown()
         .pipe $.ssg site
         .pipe es.map (file, cb) ->
-            getTemplate 'page.swig.html', (err, template) ->
+            getTemplate 'page', (err, template) ->
                 throw err if err
 
                 templateArgs =
