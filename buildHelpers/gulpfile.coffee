@@ -51,7 +51,6 @@ global.paths =
 
 module.exports = gulp
 
-require('./clean.coffee')()
 require('./subTasks.coffee')()
 
 getTemplate = (templateName, cb) ->

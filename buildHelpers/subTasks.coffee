@@ -1,8 +1,10 @@
-es = require 'event-stream'
-path = require 'path'
+subModules = []
+for name in [
+    'clean'
+    'styles'
+]
+    subModules.push require "./#{name}.coffee"
+
 
 module.exports = ->
-    gulp.task 'styles', ->
-        gulp.src paths.source.stylesEntryFile()
-            .pipe $.less()
-                .pipe gulp.dest paths.output.stylesRoot()
+    module() for module in subModules
