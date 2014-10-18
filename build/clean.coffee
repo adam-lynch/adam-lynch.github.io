@@ -10,11 +10,13 @@ module.exports = ->
         del paths.output.root(), ->
             done()
 
-    gulp.task 'clean-prod', ['clean-styles'], ->
+    gulp.task 'clean-prod', ['clean-styles'], (done) ->
         gulp.src paths.source.sitemaps()
             .pipe $.sitemapFiles paths.output.baseUrl()
             .pipe es.map (file, cb) ->
                 del file.path, cb
+            .on 'end', done
+        return
 
     gulp.task 'clean-styles', (done) ->
         del paths.output.styles(), ->
