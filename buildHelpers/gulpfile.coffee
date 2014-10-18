@@ -69,35 +69,35 @@ gulp.task 'default', ['generate']
 
 gulp.task 'generate', ['styles'], (done) ->
     gulp.src paths.source.contentsFiles()
-    .pipe $.markdown()
+        .pipe $.markdown()
         .pipe $.ssg site
-            .pipe es.map (file, cb) ->
-                    getTemplate 'page', (err, template) ->
-                        throw err if err
+        .pipe es.map (file, cb) ->
+            getTemplate 'page', (err, template) ->
+                throw err if err
 
-                        templateArgs =
-                            site: site
-                            content: String file.contents
+                templateArgs =
+                    site: site
+                    content: String file.contents
 
-                        onRender = (err, output) ->
-                            if err?
-                                cb err
-                                return
+                onRender = (err, output) ->
+                    if err?
+                        cb err
+                        return
 
-                            file.contents = new Buffer output
-                            cb null, file
+                    file.contents = new Buffer output
+                    cb null, file
 
-                        template.render templateArgs, onRender
+                template.render templateArgs, onRender
 
-                .pipe $.htmlmin
-                        collapseWhitespace: true
-                    .pipe $.w3cjs()
-                        .pipe es.map (file, cb) ->
-                                throw new Error '[Generate] HTML validation error(s) found' unless file.w3cjs.success
-                                cb null, file
-                            .pipe gulp.dest paths.output.root()
-                                .pipe $.sitemap
-                                        siteUrl: paths.output.baseUrl()
-                                    .pipe gulp.dest paths.output.root()
-                                        .on 'end', done
+        .pipe $.htmlmin
+                collapseWhitespace: true
+        .pipe $.w3cjs()
+        .pipe es.map (file, cb) ->
+            throw new Error '[Generate] HTML validation error(s) found' unless file.w3cjs.success
+            cb null, file
+        .pipe gulp.dest paths.output.root()
+        .pipe $.sitemap
+            siteUrl: paths.output.baseUrl()
+        .pipe gulp.dest paths.output.root()
+            .on 'end', done
     return
