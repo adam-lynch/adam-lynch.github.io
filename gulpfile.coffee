@@ -3,14 +3,9 @@ global.$ = require('gulp-load-plugins')()
 path = require 'path'
 es = require 'event-stream'
 args = require('yargs').argv
-marked = require 'marked'
-nunjucks = require 'nunjucks'
-templates = new nunjucks.Environment new nunjucks.FileSystemLoader('templates'),
-    watch: false
-templates.addFilter 'markdown', (input) ->
-    marked input
 
-site = {}
+global.site = {}
+helpers = require './build/helpers'
 
 global.build =
     templates: {}
@@ -49,20 +44,7 @@ global.paths =
         styles: ->
             paths.output.stylesRoot() + '/*.css'
 
-module.exports = gulp
-
-require('./subTasks.coffee')()
-
-getTemplate = (templateName, cb) ->
-    basename = templateName += '.swig.html'
-    template = build.templates[templateName]
-
-    if template?
-        cb null, template
-    else
-        templates.getTemplate basename, true, (err, template) ->
-            build.templates[templateName] = template unless err
-            cb.apply this, arguments
+require('./build/subTasks.coffee')()
 
 gulp.task 'default', ['generate']
 
@@ -70,26 +52,9 @@ gulp.task 'generate', ['styles'], (done) ->
     gulp.src paths.source.contentsFiles()
         .pipe $.markdown()
         .pipe $.ssg site
-        .pipe es.map (file, cb) ->
-            getTemplate 'page', (err, template) ->
-                throw err if err
-
-                templateArgs =
-                    site: site
-                    content: String file.contents
-
-                onRender = (err, output) ->
-                    if err?
-                        cb err
-                        return
-
-                    file.contents = new Buffer output
-                    cb null, file
-
-                template.render templateArgs, onRender
-
+        .pipe es.map helpers.templates.render
         .pipe $.htmlmin
-                collapseWhitespace: true
+            collapseWhitespace: true
         .pipe $.w3cjs()
         .pipe es.map (file, cb) ->
             throw new Error '[Generate] HTML validation error(s) found' unless file.w3cjs.success
