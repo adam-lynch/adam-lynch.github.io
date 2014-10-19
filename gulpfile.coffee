@@ -55,6 +55,7 @@ gulp.task 'generate', ['styles'], (done) ->
         .pipe $.markdown()
         .pipe $.ssg site,
             property: 'meta'
+            baseUrl: 'http://www.adamlynch.com'
         .pipe es.map helpers.templates.render
         .pipe $.htmlmin
             collapseWhitespace: true
