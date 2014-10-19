@@ -17,6 +17,7 @@ class TemplateHelper
 
             templateArgs =
                 site: site
+                page: file.meta
                 content: String file.contents
 
             onRender = (err, output) ->

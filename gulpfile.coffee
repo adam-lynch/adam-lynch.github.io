@@ -50,8 +50,11 @@ gulp.task 'default', ['generate']
 
 gulp.task 'generate', ['styles'], (done) ->
     gulp.src paths.source.contentsFiles()
+        .pipe $.frontMatter
+            property: 'meta'
         .pipe $.markdown()
-        .pipe $.ssg site
+        .pipe $.ssg site,
+            property: 'meta'
         .pipe es.map helpers.templates.render
         .pipe $.htmlmin
             collapseWhitespace: true
