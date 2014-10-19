@@ -49,6 +49,7 @@ require('./build/subTasks.coffee')()
 gulp.task 'default', ['generate']
 
 gulp.task 'generate', ['styles'], (done) ->
+
     gulp.src paths.source.contentsFiles()
         .pipe $.frontMatter
             property: 'meta'
@@ -64,8 +65,10 @@ gulp.task 'generate', ['styles'], (done) ->
             throw new Error '[Generate] HTML validation error(s) found' unless file.w3cjs.success
             cb null, file
         .pipe gulp.dest paths.output.root()
+        # filter out the drafts
+        .pipe $.filter (file) -> !file.meta.draft
         .pipe $.sitemap
             siteUrl: paths.output.baseUrl()
         .pipe gulp.dest paths.output.root()
-            .on 'end', done
+        .on 'end', done
     return
