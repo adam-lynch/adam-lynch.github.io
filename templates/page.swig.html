@@ -8,22 +8,34 @@
     stylesheets: ['styles/index.css']
 })}}
 <body>
-    <div class="wrapper">
-        {{ content | safe }}
-
-        {#
-        {% from 'pattern.swig.html' import pattern as pattern %}
-
-        {{ pattern({
-            pattern: '<h1>Example heading</h1>'
-        })}}
-
-        {{ pattern({
-            pattern: '## Example sub-heading',
-            language: 'markdown'
-        })}}
-        #}
-
-    </div>
+    <main class="wrapper">
+        <div class="site-description">
+            <h1 class="site-title"><a href="#" class="site-link">Adam Lynch</a></h1>
+        </div>
+        <nav role="navigation" class="nav-wrapper">
+            <ul class="nav">
+                <li class="nav-item code-nav-item">
+                    <a href="//github.com/adam-lynch/" class="nav-link">
+                        <span class="nav-item-text">Code</span>
+                    </a>
+                </li>
+                <li class="nav-item writing-nav-item">
+                    <a href="//engineroom.teamwork.com/author/adam-lynch/" class="nav-link">
+                        <span class="nav-item-text">Writing</span>
+                    </a>
+                </li>
+                <li class="nav-item twitter-nav-item">
+                    <a href="//twitter.com/lynchy010/" class="nav-link">
+                        <span class="nav-item-text">Twitter</span>
+                    </a>
+                </li>
+                <li class="nav-item email-nav-item">
+                    <a href="mailto:contact@adamlynch.com" class="nav-link">
+                        <span class="nav-item-text">Email</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </main>
 </body>
 </html>

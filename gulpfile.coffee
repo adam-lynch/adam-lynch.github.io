@@ -31,6 +31,8 @@ global.paths =
             paths.source.templateRoot() + '**/*.swig.html'
         sitemaps: ->
             paths.output.root() + 'sitemap.xml'
+        imagesRoot: -> paths.source.root() + 'images/source/'
+        images: -> paths.source.imagesRoot() + '**/*'
     output:
         baseUrl: ->
             'http://www.adamlynch.com'
@@ -43,12 +45,13 @@ global.paths =
             paths.output.root() + 'styles/'
         styles: ->
             paths.output.stylesRoot() + '/*.css'
+        imagesRoot: -> paths.output.root() + 'images/'
 
 require('./build/subTasks.coffee')()
 
 gulp.task 'default', ['generate']
 
-gulp.task 'generate', ['styles'], (done) ->
+gulp.task 'generate', ['styles', 'images'], (done) ->
 
     gulp.src paths.source.contentsFiles()
         .pipe $.frontMatter
@@ -70,5 +73,12 @@ gulp.task 'generate', ['styles'], (done) ->
         .pipe $.sitemap
             siteUrl: paths.output.baseUrl()
         .pipe gulp.dest paths.output.root()
+        .on 'end', done
+    return
+
+gulp.task 'images', (done) ->
+    gulp.src paths.source.images()
+        .pipe $.debug()
+        .pipe gulp.dest paths.output.imagesRoot()
         .on 'end', done
     return

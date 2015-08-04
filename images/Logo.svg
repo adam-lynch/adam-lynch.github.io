@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="219.15px" height="282.784px" viewBox="0 0 219.15 282.784" enable-background="new 0 0 219.15 282.784"
+	 xml:space="preserve">
+<g id="Adam">
+	<g>
+		<text transform="matrix(1.024 0 0 1 29.7246 282.7837)" fill="#8D8D8D" font-family="'Montserrat-Regular'" font-size="48">ADAM</text>
+	</g>
+</g>
+<g id="Icon">
+	<g id="Outer__x2B__depth">
+		<g id="Outer_triangle">
+			<g id="Layer_4">
+				<polygon fill="#999999" points="137.312,51.384 109.576,0 81.348,52.295 0.653,201.79 18.619,233.409 201.173,233.409 
+					218.497,201.79 				"/>
+			</g>
+		</g>
+	</g>
+	<g id="Tip">
+		<g id="Layer_6">
+			<polygon fill="#FFFFFF" points="109.56,0 81.358,52.295 109.47,102.17 137.269,51.384 			"/>
+		</g>
+	</g>
+	<g id="Inner">
+		<g id="Larger_darker_inner">
+			<polygon fill="#3A3B3B" points="29.692,184.534 109.575,40.617 189.458,184.534 			"/>
+		</g>
+		<g id="Darker_smaller_inner">
+			<polygon fill="#2A2B2A" points="109.43,101.921 109.407,101.964 113.217,108.708 109.407,101.964 106.116,107.96 
+				109.407,101.964 92.323,71.73 29.361,184.534 155.538,184.534 			"/>
+		</g>
+	</g>
+</g>
+</svg>
