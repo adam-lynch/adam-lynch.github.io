@@ -57,12 +57,18 @@ body {
 
 .site-link {
   display: inline-block;
-  background: url(../images/Logo.svg) center no-repeat;
+  background: url(../images/Logo.png) center no-repeat;
   background-size: 6rem;
   height: 9rem;
   width: 6rem;
   margin: 0 auto;
   text-indent: -9999px;
+
+  @media
+  (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+    background-image: url(../images/Logo@2x.png);
+  }
 }
 
 .site-happy-text-wrapper {
@@ -94,8 +100,12 @@ body {
 
 .site-happy-text-headline {
   display: block;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
+
+  @media(min-width: 25rem) {
+    font-size: 2.5rem;
+  }
 
   @media(min-width: @minWidthToShowAllHeaderItemsInline) {
     font-size: 3.2rem;
@@ -144,8 +154,12 @@ body {
   position: relative;
   cursor: pointer; // needed for .navigation-link:after
 
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 700;
+
+  @media(min-width: 25rem) {
+    font-size: 0.75rem;
+  }
 
   @media(min-width: 45rem) {
     min-width: 0; // show all on one line
@@ -195,13 +209,17 @@ body {
 
   display: flex;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1rem;
 
   text-decoration: none;
   color: #f5f5f5;
   text-transform: uppercase;
 
   transition: 0.25s color;
+
+  @media(min-width: 25rem) {
+    padding: 1.5rem;
+  }
 
   &:after {
     content: '';
