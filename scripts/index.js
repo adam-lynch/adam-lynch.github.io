@@ -1,0 +1,1 @@
+(function(){document.addEventListener("DOMContentLoaded",function(){var e,n,t,c,o;if("querySelectorAll"in document){for(c=document.querySelectorAll(".js_track-link-clicks"),o=[],n=0,t=c.length;t>n;n++)e=c[n],o.push(e.addEventListener("click",function(e){return"function"==typeof ga?ga("send","event","outbound","click",this.href):void 0}));return o}})}).call(this);

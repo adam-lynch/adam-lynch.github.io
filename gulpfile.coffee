@@ -4,7 +4,18 @@ path = require 'path'
 es = require 'event-stream'
 args = require('yargs').argv
 
-global.site = {}
+site =
+    posts: []
+    title: 'Adam Lynch'
+    url: 'https://www.adamlynch.com'
+    nameToShow: 'Adam Lynch'
+    githubAccountURL: '//github.com/adam-lynch'
+    repositoryName: 'adam-lynch.github.io'
+
+site.repositoryURL = "#{site.githubAccountURL}/#{site.repositoryName}"
+site.mainTemplateURL = "#{site.repositoryURL}/edit/master/templates/page.nunjucks.html"
+global.site = site
+
 helpers = require './build/helpers'
 
 global.build =
@@ -28,15 +39,17 @@ global.paths =
         templateRoot: ->
             paths.source.root() + 'templates/'
         templates: ->
-            paths.source.templateRoot() + '**/*.swig.html'
+            paths.source.templateRoot() + '**/*.nunjucks.html'
         sitemaps: ->
             paths.output.root() + 'sitemap.xml'
         imagesRoot: -> paths.source.root() + 'images/source/'
         images: -> paths.source.imagesRoot() + '**/*'
+        scriptsRoot: -> paths.source.root() + 'scripts/source/'
+        scripts: -> paths.source.scriptsRoot() + '*.coffee'
     output:
         baseUrl: ->
             'http://www.adamlynch.com'
-        root: ->            if build.isDevMode then paths.output.devRoot() else paths.output.prodRoot()
+        root: ->  if build.isDevMode then paths.output.devRoot() else paths.output.prodRoot()
         devRoot: ->
             './dev-mode-output/'
         prodRoot: ->
@@ -46,12 +59,14 @@ global.paths =
         styles: ->
             paths.output.stylesRoot() + '/*.css'
         imagesRoot: -> paths.output.root() + 'images/'
+        scriptsRoot: -> paths.output.root() + 'scripts/'
+        writingRoot: -> paths.output.root() + 'writing/'
 
 require('./build/subTasks.coffee')()
 
 gulp.task 'default', ['generate']
 
-gulp.task 'generate', ['styles', 'images'], (done) ->
+gulp.task 'generate', ['rss', 'scrape', 'scripts', 'styles', 'images'], (done) ->
 
     gulp.src paths.source.contentsFiles()
         .pipe $.frontMatter
@@ -78,7 +93,6 @@ gulp.task 'generate', ['styles', 'images'], (done) ->
 
 gulp.task 'images', (done) ->
     gulp.src paths.source.images()
-        .pipe $.debug()
         .pipe gulp.dest paths.output.imagesRoot()
         .on 'end', done
     return

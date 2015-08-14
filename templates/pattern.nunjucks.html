@@ -4,7 +4,7 @@
         :language - Optional {String}; `html`, `markdown`, etc. Defaults to `html`
 #}
 {% macro pattern(args) %}
-    {% from 'codeBlock.swig.html' import codeBlock as codeBlock %}
+    {% from 'codeBlock.nunjucks.html' import codeBlock as codeBlock %}
     {% set pattern = args.pattern %}
     {% set language = args.language or 'html' %}
 

@@ -35,7 +35,7 @@ class TemplateHelper
     # templateName = {String}
     # cb - {Function}
     get: (templateName, cb) =>
-        basename = templateName += '.swig.html'
+        basename = templateName += '.nunjucks.html'
         template = build.templates[templateName]
 
         if template?
