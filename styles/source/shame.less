@@ -10,10 +10,10 @@
 
 @codeNavItemBackgroundColor: @navItemBaseBackgroundColor;
 @writingNavItemBackgroundColor: desaturate(lighten(@codeNavItemBackgroundColor, @columnLightnessDelta), @columnDesaturationDelta);
-@writing2NavItemBackgroundColor: desaturate(lighten(@writingNavItemBackgroundColor, @columnLightnessDelta), @columnDesaturationDelta);
+@editNavItemBackgroundColor: desaturate(lighten(@writingNavItemBackgroundColor, @columnLightnessDelta), @columnDesaturationDelta);
 @twitterNavItemBackgroundColor: darken(saturate(@codeNavItemBackgroundColor, @rowSaturationDelta), @rowDarknessDelta);
 @emailNavItemBackgroundColor: darken(saturate(@writingNavItemBackgroundColor, @rowSaturationDelta), @rowDarknessDelta);
-@email2NavItemBackgroundColor: darken(saturate(@writing2NavItemBackgroundColor, @rowSaturationDelta), @rowDarknessDelta);
+@rssNavItemBackgroundColor: darken(saturate(@editNavItemBackgroundColor, @rowSaturationDelta), @rowDarknessDelta);
 
 @minWidthToShowTitleInline: 42rem;
 @minWidthToShowNavigationItemsInline: 45rem;
@@ -193,7 +193,7 @@ body {
 }
 
 .edit-navigation-item {
-  .navigation-item-background(@writing2NavItemBackgroundColor);
+  .navigation-item-background(@editNavItemBackgroundColor);
 }
 
 .code-navigation-item {
@@ -209,7 +209,7 @@ body {
 }
 
 .rss-navigation-item {
-  .navigation-item-background(@email2NavItemBackgroundColor);
+  .navigation-item-background(@rssNavItemBackgroundColor);
 }
 
 
