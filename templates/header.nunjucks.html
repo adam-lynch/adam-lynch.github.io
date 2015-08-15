@@ -1,0 +1,63 @@
+{% import 'navigation.nunjucks.html' as navigationMacros %}
+
+
+
+{#
+    args - {Object}
+        :githubAccountURL - {String}
+        :mainTemplateURL - {String}
+        :nameToShow - {String}
+#}
+{% macro header(args) %}
+    <header class="header">
+
+        {{ siteTitle(args.url) }}
+        {{ siteHappyText(args) }}
+        {{ navigationMacros.navigation(args) }}
+
+    </header>
+{% endmacro %}
+
+
+{#
+    siteURL - {String}
+#}
+{% macro siteTitle(siteUrl) %}
+    <h1 class="site-title"><a href="{{ siteUrl }}" class="site-link">Adam Lynch</a></h1>
+{% endmacro %}
+
+
+
+{#
+    args - {Object}
+        :githubAccountURL - {String}
+        :nameToShow - {String}
+#}
+{% macro siteHappyText(args) %}
+<div class="site-happy-text-wrapper">
+    <p class="site-happy-text">
+        <span class="site-happy-text-headline">
+            I'm <a href="{{ args.url }}" class="site-happy-text-headline-link">{{ args.nameToShow }}</a>.
+        </span>
+
+        <span class="site-happy-text-tagline">
+            I like to
+            <a href="{{ args.githubAccountURL }}" class="site-happy-text-tagline-link js_track-link-clicks">
+                code
+            </a>,
+            <a href="#writing" class="site-happy-text-tagline-link">write</a> and dabble in design.
+        </span>
+
+        <span class="site-happy-text-tagline">
+            I lead
+            <a href="//www.teamwork.com/chat" class="site-happy-text-tagline-link js_track-link-clicks">
+                Teamwork Chat
+            </a>
+            at
+            <a href="//www.teamwork.com" class="site-happy-text-tagline-link js_track-link-clicks">
+                Teamwork.com
+            </a>.
+        </span>
+    </p>
+</div>
+{% endmacro %}
