@@ -11,7 +11,7 @@
 {% macro header(args) %}
     <header class="header">
 
-        {{ siteTitle() }}
+        {{ siteTitle(args.url) }}
         {{ siteHappyText(args) }}
         {{ navigationMacros.navigation(args) }}
 
@@ -19,9 +19,11 @@
 {% endmacro %}
 
 
-
-{% macro siteTitle() %}
-    <h1 class="site-title"><a href="{{ site.url }}" class="site-link">Adam Lynch</a></h1>
+{#
+    siteURL - {String}
+#}
+{% macro siteTitle(siteUrl) %}
+    <h1 class="site-title"><a href="{{ siteUrl }}" class="site-link">Adam Lynch</a></h1>
 {% endmacro %}
 
 
@@ -35,7 +37,7 @@
 <div class="site-happy-text-wrapper">
     <p class="site-happy-text">
         <span class="site-happy-text-headline">
-            I'm <a href="{{ site.url }}" class="site-happy-text-headline-link">{{ args.nameToShow }}</a>.
+            I'm <a href="{{ args.url }}" class="site-happy-text-headline-link">{{ args.nameToShow }}</a>.
         </span>
 
         <span class="site-happy-text-tagline">

@@ -58,8 +58,8 @@ body {
 
 .site-link {
   display: inline-block;
-  background: url(../images/Logo.png) center no-repeat;
-  background-size: 6rem;
+  background: url(../images/Logo.png) left center no-repeat;
+  background-size: 5.99rem; // Would have 6rem here but Opera cuts off the bottom then... weird :/
   height: 9rem;
   width: 6rem;
   margin: 0 auto;
@@ -76,6 +76,7 @@ body {
   display: flex;
   margin: 0 auto;
   padding: 1rem 0 0 2rem;
+  width: 100%; // weirdly needed for Opera
   align-items: center;
   font-size: 1.3rem;
 
@@ -141,13 +142,15 @@ body {
   min-width: 100%;
 
   @media(min-width: @minWidthToShowAllHeaderItemsInline){
-    flex: 1;
+    flex: 1 1 100%;
     min-width: 0;
   }
 }
 
 .navigation-item {
-  flex: 0 1 auto;
+  // Why is the 33% in the flex rule needed? See https://twitter.com/lynchy010/status/632544355245539328
+  // or https://github.com/philipwalton/flexbugs#11-min-and-max-size-declarations-are-ignored-when-wrapping-flex-items
+  flex: 1 1 33%;
   min-width: 33%;
 
   display: flex;
@@ -188,35 +191,6 @@ body {
 
 .writing2-navigation-item {
   .navigation-item-background(@writing2NavItemBackgroundColor);
-
-  // To fix weird bug in Safari where the following item overflows out of the flex parent instead of wrapping
-  // Too many magic numbers for my liking but I can't seem to figure what's causing it
-
-//  margin-right: 11%;
-//
-//  @media(min-width: 28rem) {
-//    margin-right: 16%;
-//  }
-//
-//  @media(min-width: 33rem) {
-//    margin-right: 30%;
-//  }
-//
-//  @media(min-width: 38rem) {
-//    margin-right: 40%;
-//  }
-//
-//  @media(min-width: 42rem) {
-//    margin-right: 50%;
-//  }
-//
-//  @media(min-width: @minWidthToShowNavigationItemsInline) {
-//    margin-right: 0;
-//  }
-//
-//  @media(min-width: @minWidthToShowAllHeaderItemsInline) {
-//    margin-right: 11%;
-//  }
 }
 
 .code-navigation-item {

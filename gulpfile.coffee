@@ -76,8 +76,9 @@ gulp.task 'generate', ['rss', 'scrape', 'scripts', 'styles', 'images'], (done) -
             property: 'meta'
             baseUrl: 'http://www.adamlynch.com'
         .pipe es.map helpers.templates.render
-        .pipe $.htmlmin
+        .pipe $.if !build.isDevMode, $.htmlmin
             collapseWhitespace: true
+        .pipe $.if !build.isDevMode, $.insert.prepend "<!-- See real source code at #{site.repositoryURL} -->"
         .pipe $.w3cjs()
         .pipe es.map (file, cb) ->
             throw new Error '[Generate] HTML validation error(s) found' unless file.w3cjs.success
