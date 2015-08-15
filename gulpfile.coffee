@@ -3,6 +3,7 @@ global.$ = require('gulp-load-plugins')()
 path = require 'path'
 es = require 'event-stream'
 args = require('yargs').argv
+critical = require('critical').stream
 
 site =
     posts: []
@@ -67,8 +68,9 @@ require('./build/subTasks.coffee')()
 gulp.task 'default', ['generate']
 
 gulp.task 'generate', ['rss', 'scrape', 'scripts', 'styles', 'images'], (done) ->
+    filesBeforeSitemapGeneration = $.filter '**'
 
-    gulp.src paths.source.contentsFiles()
+    stream = gulp.src paths.source.contentsFiles()
         .pipe $.frontMatter
             property: 'meta'
         .pipe $.markdown()
@@ -83,13 +85,50 @@ gulp.task 'generate', ['rss', 'scrape', 'scripts', 'styles', 'images'], (done) -
         .pipe es.map (file, cb) ->
             throw new Error '[Generate] HTML validation error(s) found' unless file.w3cjs.success
             cb null, file
-        .pipe gulp.dest paths.output.root()
+
+        .pipe $.save 'before-sitemap-generation'
         # filter out the drafts
         .pipe $.filter (file) -> !file.meta.draft
+
+        # Generate XML sitemap
         .pipe $.sitemap
             siteUrl: paths.output.baseUrl()
         .pipe gulp.dest paths.output.root()
-        .on 'end', done
+
+        # Go back to dealing with the HTML files
+        .pipe $.save.restore 'before-sitemap-generation'
+
+    if build.isDevMode
+        stream.pipe gulp.dest paths.output.root()
+            .on 'end', done
+    else
+        preInlinedStylesSuffix = '--with-styles'
+        indexFilter = $.filter 'index.html'
+
+        # Rename index HTML file before inlining styles with critical
+        stream.pipe indexFilter
+            .pipe $.rename
+                suffix: preInlinedStylesSuffix
+            .pipe indexFilter.restore()
+
+            # Save all HTML files (with index file renamed)
+            .pipe gulp.dest paths.output.root()
+
+            # If it isn't a dev build, let's take only the index HTML file and run it through critical
+            .pipe $.filter "index#{preInlinedStylesSuffix}.html"
+
+            # Inline above the fold styles
+            .pipe critical
+                base: paths.output.root()
+                inline: true
+                minify: true
+                extract: true
+
+            # Save the new HTML file
+            .pipe $.filter "index#{preInlinedStylesSuffix}.html"
+            .pipe $.rename 'index.html'
+            .pipe gulp.dest paths.output.root()
+            .on 'end', done
     return
 
 gulp.task 'images', (done) ->

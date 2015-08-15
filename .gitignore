@@ -32,3 +32,5 @@ node_modules
 .lock-wscript
 
 dev-mode-output
+
+index--with-styles.html
