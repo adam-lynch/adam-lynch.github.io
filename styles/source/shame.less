@@ -41,6 +41,7 @@ body {
   text-align: center;
   transition: 0.25s opacity ease-in;
   min-width: 100%;
+  max-width: 6rem; // Needed for IE
 
   @media(min-width: @minWidthToShowTitleInline){
     min-width: 0;
@@ -130,7 +131,6 @@ body {
   width: 100%;
 
   @media(min-width: @minWidthToShowAllHeaderItemsInline){
-    width: auto;
     max-width: 23rem;
     padding: 0 0 0 2rem;
   }
@@ -140,6 +140,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   min-width: 100%;
+  width: 100%;
 
   @media(min-width: @minWidthToShowAllHeaderItemsInline){
     flex: 1 1 100%;
