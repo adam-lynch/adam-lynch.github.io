@@ -1,3 +1,7 @@
+@import "theme/mixins";
+
+@gray: #808080;
+
 @navItemBaseBackgroundColor: desaturate(#8aa8c3, 15%);
 @columnDesaturationDelta: 5%;
 @columnLightnessDelta: 4%;
@@ -66,9 +70,7 @@ body {
   margin: 0 auto;
   text-indent: -9999px;
 
-  @media
-  (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
+  .high-dpi-only {
     background-image: url(../images/Logo@2x.png);
   }
 }
@@ -190,7 +192,7 @@ body {
   .navigation-item-background(@writingNavItemBackgroundColor);
 }
 
-.writing2-navigation-item {
+.edit-navigation-item {
   .navigation-item-background(@writing2NavItemBackgroundColor);
 }
 
@@ -206,7 +208,7 @@ body {
   .navigation-item-background(@emailNavItemBackgroundColor);
 }
 
-.email2-navigation-item {
+.rss-navigation-item {
   .navigation-item-background(@email2NavItemBackgroundColor);
 }
 
@@ -304,7 +306,12 @@ body {
 .post-blog-date {
   display: block;
   margin-top: 0.5rem;
-  font-weight: 300;
+  color: #A2A2A2;
+
+  .high-dpi-only {
+    color: #000;
+    font-weight: 300;
+  }
 
   @media(min-width: 30rem){
     display: inline;
@@ -320,12 +327,12 @@ body {
 
 .post-blog-title {
   text-transform: uppercase;
-  color: gray;
-}
+  color: @gray;
+  font-weight: 600;
 
-.post-blog-title,
-.post-read-more-link {
-  font-weight: 700;
+  .high-dpi-only {
+    font-weight: 700;
+  }
 }
 
 .post-title,
@@ -350,6 +357,7 @@ body {
 
 .post-read-more-link {
   display: inline-block;
+  font-weight: 700;
 }
 
 .post-summary {
@@ -373,6 +381,9 @@ body {
 
 .copyright {
   display: block;
-  color: gray;
-  font-weight: 100;
+  color: @gray;
+
+  .high-dpi-only {
+    font-weight: 100;
+  }
 }
