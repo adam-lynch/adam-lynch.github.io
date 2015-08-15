@@ -13,7 +13,7 @@ site =
     repositoryName: 'adam-lynch.github.io'
 
 site.repositoryURL = "#{site.githubAccountURL}/#{site.repositoryName}"
-site.mainTemplateURL = "#{site.repositoryURL}/edit/master/templates/page.nunjucks.html"
+site.mainTemplateURL = "#{site.repositoryURL}/blob/master/templates/page.nunjucks.html"
 global.site = site
 
 helpers = require './build/helpers'
