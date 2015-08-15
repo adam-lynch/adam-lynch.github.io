@@ -18,6 +18,7 @@
 @minWidthToShowTitleInline: 42rem;
 @minWidthToShowNavigationItemsInline: 45rem;
 @minWidthToShowAllHeaderItemsInline: 59rem;
+@minWidthToShowAllHeaderItemsInlineWithLargerText: 61rem;
 
 body {
   background: #ECECEC;
@@ -35,7 +36,7 @@ body {
   padding: 0 2rem;
   background: #ECECEC;
 
-  @media(min-width: @minWidthToShowAllHeaderItemsInline){
+  @media(min-width: @minWidthToShowAllHeaderItemsInline) {
     flex-wrap: nowrap;
   }
 }
@@ -47,12 +48,12 @@ body {
   min-width: 100%;
   max-width: 6rem; // Needed for IE
 
-  @media(min-width: @minWidthToShowTitleInline){
+  @media(min-width: @minWidthToShowTitleInline) {
     min-width: 0;
     flex: 1;
   }
 
-  @media(min-width: @minWidthToShowAllHeaderItemsInline){
+  @media(min-width: @minWidthToShowAllHeaderItemsInline) {
     flex: initial;
   }
 
@@ -83,13 +84,18 @@ body {
   align-items: center;
   font-size: 1.3rem;
 
-  @media(min-width: @minWidthToShowTitleInline){
+  @media(min-width: @minWidthToShowTitleInline) {
     flex: 2;
     padding: 0 0 0 2rem;
   }
 
-  @media(min-width: @minWidthToShowAllHeaderItemsInline){
+  @media(min-width: @minWidthToShowAllHeaderItemsInline) {
     flex: 1;
+    font-size: 1.2rem;
+  }
+
+  @media(min-width: @minWidthToShowAllHeaderItemsInlineWithLargerText) {
+    font-size: 1.3rem;
   }
 }
 
@@ -98,7 +104,7 @@ body {
   margin: 0;
   text-align: center;
 
-  @media(min-width: @minWidthToShowTitleInline){
+  @media(min-width: @minWidthToShowTitleInline) {
     text-align: left;
   }
 }
@@ -113,6 +119,10 @@ body {
   }
 
   @media(min-width: @minWidthToShowAllHeaderItemsInline) {
+    font-size: 3.1rem;
+  }
+
+  @media(min-width: @minWidthToShowAllHeaderItemsInlineWithLargerText) {
     font-size: 3.2rem;
   }
 }
@@ -132,7 +142,7 @@ body {
   user-select: none;
   width: 100%;
 
-  @media(min-width: @minWidthToShowAllHeaderItemsInline){
+  @media(min-width: @minWidthToShowAllHeaderItemsInline) {
     max-width: 23rem;
     padding: 0 0 0 2rem;
   }
@@ -144,7 +154,7 @@ body {
   min-width: 100%;
   width: 100%;
 
-  @media(min-width: @minWidthToShowAllHeaderItemsInline){
+  @media(min-width: @minWidthToShowAllHeaderItemsInline) {
     flex: 1 1 100%;
     min-width: 0;
   }
@@ -293,7 +303,7 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
 
-  @media(min-width: 30rem){
+  @media(min-width: 30rem) {
     font-size: 2rem;
   }
 }
@@ -313,7 +323,7 @@ body {
     font-weight: 300;
   }
 
-  @media(min-width: 30rem){
+  @media(min-width: 30rem) {
     display: inline;
     margin-top: 0;
 
