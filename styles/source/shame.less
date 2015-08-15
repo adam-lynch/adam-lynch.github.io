@@ -12,6 +12,7 @@
 @email2NavItemBackgroundColor: darken(saturate(@writing2NavItemBackgroundColor, @rowSaturationDelta), @rowDarknessDelta);
 
 @minWidthToShowTitleInline: 42rem;
+@minWidthToShowNavigationItemsInline: 45rem;
 @minWidthToShowAllHeaderItemsInline: 59rem;
 
 body {
@@ -146,7 +147,7 @@ body {
 }
 
 .navigation-item {
-  flex: 1;
+  flex: 0 1 auto;
   min-width: 33%;
 
   display: flex;
@@ -161,11 +162,13 @@ body {
     font-size: 0.75rem;
   }
 
-  @media(min-width: 45rem) {
+  @media(min-width: @minWidthToShowNavigationItemsInline) {
     min-width: 0; // show all on one line
+    flex: 1;
   }
 
   @media(min-width: @minWidthToShowAllHeaderItemsInline) {
+    flex: 0 1 auto;
     min-width: 33%;
   }
 }
@@ -185,6 +188,35 @@ body {
 
 .writing2-navigation-item {
   .navigation-item-background(@writing2NavItemBackgroundColor);
+
+  // To fix weird bug in Safari where the following item overflows out of the flex parent instead of wrapping
+  // Too many magic numbers for my liking but I can't seem to figure what's causing it
+
+//  margin-right: 11%;
+//
+//  @media(min-width: 28rem) {
+//    margin-right: 16%;
+//  }
+//
+//  @media(min-width: 33rem) {
+//    margin-right: 30%;
+//  }
+//
+//  @media(min-width: 38rem) {
+//    margin-right: 40%;
+//  }
+//
+//  @media(min-width: 42rem) {
+//    margin-right: 50%;
+//  }
+//
+//  @media(min-width: @minWidthToShowNavigationItemsInline) {
+//    margin-right: 0;
+//  }
+//
+//  @media(min-width: @minWidthToShowAllHeaderItemsInline) {
+//    margin-right: 11%;
+//  }
 }
 
 .code-navigation-item {
