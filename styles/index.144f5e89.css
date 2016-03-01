@@ -122,3 +122,7 @@
 .copyright .high-dpi-only {
   font-weight: 100;
 }
+
+.fix-bug-ignore {
+  color: red;
+}
