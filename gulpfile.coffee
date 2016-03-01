@@ -98,7 +98,8 @@ gulp.task 'generate', ['rss', 'scrape', 'scripts', 'styles', 'images'], (done) -
         # Go back to dealing with the HTML files
         .pipe $.save.restore 'before-sitemap-generation'
 
-    if build.isDevMode
+    # Inlining of critical CSS temporarily disabled
+    if build.isDevMode or true
         stream.pipe gulp.dest paths.output.root()
             .on 'end', done
     else
