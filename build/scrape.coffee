@@ -5,7 +5,7 @@ moment = require 'moment'
 
 module.exports = ->
 
-    gulp.task 'scrape', ['scrape-engine-room', 'scrape-packtpub'], ->
+    gulp.task 'scrape', ['scrape-engine-room', 'scrape-packtpub', 'add-books'], ->
         currentYear = moment().format 'YYYY'
         site.posts.sort (postA, postB) ->
             dateA = new Date postA.datetime
@@ -107,3 +107,13 @@ module.exports = ->
             relativeUrl: 'transparency-and-nwjs'
             datetime: '2016-01-07'
             summary: "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this..."
+
+
+    gulp.task 'add-books', ->
+        site.posts.push
+            isBook: true
+            blogTitle: "Bleeding Edge Press"
+            title: 'Developing an Electron Edge'
+            url: 'http://bleedingedgepress.com/developing-an-electron-edge/'
+            datetime: '2016-05-26'
+            summary: "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web."

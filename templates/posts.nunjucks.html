@@ -21,6 +21,7 @@
         :prettyDateTime - {String}
         :blogLink - {String}
         :blogTitle - {String}
+        :isBook - {Boolean}
 #}
 {% macro post(args) %}
     <article class="post">
@@ -36,10 +37,11 @@
     args - {Object}
         :title - {String}
         :url - {String}
+        :isBook - {Boolean}
 #}
 {% macro title(args) %}
     <h3 class="post-title-wrapper">
-        <a href="{{ args.url }}" class="post-title js_track-link-clicks">{{ args.title }}</a>
+        <a href="{{ args.url }}" class="post-title js_track-link-clicks">{{ args.title }}{% if args.isBook %} <span class="post-title-label"><span class="post-title-label-parenthesis">(</span>Book<span class="post-title-label-parenthesis">)</span></span>{% endif %}</a>
     </h3>
 {% endmacro %}
 
@@ -68,9 +70,10 @@
     args - {Object}
         :summary - {String}
         :url - {String}
+        :isBook - {Boolean}
 #}
 {% macro summary(args) %}
     <div class="post-summary">{{ args.summary }}&nbsp;&nbsp;
-        <a href="{{ args.url }}" class="post-read-more-link js_track-link-clicks">Read more</a>
+        <a href="{{ args.url }}" class="post-read-more-link js_track-link-clicks">{% if args.isBook %}Get the book{% else %}Read more{% endif %}</a>
     </div>
 {% endmacro %}

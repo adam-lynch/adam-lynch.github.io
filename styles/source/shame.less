@@ -308,6 +308,28 @@ body {
   }
 }
 
+.post-title-label {
+  display: inline-block;
+  position: relative;
+  bottom: 0.3em;
+  padding: 0.2em 0.4em;
+  margin-left: 0.3em;
+  font-size: 0.5em;
+  background: #E3E3E3;
+  color: #9E9E9E;
+  border-radius: 5%;
+  font-weight: normal;
+  transition: 0.25s opacity ease-in;
+
+  .post-title:hover & {
+    opacity: 0.9;
+  }
+}
+
+.post-title-label-parenthesis {
+  display: none;
+}
+
 .post-meta {
   font-size: 0.9rem;
   margin: 1rem 0;
