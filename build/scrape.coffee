@@ -2,10 +2,11 @@ request = require 'request'
 cheerio = require 'cheerio'
 merge = require 'merge'
 moment = require 'moment'
+months = require 'months'
 
 module.exports = ->
 
-    gulp.task 'scrape', ['scrape-engine-room', 'scrape-packtpub', 'add-books'], ->
+    gulp.task 'scrape', ['scrape-engine-room', 'scrape-packtpub', 'scrape-smashing-magazine', 'add-books'], ->
         currentYear = moment().format 'YYYY'
         site.posts.sort (postA, postB) ->
             dateA = new Date postA.datetime
@@ -28,16 +29,24 @@ module.exports = ->
             blogTitle: "Teamwork's Engine Room"
             blogLink: engineRoomRoot
 
-        request "#{engineRoomRoot}/author/adam-lynch/", (error, response, body) ->
+        convertDate = (date) ->
+            matches = date.match /^([0-9]{1,2})[a-z]{2} ([a-z]+) ([0-9]{4})$/i
+            month = months.indexOf(matches[2]) + 1
+            month = '0' + month if month < 10
+            day = matches[1]
+            day = '0' + day if day.length is 1
+            return "#{matches[3]}-#{month}-#{day}"
+
+        request "#{engineRoomRoot}/author/adam/", (error, response, body) ->
             return done error if error
             return done response.statusCode if response.statusCode isnt 200
 
             $ = cheerio.load body
-            $('.post').each (index, post) ->
+            $('.article-box').each (index, post) ->
                 $post = $ post
-                $titleAnchor = $post.find '.post-title a'
-                $excerpt = $post.find '.post-excerpt p'
-                $excerpt.find('.read-more').remove()
+                $titleAnchor = $post.find '.title-label a'
+                $excerpt = $post.find '.excerpt-hold p'
+                $excerpt.find('.excerpt-read-more').remove()
 
                 # Removes trailing punctuation and appends ellipsis unless summary ends with question or exclamation mark
                 # or a single full stop
@@ -50,14 +59,41 @@ module.exports = ->
                 else if summary.substr(summary.length - 1, 1) not in ['?', '!']
                     summary += ellipsis
 
-                site.posts.push merge true, blogDetails,
+
+                $meta = $post.find '.post-meta'
+                $meta.find('.excerpt-hold').remove()
+                datetime = moment(convertDate $meta.text().trim()).format 'YYYY-MM-DD'
+
+                site.posts.push merge true, blogDetails, {
                     title: $titleAnchor.html().trim()
                     url: engineRoomRoot + $titleAnchor.attr 'href'
-                    datetime: $post.find('.post-date').attr 'datetime'
-                    summary: summary
+                    datetime
+                    summary
+                }
 
             done()
         return
+
+
+    gulp.task 'scrape-smashing-magazine', ->
+        blogDetails =
+            blogTitle: "Smashing Magazine"
+            blogLink: 'https://www.smashingmagazine.com'
+
+        addPost = ({title, relativeUrl, datetime, summary}) ->
+            site.posts.push merge true, blogDetails, {
+                title
+                url: "#{blogDetails.blogLink}/#{relativeUrl}"
+                datetime
+                summary
+            }
+
+        addPost
+            title: 'Beyond The Browser: From Web Apps To Desktop Apps'
+            relativeUrl: '2017/03/beyond-browser-web-desktop-apps/'
+            datetime: '2017-03-21'
+            summary: "I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different."
+
 
     gulp.task 'scrape-packtpub', ->
         blogDetails =
@@ -117,3 +153,4 @@ module.exports = ->
             url: 'http://bleedingedgepress.com/developing-an-electron-edge/'
             datetime: '2016-05-26'
             summary: "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web."
+
