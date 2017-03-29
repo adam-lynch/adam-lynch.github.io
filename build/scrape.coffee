@@ -66,7 +66,7 @@ module.exports = ->
 
                 site.posts.push merge true, blogDetails, {
                     title: $titleAnchor.html().trim()
-                    url: engineRoomRoot + $titleAnchor.attr 'href'
+                    url: $titleAnchor.attr 'href'
                     datetime
                     summary
                 }
