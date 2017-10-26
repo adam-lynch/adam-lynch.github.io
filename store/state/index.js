@@ -4,7 +4,7 @@ const state = {
   nameToShow: 'Adam Lynch',
   githubAccountUrl: 'https://github.com/adam-lynch',
   posts,
-  siteUrl: 'http://adamlynch.com',
+  siteUrl: 'https://adamlynch.com',
   siteTitle: 'Adam Lynch' // TODO
 }
 
