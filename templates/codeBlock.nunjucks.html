@@ -1,8 +1,0 @@
-{#
-    args - {Object}
-        :code - {String}
-        :language - {String}
-#}
-{% macro codeBlock(args) %}
-<pre><code class="language-{{ args.language }}">{{ args.code | escape }}</code></pre>
-{% endmacro %}
