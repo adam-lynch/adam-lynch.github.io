@@ -53,9 +53,6 @@ module.exports = {
   css: [
     '~/assets/styles/index.scss'
   ],
-  generate: {
-    // TODO
-  },
   modules: [
     '@nuxtjs/sitemap',
     'modules/rss.js'
