@@ -7,10 +7,11 @@
                            text="Code"
                            :url="githubAccountUrl"/>
 
+          <!-- TODO: only go to #writing if on root -->
           <navigation-item :shouldTrackClicks="false"
                            specificClasses="writing-navigation-item"
                            text="Writing"
-                           url="#writing"/>
+                           url="/#writing"/>
 
           <navigation-item :shouldTrackClicks="true"
                            specificClasses="edit-navigation-item"

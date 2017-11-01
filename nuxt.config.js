@@ -1,5 +1,23 @@
 const state = require('./store/state')
 
+const blogOptions = {
+  dir: 'writing',
+  api: {
+    prefix: 'api/writing'
+  },
+  disqus: null,
+  modifyRoutes: function (routes) {
+    return routes
+    return routes.map((route) => {
+      route.path = route.path.replace(/^\/blog/, '') || '/'
+      if (/:index$/.test(route.name)) {
+        route.component = '~/components/Footer/Footer.vue'
+      }
+      return route
+    })
+  }
+}
+
 module.exports = {
   cache: false,
   /*
@@ -50,12 +68,20 @@ module.exports = {
       })
     }
   },
+  blog: {
+    // shouldOverwriteRoutes: true,
+    // urls: {
+    //   article: '/writing/:slug',
+    //   root: '/'
+    // }
+  },
   css: [
     '~/assets/styles/index.scss'
   ],
   modules: [
+    '@nuxtjs/axios',
     '@nuxtjs/sitemap',
-    'modules/blog',
+    ['modules/blog', blogOptions],
     'modules/rss.js'
   ],
   rss: {

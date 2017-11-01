@@ -2,21 +2,21 @@
 <template>
   <article class="post">
     <h3 class="post-title-wrapper">
-      <a :href="url" class="post-title js_track-link-clicks">{{ title }}<span class="post-title-label" v-if="isBook"><span class="post-title-label-parenthesis">(</span>Book<span class="post-title-label-parenthesis">)</span></span></a>
+      <nuxt-link :to="to" class="post-title js_track-link-clicks">{{ title }}<span class="post-title-label" v-if="isBook"><span class="post-title-label-parenthesis">(</span>Book<span class="post-title-label-parenthesis">)</span></span></nuxt-link>
     </h3>
 
     <div class="post-meta">
-        <strong class="post-blog-title">
-            <a :href="blogLink" class="post-blog-link js_track-link-clicks">{{ blogName }}</a>
+        <strong class="post-blog-title" v-if="original">
+            <a :href="original.blogLink" class="post-blog-link js_track-link-clicks">{{ original.blogName }}</a>
         </strong>
         <time class="post-blog-date">{{ prettyDate }}</time>
     </div>
 
-    <div class="post-summary">{{ summary }}&nbsp;&nbsp;
-        <a :href="url" class="post-read-more-link js_track-link-clicks">
+    <div class="post-summary">{{ description }}&nbsp;&nbsp;
+         <nuxt-link :to="to" class="post-read-more-link js_track-link-clicks">
           <span v-if="isBook">Get the book</span>
           <span v-else>Read more</span>
-        </a>
+        </nuxt-link>
     </div>
   </article>
 </template>

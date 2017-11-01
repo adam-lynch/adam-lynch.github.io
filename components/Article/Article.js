@@ -1,18 +1,22 @@
+
 import format from 'date-fns/format'
+import Article from '~/modules/blog/app/mixins/article'
 
 export default {
   computed: {
     prettyDate () {
       const thisYear = format(new Date(), 'YYYY')
-      const postYear = format(this.published_at, 'YYYY')
+      const postYear = format(this.article.published_at, 'YYYY')
       const year = thisYear === postYear ? '' : `, ${postYear}`
-      return format(this.published_at, 'MMMM Do') + year
+      return format(this.article.published_at, 'MMMM Do') + year
     },
 
     to () {
       return { name: '@nuxtjs/blog:article', params: Object.assign({ id: this.id }, this.$attrs) }
     }
   },
+
+  extends: Article,
 
   name: 'Article',
 

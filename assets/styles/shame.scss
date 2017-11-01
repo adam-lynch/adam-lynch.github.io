@@ -22,6 +22,7 @@ $minWidthToShowAllHeaderItemsInlineWithLargerText: 61rem;
 
 body {
   background: #ECECEC;
+  color: #464646; 
   padding-top: 2rem;
 }
 
@@ -194,6 +195,7 @@ body {
 
   font-size: 0.7rem;
   font-weight: 700;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 
   @media(min-width: 25rem) {
     font-size: 0.75rem;
@@ -305,13 +307,43 @@ body {
 
 .post {
   padding: 2rem;
-  margin: 0 auto;
+  margin: 2rem;// TODO: var
   background: #fff;
   max-width: 60rem;
-  border-left: 3px solid $writingNavItemBackgroundColor;
+
+  .posts & {
+    margin: 0 auto;
+  }
 
   > *:first-child {
     margin-top: 0;
+  }
+}
+
+// TODO: move
+.post-content {
+  > * {
+    margin: 1.5rem 0 0;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+
+  h2 + p,
+  h3 + p,
+  h4 + p,
+  h5 + p,
+  h6 + p {
+    margin-top: 0.5rem;
+  }
+
+  p + h2,
+  p + h3,
+  p + h4,
+  p + h5,
+  p + h6 {
+    margin-top: 2rem;
   }
 }
 
@@ -377,14 +409,16 @@ body {
     font-weight: 300;
   }
 
-  @media(min-width: 30rem) {
-    display: inline;
-    margin-top: 0;
+  .posts & {
+    @media(min-width: 30rem) {
+      display: inline;
+      margin-top: 0;
 
-    &:before {
-      display: inline-block;
-      content: " — ";
-      margin: 0 0.5rem 0 0.25rem;
+      &:before {
+        display: inline-block;
+        content: " — ";
+        margin: 0 0.5rem 0 0.25rem;
+      }
     }
   }
 }

@@ -11,7 +11,8 @@
                 <span class="site-happy-text-tagline">
                     I like to
                     <a :href="githubAccountUrl" class="site-happy-text-tagline-link js_track-link-clicks">code</a>,
-                    <a href="#writing" class="site-happy-text-tagline-link">write</a>, and dabble in design.
+                    <!-- TODO: only go to #writing if on root -->
+                    <nuxt-link to="/#writing" class="site-happy-text-tagline-link">write</nuxt-link>, and dabble in design.
                 </span>
 
                 <span class="site-happy-text-tagline">
