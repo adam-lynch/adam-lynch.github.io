@@ -1,6 +1,24 @@
 import format from 'date-fns/format'
+import Anchor from '~/components/Anchor/Anchor.vue'
+import AnchorOrNuxtLink from '~/components/AnchorOrNuxtLink/AnchorOrNuxtLink.vue'
+
+const skeletons = []
+for (let i = 0; i < 3; i++) {
+  const words = []
+
+  for (let j = 0; j < 65; j++) {
+    words.push(null)
+  }
+
+  skeletons.push({ words })
+}
 
 export default {
+  components: {
+    Anchor,
+    AnchorOrNuxtLink
+  },
+
   computed: {
     prettyDate () {
       const thisYear = format(new Date(), 'YYYY')
@@ -14,6 +32,10 @@ export default {
     }
   },
 
+  data: () => ({
+    skeletons
+  }),
+
   name: 'Article',
 
   props: {
@@ -26,11 +48,15 @@ export default {
       required: true,
       type: String
     },
-    description: {
+    summary: {
       required: true,
       type: String
     },
     original: Object,
+    renderedSummary: {
+      required: true,
+      type: String
+    },
     published_at: {
       required: true,
       type: String

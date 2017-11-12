@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
       <p class="footer-text">
-          <a :href="repositoryUrl" class="footer-link js_track-clicks">This site is open source</a>
+          <anchor :href="repositoryUrl" class="footer-link" :shouldTrackClicks="true">This site is open source</anchor>
           <span class="copyright">&copy; {{year}} Adam Lynch</span>
       </p>
   </footer>

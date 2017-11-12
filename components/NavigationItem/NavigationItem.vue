@@ -1,12 +1,14 @@
 
 <template>
     <li class="navigation-item" :class="specificClasses">
-        <a :href="url" class="navigation-link" :class="classes" v-if="isExternal">
-            <span class="navigation-item-text">{{ text }}</span>
-        </a>
-        <nuxt-link :to="url" class="navigation-link" :class="classes" v-else>
-            <span class="navigation-item-text">{{ text }}</span>
-        </nuxt-link>
+      <anchor-or-nuxt-link
+        :anchorUrl="url"
+        class="navigation-link"
+        :isAnchor="isExternal"
+        :nuxtLinkTo="url"
+        :shouldTrackAnchorClicks="shouldTrackAnchorClicks">
+          <span class="navigation-item-text">{{ text }}</span>
+        </anchor-or-nuxt-link>
     </li>
 </template>
 

@@ -20,9 +20,12 @@ $minWidthToShowNavigationItemsInline: 45rem;
 $minWidthToShowAllHeaderItemsInline: 59rem;
 $minWidthToShowAllHeaderItemsInlineWithLargerText: 61rem;
 
+$postsPadding: 2rem;
+
 body {
   background: #ECECEC;
-  color: #464646; 
+  // color: #464646;
+  color: #333;
   padding-top: 2rem;
 }
 
@@ -294,11 +297,11 @@ body {
 }
 
 .posts {
-  padding: 2rem;
+  padding: $postsPadding;
 }
 
 .post-wrapper {
-  padding-bottom: 2rem;
+  padding-bottom: $postsPadding;
 
   &:last-child {
     padding-bottom: 0;
@@ -306,8 +309,8 @@ body {
 }
 
 .post {
-  padding: 2rem;
-  margin: 2rem;// TODO: var
+  padding: $postsPadding;
+  margin: $postsPadding;
   background: #fff;
   max-width: 60rem;
 
@@ -322,28 +325,199 @@ body {
 
 // TODO: move
 .post-content {
+  font-size: 1.1rem;
+  line-height: 1.55;
+
   > * {
     margin: 1.5rem 0 0;
+  }
+
+  :not(figure) > a {
+    // color: #53687a; // TODO: var
+    color: #869bad; // TODO: var
+    // font-weight: 800;
+    // border-bottom: .08em solid rgba(0,0,0,0.2);
+    // border-bottom: 0.08rem solid #869bad;
+    padding-bottom: 0.05rem;
+
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    background-repeat: no-repeat;
+    background-size: 100% 1.5px;
+    background-position: center bottom 10%;
+    background-origin: padding-box;
+    text-shadow: 3px 0 #fff, 2px 0 #fff, 1px 0 #fff, -1px 0 #fff, -2px 0 #fff, -3px 0 #fff;
+
+    transition: 0.25s color;
+
+    &:hover {
+      color: darken(#869bad, 10%);
+    }
+  }
+
+  figure {
+    text-align: center;
+  }
+
+  figcaption {
+    color: #666;
+    font-size: 0.9rem;
+    font-style: italic;
+    text-align: left;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  pre,
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    font-size: 0.85rem;
+    text-shadow: 0 1px #fff;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    font-variant-ligatures: none;
+    word-wrap: normal;
+    hyphens: none;
+  }
+
+  pre,
+  :not(pre)>code {
+    // background: #f1f1f1;
+    // background: #f5f2f0;// smashing
+    // background: #869bad;
+    // background: #ececec;
+    background: #f5f5f5;
+  }
+
+  pre {
+    padding: 1rem;
+    overflow: auto;
+    color: #000;
+  }
+
+  :not(pre)>code {
+    display: inline-block;
+    padding: 0 0.2725rem;
+    white-space: normal;
+  }
+
+  a code {
+    background: initial;
+    // background: lighten(#f5f5f5, 0%);
+
+    // background-image: linear-gradient(#869bad, #869bad);
+    // background-repeat: no-repeat;
+    // background-size: 100% 1.5px;
+    // background-position: center bottom 15%;
+    // background-origin: padding-box;
+
+    // border-bottom: 1px solid rgba(0,0,0,0.2);
+    font-size: 0.98rem;
+    padding: initial;
+    // color: black;
+    // color: #53687a;
   }
 
   p:first-child {
     margin-top: 0;
   }
 
-  h2 + p,
-  h3 + p,
-  h4 + p,
-  h5 + p,
-  h6 + p {
-    margin-top: 0.5rem;
+  h3 {
+    font-size: 1.62500rem;
   }
 
-  p + h2,
+  h4 {
+    font-size: 1.389rem;
+  }
+
+  h5 {
+    font-size: 1.153rem;
+  }
+
+  h6 {
+    font-size: 0.931rem;
+  }
+
+  .post-header-anchor {
+    position: absolute;
+    left: -$postsPadding;
+    top: 18px;
+    width: $postsPadding;
+    transform: translate(0, -50%);
+    background: none;
+    text-align: center;
+    line-height: 1;
+    text-shadow: none;
+    transition: opacity 0.25s ease-in-out;
+
+    &:hover {
+      svg {
+        opacity: 1;
+      }
+    }
+
+    &::after {
+      content: ' copied';
+      position: absolute;
+      bottom: -14px;
+      left: 0;
+      right: 0;
+      font-size: 0.6rem;
+      color: lighten(#000, 50%);
+      opacity: 0;
+      visibility: none;
+      transition: opacity 2s;
+    }
+
+    svg {
+      opacity: 0.2;
+    }
+  }
+
+  .post-header-anchor--copied {
+    &::after {
+      opacity: 1;
+    }
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    position: relative;
+
+    & + p {
+      margin-top: 0.5rem;
+    }
+  }
+
   p + h3,
   p + h4,
   p + h5,
   p + h6 {
     margin-top: 2rem;
+  }
+
+  ul,
+  ol {
+    padding-left: 1.25em;
+    list-style: initial;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  // So the read more link doesn't break onto newline
+  .post-summary & {
+    &,
+    & > * {
+      display: inline;
+    }
   }
 }
 
@@ -397,39 +571,35 @@ body {
 .post-meta {
   font-size: 0.9rem;
   margin: 1rem 0;
-}
-
-.post-blog-date {
-  display: block;
-  margin-top: 0.5rem;
   color: #A2A2A2;
 
   @include high-dpi-only {
     color: #000;
     font-weight: 300;
   }
+}
 
-  .posts & {
-    @media(min-width: 30rem) {
-      display: inline;
-      margin-top: 0;
+.post-blog-date {
+  display: block;
+  margin-top: 0.5rem;
 
+  @media(min-width: 30rem) {
+    display: inline;
+    margin-top: 0;
+
+    & + .post-blog-title {
       &:before {
         display: inline-block;
         content: " — ";
-        margin: 0 0.5rem 0 0.25rem;
+        margin: 0 0.25rem 0 0.5rem;
       }
     }
   }
 }
 
-.post-blog-title {
-  color: $gray;
-  font-weight: 600;
-
-  @include high-dpi-only {
-    font-weight: 700;
-  }
+.post-blog-link {
+  font-weight: initial;
+  font-style: italic;
 }
 
 .post-title,
@@ -455,10 +625,13 @@ body {
 .post-read-more-link {
   display: inline-block;
   font-weight: 700;
+  margin: 0;
 }
 
-.post-summary {
-  line-height: 1.5;
+.post-comments {
+  margin: 2rem;
+  padding: 2rem;
+  background: #fff;
 }
 
 .footer {
@@ -486,4 +659,107 @@ body {
 
 .fix-bug-ignore {
   color: red;
+}
+
+.posts {
+  position: relative;
+}
+
+.post-wrapper {
+  overflow: hidden;
+  transition: padding 0.5s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.post {
+  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.posts--entering-post {
+  .post-wrapper:not(.post-wrapper--entering-from-posts) {
+    .post {
+      opacity: 0.2;
+      transform: scale(0.8);
+    }
+  }
+
+  .post-wrapper--entering-from-posts {
+    left: $postsPadding;
+    right: $postsPadding;
+  }
+}
+
+.post-skeleton {
+  line-height: 1.55;
+  position: relative;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+
+  .post-wrapper--entering-from-posts & {
+    opacity: 1;
+    margin-top: 2rem;
+    max-height: initial;
+  }
+
+  &:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    opacity: 0.2;
+    animation: 1s skeleton infinite ease-in-out;
+  }
+}
+
+.post-skeleton-word {
+  height: 1.1rem;
+  background: #f7f7f7;
+  width: 46px;
+  display: inline-block;
+  margin: 4px 6px 0 0;
+
+  &:nth-child(2n){
+    width: 36px;
+  }
+
+  &:nth-child(3n){
+    width: 76px;
+
+    .post-skeleton + .post-skeleton & {
+      width: 71px;
+    }
+  }
+
+  &:nth-child(5n){
+    width: 96px;
+  }
+
+  &:nth-child(6n){
+    width: 63px;
+  }
+
+  &:nth-child(7n){
+    width: 26px;
+  }
+}
+
+@keyframes skeleton {
+  0% {
+    transform: translate3d(-100%, 0, 0)
+  }
+
+  98% {
+    transform: translate3d(100%, 0, 0)
+  }
+
+  99% {
+    transform: translate3d(100%, 100%, 0)
+  }
+
+  100% {
+    transform: translate3d(-100%, 0, 0)
+  }
 }

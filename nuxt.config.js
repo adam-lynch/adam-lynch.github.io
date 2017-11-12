@@ -1,20 +1,14 @@
 const state = require('./store/state')
 
 const blogOptions = {
+  base: process.env.NODE_ENV === 'production' ? 'https://adamlynch.com' : 'http://localhost:3000',
   dir: 'writing',
   api: {
     prefix: 'api/writing'
   },
-  disqus: null,
-  modifyRoutes: function (routes) {
-    return routes
-    return routes.map((route) => {
-      route.path = route.path.replace(/^\/blog/, '') || '/'
-      if (/:index$/.test(route.name)) {
-        route.component = '~/components/Footer/Footer.vue'
-      }
-      return route
-    })
+  disqus: {
+    shortname: 'adamlynch-1',
+    url: 'https://adamlynch.com'
   }
 }
 
@@ -37,7 +31,8 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#3B8070' },
+  // loading: { color: '#3B8070' },
+  loading: { color: '#869bad' },
   /*
   ** Build configuration
   */
@@ -66,18 +61,20 @@ module.exports = {
         test: /\.md$/,
         use: 'raw-loader'
       })
-    }
-  },
-  blog: {
-    // shouldOverwriteRoutes: true,
-    // urls: {
-    //   article: '/writing/:slug',
-    //   root: '/'
-    // }
+    },
+    watch: [
+      './modules/**/*.js',
+      './writing/**/*'
+    ]
   },
   css: [
     '~/assets/styles/index.scss'
   ],
+  router: {
+    middleware: [
+      'analytics'
+    ]
+  },
   modules: [
     '@nuxtjs/axios',
     '@nuxtjs/sitemap',

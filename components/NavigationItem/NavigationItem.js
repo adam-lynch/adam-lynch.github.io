@@ -1,14 +1,16 @@
+import AnchorOrNuxtLink from '~/components/AnchorOrNuxtLink/AnchorOrNuxtLink.vue'
+
 export default {
+  components: {
+    AnchorOrNuxtLink
+  },
   computed: {
-    classes () {
-      return this.shouldTrackClicks ? 'js_track-link-clicks' : ''
-    },
     isExternal () {
       return /^[a-z]+:/.test(this.url)
     }
   },
   props: {
-    shouldTrackClicks: Boolean,
+    shouldTrackAnchorClicks: Boolean,
     specificClasses: String,
     text: {
       required: true,

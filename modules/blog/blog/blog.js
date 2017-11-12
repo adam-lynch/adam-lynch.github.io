@@ -90,16 +90,25 @@ module.exports = class Blog {
   }
 
   addPaginationLinks (article) {
-    const json = JSON.parse(JSON.stringify(article))
-    const next = this.getNextArticle(article)
-    const prev = this.getPrevArticle(article)
-
-    if (next) {
-      json.next = next.preview
+    const json = {...article}
+    try {
+      const next = this.getNextArticle(article)
+      if (next) {
+        json.next = next.preview
+      }
+    } catch (e) {
+      console.error(e)
+      // TODO: fix when pagination is needed
     }
 
-    if (prev) {
-      json.prev = prev.preview
+    try {
+      const prev = this.getPrevArticle(article)
+      if (prev) {
+        json.prev = prev.preview
+      }
+    } catch (e) {
+      console.error(e)
+      // TODO: fix when pagination is needed
     }
 
     return json
@@ -121,6 +130,9 @@ module.exports = class Blog {
 
   getNextArticle (id) {
     const article = typeof (id) === 'string' ? this.getArticle(id) : id
+    if (!article) {
+      return null
+    }
     const index = this.articles.findIndex(other => article.id === other.id)
 
     return index > 0 ? this.articles[index - 1] : null
@@ -128,6 +140,9 @@ module.exports = class Blog {
 
   getPrevArticle (id) {
     const article = typeof (id) === 'string' ? this.getArticle(id) : id
+    if (!article) {
+      return null
+    }
     const index = this.articles.findIndex(other => article.id === other.id)
 
     return index + 1 < this.articles.length ? this.articles[index + 1] : null

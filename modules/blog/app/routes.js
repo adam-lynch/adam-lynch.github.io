@@ -1,5 +1,3 @@
-const resolve = filename => '~/modules/blog/app' + filename.replace(/^\./, '')
-
 const routes = [
   {
     name: '@nuxtjs/blog:index',

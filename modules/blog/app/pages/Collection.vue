@@ -15,7 +15,7 @@
                       :key="article.id"
                       :id="article.id"
                       :title="article.title"
-                      :description="article.description"
+                      :summary="article.summary"
                       :published_at="article.published_at"
                       v-bind="article"
       />

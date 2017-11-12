@@ -1,12 +1,10 @@
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1.55;
+  letter-spacing: -.25px;
+  -webkit-font-smoothing: antialiased;//TODO: prefix
 
   .wf-active &  {
     font-family: Lato, Arial, sans-serif;
   }
-}
-
-.post-title {
-  line-height: 1.2;
 }

@@ -20,8 +20,8 @@ export default {
     }
 
     const meta = [
-      { hid: 'description', name: 'description', content: this.article.description },
-      { hid: 'keywords', name: 'keywords', content: this.article.keywords.join(', ') }
+      { hid: 'description', name: 'description', content: this.article.summary },
+      { hid: 'keywords', name: 'keywords', content: (this.article.keywords || []).join(', ') }
     ]
     const link = []
 
@@ -36,7 +36,7 @@ export default {
     const twitter = Object.assign({
       card: 'summary',
       title: this.article.title,
-      description: this.article.description,
+      description: this.article.summary,
       image: this.article.photo,
       url: this.$route.path
     }, this.article.attributes.twitter || {}, process.env.__NUXT_BLOG__.twitter || {})
@@ -51,7 +51,7 @@ export default {
     const og = Object.assign({
       type: 'article',
       title: this.article.title,
-      description: this.article.description,
+      description: this.article.summary,
       image: this.article.photo,
       url: this.$route.path
     }, this.article.attributes.og || {}, process.env.__NUXT_BLOG__.og || {})

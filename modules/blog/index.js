@@ -31,13 +31,7 @@ module.exports = function NuxtModule (options) {
     },
     twitter: null,
     og: null,
-    fb: null,
-    markdown: {
-      plugins: [
-        require('markdown-it-decorate'),
-        require('markdown-it-emoji')
-      ]
-    }
+    fb: null
   }
   const nuxtOptions = this.nuxt.options
 
