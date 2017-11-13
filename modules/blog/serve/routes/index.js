@@ -70,6 +70,9 @@ module.exports = function (router, context, options) {
     helpers.sendFile(resolve(url), res)
   })
   router.get(templates.article, (req, res) => {
+    if (req.params.id === 'favicon.ico') {
+      return
+    }
     const url = request(format(templates.article, req.params))
 
     if (dev()) {

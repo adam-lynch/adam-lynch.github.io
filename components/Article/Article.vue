@@ -16,6 +16,7 @@
     </article>
 
     <aside class="post-comments">
+      <!-- TODO: what if this fails -->
       <DisqusComments v-bind="disqus"/>
     </aside>
   </div>
