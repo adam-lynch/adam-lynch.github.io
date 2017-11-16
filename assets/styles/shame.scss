@@ -502,6 +502,10 @@ body {
     text-shadow: none;
     transition: opacity 0.25s ease-in-out;
 
+    &:focus {
+      outline: none; // shameful but keyboard users aren't going to use this anchor anyway
+    }
+
     &:hover {
       svg {
         opacity: 1;
