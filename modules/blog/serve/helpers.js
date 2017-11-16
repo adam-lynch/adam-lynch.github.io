@@ -1,13 +1,13 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-module.exports.send404 = res => {
+const send404 = res => {
   res.statusCode = 404
   res.statusMessage = 'Not Found'
   res.end()
 }
 
-module.exports.sendJson = (content, res) => {
+const sendJson = (content, res) => {
   if (!content) {
     console.log(`  ${chalk.blue('blog:api')} ${chalk.red('Not found')}`)
 
@@ -21,7 +21,7 @@ module.exports.sendJson = (content, res) => {
   res.end(content, 'utf-8')
 }
 
-module.exports.sendFile = (filename, res) => {
+const sendFile = (filename, res) => {
   console.log(`   Resolved file: ${filename}`)
   fs.exists(filename, exists => {
     if (exists) {
@@ -42,4 +42,10 @@ module.exports.sendFile = (filename, res) => {
       return send404(res)
     }
   })
+}
+
+module.exports = {
+  sendFile,
+  sendJson,
+  send404
 }

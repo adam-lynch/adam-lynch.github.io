@@ -12,6 +12,10 @@ export default {
   },
 
   computed: {
+    classes () {
+      return {'post-skeleton--visible': !this.isDiqsusReady}
+    },
+
     contents () {
       return this.article.rendered
         .replace(/<h2[^>]*>.+?<\/h2>/i, '')
@@ -26,6 +30,14 @@ export default {
 
     to () {
       return { name: '@nuxtjs/blog:article', params: Object.assign({ id: this.$route.params.id }, this.$attrs) }
+    }
+  },
+
+  data: function () {
+    return {
+      isDiqsusReady: false,
+      numberOfWordsInCommentsSkeleton: 85,
+      postHeaderAnchorClass: 'post-header-anchor'
     }
   },
 
@@ -52,12 +64,6 @@ export default {
     })
   },
 
-  data () {
-    return {
-      postHeaderAnchorClass: 'post-header-anchor'
-    }
-  },
-
   extends: Article,
 
   methods: {
@@ -70,6 +76,10 @@ export default {
       setTimeout(() => {
         postHeaderAnchor.classList.remove(copiedClass)
       }, 3000)
+    },
+
+    onDisqusReady () {
+      this.isDiqsusReady = true
     }
   },
 

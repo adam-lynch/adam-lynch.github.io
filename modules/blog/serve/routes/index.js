@@ -71,6 +71,7 @@ module.exports = function (router, context, options) {
   })
   router.get(templates.article, (req, res) => {
     if (req.params.id === 'favicon.ico') {
+      helpers.sendFile(resolve(`/${req.params.id}`), res)
       return
     }
     req.params.id = req.params.id.replace(/\.html$/, '')
@@ -82,7 +83,7 @@ module.exports = function (router, context, options) {
       return
     }
 
-    helpers.sendFile(resolve(url))
+    helpers.sendFile(resolve(url), res) // TODO: added res in here
   })
 
   console.log(`   ${chalk.blue('blog:api')} Listening on /${options.api.prefix}`)

@@ -54,7 +54,7 @@
     "remove-markdown": "^0.2.2",
     "rss": "^1.2.2",
     "sass-loader": "^6.0.6",
-    "vue-disqus": "^2.0.3",
+    "vue-disqus": "github:adam-lynch/vue-disqus#ready_event",
     "vue-markdown": "^2.2.4",
     "vuex": "^3.0.0"
   },

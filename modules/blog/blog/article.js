@@ -201,7 +201,7 @@ module.exports = class Article {
       }
     })
 
-    const quoteRegex = /^quote (http[^ ]+? )?([^]+)$/i
+    const quoteRegex = /^quote ?(http[^ ]+? )?([^]+)?$/i
     marked.use(containerPlugin, 'quote', {
       validate: function (params) {
         return params.trim().match(quoteRegex)
@@ -237,8 +237,8 @@ module.exports = class Article {
           return `<blockquote${attributes}>`
         }
 
-        return `<footer>&mdash;<cite>${marked.render(footer)}</cite></footer>
-        </blockquote>`
+        const footerHtml = footer ? `<footer>&mdash;<cite>${marked.render(footer)}</cite></footer>` : ''
+        return `${footerHtml}</blockquote>`
       }
     })
 

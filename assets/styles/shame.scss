@@ -765,6 +765,7 @@ body {
   max-height: 0;
   overflow: hidden;
 
+  &.post-skeleton--visible,
   .post-wrapper--entering-from-posts & {
     opacity: 1;
     margin-top: 2rem;
