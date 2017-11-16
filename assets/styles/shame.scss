@@ -335,11 +335,7 @@ body {
   }
 
   :not(figure) > a {
-    // color: #53687a; // TODO: var
-    color: #869bad; // TODO: var
-    // font-weight: 800;
-    // border-bottom: .08em solid rgba(0,0,0,0.2);
-    // border-bottom: 0.08rem solid #869bad;
+    color: #3f729e; // TODO: var?
     padding-bottom: 0.05rem;
 
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
@@ -352,7 +348,7 @@ body {
     transition: 0.25s color;
 
     &:hover {
-      color: darken(#869bad, 10%);
+      color: darken(#3f729e, 20%);
     }
   }
 
@@ -493,7 +489,7 @@ body {
   .post-header-anchor {
     position: absolute;
     left: -$postsPadding;
-    top: 18px;
+    top: 20px;
     width: $postsPadding;
     transform: translate(0, -50%);
     background: none;
@@ -518,7 +514,7 @@ body {
       bottom: -14px;
       left: 0;
       right: 0;
-      font-size: 0.6rem;
+      font-size: 0.6em;
       color: lighten(#000, 50%);
       opacity: 0;
       visibility: none;
@@ -528,6 +524,18 @@ body {
     svg {
       opacity: 0.2;
     }
+  }
+
+  h4 .post-header-anchor {
+    top: 18px;
+  }
+
+  h5 .post-header-anchor {
+    top: 16px;
+  }
+
+  h6 .post-header-anchor {
+    top: 14px;
   }
 
   .post-header-anchor--copied {

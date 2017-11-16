@@ -23,6 +23,7 @@ Lets take a look at managing our third-party dependencies with Bower and preproc
 
 :::
 
+
 ### Bower
 
 :::figure hassle-free-third-party-dependencies/bower.png
@@ -30,7 +31,7 @@ Lets take a look at managing our third-party dependencies with Bower and preproc
 
 [Bower](/content/images/2014/Aug/bower-3.png) is an unopinionated package manager for the web. John Lindquist (from [egghead.io](/content/images/2014/Aug/gulp-3.png)) was nice enough to record a quick overview;
 
-TODO: https://www.youtube.com/watch?v=vO_Ie3kMXbY
+[![](/images/blog-content/hassle-free-third-party-dependencies/egghead.png)](https://www.youtube.com/watch?v=vO_Ie3kMXbY)
 
 That’s it! As is often said:
 
@@ -135,7 +136,7 @@ Note: if you're used to npm, notice here that Bower uses a flat dependency tree.
 <script src="main.js"></script>
 ```
 
-Here we link to the files we need. How do we know which are needed? Well, a package's `bower.json` (typically) has a `[main](https://github.com/bower/bower.json-spec#main)` [property](https://github.com/bower/bower.json-spec#main) which lists them.
+Here we link to the files we need. How do we know which are needed? Well, a package's `bower.json` (typically) has a [`main` property](https://github.com/bower/bower.json-spec#main) which lists them.
 
 Note: if you're used to npm, notice here that a package can have a `main` file which isn't JavaScript and can have more than one `main` file.
 
@@ -261,10 +262,16 @@ You're probably ahead of me, but what's happening here is:
 
 So now our `app/index.html` would look like this:
 
-TODO:
-
 ```markup
-Example &lt;!-- Example to prove Bootstrap exists --&gt; &lt;div class=&quot;alert alert-info alert-dismissible&quot;&gt;&lt;button class=&quot;close&quot; type=&quot;button&quot; data-dismiss=&quot;alert&quot;&gt;×&lt;span class=&quot;sr-only&quot;&gt;Close&lt;/span&gt;&lt;/button&gt; &lt;strong&gt;Heads up!&lt;/strong&gt; If this alert is blue, Bootstrap&#039;s CSS was loaded. If you can dismiss this alert, then jQuery &amp; Bootstrap&#039;s JavaScript has been loaded.&lt;/div&gt; &lt;script src=&quot;third-party.js&quot;&gt;&lt;/script&gt; &lt;script src=&quot;main.js&quot;&gt;&lt;/script&gt;
+<!-- Example to prove Bootstrap exists -->
+<div class="alert alert-info alert-dismissible">
+    <button class="close" type="button" data-dismiss="alert">×<span class="sr-only">Close</span></button>
+    <strong>Heads up!</strong>
+    If this alert is blue, Bootstrap;'s CSS was loaded. If you can dismiss this alert, then jQuery & Bootstrap's JavaScript has
+    been loaded.
+</div>
+<script src="third-party.js"></script>
+<script src="main.js"></script>
 ```
 
 And our final project structure looks like this:
