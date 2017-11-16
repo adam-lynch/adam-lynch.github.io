@@ -356,6 +356,37 @@ body {
     }
   }
 
+  blockquote {
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 100;
+    padding-left: 2rem;
+    margin-top: 2rem;
+
+    &::before {
+      content: '\201C';
+      position: absolute;
+      top: -1.5rem;
+      left: -0.5rem;
+      height: 3rem;
+      width: 25px;
+      color: #f5f5f5;
+      font-size: 6rem;
+      line-height: 1;
+    }
+
+    footer {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      text-align: right;
+    }
+
+    cite {
+      display: inline-block;
+      margin-left: 0.5rem;
+    }
+  }
+
   figure {
     text-align: center;
   }
@@ -364,19 +395,32 @@ body {
     color: #666;
     font-size: 0.9rem;
     font-style: italic;
-    text-align: left;
   }
 
   img {
+    display: block;
     max-width: 100%;
     height: auto;
     margin: 0 auto;
+
+    // for broken images:
+    min-height: 50px;
+    min-width: 150px;
+    position: relative;
+    color: rgb(182, 182, 182);
+    font-size: 0.9rem;
+    text-align: center;
+
+    &:before {
+      content: "Image failed to load :/";
+      display: block;
+      font-size: 0.95rem;
+    }
   }
 
   pre,
   code {
     font-family: Consolas, Monaco, 'Andale Mono', monospace;
-    font-size: 0.85rem;
     text-shadow: 0 1px #fff;
     white-space: pre;
     word-spacing: normal;
@@ -387,11 +431,13 @@ body {
   }
 
   pre,
+  :not(h3):not(h4):not(h5):not(h6) > code {
+    font-size: 0.85rem;
+  }
+
+  // blockquote,
+  pre,
   :not(pre)>code {
-    // background: #f1f1f1;
-    // background: #f5f2f0;// smashing
-    // background: #869bad;
-    // background: #ececec;
     background: #f5f5f5;
   }
 
@@ -486,6 +532,12 @@ body {
     }
   }
 
+  p {
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
   h3,
   h4,
   h5,
@@ -520,6 +572,23 @@ body {
     & > * {
       display: inline;
     }
+  }
+
+  table {
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+
+  td,
+  th {
+    padding: 0;
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+  }
+
+  th {
+    font-weight: 600;
+    text-align: left;
   }
 }
 
@@ -668,7 +737,6 @@ body {
 }
 
 .post-wrapper {
-  overflow: hidden;
   transition: padding 0.5s ease-in-out, transform 0.3s ease-in-out;
 }
 

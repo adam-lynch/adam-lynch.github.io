@@ -101,7 +101,7 @@ You could drop the window bar and chrome if you like, or create your own custom 
 
 So, you get to write HTML, CSS and JavaScript. You can use Node.js to read and write to disk, execute system commands, spawn other executables and more. Hypothetically, you could build a multiplayer roulette game over WebRTC that deletes some of the users' files randomly, if you wanted.
 
-:::figure beyond-the-browser/moduleCounts.png Bar graph showing the number of modules per major package manager. (Source: <a href="http://modulecounts.com/">Module Counts</a>)
+:::figure beyond-the-browser/moduleCounts.png Bar graph showing the number of modules per major package manager. (Source: [Module Counts](http://modulecounts.com))
 :::
 
 You get access not only to Node.js’ APIs but to all of npm, which has over 350,000 modules now. For example, [auto-launch](https://github.com/Teamwork/node-auto-launch) is an open-source module we created at [Teamwork.com](https://www.teamwork.com/) to launch an NW.js or Electron app on startup.

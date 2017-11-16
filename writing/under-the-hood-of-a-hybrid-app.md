@@ -1,6 +1,6 @@
 ---
 date: 2016-04-16
-description: It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...
+summary: It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...
 original:
   blogLink: https://engineroom.teamwork.com
   blogName: Teamwork's Engine Room

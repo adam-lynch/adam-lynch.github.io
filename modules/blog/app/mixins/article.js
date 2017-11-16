@@ -25,11 +25,11 @@ export default {
     ]
     const link = []
 
-    if (this.article.highlightedLanguages.length) {
+    if (this.article.highlightedLanguages && this.article.highlightedLanguages.length) {
+      const theme = `prism${this.article.attributes.highlight ? '-' + this.article.attributes.highlight : ''}`
       link.push({
         rel: 'stylesheet',
-        href: `//unpkg.com/prismjs/themes/prism${this.article.attributes.highlight
-          ? '-' + this.article.attributes.highlight : ''}.css`
+        href: `//unpkg.com/prismjs/themes/${theme}.css`
       })
     }
 

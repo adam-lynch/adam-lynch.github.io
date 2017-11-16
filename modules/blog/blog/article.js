@@ -4,6 +4,7 @@ const pify = require('pify')
 const Markdown = require('markdown-it')
 const Token = require('markdown-it/lib/token.js')
 const Prism = require('prismjs')
+require('prismjs/components/prism-coffeescript.js')
 const path = require('path')
 const removeMarkdown = require('remove-markdown')
 const slug = require('slug')
@@ -61,17 +62,17 @@ module.exports = class Article {
 
     this.title = attributes.title
 
-    if (attributes.description) {
-      this.renderedSummary = marked.render(attributes.description)
+    if (attributes.summary) {
+      this.renderedSummary = marked.render(attributes.summary)
     } else {
-      const summaryMatches = this.unfilteredRenderedBody.match(/^(.+?)<end-of-summary\/>/)
+      const summaryMatches = this.unfilteredRenderedBody.match(/<article-summary>([^]+?)<\/article-summary>/m)
       if (summaryMatches) {
         this.renderedSummary = summaryMatches[1]
       } else {
         throw new Error(`Post has no summary ("${this.title}")`)
       }
     }
-    this.rendered = this.unfilteredRenderedBody.replace('<end-of-summary/>', '')
+    this.rendered = this.unfilteredRenderedBody.replace(/<\/?article-summary>/g, '')
     this.summary = removeMarkdown(this.renderedSummary)
 
     this.isBook = attributes.isBook
@@ -107,7 +108,7 @@ module.exports = class Article {
 
   /**
    * Minimal article info.
-   * @returns {{id: string, title: string, description: string, photo: string, published_at: Date}}
+   * @returns {{id: string, title: string, summary: string, photo: string, published_at: Date}}
    */
   get preview () {
     return {
@@ -154,17 +155,16 @@ module.exports = class Article {
 
     const containerPlugin = require('markdown-it-container')
     marked.use(containerPlugin, 'summary', {
-
       validate: function (params) {
         return params.trim().match(/^summary$/)
       },
 
       render: function (tokens, idx) {
+        // opening tag
         if (tokens[idx].nesting === 1) {
-          // opening tag
-          return '<end-of-summary/>'
+          return '<article-summary>'
         }
-        return ''
+        return '</article-summary>'
       }
     })
 
@@ -175,38 +175,73 @@ module.exports = class Article {
       },
 
       render: function (tokens, idx) {
-        const matches = tokens[idx].info.trim().match(figureRegex)
-        // it has to exist but it doesn't sometimes, maybe a bug in plugin when used twice
-        if (!matches) {
+        const currentToken = tokens[idx]
+        const isCurrentTokenOpeningTag = currentToken.type === 'container_figure_open'
+        if (!isCurrentTokenOpeningTag) {
           return ''
         }
 
+        const matches = tokens[idx].info.trim().match(figureRegex)
         const [fullMatch, relativePath, caption] = matches
 
-        // opening tag
-        if (tokens[idx].nesting === 1) {
-          const url = `/images/blog-content/${relativePath}`
+        const url = `/images/blog-content/${relativePath}`
 
-          let figcaption
-          if (caption) {
-            const trimmedCaption = caption.trim()
-            figcaption = trimmedCaption ? `<figcaption>${trimmedCaption}</figcaption>` : ''
-          } else {
-            figcaption = ''
-          }
-
-          return `<figure>
-            <a href="${url}"><img src="${url}" alt=""/></a>
-            ${figcaption}
-          </figure>`
+        let figcaption
+        if (caption) {
+          const trimmedCaption = caption.trim()
+          figcaption = trimmedCaption ? `<figcaption>${marked.render(trimmedCaption)}</figcaption>` : ''
+        } else {
+          figcaption = ''
         }
-        return ''
+
+        return `<figure>
+          <a href="${url}"><img src="${url}" alt=""/></a>
+          ${figcaption}
+        </figure>`
       }
     })
 
-    marked.use(require('markdown-it-implicit-figures'), {
-      figcaption: true
+    const quoteRegex = /^quote (http[^ ]+? )?([^]+)$/i
+    marked.use(containerPlugin, 'quote', {
+      validate: function (params) {
+        return params.trim().match(quoteRegex)
+      },
+
+      render: (tokens, idx) => {
+        const currentToken = tokens[idx]
+        const isCurrentTokenOpeningTag = currentToken.type === 'container_quote_open'
+        let openToken
+        if (isCurrentTokenOpeningTag) {
+          openToken = currentToken
+        } else {
+          openToken = this._findPreceedingToken(tokens, idx, (token, index) => {
+            return token.type === 'container_quote_open'
+          })
+        }
+
+        const matches = openToken.info.trim().match(quoteRegex)
+
+        let url
+        let footer
+
+        if (matches.length === 3) {
+          url = matches[1]
+          footer = matches[2]
+        } else {
+          footer = matches[1]
+        }
+
+        if (isCurrentTokenOpeningTag) {
+          const attributes = url ? ` cite="${url}"` : ''
+
+          return `<blockquote${attributes}>`
+        }
+
+        return `<footer>&mdash;<cite>${marked.render(footer)}</cite></footer>
+        </blockquote>`
+      }
     })
+
     marked.use(require('markdown-it-link-attributes'), {
       pattern: /^https?:/,
       attrs: {
@@ -224,9 +259,17 @@ module.exports = class Article {
     return marked
   }
 
+  _findPreceedingToken (tokens, startIndex, test) {
+    for (let i = startIndex; i >= 0; i--) {
+      if (test(tokens[i], i)) {
+        return tokens[i]
+      }
+    }
+  }
+
   _renderMarkdown (markdown) {
     return this.marked.render(markdown)
-      .replace('<end-of-summary/>', '')
+      .replace(/<\/?article-summary>/g, '')
   }
 
   /**
@@ -261,10 +304,6 @@ module.exports = class Article {
     attributes.updated_at = new Date(attributes.updated_at)
 
     attributes.updated_at = new Date(attributes.updated_at) // eslint-disable-line camelcase
-
-    if (!('description' in attributes) || !attributes.description) {
-      attributes.description = text('p')
-    }
 
     if (!('tags' in attributes)) {
       attributes.tags = []

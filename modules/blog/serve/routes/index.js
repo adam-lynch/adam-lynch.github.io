@@ -73,6 +73,8 @@ module.exports = function (router, context, options) {
     if (req.params.id === 'favicon.ico') {
       return
     }
+    req.params.id = req.params.id.replace(/\.html$/, '')
+
     const url = request(format(templates.article, req.params))
 
     if (dev()) {

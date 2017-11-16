@@ -1,6 +1,6 @@
 ---
 date: 2016-03-08
-description: Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...
+summary: Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...
 original:
   blogLink: https://engineroom.teamwork.com
   blogName: Teamwork's Engine Room
