@@ -18,7 +18,7 @@ tags:
 
 ## Under the hood of a hybrid (app)
 
-It has been about a year since we had A peek under the hood of [Teamwork Chat](http://engineroom.teamwork.com/under-the-hood-of-teamwork-chat/). Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More and more companies are using our app, including some really famous ones. At the time of writing this, over 12 million messages have been sent. Teamwork has grown three times in size, and the Teamwork Chat team with it, thanks to some great hires.
+It has been about a year since we had [A peek under the hood of Teamwork Chat](http://engineroom.teamwork.com/under-the-hood-of-teamwork-chat/). Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More and more companies are using our app, including some really famous ones. At the time of writing this, over 12 million messages have been sent. Teamwork has grown three times in size, and the Teamwork Chat team with it, thanks to some great hires.
 
 Let’s take a look at some of my predictions from last year’s post;
 
@@ -152,18 +152,18 @@ How our services communicate is a bit simplistic in general. We’re going to sw
 
 As well as improving areas we’ve neglected, these are some of the bigger higher level features we have coming down the line:
 
-1.  - API
-2.  Bots (prepared third-party bots and a bot API/platform)
-3.  Conversation switcher
-4.  Deeper integrations with [Teamwork Desk](https://teamwork.com/desk) and [Teamwork Projects](https://teamwork.com/projects)
-5.  Email improvements
-6.  Independent signup
-7.  Linux desktop app
-8.  More third-party integrations (including cards, bots, etc.)
-9.  Native (Android & iOS) mobile apps
-10.  Noise reduction (do not disturb, muting, notification settings, etc.)
-11.  Opening Teamwork Chat to users outside the owner company
-12.  Search
+-  API
+-  Bots (prepared third-party bots and a bot API/platform)
+-  Conversation switcher
+-  Deeper integrations with [Teamwork Desk](https://teamwork.com/desk) and [Teamwork Projects](https://teamwork.com/projects)
+-  Email improvements
+-  Independent signup
+-  Linux desktop app
+-  More third-party integrations (including cards, bots, etc.)
+-  Native (Android & iOS) mobile apps
+-  Noise reduction (do not disturb, muting, notification settings, etc.)
+-  Opening Teamwork Chat to users outside the owner company
+-  Search
 
 That’s all folks! We’ll catch up again next year. Feel free to reach out to us at [chat@teamwork.com](mailto:chat@teamwork.com) with any API or bot-related ideas or features requests. We’d love to know what you’d expect to see in our API. If you’d like to kick the tires of our hybrid, follow one of the following links:
 

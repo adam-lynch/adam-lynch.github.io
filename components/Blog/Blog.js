@@ -39,7 +39,7 @@ export default {
 
   // Route transition to individual blog post
   transition (to, from) {
-    if (!from) {
+    if (!(from && to && to.name === '@nuxtjs/blog:article' && requestAnimationFrame)) {
       return
     }
 
@@ -74,7 +74,7 @@ export default {
       if (postWrapperRelativeTop) {
         newPostWrapper.style.transform = `translate3d(0, -${postWrapperTop - postsTop - postsPaddingTop * 2}px, 0)`
       }
-      scrollTo(postsTop, () => {}, 300)
+      scrollTo(0, () => {}, 300)
     })
 
     return {
