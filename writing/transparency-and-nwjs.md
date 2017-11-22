@@ -75,7 +75,7 @@ Unfortunately, there are always exceptions. Transparency isn't supported at all 
 
 On Linux, transparency is supported if the window manager supports compositing. Aside from this, you'll also need to start your application with a couple of arguments. These can be set in your app's manifest under chromium-args:
 
-```javascript
+```json
 {
   "name": "my-app",
   "main": "index.html",
@@ -100,7 +100,7 @@ Between the community and developers behind NW.js, there isn't certainty whether
 
 NW.js even supports clicking through your transparent app to stuff behind it on your desktop, for example. This is enabled by adding a couple of runtime arguments to your chromium-args in your manifest. Namely --disable-gpu and --force-cpu-draw:
 
-```javascript
+```json
 {
   "name": "my-app",
   "main": "index.html",
