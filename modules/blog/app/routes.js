@@ -1,7 +1,7 @@
 const routes = [
   {
     name: '@nuxtjs/blog:index',
-    path: '/',
+    path: '/writing',
     component: '~/components/Blog/Blog.vue'
   },
   /* {
@@ -21,7 +21,7 @@ const routes = [
   }, */
   {
     name: '@nuxtjs/blog:article',
-    path: '/:collection?/:id',
+    path: '/:id',
     component: '~/components/Article/Article.vue'
   }
 ]

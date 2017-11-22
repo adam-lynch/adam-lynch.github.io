@@ -10,7 +10,7 @@
           <navigation-item :shouldTrackAnchorClicks="false"
                            specificClasses="writing-navigation-item"
                            text="Writing"
-                           url="/#writing"/>
+                           url="/"/>
 
           <navigation-item :shouldTrackAnchorClicks="true"
                            specificClasses="edit-navigation-item"

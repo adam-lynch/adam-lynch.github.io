@@ -15,10 +15,10 @@ module.exports = function NuxtModule (options) {
       prefix: 'api/blog'
     },
     templates: {
-      article: '/posts/:id',
+      article: '/:id',
       tag: '/tags/:id',
       collection: '/collections/:id',
-      indexArticles: '/',
+      indexArticles: '/writing',
       indexTags: '/tags',
       indexCollections: '/collections'
     },

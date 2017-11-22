@@ -6,7 +6,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
+    "generate": "nuxt generate && mv dist/writing/index.html dist/index.html",
     "generate--prod": "npm run generate && cpx \"dist/**\" .",
     "lint": "eslint --ext .js,.vue --ignore-path .eslintignore .",
     "precommit": "npm run lint"
