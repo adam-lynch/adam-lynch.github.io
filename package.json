@@ -48,6 +48,7 @@
     "markdown-it-github-headings": "^1.1.0",
     "markdown-it-implicit-figures": "^0.6.0",
     "markdown-it-link-attributes": "^2.0.0",
+    "merge-options": "^1.0.0",
     "node-sass": "^4.5.3",
     "nuxt": "^1.0.0-rc11",
     "raw-loader": "^0.5.1",
