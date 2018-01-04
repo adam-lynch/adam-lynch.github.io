@@ -90,7 +90,7 @@ Anyway, I thought serverless crash reporting would be a nice little side-project
 
 The function
 
-I started out by creating an S3 bucket, grabbed some API credentials, created a new Sentry project, and grabbed its DSN. We write everything in [CoffeeScript at Teamwork](http://engineroom.teamwork.com/coffeescript/) but this will only be a few lines long, what’s the harm in a little ES6?
+I started out by creating an S3 bucket, grabbed some API credentials, created a new Sentry project, and grabbed its DSN. We write everything in [CoffeeScript at Teamwork](https://adamlynch.com/coffeescript-at-teamwork/) but this will only be a few lines long, what’s the harm in a little ES6?
 
 I quickly threw together a module which did what I wanted. To test it, I created another script which required the first file, started an API with [express](http://expressjs.com/), and called my function whenever it received a POST.
 

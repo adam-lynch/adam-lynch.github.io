@@ -84,12 +84,7 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/sitemap',
     ['modules/blog', blogOptions],
-    'modules/rss.js'
   ],
-  rss: {
-    generate: true,
-    url: '/writing/rss.xml'
-  },
   sitemap: {
     generate: true,
     hostname: state.siteUrl

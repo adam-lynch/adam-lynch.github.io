@@ -24,7 +24,7 @@ The first prototype was put together by a small team in Cork roughly a year ago.
 :::figure a-peek-under-the-hood-of-teamwork-chat/teamwork-chat.png The Teamwork Chat logo
 :::
 
-From back to front, our stack begins with twenty MySQL shards. We have four Node.js `chat-server`s and an nginx load balancer per Amazon EC2 instance. The `chat-server`s communicate via Redis (pub/sub). In front of these EC2 instances we have an Elastic Load Balancer. We also have `chat-notify-server`s which listen for events over a Redis channel and handle the sending of email and push notifications. [Everything is written in CoffeeScript](http://engineroom.teamwork.com/coffeescript/) and server updates are rolled out using a continuous deployment service once we push to `master`.
+From back to front, our stack begins with twenty MySQL shards. We have four Node.js `chat-server`s and an nginx load balancer per Amazon EC2 instance. The `chat-server`s communicate via Redis (pub/sub). In front of these EC2 instances we have an Elastic Load Balancer. We also have `chat-notify-server`s which listen for events over a Redis channel and handle the sending of email and push notifications. [Everything is written in CoffeeScript](http://adamlynch.com/coffeescript-at-teamwork/) and server updates are rolled out using a continuous deployment service once we push to `master`.
 
 #### Crashy
 

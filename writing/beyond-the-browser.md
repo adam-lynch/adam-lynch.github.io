@@ -94,7 +94,7 @@ Once you install the official `nw` package from npm (by running `npm install -g 
 
 It’s as easy as that. So, what happened here was that NW.js opened the initial window, loading your HTML file. I know this doesn’t look like much, but it’s up to you add some markup and styles, just like you would in a web app.
 
-You could drop the window bar and chrome if you like, or create your own custom frame. You could have semi to fully transparent windows, hidden windows and more. I took this a bit further recently and [resurrected Clippy](http://engineroom.teamwork.com/resurrecting-clippy/) using NW.js. There’s something weirdly satisfying about seeing Clippy on macOS or Windows 10.
+You could drop the window bar and chrome if you like, or create your own custom frame. You could have semi to fully transparent windows, hidden windows and more. I took this a bit further recently and [resurrected Clippy](http://adamlynch.com/resurrecting-clippy/) using NW.js. There’s something weirdly satisfying about seeing Clippy on macOS or Windows 10.
 
 :::figure beyond-the-browser/clippy.png A screenshot of clippy.desktop on macOS.
 :::
@@ -497,7 +497,7 @@ So, there you have it. With minimal effort, you can add “desktop app developer
     Want to dig into the details? Get it straight from the source.
 *   “[Electron Community](http://electron.atom.io/community/)”
     A curated list of Electron-related tools, videos and more.
-*   “[Serverless Crash Reporting for Electron Apps](http://engineroom.teamwork.com/serverless-crash-reports-for-electron-apps/),” Adam Lynch (me)
+*   “[Serverless Crash Reporting for Electron Apps](https://adamlynch.com/serverless-crash-reports-for-electron-apps/),” Adam Lynch (me)
     My experience dabbling with serverless architecture, specifically for handling crash reports from Electron apps.
 *   [electron-builder](https://github.com/electron-userland/electron-builder), Stefan Judis
     The complete solution for packaging and building a ready-for-distribution Electron app, with support for automatic updates (and more) out of the box.

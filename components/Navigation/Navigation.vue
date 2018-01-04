@@ -28,9 +28,9 @@
                            url="mailto:contact@adamlynch.com"/>
 
           <navigation-item :shouldTrackAnchorClicks="true"
-                           specificClasses="rss-navigation-item"
-                           text="RSS"
-                           url="writing/rss.xml"/>
+                           specificClasses="linkedin-navigation-item"
+                           text="LinkedIn"
+                           url="https://www.linkedin.com/in/adamlynch010/"/>
         </ul>
     </nav>
 </template>

@@ -15,7 +15,7 @@ $writingNavItemBackgroundColor: desaturate(lighten($codeNavItemBackgroundColor, 
 $editNavItemBackgroundColor: desaturate(lighten($writingNavItemBackgroundColor, $columnLightnessDelta), $columnDesaturationDelta);
 $twitterNavItemBackgroundColor: darken(saturate($codeNavItemBackgroundColor, $rowSaturationDelta), $rowDarknessDelta);
 $emailNavItemBackgroundColor: darken(saturate($writingNavItemBackgroundColor, $rowSaturationDelta), $rowDarknessDelta);
-$rssNavItemBackgroundColor: darken(saturate($editNavItemBackgroundColor, $rowSaturationDelta), $rowDarknessDelta);
+$linkedInNavItemBackgroundColor: darken(saturate($editNavItemBackgroundColor, $rowSaturationDelta), $rowDarknessDelta);
 
 $minWidthToShowTitleInline: 42rem;
 $minWidthToShowNavigationItemsInline: 45rem;
@@ -246,8 +246,8 @@ body {
   @include navigation-item-background($emailNavItemBackgroundColor);
 }
 
-.rss-navigation-item {
-  @include navigation-item-background($rssNavItemBackgroundColor);
+.linkedin-navigation-item {
+  @include navigation-item-background($linkedInNavItemBackgroundColor);
 }
 
 
