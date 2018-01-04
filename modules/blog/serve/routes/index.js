@@ -71,7 +71,7 @@ module.exports = function (router, context, options) {
   })
 
   router.get(templates.article, (req, res) => {
-    if(!/(\.html)?$/.test(req.params.id)){
+    if (!/(\.html)?$/.test(req.params.id)) {
       console.error(`GET ${templates.article}: ${req.params.id} requested`)
     }
     req.params.id = req.params.id.replace(/\.html$/, '')

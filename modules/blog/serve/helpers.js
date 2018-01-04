@@ -23,8 +23,10 @@ const sendJson = (content, res) => {
 
 const sendFile = (filename, res) => {
   console.log(`   Resolved file: ${filename}`)
-  fs.exists(filename, exists => {
-    if (exists) {
+  fs.access(filename, err => {
+    if (err) {
+      return send404(res)
+    } else {
       console.log(`   Found required file. Attempting response.`)
       fs.readFile(filename, { encoding: 'utf-8' }, (error, content) => {
         if (error) {
@@ -38,8 +40,6 @@ const sendFile = (filename, res) => {
         res.end(content, 'utf-8')
         console.log(`   Response sent successfully.`)
       })
-    } else {
-      return send404(res)
     }
   })
 }

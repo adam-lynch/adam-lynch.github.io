@@ -1,7 +1,6 @@
 
 const slug = require('slug')
 const Container = require('./container')
-const Article = require('./article')
 
 module.exports = class Tag {
   constructor (name) {

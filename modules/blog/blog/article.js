@@ -2,7 +2,6 @@ const fs = require('fs')
 const fm = require('front-matter')
 const pify = require('pify')
 const Markdown = require('markdown-it')
-const Token = require('markdown-it/lib/token.js')
 const Prism = require('prismjs')
 require('prismjs/components/prism-coffeescript.js')
 require('prismjs/components/prism-json.js')
@@ -10,9 +9,6 @@ const path = require('path')
 const removeMarkdown = require('remove-markdown')
 const slug = require('slug')
 const cheer = require('cheerio')
-const Blog = require('./blog')
-const Tag = require('./tag')
-const Collection = require('./collection')
 
 const ucword = any => any.replace(/[-_]+/g, ' ').replace(/(?:^|\s)([a-z])/g, m => m.toUpperCase())
 
@@ -183,7 +179,7 @@ module.exports = class Article {
         }
 
         const matches = tokens[idx].info.trim().match(figureRegex)
-        const [fullMatch, relativePath, caption] = matches
+        const [fullMatch, relativePath, caption] = matches // eslint-disable-line no-unused-vars
 
         const url = `/images/blog-content/${relativePath}`
 

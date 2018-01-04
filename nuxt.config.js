@@ -23,13 +23,13 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Adam Lynch site' },
-      { 'theme-color': 'theme-color', content: '#ffffff' },
+      { 'theme-color': 'theme-color', content: '#ffffff' }
     ],
     link: [
       { rel: 'apple-touch-icon', href: '/apple-touch-icon.png', sizes: '76x76' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon-32x32.png', sizes: '32x32' },
       { rel: 'icon', type: 'image/png', href: '/favicon-16x16.png', sizes: '16x16' },
-      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#53687a' },
+      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#53687a' }
     ]
   },
   /*
@@ -87,7 +87,7 @@ module.exports = {
   modules: [
     '@nuxtjs/axios',
     '@nuxtjs/sitemap',
-    ['modules/blog', blogOptions],
+    ['modules/blog', blogOptions]
   ],
   sitemap: {
     generate: true,
