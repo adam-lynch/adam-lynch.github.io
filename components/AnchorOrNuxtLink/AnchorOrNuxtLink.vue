@@ -1,6 +1,6 @@
 
 <template>
-  <anchor :href="anchorUrl" :shouldTrackClicks="shouldTrackAnchorClicks" v-if="isAnchor"><slot/></anchor>
+  <anchor :href="anchorUrl" rel="noopener" :shouldTrackClicks="shouldTrackAnchorClicks" v-if="isAnchor"><slot/></anchor>
   <nuxt-link :to="nuxtLinkTo" v-else><slot/></nuxt-link>
 </template>
 
