@@ -33,6 +33,7 @@
     "@nuxtjs/sitemap": "0.0.3",
     "babel-eslint": "^7.2.3",
     "chalk": "^2.3.0",
+    "cheerio": "^1.0.0-rc.2",
     "clipboard": "^1.7.1",
     "cpx": "^1.5.0",
     "date-fns": "^1.29.0",
