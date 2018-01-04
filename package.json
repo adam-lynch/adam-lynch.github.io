@@ -32,6 +32,7 @@
     "@nuxtjs/axios": "^4.4.0",
     "@nuxtjs/sitemap": "0.0.3",
     "babel-eslint": "^7.2.3",
+    "chalk": "^2.3.0",
     "clipboard": "^1.7.1",
     "cpx": "^1.5.0",
     "date-fns": "^1.29.0",
@@ -43,6 +44,8 @@
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
+    "express": "^4.16.2",
+    "front-matter": "^2.3.0",
     "fs-extra": "^4.0.2",
     "markdown-it-container": "^2.0.0",
     "markdown-it-github-headings": "^1.1.0",
@@ -51,13 +54,15 @@
     "merge-options": "^1.0.0",
     "node-sass": "^4.5.3",
     "nuxt": "^1.0.0-rc11",
+    "pify": "^3.0.0",
     "raw-loader": "^0.5.1",
     "remove-markdown": "^0.2.2",
     "sass-loader": "^6.0.6",
     "slug": "^0.9.1",
     "vue-disqus": "github:adam-lynch/vue-disqus#ready_event",
     "vue-markdown": "^2.2.4",
-    "vuex": "^3.0.0"
+    "vuex": "^3.0.0",
+    "webpack": "^3.10.0"
   },
   "dependencies": {}
 }
