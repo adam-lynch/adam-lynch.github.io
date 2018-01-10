@@ -1,18 +1,8 @@
 import scrollTo from '~/utils/scrollTo'
 import isBefore from 'date-fns/is_before'
 import PostPreview from '~/components/PostPreview/PostPreview.vue'
-const api = require('~/modules/blog/app/mixins/api').default.api
 
 export default {
-  async asyncData (context) {
-    const { params, payload, app } = context
-
-    if (typeof (payload) === 'object' && payload) {
-      return { page: payload }
-    }
-
-    return { page: await api(process.env.__NUXT_BLOG__.templates.indexArticles, params, app) }
-  },
   components: {
     PostPreview
   },
@@ -34,6 +24,13 @@ export default {
 
         return -1
       })
+    }
+  },
+
+  props: {
+    page: {
+      type: Array,
+      required: true
     }
   },
 
