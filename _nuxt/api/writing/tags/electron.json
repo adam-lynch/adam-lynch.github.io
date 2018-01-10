@@ -1,0 +1,69 @@
+{
+  "id": "electron",
+  "name": "electron",
+  "articles": [
+    {
+      "id": "serverless-crash-reporting-for-electron-apps",
+      "slug": "serverless-crash-reporting-for-electron-apps",
+      "collection": null,
+      "keywords": [
+        "serverless",
+        "electron",
+        "javascript",
+        "aws"
+      ],
+      "original": {
+        "blogLink": "https://engineroom.teamwork.com",
+        "blogName": "Teamwork's Engine Room",
+        "url": "https://engineroom.teamwork.com/serverless-crash-reporting-for-electron-apps-fe6e62e5982a"
+      },
+      "title": "Serverless crash reporting for Electron apps",
+      "summary": "The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from Electron apps.\n",
+      "photo": "https://cdn-images-1.medium.com/max/1600/1*7_8IQl1UmmFdv-Z3EwGNJg.png",
+      "published_at": "2016-11-22T00:00:00.000Z",
+      "renderedSummary": "<p>The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from <a href=\"http://electron.atom.io/\" rel=\"noopener\">Electron</a> apps.</p>\n"
+    },
+    {
+      "id": "developing-an-electron-edge",
+      "slug": "developing-an-electron-edge",
+      "collection": null,
+      "isBook": true,
+      "keywords": [
+        "electron",
+        "desktop",
+        "javascript"
+      ],
+      "original": {
+        "blogLink": "https://bleedingedgepress.com/",
+        "blogName": "Bleeding Edge Press",
+        "url": "https://bleedingedgepress.com/developing-an-electron-edge/",
+        "onlyExternal": true
+      },
+      "title": "Developing an Electron Edge",
+      "summary": "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n",
+      "published_at": "2016-05-25T00:00:00.000Z",
+      "renderedSummary": "<p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n"
+    },
+    {
+      "id": "beyond-the-browser",
+      "slug": "beyond-the-browser",
+      "collection": null,
+      "keywords": [
+        "node-webkit",
+        "electron",
+        "desktop",
+        "javascript"
+      ],
+      "original": {
+        "blogLink": "https://www.smashingmagazine.com/",
+        "blogName": "Smashing Magazine",
+        "url": "https://www.smashingmagazine.com/2017/03/beyond-browser-web-desktop-apps/"
+      },
+      "title": "Beyond The Browser: From Web Apps To Desktop Apps",
+      "summary": "I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.\n",
+      "photo": "/images/blog-content/beyond-the-browser/chromiumDiagram.png",
+      "published_at": "2017-03-21T00:00:00.000Z",
+      "renderedSummary": "<p>I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.</p>\n"
+    }
+  ]
+}

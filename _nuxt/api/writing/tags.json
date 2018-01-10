@@ -1,0 +1,174 @@
+[
+  {
+    "id": "third-party",
+    "name": "third-party"
+  },
+  {
+    "id": "node-webkit",
+    "name": "node-webkit"
+  },
+  {
+    "id": "terminal",
+    "name": "terminal"
+  },
+  {
+    "id": "serverless",
+    "name": "serverless"
+  },
+  {
+    "id": "web",
+    "name": "web"
+  },
+  {
+    "id": "product",
+    "name": "product"
+  },
+  {
+    "id": "platform",
+    "name": "platform"
+  },
+  {
+    "id": "shortcut",
+    "name": "shortcut"
+  },
+  {
+    "id": "prank",
+    "name": "prank"
+  },
+  {
+    "id": "teamwork",
+    "name": "teamwork"
+  },
+  {
+    "id": "nodejs",
+    "name": "node.js"
+  },
+  {
+    "id": "nwjs",
+    "name": "NW.js"
+  },
+  {
+    "id": "npm",
+    "name": "npm"
+  },
+  {
+    "id": "paths",
+    "name": "paths"
+  },
+  {
+    "id": "windows",
+    "name": "windows"
+  },
+  {
+    "id": "clippy",
+    "name": "clippy"
+  },
+  {
+    "id": "build-system",
+    "name": "build system"
+  },
+  {
+    "id": "coffeescript",
+    "name": "coffeescript"
+  },
+  {
+    "id": "dependencies",
+    "name": "dependencies"
+  },
+  {
+    "id": "executable",
+    "name": "executable"
+  },
+  {
+    "id": "css",
+    "name": "css"
+  },
+  {
+    "id": "desktop",
+    "name": "desktop"
+  },
+  {
+    "id": "homoglyphs",
+    "name": "homoglyphs"
+  },
+  {
+    "id": "ide",
+    "name": "ide"
+  },
+  {
+    "id": "cygwin",
+    "name": "cygwin"
+  },
+  {
+    "id": "gulp",
+    "name": "gulp"
+  },
+  {
+    "id": "electron",
+    "name": "electron"
+  },
+  {
+    "id": "linux",
+    "name": "linux"
+  },
+  {
+    "id": "mac",
+    "name": "mac"
+  },
+  {
+    "id": "chat",
+    "name": "chat"
+  },
+  {
+    "id": "install",
+    "name": "install"
+  },
+  {
+    "id": "installer",
+    "name": "installer"
+  },
+  {
+    "id": "javascript",
+    "name": "javascript"
+  },
+  {
+    "id": "generation",
+    "name": "generation"
+  },
+  {
+    "id": "hybrid",
+    "name": "hybrid"
+  },
+  {
+    "id": "mobile",
+    "name": "mobile"
+  },
+  {
+    "id": "distribution",
+    "name": "distribution"
+  },
+  {
+    "id": "jetbrains",
+    "name": "jetbrains"
+  },
+  {
+    "id": "build",
+    "name": "build"
+  },
+  {
+    "id": "babun",
+    "name": "babun"
+  },
+  {
+    "id": "aws",
+    "name": "aws"
+  },
+  {
+    "id": "assets",
+    "name": "assets"
+  },
+  {
+    "id": "app",
+    "name": "app"
+  }
+]

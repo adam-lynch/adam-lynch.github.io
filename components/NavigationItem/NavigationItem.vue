@@ -1,9 +1,14 @@
 
 <template>
     <li class="navigation-item" :class="specificClasses">
-        <a :href="url" class="navigation-link" :class="classes">
-            <span class="navigation-item-text">{{ text }}</span>
-        </a>
+      <anchor-or-nuxt-link
+        :anchorUrl="url"
+        class="navigation-link"
+        :isAnchor="isExternal"
+        :nuxtLinkTo="url"
+        :shouldTrackAnchorClicks="shouldTrackAnchorClicks">
+          <span class="navigation-item-text">{{ text }}</span>
+        </anchor-or-nuxt-link>
     </li>
 </template>
 
