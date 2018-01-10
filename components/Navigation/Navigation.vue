@@ -2,15 +2,15 @@
 <template>
       <nav role="navigation" class="navigation-wrapper">
         <ul class="navigation">
-          <navigation-item :shouldTrackAnchorClicks="true"
-                           specificClasses="code-navigation-item"
-                           text="Code"
-                           :url="githubAccountUrl"/>
-
           <navigation-item :shouldTrackAnchorClicks="false"
                            specificClasses="writing-navigation-item"
                            text="Writing"
                            url="/"/>
+
+          <navigation-item :shouldTrackAnchorClicks="true"
+                           specificClasses="code-navigation-item"
+                           text="Code"
+                           :url="githubAccountUrl"/>
 
           <navigation-item :shouldTrackAnchorClicks="true"
                            specificClasses="edit-navigation-item"

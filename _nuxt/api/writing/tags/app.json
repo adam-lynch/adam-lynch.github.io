@@ -1,0 +1,50 @@
+{
+  "id": "app",
+  "name": "app",
+  "articles": [
+    {
+      "id": "resurrecting-clippy",
+      "slug": "resurrecting-clippy",
+      "collection": null,
+      "keywords": [
+        "clippy",
+        "desktop",
+        "app",
+        "NW.js",
+        "node-webkit",
+        "javascript"
+      ],
+      "original": {
+        "blogLink": "https://engineroom.teamwork.com",
+        "blogName": "Teamwork's Engine Room",
+        "url": "https://engineroom.teamwork.com/resurrecting-clippy-89843fcc9871"
+      },
+      "title": "Resurrecting Clippy",
+      "summary": "Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...\n",
+      "photo": "/images/blog-content/resurrecting-clippy/osx.png",
+      "published_at": "2016-03-08T00:00:00.000Z",
+      "renderedSummary": "<p>Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...</p>\n"
+    },
+    {
+      "id": "nwjs-app-and-shortcut-apis",
+      "slug": "nwjs-app-and-shortcut-apis",
+      "collection": null,
+      "keywords": [
+        "node-webkit",
+        "desktop",
+        "javascript",
+        "app",
+        "shortcut"
+      ],
+      "original": {
+        "blogLink": "https://www.packtpub.com/books/content/blogs",
+        "blogName": "Packt books",
+        "url": "https://www.packtpub.com/books/content/nwjs-app-and-shortcut-apis"
+      },
+      "title": "NW.js: The App and Shortcut APIs",
+      "summary": "The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...\n",
+      "published_at": "2015-12-18T00:00:00.000Z",
+      "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
+    }
+  ]
+}

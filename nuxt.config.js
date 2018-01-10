@@ -77,12 +77,7 @@ module.exports = {
   router: {
     middleware: [
       'analytics'
-    ],
-    routes: [{
-      name: '@nuxtjs/blog:index',
-      path: '/',
-      component: '~/components/Blog/Blog.vue'
-    }]
+    ]
   },
   modules: [
     '@nuxtjs/axios',

@@ -11,6 +11,9 @@ $ npm run dev
 
 # generate static project
 $ npm run generate
+
+# generate static project that I really use for deployment
+$ npm run generate--prod
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).

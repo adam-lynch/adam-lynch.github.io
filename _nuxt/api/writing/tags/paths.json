@@ -1,0 +1,53 @@
+{
+  "id": "paths",
+  "name": "paths",
+  "articles": [
+    {
+      "id": "npm-distribution-path-length-problems",
+      "slug": "npm-distribution-path-length-problems",
+      "collection": null,
+      "keywords": [
+        "node-webkit",
+        "desktop",
+        "javascript",
+        "npm",
+        "distribution",
+        "windows",
+        "paths"
+      ],
+      "original": {
+        "blogLink": "https://www.packtpub.com/books/content/blogs",
+        "blogName": "Packt books",
+        "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
+      },
+      "title": "npm and distribution path length problems",
+      "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+      "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
+      "published_at": "2015-12-07T00:00:00.000Z",
+      "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+    },
+    {
+      "id": "dealing-with-long-paths",
+      "slug": "dealing-with-long-paths",
+      "collection": null,
+      "keywords": [
+        "NW.js",
+        "node-webkit",
+        "npm",
+        "distribution",
+        "paths",
+        "windows"
+      ],
+      "original": {
+        "blogLink": "https://engineroom.teamwork.com",
+        "blogName": "Teamwork's Engine Room",
+        "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
+      },
+      "title": "Dealing with long paths",
+      "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
+      "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
+      "published_at": "2015-07-01T00:00:00.000Z",
+      "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 const routes = [
   {
     name: '@nuxtjs/blog:index',
-    path: '/writing',
+    path: '/',
     component: '~/pages/index.vue'
   },
   /* {
