@@ -104,8 +104,8 @@
     "name": "shortcut"
   },
   {
-    "id": "coffeescript",
-    "name": "coffeescript"
+    "id": "generation",
+    "name": "generation"
   },
   {
     "id": "babun",
@@ -128,8 +128,8 @@
     "name": "clippy"
   },
   {
-    "id": "electron",
-    "name": "electron"
+    "id": "coffeescript",
+    "name": "coffeescript"
   },
   {
     "id": "chat",
@@ -138,10 +138,6 @@
   {
     "id": "build",
     "name": "build"
-  },
-  {
-    "id": "generation",
-    "name": "generation"
   },
   {
     "id": "distribution",
@@ -154,6 +150,10 @@
   {
     "id": "desktop",
     "name": "desktop"
+  },
+  {
+    "id": "electron",
+    "name": "electron"
   },
   {
     "id": "cygwin",

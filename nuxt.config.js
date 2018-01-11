@@ -67,6 +67,11 @@ module.exports = {
   css: [
     '~/assets/styles/index.scss'
   ],
+  generate: {
+    minify: {
+      collapseWhitespace: false
+    }
+  },
   router: {
     middleware: [
       'analytics'
