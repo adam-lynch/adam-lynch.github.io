@@ -54,6 +54,11 @@ module.exports = {
         })
       }
 
+      if (!ctx.isDev) {
+        const vueLoader = config.module.rules.find(rule => rule.loader === `vue-loader`)
+        vueLoader.options.preserveWhitespace = true
+      }
+
       config.module.rules.push({
         test: /\.md$/,
         use: 'raw-loader'
