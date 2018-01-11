@@ -27,7 +27,7 @@ export default {
   },
 
   created () {
-    console.log('nuxt v1 articles', this.articles)
+    console.log('nuxt b articles', this.articles)
   },
 
   props: {

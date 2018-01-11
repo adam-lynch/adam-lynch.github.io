@@ -104,8 +104,8 @@
     "name": "shortcut"
   },
   {
-    "id": "generation",
-    "name": "generation"
+    "id": "electron",
+    "name": "electron"
   },
   {
     "id": "babun",
@@ -140,6 +140,10 @@
     "name": "build"
   },
   {
+    "id": "generation",
+    "name": "generation"
+  },
+  {
     "id": "distribution",
     "name": "distribution"
   },
@@ -150,10 +154,6 @@
   {
     "id": "desktop",
     "name": "desktop"
-  },
-  {
-    "id": "electron",
-    "name": "electron"
   },
   {
     "id": "cygwin",
