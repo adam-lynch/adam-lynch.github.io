@@ -68,9 +68,7 @@ module.exports = {
     '~/assets/styles/index.scss'
   ],
   generate: {
-    minify: {
-      collapseWhitespace: false
-    }
+    minify: false
   },
   router: {
     middleware: [

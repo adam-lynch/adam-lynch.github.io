@@ -104,8 +104,8 @@
     "name": "shortcut"
   },
   {
-    "id": "electron",
-    "name": "electron"
+    "id": "coffeescript",
+    "name": "coffeescript"
   },
   {
     "id": "babun",
@@ -128,8 +128,8 @@
     "name": "clippy"
   },
   {
-    "id": "coffeescript",
-    "name": "coffeescript"
+    "id": "electron",
+    "name": "electron"
   },
   {
     "id": "chat",
