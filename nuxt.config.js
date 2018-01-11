@@ -45,7 +45,7 @@ module.exports = {
     ** Run ESLint on save
     */
     extend (config, ctx) {
-      if (ctx.dev && ctx.isClient) {
+      if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
@@ -54,12 +54,13 @@ module.exports = {
         })
       }
 
-      config.module.rules.push({
-        test: /\.js$/,
-        loader: 'babel-loader',
-        exclude: /node_modules(?!(\/|\\)@nuxtjs)/,
-        options: Object.assign({}, this.babelOptions)
-      })
+      // config.module.rules.push({
+      //   test: /\.js$/,
+      //   loader: 'babel-loader',
+      //   // exclude: /(\.nuxt|node_modules(?!(\/|\\)@nuxtjs))/,
+      //   exclude: /(\.nuxt|(node_modules(?!(\/|\\)@nuxtjs)))/,
+      //   options: Object.assign({}, this.babelOptions)
+      // })
 
       config.module.rules.push({
         test: /\.md$/,
