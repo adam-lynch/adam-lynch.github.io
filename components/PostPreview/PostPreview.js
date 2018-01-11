@@ -32,6 +32,10 @@ export default {
     }
   },
 
+  created () {
+    console.log('postPreview', this.title)
+  },
+
   data: () => ({
     skeletons
   }),
@@ -60,6 +64,12 @@ export default {
     published_at: {
       required: true,
       type: String
+    }
+  },
+
+  watch: {
+    title () {
+      console.log('postPreview watcher', this.title)
     }
   }
 }
