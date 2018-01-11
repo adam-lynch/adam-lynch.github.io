@@ -83,25 +83,26 @@
     "renderedSummary": "<p>JetBrains IDEs are the best. IntelliJ, Android Studio, PHPStorm, PyCharm, and so on. I use IntelliJ Ultimate myself, which is kind of like all of their IDEs in one. One of the things I love about any JetBrains…</p>\n"
   },
   "prev": {
-    "id": "building-your-app-creating-executables-nwjs",
-    "slug": "building-your-app-creating-executables-nwjs",
+    "id": "a-peek-under-the-hood-of-teamwork-chat",
+    "slug": "a-peek-under-the-hood-of-teamwork-chat",
     "collection": null,
     "keywords": [
+      "teamwork",
+      "chat",
+      "node.js",
+      "javascript",
       "node-webkit",
-      "desktop",
-      "executable",
-      "distribution",
-      "generation",
-      "javascript"
+      "NW.js"
     ],
     "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/building-your-app-creating-executables-nwjs"
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
     },
-    "title": "Building Your App: Creating Executables for NW.js",
-    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-    "published_at": "2015-11-17T00:00:00.000Z",
-    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+    "title": "A peek under the hood of Teamwork Chat",
+    "summary": "The idea was to build a chat application of our own. A whole new standalone product to raise the bar for team communication and collaboration. From the beginning, Teamwork Chat was intended to tie our whole suite of…\n",
+    "photo": "/images/blog-content/a-peek-under-the-hood-of-teamwork-chat/teamwork-chat.png",
+    "published_at": "2015-04-28T00:00:00.000Z",
+    "renderedSummary": "<p>The idea was to build a chat application of our own. A whole new standalone product to raise the bar for team communication and collaboration. From the beginning, Teamwork Chat was intended to tie our whole suite of…</p>\n"
   }
 }
