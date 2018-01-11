@@ -26,6 +26,10 @@ export default {
     }
   },
 
+  created () {
+    console.log('articles', this.articles)
+  },
+
   props: {
     page: {
       type: Array,

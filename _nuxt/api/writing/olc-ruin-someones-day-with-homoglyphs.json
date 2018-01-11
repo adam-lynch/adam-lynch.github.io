@@ -33,7 +33,7 @@
       }
     ],
     "title": "Olc: Ruin someone’s day with homoglyphs",
-    "updated_at": "2017-11-22T21:43:40.000Z",
+    "updated_at": "2018-01-11T19:45:11.000Z",
     "photo": "/images/blog-content/olc-ruin-someones-day-with-homoglyphs/tweet.png"
   },
   "title": "Olc: Ruin someone’s day with homoglyphs",
@@ -53,11 +53,11 @@
     "prank"
   ],
   "published_at": "2015-10-27T00:00:00.000Z",
-  "updated_at": "2017-11-22T21:43:40.000Z",
+  "updated_at": "2018-01-11T19:45:11.000Z",
   "year": 2015,
   "month": 10,
   "day": 28,
-  "prev": {
+  "next": {
     "id": "using-cygwins-bash-terminal-in-a-jetbrains-ide",
     "slug": "using-cygwins-bash-terminal-in-a-jetbrains-ide",
     "collection": null,
@@ -78,5 +78,26 @@
     "photo": "/images/blog-content/using-cygwins-bash-terminal-in-a-jetbrains-ide/typing.gif",
     "published_at": "2015-07-28T00:00:00.000Z",
     "renderedSummary": "<p>JetBrains IDEs are the best. IntelliJ, Android Studio, PHPStorm, PyCharm, and so on. I use IntelliJ Ultimate myself, which is kind of like all of their IDEs in one. One of the things I love about any JetBrains…</p>\n"
+  },
+  "prev": {
+    "id": "beyond-the-browser",
+    "slug": "beyond-the-browser",
+    "collection": null,
+    "keywords": [
+      "node-webkit",
+      "electron",
+      "desktop",
+      "javascript"
+    ],
+    "original": {
+      "blogLink": "https://www.smashingmagazine.com/",
+      "blogName": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/2017/03/beyond-browser-web-desktop-apps/"
+    },
+    "title": "Beyond The Browser: From Web Apps To Desktop Apps",
+    "summary": "I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.\n",
+    "photo": "/images/blog-content/beyond-the-browser/chromiumDiagram.png",
+    "published_at": "2017-03-21T00:00:00.000Z",
+    "renderedSummary": "<p>I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.</p>\n"
   }
 }
