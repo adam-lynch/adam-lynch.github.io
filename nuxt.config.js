@@ -54,14 +54,6 @@ module.exports = {
         })
       }
 
-      // config.module.rules.push({
-      //   test: /\.js$/,
-      //   loader: 'babel-loader',
-      //   // exclude: /(\.nuxt|node_modules(?!(\/|\\)@nuxtjs))/,
-      //   exclude: /(\.nuxt|(node_modules(?!(\/|\\)@nuxtjs)))/,
-      //   options: Object.assign({}, this.babelOptions)
-      // })
-
       config.module.rules.push({
         test: /\.md$/,
         use: 'raw-loader'
