@@ -54,11 +54,6 @@ module.exports = {
         })
       }
 
-      if (!ctx.isDev) {
-        const vueLoader = config.module.rules.find(rule => rule.loader === `vue-loader`)
-        vueLoader.options.preserveWhitespace = true
-      }
-
       config.module.rules.push({
         test: /\.md$/,
         use: 'raw-loader'
@@ -72,10 +67,6 @@ module.exports = {
   css: [
     '~/assets/styles/index.scss'
   ],
-  env: { NODE_ENV: 'dev' },
-  generate: {
-    minify: false
-  },
   router: {
     middleware: [
       'analytics'

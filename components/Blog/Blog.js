@@ -25,11 +25,6 @@ export default {
       })
     }
   },
-
-  created () {
-    console.log('nuxt e articles', this.articles)
-  },
-
   props: {
     page: {
       type: Array,
