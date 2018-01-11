@@ -72,6 +72,7 @@ module.exports = {
   css: [
     '~/assets/styles/index.scss'
   ],
+  env: { NODE_ENV: 'dev' },
   generate: {
     minify: false
   },

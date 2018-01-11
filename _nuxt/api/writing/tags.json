@@ -4,16 +4,16 @@
     "name": "third-party"
   },
   {
-    "id": "mobile",
-    "name": "mobile"
+    "id": "gulp",
+    "name": "gulp"
   },
   {
-    "id": "web",
-    "name": "web"
+    "id": "terminal",
+    "name": "terminal"
   },
   {
-    "id": "product",
-    "name": "product"
+    "id": "javascript",
+    "name": "javascript"
   },
   {
     "id": "nodejs",
@@ -24,12 +24,60 @@
     "name": "node-webkit"
   },
   {
-    "id": "terminal",
-    "name": "terminal"
+    "id": "ide",
+    "name": "ide"
+  },
+  {
+    "id": "jetbrains",
+    "name": "jetbrains"
+  },
+  {
+    "id": "mobile",
+    "name": "mobile"
+  },
+  {
+    "id": "hybrid",
+    "name": "hybrid"
+  },
+  {
+    "id": "teamwork",
+    "name": "teamwork"
+  },
+  {
+    "id": "web",
+    "name": "web"
+  },
+  {
+    "id": "nwjs",
+    "name": "NW.js"
+  },
+  {
+    "id": "product",
+    "name": "product"
   },
   {
     "id": "serverless",
     "name": "serverless"
+  },
+  {
+    "id": "npm",
+    "name": "npm"
+  },
+  {
+    "id": "paths",
+    "name": "paths"
+  },
+  {
+    "id": "windows",
+    "name": "windows"
+  },
+  {
+    "id": "mac",
+    "name": "mac"
+  },
+  {
+    "id": "linux",
+    "name": "linux"
   },
   {
     "id": "platform",
@@ -40,54 +88,6 @@
     "name": "prank"
   },
   {
-    "id": "teamwork",
-    "name": "teamwork"
-  },
-  {
-    "id": "shortcut",
-    "name": "shortcut"
-  },
-  {
-    "id": "nwjs",
-    "name": "NW.js"
-  },
-  {
-    "id": "windows",
-    "name": "windows"
-  },
-  {
-    "id": "paths",
-    "name": "paths"
-  },
-  {
-    "id": "npm",
-    "name": "npm"
-  },
-  {
-    "id": "linux",
-    "name": "linux"
-  },
-  {
-    "id": "gulp",
-    "name": "gulp"
-  },
-  {
-    "id": "hybrid",
-    "name": "hybrid"
-  },
-  {
-    "id": "javascript",
-    "name": "javascript"
-  },
-  {
-    "id": "ide",
-    "name": "ide"
-  },
-  {
-    "id": "jetbrains",
-    "name": "jetbrains"
-  },
-  {
     "id": "install",
     "name": "install"
   },
@@ -96,68 +96,68 @@
     "name": "installer"
   },
   {
-    "id": "mac",
-    "name": "mac"
-  },
-  {
     "id": "homoglyphs",
     "name": "homoglyphs"
   },
   {
-    "id": "build",
-    "name": "build"
+    "id": "shortcut",
+    "name": "shortcut"
   },
   {
     "id": "electron",
     "name": "electron"
   },
   {
-    "id": "generation",
-    "name": "generation"
-  },
-  {
-    "id": "executable",
-    "name": "executable"
+    "id": "babun",
+    "name": "babun"
   },
   {
     "id": "css",
     "name": "css"
   },
   {
-    "id": "chat",
-    "name": "chat"
-  },
-  {
-    "id": "coffeescript",
-    "name": "coffeescript"
+    "id": "build-system",
+    "name": "build system"
   },
   {
     "id": "dependencies",
     "name": "dependencies"
   },
   {
-    "id": "distribution",
-    "name": "distribution"
-  },
-  {
-    "id": "cygwin",
-    "name": "cygwin"
-  },
-  {
     "id": "clippy",
     "name": "clippy"
+  },
+  {
+    "id": "coffeescript",
+    "name": "coffeescript"
   },
   {
     "id": "desktop",
     "name": "desktop"
   },
   {
-    "id": "build-system",
-    "name": "build system"
+    "id": "build",
+    "name": "build"
   },
   {
-    "id": "babun",
-    "name": "babun"
+    "id": "chat",
+    "name": "chat"
+  },
+  {
+    "id": "generation",
+    "name": "generation"
+  },
+  {
+    "id": "distribution",
+    "name": "distribution"
+  },
+  {
+    "id": "executable",
+    "name": "executable"
+  },
+  {
+    "id": "cygwin",
+    "name": "cygwin"
   },
   {
     "id": "aws",

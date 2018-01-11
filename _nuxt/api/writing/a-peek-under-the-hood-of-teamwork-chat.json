@@ -68,46 +68,43 @@
   "month": 4,
   "day": 29,
   "next": {
-    "id": "beyond-the-browser",
-    "slug": "beyond-the-browser",
+    "id": "nwjs-app-and-shortcut-apis",
+    "slug": "nwjs-app-and-shortcut-apis",
     "collection": null,
     "keywords": [
       "node-webkit",
-      "electron",
       "desktop",
-      "javascript"
+      "javascript",
+      "app",
+      "shortcut"
     ],
     "original": {
-      "blogLink": "https://www.smashingmagazine.com/",
-      "blogName": "Smashing Magazine",
-      "url": "https://www.smashingmagazine.com/2017/03/beyond-browser-web-desktop-apps/"
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/nwjs-app-and-shortcut-apis"
     },
-    "title": "Beyond The Browser: From Web Apps To Desktop Apps",
-    "summary": "I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.\n",
-    "photo": "/images/blog-content/beyond-the-browser/chromiumDiagram.png",
-    "published_at": "2017-03-21T00:00:00.000Z",
-    "renderedSummary": "<p>I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.</p>\n"
+    "title": "NW.js: The App and Shortcut APIs",
+    "summary": "The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...\n",
+    "published_at": "2015-12-18T00:00:00.000Z",
+    "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
   },
   "prev": {
-    "id": "10-things-to-know-about-gulp",
-    "slug": "10-things-to-know-about-gulp",
+    "id": "coffeescript-at-teamwork",
+    "slug": "coffeescript-at-teamwork",
     "collection": null,
     "keywords": [
-      "gulp",
-      "build",
-      "build system",
-      "javascript",
-      "node.js"
+      "coffeescript",
+      "teamwork"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/10-things-to-know-about-gulp-2e99176f9c74"
+      "url": "https://engineroom.teamwork.com/coffeescript-at-teamwork-e596eed63590"
     },
-    "title": "10 things to know about Gulp",
-    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-    "photo": "/images/blog-content/10-things-to-know-about-gulp/gulp.png",
-    "published_at": "2015-11-24T00:00:00.000Z",
-    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+    "title": "CoffeeScript at Teamwork",
+    "summary": "The first project at Teamwork to use CoffeeScript was the Teamwork.com iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…\n",
+    "photo": "/images/blog-content/coffeescript-at-teamwork/biscotto-output.jpg",
+    "published_at": "2014-09-26T00:00:00.000Z",
+    "renderedSummary": "<p>The first project at Teamwork to use CoffeeScript was the <a href=\"http://Teamwork.com\" rel=\"noopener\">Teamwork.com</a> iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…</p>\n"
   }
 }
