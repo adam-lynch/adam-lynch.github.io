@@ -1,7 +1,7 @@
 
 <template>
   <anchor :href="anchorUrl" rel="noopener" :shouldTrackClicks="shouldTrackAnchorClicks" v-if="isAnchor"><slot/></anchor>
-  <nuxt-link :to="nuxtLinkTo" v-else><slot/></nuxt-link>
+  <a :href="resolvedHref" @click.prevent="onClickFakeNuxtAnchor" v-else><slot/></a>
 </template>
 
 <script src="./AnchorOrNuxtLink.js"></script>
