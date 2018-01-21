@@ -2,14 +2,12 @@
 <template>
   <article class="post">
     <h3 class="post-title-wrapper">
-        <a :href="original && original.onlyExternal ? original.url : $router.resolve(to).href" class="post-title">
-        <!-- <anchor-or-nuxt-link :anchorUrl="original.url" :isAnchor="original.onlyExternal" :nuxtLinkTo="to" class="post-title" :shouldTrackAnchorClicks="true"> -->
+        <anchor-or-nuxt-link :anchorUrl="original.url" :isAnchor="original.onlyExternal" :nuxtLinkTo="to" class="post-title" :shouldTrackAnchorClicks="true">
           {{ title }}
           <span class="post-title-label" v-if="isBook">
             <span class="post-title-label-parenthesis">(</span>Book<span class="post-title-label-parenthesis">)</span>
           </span>
-        <!-- </anchor-or-nuxt-link> -->
-        </a>
+        </anchor-or-nuxt-link>
     </h3>
 
     <div class="post-meta">
