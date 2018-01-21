@@ -36,6 +36,13 @@ export default {
     skeletons
   }),
 
+  methods: {
+    onClickPostTitle () {
+      console.log('onClickPostTitle')
+      this.$router.push(this.to)
+    }
+  },
+
   name: 'Article',
 
   props: {

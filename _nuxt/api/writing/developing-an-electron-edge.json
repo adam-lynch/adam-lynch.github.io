@@ -52,29 +52,27 @@
   "month": 5,
   "day": 26,
   "next": {
-    "id": "under-the-hood-of-a-hybrid-app",
-    "slug": "under-the-hood-of-a-hybrid-app",
+    "id": "dealing-with-long-paths",
+    "slug": "dealing-with-long-paths",
     "collection": null,
     "keywords": [
-      "product",
-      "web",
-      "javascript",
       "NW.js",
       "node-webkit",
-      "desktop",
-      "hybrid",
-      "mobile"
+      "npm",
+      "distribution",
+      "paths",
+      "windows"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/under-the-hood-of-a-hybrid-app-2215ce6e342a"
+      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
     },
-    "title": "Under the hood of a hybrid (app)",
-    "summary": "It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...\n",
-    "photo": "/images/blog-content/under-the-hood-of-a-hybrid-app/nav.png",
-    "published_at": "2016-04-16T00:00:00.000Z",
-    "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
+    "title": "Dealing with long paths",
+    "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
+    "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
+    "published_at": "2015-07-01T00:00:00.000Z",
+    "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
   },
   "prev": {
     "id": "hassle-free-third-party-dependencies",

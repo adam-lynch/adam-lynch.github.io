@@ -1,7 +1,7 @@
 [
   {
-    "id": "windows",
-    "name": "windows"
+    "id": "third-party",
+    "name": "third-party"
   },
   {
     "id": "gulp",
@@ -60,6 +60,18 @@
     "name": "serverless"
   },
   {
+    "id": "npm",
+    "name": "npm"
+  },
+  {
+    "id": "paths",
+    "name": "paths"
+  },
+  {
+    "id": "windows",
+    "name": "windows"
+  },
+  {
     "id": "mac",
     "name": "mac"
   },
@@ -70,18 +82,6 @@
   {
     "id": "platform",
     "name": "platform"
-  },
-  {
-    "id": "third-party",
-    "name": "third-party"
-  },
-  {
-    "id": "npm",
-    "name": "npm"
-  },
-  {
-    "id": "paths",
-    "name": "paths"
   },
   {
     "id": "prank",
@@ -104,8 +104,8 @@
     "name": "shortcut"
   },
   {
-    "id": "coffeescript",
-    "name": "coffeescript"
+    "id": "generation",
+    "name": "generation"
   },
   {
     "id": "babun",
@@ -128,8 +128,8 @@
     "name": "clippy"
   },
   {
-    "id": "electron",
-    "name": "electron"
+    "id": "coffeescript",
+    "name": "coffeescript"
   },
   {
     "id": "chat",
@@ -138,10 +138,6 @@
   {
     "id": "build",
     "name": "build"
-  },
-  {
-    "id": "generation",
-    "name": "generation"
   },
   {
     "id": "distribution",
@@ -154,6 +150,10 @@
   {
     "id": "desktop",
     "name": "desktop"
+  },
+  {
+    "id": "electron",
+    "name": "electron"
   },
   {
     "id": "cygwin",

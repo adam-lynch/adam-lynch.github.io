@@ -3,12 +3,13 @@
   <article class="post">
     <h3 class="post-title-wrapper">
         <!-- <anchor-or-nuxt-link :anchorUrl="original.url" :isAnchor="original.onlyExternal" :nuxtLinkTo="to" class="post-title" :shouldTrackAnchorClicks="true"> -->
-        <anchor-or-nuxt-link :nuxtLinkTo="{path: '/'}" class="post-title">
+        <a @click.prevent="onClickPostTitle" href="/" class="post-title">
           {{ title }}
           <span class="post-title-label" v-if="isBook">
             <span class="post-title-label-parenthesis">(</span>Book<span class="post-title-label-parenthesis">)</span>
           </span>
-        </anchor-or-nuxt-link>
+        </a>
+        <!-- </anchor-or-nuxt-link> -->
     </h3>
 
     <div class="post-meta">
