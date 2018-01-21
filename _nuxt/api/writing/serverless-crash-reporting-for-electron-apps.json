@@ -57,8 +57,8 @@
   "month": 11,
   "day": 23,
   "next": {
-    "id": "transparency-and-nwjs",
-    "slug": "transparency-and-nwjs",
+    "id": "platform-detection",
+    "slug": "platform-detection",
     "collection": null,
     "keywords": [
       "node-webkit",
@@ -74,33 +74,32 @@
       "blogName": "Packt books",
       "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
     },
-    "title": "Transparency and NW.js",
-    "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
-    "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
+    "title": "Platform detection in your NW.js app",
+    "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
     "published_at": "2016-01-26T00:00:00.000Z",
-    "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
+    "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
   },
   "prev": {
-    "id": "a-peek-under-the-hood-of-teamwork-chat",
-    "slug": "a-peek-under-the-hood-of-teamwork-chat",
+    "id": "resurrecting-clippy",
+    "slug": "resurrecting-clippy",
     "collection": null,
     "keywords": [
-      "teamwork",
-      "chat",
-      "node.js",
-      "javascript",
+      "clippy",
+      "desktop",
+      "app",
+      "NW.js",
       "node-webkit",
-      "NW.js"
+      "javascript"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
+      "url": "https://engineroom.teamwork.com/resurrecting-clippy-89843fcc9871"
     },
-    "title": "A peek under the hood of Teamwork Chat",
-    "summary": "The idea was to build a chat application of our own. A whole new standalone product to raise the bar for team communication and collaboration. From the beginning, Teamwork Chat was intended to tie our whole suite of…\n",
-    "photo": "/images/blog-content/a-peek-under-the-hood-of-teamwork-chat/teamwork-chat.png",
-    "published_at": "2015-04-28T00:00:00.000Z",
-    "renderedSummary": "<p>The idea was to build a chat application of our own. A whole new standalone product to raise the bar for team communication and collaboration. From the beginning, Teamwork Chat was intended to tie our whole suite of…</p>\n"
+    "title": "Resurrecting Clippy",
+    "summary": "Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...\n",
+    "photo": "/images/blog-content/resurrecting-clippy/osx.png",
+    "published_at": "2016-03-08T00:00:00.000Z",
+    "renderedSummary": "<p>Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...</p>\n"
   }
 }

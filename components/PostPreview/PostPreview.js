@@ -1,6 +1,7 @@
 import format from 'date-fns/format'
 import Anchor from '~/components/Anchor/Anchor.vue'
 import AnchorOrNuxtLink from '~/components/AnchorOrNuxtLink/AnchorOrNuxtLink.vue'
+import trackExternalLinkClick from '~/utils/trackExternalLinkClick'
 
 const skeletons = []
 for (let i = 0; i < 3; i++) {
@@ -21,10 +22,13 @@ export default {
 
   computed: {
     href () {
-      if (this.original && this.original.onlyExternal) {
+      if (this.isPostTitleAnExternalLink) {
         return this.original.url
       }
       return this.$router.resolve(this.to).href
+    },
+    isPostTitleAnExternalLink () {
+      return this.original && this.original.onlyExternal
     },
     prettyDate () {
       const thisYear = format(new Date(), 'YYYY')
@@ -43,12 +47,11 @@ export default {
 
   methods: {
     onClickPostTitle (e) {
-      console.log('onClickPostTitle 5')
-      if (!(this.original && this.original.onlyExternal)) {
+      if (!this.isPostTitleAnExternalLink) {
         e.preventDefault()
         this.$router.push(this.to)
       }
-      // TODO: track clicks
+      trackExternalLinkClick(this.href)
     }
   },
 

@@ -5,18 +5,6 @@ export default {
     Anchor
   },
 
-  computed: {
-    nuxtHref () {
-      return this.$router.resolve(this.nuxtLinkTo).href
-    }
-  },
-
-  methods: {
-    navigate () {
-      this.$router.push(this.nuxtLinkTo)
-    }
-  },
-
   props: {
     anchorUrl: String,
     nuxtLinkTo: {
