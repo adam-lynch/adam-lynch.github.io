@@ -64,26 +64,27 @@
   "month": 12,
   "day": 10,
   "next": {
-    "id": "hassle-free-third-party-dependencies",
-    "slug": "hassle-free-third-party-dependencies",
+    "id": "dealing-with-long-paths",
+    "slug": "dealing-with-long-paths",
     "collection": null,
     "keywords": [
-      "dependencies",
-      "assets",
-      "javascript",
-      "css",
-      "third-party"
+      "NW.js",
+      "node-webkit",
+      "npm",
+      "distribution",
+      "paths",
+      "windows"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/hassle-free-third-party-dependencies-9b6e0a4884ce"
+      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
     },
-    "title": "Hassle-free third-party dependencies",
-    "summary": "How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…\n",
-    "photo": "/images/blog-content/hassle-free-third-party-dependencies/bower.png",
-    "published_at": "2014-08-29T00:00:00.000Z",
-    "renderedSummary": "<p>How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…</p>\n"
+    "title": "Dealing with long paths",
+    "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
+    "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
+    "published_at": "2015-07-01T00:00:00.000Z",
+    "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
   },
   "prev": {
     "id": "transparency-and-nwjs",
