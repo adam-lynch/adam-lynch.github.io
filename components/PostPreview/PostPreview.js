@@ -43,7 +43,7 @@ export default {
 
   methods: {
     onClickPostTitle (e) {
-      console.log('onClickPostTitle 4')
+      console.log('onClickPostTitle 5')
       if (!(this.original && this.original.onlyExternal)) {
         e.preventDefault()
         this.$router.push(this.to)
