@@ -38,7 +38,7 @@ export default {
 
   methods: {
     onClickPostTitle () {
-      console.log('onClickPostTitle')
+      console.log('onClickPostTitle 2')
       this.$router.push(this.to)
     }
   },
