@@ -20,13 +20,18 @@ export default {
   },
 
   computed: {
+    href () {
+      if (this.original && this.original.onlyExternal) {
+        return this.original.url
+      }
+      return this.$router.resolve(this.to).href
+    },
     prettyDate () {
       const thisYear = format(new Date(), 'YYYY')
       const postYear = format(this.published_at, 'YYYY')
       const year = thisYear === postYear ? '' : `, ${postYear}`
       return format(this.published_at, 'MMMM Do') + year
     },
-
     to () {
       return { name: '@nuxtjs/blog:article', params: Object.assign({ id: this.id }, this.$attrs) }
     }
@@ -37,9 +42,13 @@ export default {
   }),
 
   methods: {
-    onClickPostTitle () {
-      console.log('onClickPostTitle 2')
-      this.$router.push(this.to)
+    onClickPostTitle (e) {
+      console.log('onClickPostTitle 4')
+      if (!(this.original && this.original.onlyExternal)) {
+        e.preventDefault()
+        this.$router.push(this.to)
+      }
+      // TODO: track clicks
     }
   },
 
