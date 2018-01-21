@@ -1,8 +1,7 @@
 const state = require('./store/state')
 
 const blogOptions = {
-  // TODO:
-  base: process.env.NODE_ENV === 'production' || true ? 'https://adamlynch.com' : 'http://localhost:3000',
+  base: process.env.DEPLOY_ENV === 'GH_PAGES' ? 'https://adamlynch.com' : 'http://localhost:3000',
   dir: 'writing',
   api: {
     prefix: 'api/writing'

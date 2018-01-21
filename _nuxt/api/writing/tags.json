@@ -124,24 +124,24 @@
     "name": "css"
   },
   {
-    "id": "coffeescript",
-    "name": "coffeescript"
-  },
-  {
-    "id": "dependencies",
-    "name": "dependencies"
-  },
-  {
     "id": "desktop",
     "name": "desktop"
+  },
+  {
+    "id": "electron",
+    "name": "electron"
   },
   {
     "id": "distribution",
     "name": "distribution"
   },
   {
-    "id": "electron",
-    "name": "electron"
+    "id": "dependencies",
+    "name": "dependencies"
+  },
+  {
+    "id": "coffeescript",
+    "name": "coffeescript"
   },
   {
     "id": "clippy",

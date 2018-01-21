@@ -26,8 +26,8 @@ const get = async function get (url, app) {
 }
 
 const api = async (url, params, app) => {
-  // I hacked in the NODE_ENV check to get around the fact that the dist directory is copied to the root for generate--prod
-  if (process.env.__NUXT_BLOG__.static || process.env.NODE_ENV === 'production') {
+  // I hacked in the DEPLOY_ENV check to get around the fact that the dist directory is copied to the root for generate--prod
+  if (process.env.__NUXT_BLOG__.static || process.env.DEPLOY_ENV === 'GH_PAGES') {
     return get(`${base}${format(`/_nuxt/${prefix}/${url}`, params)}.json`, app)
   }
 

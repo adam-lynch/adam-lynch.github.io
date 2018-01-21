@@ -7,7 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "generate--prod": "npm run generate && cpx \"dist/**\" .",
+    "generate--prod": "cross-env DEPLOY_ENV=GH_PAGES npm run generate && cpx \"dist/**\" .",
     "lint": "eslint --ext .js,.vue --ignore-path .eslintignore .",
     "precommit": "npm run lint"
   },
@@ -36,6 +36,7 @@
     "cheerio": "^1.0.0-rc.2",
     "clipboard": "^1.7.1",
     "cpx": "^1.5.0",
+    "cross-env": "^5.1.3",
     "date-fns": "^1.29.0",
     "eslint": "^4.3.0",
     "eslint-config-standard": "^10.2.1",
