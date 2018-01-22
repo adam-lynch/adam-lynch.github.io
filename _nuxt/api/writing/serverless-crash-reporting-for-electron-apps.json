@@ -57,48 +57,47 @@
   "month": 11,
   "day": 23,
   "next": {
-    "id": "transparency-and-nwjs",
-    "slug": "transparency-and-nwjs",
+    "id": "resurrecting-clippy",
+    "slug": "resurrecting-clippy",
     "collection": null,
     "keywords": [
-      "node-webkit",
+      "clippy",
       "desktop",
-      "javascript",
-      "platform",
-      "linux",
-      "mac",
-      "windows"
-    ],
-    "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
-    },
-    "title": "Transparency and NW.js",
-    "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
-    "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
-    "published_at": "2016-01-26T00:00:00.000Z",
-    "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
-  },
-  "prev": {
-    "id": "olc-ruin-someones-day-with-homoglyphs",
-    "slug": "olc-ruin-someones-day-with-homoglyphs",
-    "collection": null,
-    "keywords": [
-      "javascript",
-      "node.js",
-      "homoglyphs",
-      "prank"
+      "app",
+      "NW.js",
+      "node-webkit",
+      "javascript"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/olc-ruin-someones-day-with-homoglyphs-b14e9a1a05a4"
+      "url": "https://engineroom.teamwork.com/resurrecting-clippy-89843fcc9871"
     },
-    "title": "Olc: Ruin someone’s day with homoglyphs",
-    "summary": "You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…\n",
-    "photo": "/images/blog-content/olc-ruin-someones-day-with-homoglyphs/tweet.png",
-    "published_at": "2015-10-27T00:00:00.000Z",
-    "renderedSummary": "<p>You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…</p>\n"
+    "title": "Resurrecting Clippy",
+    "summary": "Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...\n",
+    "photo": "/images/blog-content/resurrecting-clippy/osx.png",
+    "published_at": "2016-03-08T00:00:00.000Z",
+    "renderedSummary": "<p>Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...</p>\n"
+  },
+  "prev": {
+    "id": "beyond-the-browser",
+    "slug": "beyond-the-browser",
+    "collection": null,
+    "keywords": [
+      "node-webkit",
+      "electron",
+      "desktop",
+      "javascript"
+    ],
+    "original": {
+      "blogLink": "https://www.smashingmagazine.com/",
+      "blogName": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/2017/03/beyond-browser-web-desktop-apps/"
+    },
+    "title": "Beyond The Browser: From Web Apps To Desktop Apps",
+    "summary": "I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.\n",
+    "photo": "/images/blog-content/beyond-the-browser/chromiumDiagram.png",
+    "published_at": "2017-03-21T00:00:00.000Z",
+    "renderedSummary": "<p>I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.</p>\n"
   }
 }

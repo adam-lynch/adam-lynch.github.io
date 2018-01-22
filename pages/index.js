@@ -10,7 +10,7 @@ export default {
       return { page: payload }
     }
 
-    return { page: await api(process.env.__NUXT_BLOG__.templates.indexArticles, params, app) }
+    return { page: await api(process.env.__NUXT_BLOG__.templates.indexArticles, params, app, process.env) }
   },
 
   beforeCreate () {
