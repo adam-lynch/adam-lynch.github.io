@@ -4,6 +4,8 @@
 
 $gray: #808080;
 
+$siteBackground: #ECECEC;
+
 $navItemBaseBackgroundColor: desaturate(#8aa8c3, 15%);
 $columnDesaturationDelta: 5%;
 $columnLightnessDelta: 4%;
@@ -25,7 +27,7 @@ $minWidthToShowAllHeaderItemsInlineWithLargerText: 61rem;
 $postsPadding: 2rem;
 
 body {
-  background: #ECECEC;
+  background: $siteBackground;
   // color: #464646;
   color: #333;
   padding-top: 2rem;
@@ -40,7 +42,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 0 2rem;
-  background: #ECECEC;
+  background: $siteBackground;
 
   @media(min-width: $minWidthToShowAllHeaderItemsInline) {
     flex-wrap: nowrap;
@@ -316,8 +318,49 @@ body {
   background: #fff;
   max-width: 60rem;
 
+  position: relative;
+
+  &:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    width: 100vw;
+    background: linear-gradient(
+      to bottom,
+      rgba(255,255,255,0) 0px,
+      rgba(255,255,255,1) 1500px
+    );
+
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+
+  &:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    width: 100vw;
+    background: linear-gradient(
+      to top,
+      $siteBackground 0,
+      rgba(255,255,255,0) 1000px
+    );
+
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+
   .posts & {
     margin: 0 auto;
+
+    &:before,
+    &:after {
+      content: none;
+    }
   }
 
   > *:first-child {
