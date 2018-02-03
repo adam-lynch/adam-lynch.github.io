@@ -80,26 +80,27 @@
     "renderedSummary": "<p>Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...</p>\n"
   },
   "prev": {
-    "id": "a-peek-under-the-hood-of-teamwork-chat",
-    "slug": "a-peek-under-the-hood-of-teamwork-chat",
+    "id": "transparency-and-nwjs",
+    "slug": "transparency-and-nwjs",
     "collection": null,
     "keywords": [
-      "teamwork",
-      "chat",
-      "node.js",
-      "javascript",
       "node-webkit",
-      "NW.js"
+      "desktop",
+      "javascript",
+      "platform",
+      "linux",
+      "mac",
+      "windows"
     ],
     "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
     },
-    "title": "A peek under the hood of Teamwork Chat",
-    "summary": "The idea was to build a chat application of our own. A whole new standalone product to raise the bar for team communication and collaboration. From the beginning, Teamwork Chat was intended to tie our whole suite of…\n",
-    "photo": "/images/blog-content/a-peek-under-the-hood-of-teamwork-chat/teamwork-chat.png",
-    "published_at": "2015-04-28T00:00:00.000Z",
-    "renderedSummary": "<p>The idea was to build a chat application of our own. A whole new standalone product to raise the bar for team communication and collaboration. From the beginning, Teamwork Chat was intended to tie our whole suite of…</p>\n"
+    "title": "Transparency and NW.js",
+    "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
+    "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
+    "published_at": "2016-01-26T00:00:00.000Z",
+    "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
   }
 }

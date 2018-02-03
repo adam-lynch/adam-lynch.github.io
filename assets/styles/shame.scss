@@ -363,6 +363,10 @@ body {
     &:after {
       content: none;
     }
+
+    &:before {
+      animation: none;
+    }
   }
 
   > *:first-child {
