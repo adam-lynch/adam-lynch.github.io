@@ -56,8 +56,8 @@
     "name": "product"
   },
   {
-    "id": "serverless",
-    "name": "serverless"
+    "id": "nuxtjs",
+    "name": "nuxt.js"
   },
   {
     "id": "npm",
@@ -72,16 +72,16 @@
     "name": "windows"
   },
   {
-    "id": "nuxtjs",
-    "name": "nuxt.js"
-  },
-  {
     "id": "vuejs",
     "name": "vue.js"
   },
   {
     "id": "markdown",
     "name": "markdown"
+  },
+  {
+    "id": "jamstack",
+    "name": "jamstack"
   },
   {
     "id": "third-party",
@@ -96,12 +96,12 @@
     "name": "installer"
   },
   {
-    "id": "jamstack",
-    "name": "jamstack"
-  },
-  {
     "id": "headless-cms",
     "name": "headless-cms"
+  },
+  {
+    "id": "static-site-generation",
+    "name": "static-site-generation"
   },
   {
     "id": "homoglyphs",
@@ -124,36 +124,40 @@
     "name": "mac"
   },
   {
-    "id": "static-site-generation",
-    "name": "static-site-generation"
-  },
-  {
     "id": "writing",
     "name": "writing"
+  },
+  {
+    "id": "serverless",
+    "name": "serverless"
   },
   {
     "id": "electron",
     "name": "electron"
   },
   {
-    "id": "clippy",
-    "name": "clippy"
+    "id": "babun",
+    "name": "babun"
   },
   {
-    "id": "cygwin",
-    "name": "cygwin"
+    "id": "build",
+    "name": "build"
   },
   {
-    "id": "git",
-    "name": "git"
+    "id": "build-system",
+    "name": "build system"
   },
   {
     "id": "css",
     "name": "css"
   },
   {
-    "id": "desktop",
-    "name": "desktop"
+    "id": "git",
+    "name": "git"
+  },
+  {
+    "id": "chat",
+    "name": "chat"
   },
   {
     "id": "dependencies",
@@ -164,32 +168,28 @@
     "name": "coffeescript"
   },
   {
-    "id": "executable",
-    "name": "executable"
-  },
-  {
-    "id": "distribution",
-    "name": "distribution"
+    "id": "clippy",
+    "name": "clippy"
   },
   {
     "id": "generation",
     "name": "generation"
   },
   {
-    "id": "chat",
-    "name": "chat"
+    "id": "distribution",
+    "name": "distribution"
   },
   {
-    "id": "build-system",
-    "name": "build system"
+    "id": "executable",
+    "name": "executable"
   },
   {
-    "id": "build",
-    "name": "build"
+    "id": "desktop",
+    "name": "desktop"
   },
   {
-    "id": "babun",
-    "name": "babun"
+    "id": "cygwin",
+    "name": "cygwin"
   },
   {
     "id": "aws",

@@ -7,10 +7,12 @@
 
       <div class="post-meta">
           <time class="post-blog-date">{{ prettyDate }}</time>
+          <no-ssr>
           <span class="post-blog-title" v-if="article && article.original">
               <!-- Originally posted on <anchor :href="article.original.url" class="post-blog-link" :shouldTrackClicks="true">{{ article.original.blogName }}</anchor> -->
               <!-- Originally posted on {{ article.original.blogName }} -->
           </span>
+          </no-ssr>
       </div>
 
       <!-- <div class="post-content" v-html="contents"></div> -->

@@ -60,7 +60,7 @@
   "year": 2015,
   "month": 12,
   "day": 19,
-  "prev": {
+  "next": {
     "id": "using-cygwins-bash-terminal-in-a-jetbrains-ide",
     "slug": "using-cygwins-bash-terminal-in-a-jetbrains-ide",
     "collection": null,
@@ -81,5 +81,27 @@
     "photo": "/images/blog-content/using-cygwins-bash-terminal-in-a-jetbrains-ide/typing.gif",
     "published_at": "2015-07-28T00:00:00.000Z",
     "renderedSummary": "<p>JetBrains IDEs are the best. IntelliJ, Android Studio, PHPStorm, PyCharm, and so on. I use IntelliJ Ultimate myself, which is kind of like all of their IDEs in one. One of the things I love about any JetBrains…</p>\n"
+  },
+  "prev": {
+    "id": "building-your-app-creating-executables-nwjs",
+    "slug": "building-your-app-creating-executables-nwjs",
+    "collection": null,
+    "keywords": [
+      "node-webkit",
+      "desktop",
+      "executable",
+      "distribution",
+      "generation",
+      "javascript"
+    ],
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/building-your-app-creating-executables-nwjs"
+    },
+    "title": "Building Your App: Creating Executables for NW.js",
+    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+    "published_at": "2015-11-17T00:00:00.000Z",
+    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
   }
 }
