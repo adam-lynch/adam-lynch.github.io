@@ -56,8 +56,8 @@
     "name": "product"
   },
   {
-    "id": "nuxtjs",
-    "name": "nuxt.js"
+    "id": "serverless",
+    "name": "serverless"
   },
   {
     "id": "npm",
@@ -72,22 +72,6 @@
     "name": "windows"
   },
   {
-    "id": "vuejs",
-    "name": "vue.js"
-  },
-  {
-    "id": "markdown",
-    "name": "markdown"
-  },
-  {
-    "id": "jamstack",
-    "name": "jamstack"
-  },
-  {
-    "id": "third-party",
-    "name": "third-party"
-  },
-  {
     "id": "install",
     "name": "install"
   },
@@ -96,12 +80,28 @@
     "name": "installer"
   },
   {
-    "id": "headless-cms",
-    "name": "headless-cms"
+    "id": "nuxtjs",
+    "name": "nuxt.js"
   },
   {
-    "id": "static-site-generation",
-    "name": "static-site-generation"
+    "id": "vuejs",
+    "name": "vue.js"
+  },
+  {
+    "id": "markdown",
+    "name": "markdown"
+  },
+  {
+    "id": "third-party",
+    "name": "third-party"
+  },
+  {
+    "id": "jamstack",
+    "name": "jamstack"
+  },
+  {
+    "id": "headless-cms",
+    "name": "headless-cms"
   },
   {
     "id": "homoglyphs",
@@ -124,40 +124,36 @@
     "name": "mac"
   },
   {
+    "id": "static-site-generation",
+    "name": "static-site-generation"
+  },
+  {
     "id": "writing",
     "name": "writing"
   },
   {
-    "id": "serverless",
-    "name": "serverless"
+    "id": "electron",
+    "name": "electron"
   },
   {
-    "id": "generation",
-    "name": "generation"
+    "id": "clippy",
+    "name": "clippy"
   },
   {
-    "id": "babun",
-    "name": "babun"
-  },
-  {
-    "id": "build",
-    "name": "build"
-  },
-  {
-    "id": "build-system",
-    "name": "build system"
-  },
-  {
-    "id": "css",
-    "name": "css"
+    "id": "cygwin",
+    "name": "cygwin"
   },
   {
     "id": "git",
     "name": "git"
   },
   {
-    "id": "chat",
-    "name": "chat"
+    "id": "css",
+    "name": "css"
+  },
+  {
+    "id": "desktop",
+    "name": "desktop"
   },
   {
     "id": "dependencies",
@@ -168,28 +164,32 @@
     "name": "coffeescript"
   },
   {
-    "id": "clippy",
-    "name": "clippy"
+    "id": "executable",
+    "name": "executable"
   },
   {
     "id": "distribution",
     "name": "distribution"
   },
   {
-    "id": "executable",
-    "name": "executable"
+    "id": "generation",
+    "name": "generation"
   },
   {
-    "id": "desktop",
-    "name": "desktop"
+    "id": "chat",
+    "name": "chat"
   },
   {
-    "id": "electron",
-    "name": "electron"
+    "id": "build-system",
+    "name": "build system"
   },
   {
-    "id": "cygwin",
-    "name": "cygwin"
+    "id": "build",
+    "name": "build"
+  },
+  {
+    "id": "babun",
+    "name": "babun"
   },
   {
     "id": "aws",
