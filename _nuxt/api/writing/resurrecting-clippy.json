@@ -69,47 +69,48 @@
   "month": 3,
   "day": 9,
   "next": {
-    "id": "platform-detection",
-    "slug": "platform-detection",
+    "id": "npm-distribution-path-length-problems",
+    "slug": "npm-distribution-path-length-problems",
     "collection": null,
     "keywords": [
       "node-webkit",
       "desktop",
       "javascript",
-      "platform",
-      "linux",
-      "mac",
-      "windows"
+      "npm",
+      "distribution",
+      "windows",
+      "paths"
     ],
     "original": {
       "blogLink": "https://www.packtpub.com/books/content/blogs",
       "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+      "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
     },
-    "title": "Platform detection in your NW.js app",
-    "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
-    "published_at": "2016-01-26T00:00:00.000Z",
-    "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
+    "title": "npm and distribution path length problems",
+    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+    "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
+    "published_at": "2015-12-07T00:00:00.000Z",
+    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
   },
   "prev": {
-    "id": "static-site-regeneration",
-    "slug": "static-site-regeneration",
+    "id": "nwjs-app-and-shortcut-apis",
+    "slug": "nwjs-app-and-shortcut-apis",
     "collection": null,
     "keywords": [
-      "writing",
-      "static-site-generation",
-      "headless-cms",
-      "jamstack",
-      "git",
-      "markdown",
-      "vue.js",
-      "nuxt.js",
-      "javascript"
+      "node-webkit",
+      "desktop",
+      "javascript",
+      "app",
+      "shortcut"
     ],
-    "title": "Static site regeneration and focusing on what's important",
-    "summary": "I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.\n",
-    "photo": "/images/blog-content/static-site-regeneration/nuxt.png",
-    "published_at": "2018-02-03T00:00:00.000Z",
-    "renderedSummary": "<p>I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.</p>\n"
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/nwjs-app-and-shortcut-apis"
+    },
+    "title": "NW.js: The App and Shortcut APIs",
+    "summary": "The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...\n",
+    "published_at": "2015-12-18T00:00:00.000Z",
+    "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
   }
 }
