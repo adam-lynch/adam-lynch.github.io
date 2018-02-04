@@ -2,7 +2,7 @@
   <div>
     <article class="post">
       <h2 class="post-title-wrapper">
-        <nuxt-link :to="to" class="post-title">{{ article.title }}</nuxt-link>
+        <!-- <nuxt-link :to="to" class="post-title">{{ article.title }}</nuxt-link> -->
       </h2>
 
       <div class="post-meta">
