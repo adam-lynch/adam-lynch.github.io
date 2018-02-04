@@ -36,6 +36,7 @@ export default {
   data: function () {
     return {
       isDiqsusReady: false,
+      isMounted: false,
       numberOfWordsInCommentsSkeleton: 85,
       postHeaderAnchorClass: 'post-header-anchor'
     }
@@ -81,6 +82,11 @@ export default {
     onDisqusReady () {
       this.isDiqsusReady = true
     }
+  },
+
+  mounted () {
+    this.isMounted = true
+    console.log('mounted')
   },
 
   name: 'Article'
