@@ -265,7 +265,7 @@ One thing that’s nice is that any error that occurs in the promise chain will 
 
 Next up, look into creating a proper account for Teamwork (instead of using my personal one) and hooking up a nice URL like functions.teamwork.chat. Looking over the site again, it hit me; I missed that Webtask.io’s free plan only allows for “30 days webtask lifetime,” whereas the other plans are unlimited in this respect. The next plan up is $9 per month and it doesn’t support custom domains, so it’s not so cheap after all, eh?
 
-### The conclusion
+### The conclusion
 
 In the end, I decided we’ll just add an endpoint to our existing API for this. It was an interesting experiment but I’ll leave it at that for now. Overall, I found the services and tools around serverless architecture to be a bit immature and flaky. Keep in mind that I knew very little about it and didn’t want to spend a lot of time on it, but nevertheless it _should_ be that easy.
 
