@@ -84,7 +84,7 @@ export default {
   },
 
   mounted () {
-    console.log('test7')
+    console.log('test8')
   },
 
   name: 'Article'

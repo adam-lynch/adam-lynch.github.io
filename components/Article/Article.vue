@@ -15,7 +15,7 @@
           </no-ssr>
       </div>
 
-      <!-- <div class="post-content" v-html="contents"></div> -->
+      <div class="post-content" v-html="contents"></div>
     </article>
 
     <aside class="post-comments">
