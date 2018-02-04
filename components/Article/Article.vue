@@ -16,9 +16,11 @@
     </article>
 
     <aside class="post-comments">
+      <no-ssr>
       <div id="disqus_thread">
         <DisqusComments v-bind="disqus" @ready="onDisqusReady" v-if="isMounted"/>
       </div>
+      </no-ssr>
       <div class="post-skeleton" aria-hidden="true" :class="classes">
         <span class="post-skeleton-word" v-for="(_, index) in numberOfWordsInCommentsSkeleton" :key="index"></span>
       </div>
