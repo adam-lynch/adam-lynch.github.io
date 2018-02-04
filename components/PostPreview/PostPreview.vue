@@ -13,14 +13,14 @@
 
     <div class="post-meta">
         <time class="post-blog-date">{{ prettyDate }}</time>
-          <span class="post-blog-title" v-if="original.onlyExternal">
+          <span class="post-blog-title" v-if="original && original.onlyExternal">
               <anchor :href="original.blogLink" class="post-blog-link" :shouldTrackClicks="true">{{ original.blogName }}</anchor>
           </span>
     </div>
 
     <div class="post-summary">
         <div class="post-content" v-html="renderedSummary"></div>&nbsp;&nbsp;
-        <anchor-or-nuxt-link :anchorUrl="original.url" :isAnchor="original.onlyExternal" :nuxtLinkTo="to" class="post-read-more-link" :shouldTrackAnchorClicks="true">
+        <anchor-or-nuxt-link :anchorUrl="original && original.url" :isAnchor="original && original.onlyExternal" :nuxtLinkTo="to" class="post-read-more-link" :shouldTrackAnchorClicks="true">
           <span v-if="isBook">Get the book</span>
           <span v-else>Read more</span>
         </anchor-or-nuxt-link>

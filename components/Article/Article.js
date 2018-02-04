@@ -51,7 +51,7 @@ export default {
     }
 
     // Redirect if someone has manually entered the URL when they shouldn't have
-    if (this.article.original.onlyExternal) {
+    if (this.article.original && this.article.original.onlyExternal) {
       window.location = this.article.original.url
     }
 

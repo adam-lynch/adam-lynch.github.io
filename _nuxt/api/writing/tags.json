@@ -1,79 +1,39 @@
 [
   {
-    "id": "third-party",
-    "name": "third-party"
+    "id": "shortcut",
+    "name": "shortcut"
   },
   {
-    "id": "teamwork",
-    "name": "teamwork"
+    "id": "gulp",
+    "name": "gulp"
   },
   {
     "id": "terminal",
     "name": "terminal"
   },
   {
-    "id": "web",
-    "name": "web"
-  },
-  {
-    "id": "windows",
-    "name": "windows"
-  },
-  {
-    "id": "app",
-    "name": "app"
-  },
-  {
-    "id": "nwjs",
-    "name": "NW.js"
-  },
-  {
-    "id": "product",
-    "name": "product"
-  },
-  {
-    "id": "serverless",
-    "name": "serverless"
-  },
-  {
-    "id": "platform",
-    "name": "platform"
-  },
-  {
-    "id": "prank",
-    "name": "prank"
-  },
-  {
-    "id": "shortcut",
-    "name": "shortcut"
-  },
-  {
-    "id": "paths",
-    "name": "paths"
-  },
-  {
-    "id": "electron",
-    "name": "electron"
-  },
-  {
-    "id": "generation",
-    "name": "generation"
-  },
-  {
-    "id": "npm",
-    "name": "npm"
+    "id": "javascript",
+    "name": "javascript"
   },
   {
     "id": "nodejs",
     "name": "node.js"
   },
   {
-    "id": "node-webkit",
-    "name": "node-webkit"
+    "id": "teamwork",
+    "name": "teamwork"
   },
   {
     "id": "ide",
     "name": "ide"
+  },
+  {
+    "id": "node-webkit",
+    "name": "node-webkit"
+  },
+  {
+    "id": "nwjs",
+    "name": "NW.js"
   },
   {
     "id": "jetbrains",
@@ -88,6 +48,46 @@
     "name": "hybrid"
   },
   {
+    "id": "web",
+    "name": "web"
+  },
+  {
+    "id": "product",
+    "name": "product"
+  },
+  {
+    "id": "nuxtjs",
+    "name": "nuxt.js"
+  },
+  {
+    "id": "npm",
+    "name": "npm"
+  },
+  {
+    "id": "paths",
+    "name": "paths"
+  },
+  {
+    "id": "windows",
+    "name": "windows"
+  },
+  {
+    "id": "vuejs",
+    "name": "vue.js"
+  },
+  {
+    "id": "markdown",
+    "name": "markdown"
+  },
+  {
+    "id": "jamstack",
+    "name": "jamstack"
+  },
+  {
+    "id": "third-party",
+    "name": "third-party"
+  },
+  {
     "id": "install",
     "name": "install"
   },
@@ -96,48 +96,84 @@
     "name": "installer"
   },
   {
-    "id": "gulp",
-    "name": "gulp"
+    "id": "headless-cms",
+    "name": "headless-cms"
   },
   {
-    "id": "javascript",
-    "name": "javascript"
+    "id": "static-site-generation",
+    "name": "static-site-generation"
   },
   {
     "id": "homoglyphs",
     "name": "homoglyphs"
   },
   {
-    "id": "mac",
-    "name": "mac"
+    "id": "prank",
+    "name": "prank"
+  },
+  {
+    "id": "platform",
+    "name": "platform"
   },
   {
     "id": "linux",
     "name": "linux"
   },
   {
+    "id": "mac",
+    "name": "mac"
+  },
+  {
+    "id": "writing",
+    "name": "writing"
+  },
+  {
+    "id": "serverless",
+    "name": "serverless"
+  },
+  {
+    "id": "generation",
+    "name": "generation"
+  },
+  {
+    "id": "babun",
+    "name": "babun"
+  },
+  {
+    "id": "build",
+    "name": "build"
+  },
+  {
+    "id": "build-system",
+    "name": "build system"
+  },
+  {
+    "id": "css",
+    "name": "css"
+  },
+  {
+    "id": "git",
+    "name": "git"
+  },
+  {
     "id": "chat",
     "name": "chat"
-  },
-  {
-    "id": "coffeescript",
-    "name": "coffeescript"
-  },
-  {
-    "id": "distribution",
-    "name": "distribution"
   },
   {
     "id": "dependencies",
     "name": "dependencies"
   },
   {
-    "id": "cygwin",
-    "name": "cygwin"
+    "id": "coffeescript",
+    "name": "coffeescript"
   },
   {
-    "id": "css",
-    "name": "css"
+    "id": "clippy",
+    "name": "clippy"
+  },
+  {
+    "id": "distribution",
+    "name": "distribution"
   },
   {
     "id": "executable",
@@ -148,20 +184,12 @@
     "name": "desktop"
   },
   {
-    "id": "clippy",
-    "name": "clippy"
+    "id": "electron",
+    "name": "electron"
   },
   {
-    "id": "build-system",
-    "name": "build system"
-  },
-  {
-    "id": "build",
-    "name": "build"
-  },
-  {
-    "id": "babun",
-    "name": "babun"
+    "id": "cygwin",
+    "name": "cygwin"
   },
   {
     "id": "aws",
@@ -170,5 +198,9 @@
   {
     "id": "assets",
     "name": "assets"
+  },
+  {
+    "id": "app",
+    "name": "app"
   }
 ]
