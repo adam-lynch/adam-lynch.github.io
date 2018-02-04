@@ -64,7 +64,7 @@
     "remove-markdown": "^0.2.2",
     "sass-loader": "^6.0.6",
     "slug": "^0.9.1",
-    "vue-disqus": "github:adam-lynch/vue-disqus#ready_event",
+    "vue-disqus": "github:adam-lynch/vue-disqus#fix_missing_element",
     "vue-markdown": "^2.2.4",
     "webpack": "^3.10.0"
   },

@@ -4,48 +4,16 @@
     "name": "shortcut"
   },
   {
-    "id": "gulp",
-    "name": "gulp"
+    "id": "node-webkit",
+    "name": "node-webkit"
   },
   {
     "id": "terminal",
     "name": "terminal"
   },
   {
-    "id": "javascript",
-    "name": "javascript"
-  },
-  {
-    "id": "nodejs",
-    "name": "node.js"
-  },
-  {
-    "id": "teamwork",
-    "name": "teamwork"
-  },
-  {
-    "id": "ide",
-    "name": "ide"
-  },
-  {
-    "id": "node-webkit",
-    "name": "node-webkit"
-  },
-  {
-    "id": "nwjs",
-    "name": "NW.js"
-  },
-  {
-    "id": "jetbrains",
-    "name": "jetbrains"
-  },
-  {
-    "id": "mobile",
-    "name": "mobile"
-  },
-  {
-    "id": "hybrid",
-    "name": "hybrid"
+    "id": "serverless",
+    "name": "serverless"
   },
   {
     "id": "web",
@@ -60,6 +28,34 @@
     "name": "nuxt.js"
   },
   {
+    "id": "nodejs",
+    "name": "node.js"
+  },
+  {
+    "id": "teamwork",
+    "name": "teamwork"
+  },
+  {
+    "id": "vuejs",
+    "name": "vue.js"
+  },
+  {
+    "id": "nwjs",
+    "name": "NW.js"
+  },
+  {
+    "id": "static-site-generation",
+    "name": "static-site-generation"
+  },
+  {
+    "id": "writing",
+    "name": "writing"
+  },
+  {
+    "id": "platform",
+    "name": "platform"
+  },
+  {
     "id": "npm",
     "name": "npm"
   },
@@ -72,20 +68,24 @@
     "name": "windows"
   },
   {
-    "id": "vuejs",
-    "name": "vue.js"
+    "id": "prank",
+    "name": "prank"
   },
   {
-    "id": "markdown",
-    "name": "markdown"
+    "id": "third-party",
+    "name": "third-party"
   },
   {
     "id": "jamstack",
     "name": "jamstack"
   },
   {
-    "id": "third-party",
-    "name": "third-party"
+    "id": "babun",
+    "name": "babun"
+  },
+  {
+    "id": "dependencies",
+    "name": "dependencies"
   },
   {
     "id": "install",
@@ -96,24 +96,24 @@
     "name": "installer"
   },
   {
-    "id": "headless-cms",
-    "name": "headless-cms"
+    "id": "desktop",
+    "name": "desktop"
   },
   {
-    "id": "static-site-generation",
-    "name": "static-site-generation"
+    "id": "electron",
+    "name": "electron"
   },
   {
     "id": "homoglyphs",
     "name": "homoglyphs"
   },
   {
-    "id": "prank",
-    "name": "prank"
+    "id": "coffeescript",
+    "name": "coffeescript"
   },
   {
-    "id": "platform",
-    "name": "platform"
+    "id": "generation",
+    "name": "generation"
   },
   {
     "id": "linux",
@@ -122,50 +122,6 @@
   {
     "id": "mac",
     "name": "mac"
-  },
-  {
-    "id": "writing",
-    "name": "writing"
-  },
-  {
-    "id": "serverless",
-    "name": "serverless"
-  },
-  {
-    "id": "generation",
-    "name": "generation"
-  },
-  {
-    "id": "babun",
-    "name": "babun"
-  },
-  {
-    "id": "build",
-    "name": "build"
-  },
-  {
-    "id": "build-system",
-    "name": "build system"
-  },
-  {
-    "id": "css",
-    "name": "css"
-  },
-  {
-    "id": "git",
-    "name": "git"
-  },
-  {
-    "id": "chat",
-    "name": "chat"
-  },
-  {
-    "id": "dependencies",
-    "name": "dependencies"
-  },
-  {
-    "id": "coffeescript",
-    "name": "coffeescript"
   },
   {
     "id": "clippy",
@@ -180,12 +136,56 @@
     "name": "executable"
   },
   {
-    "id": "desktop",
-    "name": "desktop"
+    "id": "headless-cms",
+    "name": "headless-cms"
   },
   {
-    "id": "electron",
-    "name": "electron"
+    "id": "css",
+    "name": "css"
+  },
+  {
+    "id": "git",
+    "name": "git"
+  },
+  {
+    "id": "markdown",
+    "name": "markdown"
+  },
+  {
+    "id": "chat",
+    "name": "chat"
+  },
+  {
+    "id": "build-system",
+    "name": "build system"
+  },
+  {
+    "id": "build",
+    "name": "build"
+  },
+  {
+    "id": "gulp",
+    "name": "gulp"
+  },
+  {
+    "id": "hybrid",
+    "name": "hybrid"
+  },
+  {
+    "id": "mobile",
+    "name": "mobile"
+  },
+  {
+    "id": "javascript",
+    "name": "javascript"
+  },
+  {
+    "id": "ide",
+    "name": "ide"
+  },
+  {
+    "id": "jetbrains",
+    "name": "jetbrains"
   },
   {
     "id": "cygwin",

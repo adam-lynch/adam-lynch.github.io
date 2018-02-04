@@ -96,26 +96,28 @@
     "renderedSummary": "<p>I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.</p>\n"
   },
   "prev": {
-    "id": "a-peek-under-the-hood-of-teamwork-chat",
-    "slug": "a-peek-under-the-hood-of-teamwork-chat",
+    "id": "under-the-hood-of-a-hybrid-app",
+    "slug": "under-the-hood-of-a-hybrid-app",
     "collection": null,
     "keywords": [
-      "teamwork",
-      "chat",
-      "node.js",
+      "product",
+      "web",
       "javascript",
+      "NW.js",
       "node-webkit",
-      "NW.js"
+      "desktop",
+      "hybrid",
+      "mobile"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
+      "url": "https://engineroom.teamwork.com/under-the-hood-of-a-hybrid-app-2215ce6e342a"
     },
-    "title": "A peek under the hood of Teamwork Chat",
-    "summary": "The idea was to build a chat application of our own. A whole new standalone product to raise the bar for team communication and collaboration. From the beginning, Teamwork Chat was intended to tie our whole suite of…\n",
-    "photo": "/images/blog-content/a-peek-under-the-hood-of-teamwork-chat/teamwork-chat.png",
-    "published_at": "2015-04-28T00:00:00.000Z",
-    "renderedSummary": "<p>The idea was to build a chat application of our own. A whole new standalone product to raise the bar for team communication and collaboration. From the beginning, Teamwork Chat was intended to tie our whole suite of…</p>\n"
+    "title": "Under the hood of a hybrid (app)",
+    "summary": "It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...\n",
+    "photo": "/images/blog-content/under-the-hood-of-a-hybrid-app/nav.png",
+    "published_at": "2016-04-16T00:00:00.000Z",
+    "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
   }
 }
