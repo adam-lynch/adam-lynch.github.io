@@ -85,7 +85,7 @@ export default {
   },
 
   mounted () {
-    console.log('mounted4', document.getElementById('disqus_thread'))
+    console.log('mounted5', document.getElementById('disqus_thread'))
     setTimeout(() => {
       this.isMounted = true
     }, 200)

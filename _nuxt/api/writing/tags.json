@@ -4,28 +4,16 @@
     "name": "shortcut"
   },
   {
-    "id": "node-webkit",
-    "name": "node-webkit"
-  },
-  {
-    "id": "serverless",
-    "name": "serverless"
-  },
-  {
-    "id": "web",
-    "name": "web"
-  },
-  {
-    "id": "product",
-    "name": "product"
+    "id": "gulp",
+    "name": "gulp"
   },
   {
     "id": "terminal",
     "name": "terminal"
   },
   {
-    "id": "nuxtjs",
-    "name": "nuxt.js"
+    "id": "javascript",
+    "name": "javascript"
   },
   {
     "id": "nodejs",
@@ -36,28 +24,40 @@
     "name": "teamwork"
   },
   {
-    "id": "vuejs",
-    "name": "vue.js"
+    "id": "ide",
+    "name": "ide"
+  },
+  {
+    "id": "node-webkit",
+    "name": "node-webkit"
   },
   {
     "id": "nwjs",
     "name": "NW.js"
   },
   {
-    "id": "static-site-generation",
-    "name": "static-site-generation"
+    "id": "jetbrains",
+    "name": "jetbrains"
   },
   {
-    "id": "writing",
-    "name": "writing"
+    "id": "mobile",
+    "name": "mobile"
   },
   {
-    "id": "platform",
-    "name": "platform"
+    "id": "hybrid",
+    "name": "hybrid"
   },
   {
-    "id": "prank",
-    "name": "prank"
+    "id": "web",
+    "name": "web"
+  },
+  {
+    "id": "product",
+    "name": "product"
+  },
+  {
+    "id": "nuxtjs",
+    "name": "nuxt.js"
   },
   {
     "id": "npm",
@@ -72,28 +72,8 @@
     "name": "windows"
   },
   {
-    "id": "third-party",
-    "name": "third-party"
-  },
-  {
-    "id": "git",
-    "name": "git"
-  },
-  {
-    "id": "installer",
-    "name": "installer"
-  },
-  {
-    "id": "mobile",
-    "name": "mobile"
-  },
-  {
-    "id": "javascript",
-    "name": "javascript"
-  },
-  {
-    "id": "jetbrains",
-    "name": "jetbrains"
+    "id": "vuejs",
+    "name": "vue.js"
   },
   {
     "id": "markdown",
@@ -104,12 +84,88 @@
     "name": "jamstack"
   },
   {
-    "id": "mac",
-    "name": "mac"
+    "id": "third-party",
+    "name": "third-party"
+  },
+  {
+    "id": "install",
+    "name": "install"
+  },
+  {
+    "id": "installer",
+    "name": "installer"
+  },
+  {
+    "id": "headless-cms",
+    "name": "headless-cms"
+  },
+  {
+    "id": "static-site-generation",
+    "name": "static-site-generation"
+  },
+  {
+    "id": "homoglyphs",
+    "name": "homoglyphs"
+  },
+  {
+    "id": "prank",
+    "name": "prank"
+  },
+  {
+    "id": "platform",
+    "name": "platform"
   },
   {
     "id": "linux",
     "name": "linux"
+  },
+  {
+    "id": "mac",
+    "name": "mac"
+  },
+  {
+    "id": "writing",
+    "name": "writing"
+  },
+  {
+    "id": "serverless",
+    "name": "serverless"
+  },
+  {
+    "id": "electron",
+    "name": "electron"
+  },
+  {
+    "id": "babun",
+    "name": "babun"
+  },
+  {
+    "id": "build",
+    "name": "build"
+  },
+  {
+    "id": "build-system",
+    "name": "build system"
+  },
+  {
+    "id": "css",
+    "name": "css"
+  },
+  {
+    "id": "git",
+    "name": "git"
+  },
+  {
+    "id": "chat",
+    "name": "chat"
+  },
+  {
+    "id": "dependencies",
+    "name": "dependencies"
+  },
+  {
+    "id": "coffeescript",
+    "name": "coffeescript"
   },
   {
     "id": "clippy",
@@ -120,80 +176,24 @@
     "name": "generation"
   },
   {
-    "id": "homoglyphs",
-    "name": "homoglyphs"
-  },
-  {
-    "id": "hybrid",
-    "name": "hybrid"
-  },
-  {
-    "id": "gulp",
-    "name": "gulp"
-  },
-  {
-    "id": "headless-cms",
-    "name": "headless-cms"
-  },
-  {
-    "id": "ide",
-    "name": "ide"
-  },
-  {
-    "id": "install",
-    "name": "install"
-  },
-  {
-    "id": "build",
-    "name": "build"
-  },
-  {
-    "id": "aws",
-    "name": "aws"
-  },
-  {
-    "id": "build-system",
-    "name": "build system"
-  },
-  {
-    "id": "coffeescript",
-    "name": "coffeescript"
-  },
-  {
-    "id": "dependencies",
-    "name": "dependencies"
-  },
-  {
-    "id": "cygwin",
-    "name": "cygwin"
-  },
-  {
-    "id": "electron",
-    "name": "electron"
-  },
-  {
-    "id": "chat",
-    "name": "chat"
-  },
-  {
-    "id": "babun",
-    "name": "babun"
+    "id": "distribution",
+    "name": "distribution"
   },
   {
     "id": "executable",
     "name": "executable"
   },
   {
-    "id": "css",
-    "name": "css"
-  },
-  {
-    "id": "distribution",
-    "name": "distribution"
-  },
-  {
     "id": "desktop",
     "name": "desktop"
+  },
+  {
+    "id": "cygwin",
+    "name": "cygwin"
+  },
+  {
+    "id": "aws",
+    "name": "aws"
   },
   {
     "id": "assets",
