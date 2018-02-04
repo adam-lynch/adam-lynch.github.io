@@ -50,49 +50,47 @@
   "month": 9,
   "day": 27,
   "next": {
-    "id": "under-the-hood-of-a-hybrid-app",
-    "slug": "under-the-hood-of-a-hybrid-app",
+    "id": "dealing-with-long-paths",
+    "slug": "dealing-with-long-paths",
     "collection": null,
     "keywords": [
-      "product",
-      "web",
-      "javascript",
       "NW.js",
       "node-webkit",
-      "desktop",
-      "hybrid",
-      "mobile"
+      "npm",
+      "distribution",
+      "paths",
+      "windows"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/under-the-hood-of-a-hybrid-app-2215ce6e342a"
+      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
     },
-    "title": "Under the hood of a hybrid (app)",
-    "summary": "It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...\n",
-    "photo": "/images/blog-content/under-the-hood-of-a-hybrid-app/nav.png",
-    "published_at": "2016-04-16T00:00:00.000Z",
-    "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
+    "title": "Dealing with long paths",
+    "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
+    "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
+    "published_at": "2015-07-01T00:00:00.000Z",
+    "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
   },
   "prev": {
-    "id": "olc-ruin-someones-day-with-homoglyphs",
-    "slug": "olc-ruin-someones-day-with-homoglyphs",
+    "id": "developing-an-electron-edge",
+    "slug": "developing-an-electron-edge",
     "collection": null,
+    "isBook": true,
     "keywords": [
-      "javascript",
-      "node.js",
-      "homoglyphs",
-      "prank"
+      "electron",
+      "desktop",
+      "javascript"
     ],
     "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/olc-ruin-someones-day-with-homoglyphs-b14e9a1a05a4"
+      "blogLink": "https://bleedingedgepress.com/",
+      "blogName": "Bleeding Edge Press",
+      "url": "https://bleedingedgepress.com/developing-an-electron-edge/",
+      "onlyExternal": true
     },
-    "title": "Olc: Ruin someone’s day with homoglyphs",
-    "summary": "You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…\n",
-    "photo": "/images/blog-content/olc-ruin-someones-day-with-homoglyphs/tweet.png",
-    "published_at": "2015-10-27T00:00:00.000Z",
-    "renderedSummary": "<p>You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…</p>\n"
+    "title": "Developing an Electron Edge",
+    "summary": "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n",
+    "published_at": "2016-05-25T00:00:00.000Z",
+    "renderedSummary": "<p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n"
   }
 }

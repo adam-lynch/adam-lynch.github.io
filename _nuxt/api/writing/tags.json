@@ -32,8 +32,8 @@
     "name": "windows"
   },
   {
-    "id": "platform",
-    "name": "platform"
+    "id": "homoglyphs",
+    "name": "homoglyphs"
   },
   {
     "id": "build-system",
@@ -42,10 +42,6 @@
   {
     "id": "desktop",
     "name": "desktop"
-  },
-  {
-    "id": "coffeescript",
-    "name": "coffeescript"
   },
   {
     "id": "executable",
@@ -70,6 +66,10 @@
   {
     "id": "nodejs",
     "name": "node.js"
+  },
+  {
+    "id": "coffeescript",
+    "name": "coffeescript"
   },
   {
     "id": "dependencies",
@@ -104,20 +104,8 @@
     "name": "chat"
   },
   {
-    "id": "homoglyphs",
-    "name": "homoglyphs"
-  },
-  {
-    "id": "prank",
-    "name": "prank"
-  },
-  {
-    "id": "clippy",
-    "name": "clippy"
-  },
-  {
-    "id": "electron",
-    "name": "electron"
+    "id": "platform",
+    "name": "platform"
   },
   {
     "id": "linux",
@@ -126,6 +114,18 @@
   {
     "id": "mac",
     "name": "mac"
+  },
+  {
+    "id": "electron",
+    "name": "electron"
+  },
+  {
+    "id": "prank",
+    "name": "prank"
+  },
+  {
+    "id": "clippy",
+    "name": "clippy"
   },
   {
     "id": "serverless",
