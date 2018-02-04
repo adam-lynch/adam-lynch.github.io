@@ -1,5 +1,5 @@
 ---
-date: 2018-02-03
+date: 2018-02-04
 tags:
   - writing
   - static-site-generation
