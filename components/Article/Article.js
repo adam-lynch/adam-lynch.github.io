@@ -36,7 +36,6 @@ export default {
   data: function () {
     return {
       isDiqsusReady: false,
-      isMounted: false,
       numberOfWordsInCommentsSkeleton: 85,
       postHeaderAnchorClass: 'post-header-anchor'
     }
@@ -85,10 +84,7 @@ export default {
   },
 
   mounted () {
-    console.log('mounted5', document.getElementById('disqus_thread'))
-    setTimeout(() => {
-      this.isMounted = true
-    }, 200)
+    console.log('test1')
   },
 
   name: 'Article'

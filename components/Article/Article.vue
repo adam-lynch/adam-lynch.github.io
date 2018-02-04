@@ -12,11 +12,10 @@
           </span>
       </div>
 
-      <div class="post-content" v-html="contents"></div>
+      <!-- <div class="post-content" v-html="contents"></div> -->
     </article>
 
     <aside class="post-comments">
-      <div id="disqus_thread"></div>
       <!-- <DisqusComments v-bind="disqus" @ready="onDisqusReady" v-if="isMounted"/> -->
       <div class="post-skeleton" aria-hidden="true" :class="classes">
         <span class="post-skeleton-word" v-for="(_, index) in numberOfWordsInCommentsSkeleton" :key="index"></span>
