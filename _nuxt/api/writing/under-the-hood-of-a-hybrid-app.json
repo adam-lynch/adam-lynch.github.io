@@ -76,46 +76,49 @@
   "month": 4,
   "day": 17,
   "next": {
-    "id": "building-your-app-creating-executables-nwjs",
-    "slug": "building-your-app-creating-executables-nwjs",
+    "id": "installing-your-nwjs-app-windows",
+    "slug": "installing-your-nwjs-app-windows",
     "collection": null,
     "keywords": [
       "node-webkit",
       "desktop",
-      "executable",
-      "distribution",
-      "generation",
-      "javascript"
+      "javascript",
+      "windows",
+      "install",
+      "installer"
     ],
     "original": {
       "blogLink": "https://www.packtpub.com/books/content/blogs",
       "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/building-your-app-creating-executables-nwjs"
+      "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
     },
-    "title": "Building Your App: Creating Executables for NW.js",
+    "title": "Installing your NW.js app on Windows",
     "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-    "published_at": "2015-11-17T00:00:00.000Z",
+    "published_at": "2015-12-09T00:00:00.000Z",
     "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
   },
   "prev": {
-    "id": "developing-an-electron-edge",
-    "slug": "developing-an-electron-edge",
+    "id": "transparency-and-nwjs",
+    "slug": "transparency-and-nwjs",
     "collection": null,
-    "isBook": true,
     "keywords": [
-      "electron",
+      "node-webkit",
       "desktop",
-      "javascript"
+      "javascript",
+      "platform",
+      "linux",
+      "mac",
+      "windows"
     ],
     "original": {
-      "blogLink": "https://bleedingedgepress.com/",
-      "blogName": "Bleeding Edge Press",
-      "url": "https://bleedingedgepress.com/developing-an-electron-edge/",
-      "onlyExternal": true
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
     },
-    "title": "Developing an Electron Edge",
-    "summary": "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n",
-    "published_at": "2016-05-25T00:00:00.000Z",
-    "renderedSummary": "<p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n"
+    "title": "Transparency and NW.js",
+    "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
+    "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
+    "published_at": "2016-01-26T00:00:00.000Z",
+    "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
   }
 }

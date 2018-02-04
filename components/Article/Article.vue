@@ -7,6 +7,7 @@
 
       <div class="post-meta">
           <time class="post-blog-date">{{ prettyDate }}</time>
+          <!-- Production is broken without this, I'm not sure why -->
           <no-ssr>
             <span class="post-blog-title" v-if="article && article.original">
                 Originally posted on <anchor :href="article.original.url" class="post-blog-link" :shouldTrackClicks="true">{{ article.original.blogName }}</anchor>

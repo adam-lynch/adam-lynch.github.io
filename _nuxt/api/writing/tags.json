@@ -56,8 +56,8 @@
     "name": "product"
   },
   {
-    "id": "serverless",
-    "name": "serverless"
+    "id": "nuxtjs",
+    "name": "nuxt.js"
   },
   {
     "id": "npm",
@@ -72,16 +72,16 @@
     "name": "windows"
   },
   {
-    "id": "nuxtjs",
-    "name": "nuxt.js"
-  },
-  {
     "id": "vuejs",
     "name": "vue.js"
   },
   {
     "id": "markdown",
     "name": "markdown"
+  },
+  {
+    "id": "jamstack",
+    "name": "jamstack"
   },
   {
     "id": "third-party",
@@ -96,12 +96,12 @@
     "name": "installer"
   },
   {
-    "id": "jamstack",
-    "name": "jamstack"
-  },
-  {
     "id": "headless-cms",
     "name": "headless-cms"
+  },
+  {
+    "id": "static-site-generation",
+    "name": "static-site-generation"
   },
   {
     "id": "homoglyphs",
@@ -124,12 +124,44 @@
     "name": "mac"
   },
   {
-    "id": "static-site-generation",
-    "name": "static-site-generation"
-  },
-  {
     "id": "writing",
     "name": "writing"
+  },
+  {
+    "id": "serverless",
+    "name": "serverless"
+  },
+  {
+    "id": "electron",
+    "name": "electron"
+  },
+  {
+    "id": "babun",
+    "name": "babun"
+  },
+  {
+    "id": "build",
+    "name": "build"
+  },
+  {
+    "id": "build-system",
+    "name": "build system"
+  },
+  {
+    "id": "css",
+    "name": "css"
+  },
+  {
+    "id": "git",
+    "name": "git"
+  },
+  {
+    "id": "chat",
+    "name": "chat"
+  },
+  {
+    "id": "dependencies",
+    "name": "dependencies"
   },
   {
     "id": "coffeescript",
@@ -140,56 +172,24 @@
     "name": "clippy"
   },
   {
-    "id": "cygwin",
-    "name": "cygwin"
-  },
-  {
-    "id": "git",
-    "name": "git"
-  },
-  {
-    "id": "css",
-    "name": "css"
-  },
-  {
-    "id": "desktop",
-    "name": "desktop"
-  },
-  {
-    "id": "dependencies",
-    "name": "dependencies"
-  },
-  {
-    "id": "electron",
-    "name": "electron"
-  },
-  {
-    "id": "executable",
-    "name": "executable"
+    "id": "generation",
+    "name": "generation"
   },
   {
     "id": "distribution",
     "name": "distribution"
   },
   {
-    "id": "generation",
-    "name": "generation"
+    "id": "executable",
+    "name": "executable"
   },
   {
-    "id": "chat",
-    "name": "chat"
+    "id": "desktop",
+    "name": "desktop"
   },
   {
-    "id": "build-system",
-    "name": "build system"
-  },
-  {
-    "id": "build",
-    "name": "build"
-  },
-  {
-    "id": "babun",
-    "name": "babun"
+    "id": "cygwin",
+    "name": "cygwin"
   },
   {
     "id": "aws",

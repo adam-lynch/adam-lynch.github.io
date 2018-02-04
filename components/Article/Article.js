@@ -83,9 +83,5 @@ export default {
     }
   },
 
-  mounted () {
-    console.log('test9')
-  },
-
   name: 'Article'
 }

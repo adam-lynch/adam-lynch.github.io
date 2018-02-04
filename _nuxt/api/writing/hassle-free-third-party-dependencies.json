@@ -66,27 +66,25 @@
   "month": 8,
   "day": 30,
   "next": {
-    "id": "dealing-with-long-paths",
-    "slug": "dealing-with-long-paths",
+    "id": "developing-an-electron-edge",
+    "slug": "developing-an-electron-edge",
     "collection": null,
+    "isBook": true,
     "keywords": [
-      "NW.js",
-      "node-webkit",
-      "npm",
-      "distribution",
-      "paths",
-      "windows"
+      "electron",
+      "desktop",
+      "javascript"
     ],
     "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
+      "blogLink": "https://bleedingedgepress.com/",
+      "blogName": "Bleeding Edge Press",
+      "url": "https://bleedingedgepress.com/developing-an-electron-edge/",
+      "onlyExternal": true
     },
-    "title": "Dealing with long paths",
-    "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
-    "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
-    "published_at": "2015-07-01T00:00:00.000Z",
-    "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
+    "title": "Developing an Electron Edge",
+    "summary": "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n",
+    "published_at": "2016-05-25T00:00:00.000Z",
+    "renderedSummary": "<p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n"
   },
   "prev": {
     "id": "installing-your-nwjs-app-windows",
