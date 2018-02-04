@@ -56,6 +56,10 @@
     "name": "product"
   },
   {
+    "id": "nuxtjs",
+    "name": "nuxt.js"
+  },
+  {
     "id": "npm",
     "name": "npm"
   },
@@ -66,10 +70,6 @@
   {
     "id": "windows",
     "name": "windows"
-  },
-  {
-    "id": "nuxtjs",
-    "name": "nuxt.js"
   },
   {
     "id": "vuejs",

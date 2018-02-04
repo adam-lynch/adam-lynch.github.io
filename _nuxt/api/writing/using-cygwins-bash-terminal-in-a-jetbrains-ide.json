@@ -61,25 +61,28 @@
   "month": 7,
   "day": 29,
   "next": {
-    "id": "developing-an-electron-edge",
-    "slug": "developing-an-electron-edge",
+    "id": "npm-distribution-path-length-problems",
+    "slug": "npm-distribution-path-length-problems",
     "collection": null,
-    "isBook": true,
     "keywords": [
-      "electron",
+      "node-webkit",
       "desktop",
-      "javascript"
+      "javascript",
+      "npm",
+      "distribution",
+      "windows",
+      "paths"
     ],
     "original": {
-      "blogLink": "https://bleedingedgepress.com/",
-      "blogName": "Bleeding Edge Press",
-      "url": "https://bleedingedgepress.com/developing-an-electron-edge/",
-      "onlyExternal": true
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
     },
-    "title": "Developing an Electron Edge",
-    "summary": "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n",
-    "published_at": "2016-05-25T00:00:00.000Z",
-    "renderedSummary": "<p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n"
+    "title": "npm and distribution path length problems",
+    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+    "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
+    "published_at": "2015-12-07T00:00:00.000Z",
+    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
   },
   "prev": {
     "id": "nwjs-app-and-shortcut-apis",
