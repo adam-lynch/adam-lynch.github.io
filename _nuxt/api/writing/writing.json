@@ -1,24 +1,26 @@
 [
   {
-    "id": "installing-your-nwjs-app-windows",
-    "slug": "installing-your-nwjs-app-windows",
+    "id": "npm-distribution-path-length-problems",
+    "slug": "npm-distribution-path-length-problems",
     "collection": null,
     "keywords": [
       "node-webkit",
       "desktop",
       "javascript",
+      "npm",
+      "distribution",
       "windows",
-      "install",
-      "installer"
+      "paths"
     ],
     "original": {
       "blogLink": "https://www.packtpub.com/books/content/blogs",
       "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
+      "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
     },
-    "title": "Installing your NW.js app on Windows",
+    "title": "npm and distribution path length problems",
     "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-    "published_at": "2015-12-09T00:00:00.000Z",
+    "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
+    "published_at": "2015-12-07T00:00:00.000Z",
     "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
   },
   {
@@ -44,25 +46,25 @@
     "renderedSummary": "<p>JetBrains IDEs are the best. IntelliJ, Android Studio, PHPStorm, PyCharm, and so on. I use IntelliJ Ultimate myself, which is kind of like all of their IDEs in one. One of the things I love about any JetBrains…</p>\n"
   },
   {
-    "id": "olc-ruin-someones-day-with-homoglyphs",
-    "slug": "olc-ruin-someones-day-with-homoglyphs",
+    "id": "nwjs-app-and-shortcut-apis",
+    "slug": "nwjs-app-and-shortcut-apis",
     "collection": null,
     "keywords": [
+      "node-webkit",
+      "desktop",
       "javascript",
-      "node.js",
-      "homoglyphs",
-      "prank"
+      "app",
+      "shortcut"
     ],
     "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/olc-ruin-someones-day-with-homoglyphs-b14e9a1a05a4"
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/nwjs-app-and-shortcut-apis"
     },
-    "title": "Olc: Ruin someone’s day with homoglyphs",
-    "summary": "You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…\n",
-    "photo": "/images/blog-content/olc-ruin-someones-day-with-homoglyphs/tweet.png",
-    "published_at": "2015-10-27T00:00:00.000Z",
-    "renderedSummary": "<p>You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…</p>\n"
+    "title": "NW.js: The App and Shortcut APIs",
+    "summary": "The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...\n",
+    "published_at": "2015-12-18T00:00:00.000Z",
+    "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
   },
   {
     "id": "building-your-app-creating-executables-nwjs",
@@ -85,25 +87,6 @@
     "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
     "published_at": "2015-11-17T00:00:00.000Z",
     "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
-  },
-  {
-    "id": "coffeescript-at-teamwork",
-    "slug": "coffeescript-at-teamwork",
-    "collection": null,
-    "keywords": [
-      "coffeescript",
-      "teamwork"
-    ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/coffeescript-at-teamwork-e596eed63590"
-    },
-    "title": "CoffeeScript at Teamwork",
-    "summary": "The first project at Teamwork to use CoffeeScript was the Teamwork.com iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…\n",
-    "photo": "/images/blog-content/coffeescript-at-teamwork/biscotto-output.jpg",
-    "published_at": "2014-09-26T00:00:00.000Z",
-    "renderedSummary": "<p>The first project at Teamwork to use CoffeeScript was the <a href=\"http://Teamwork.com\" rel=\"noopener\">Teamwork.com</a> iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…</p>\n"
   },
   {
     "id": "dealing-with-long-paths",
@@ -129,68 +112,23 @@
     "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
   },
   {
-    "id": "developing-an-electron-edge",
-    "slug": "developing-an-electron-edge",
-    "collection": null,
-    "isBook": true,
-    "keywords": [
-      "electron",
-      "desktop",
-      "javascript"
-    ],
-    "original": {
-      "blogLink": "https://bleedingedgepress.com/",
-      "blogName": "Bleeding Edge Press",
-      "url": "https://bleedingedgepress.com/developing-an-electron-edge/",
-      "onlyExternal": true
-    },
-    "title": "Developing an Electron Edge",
-    "summary": "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n",
-    "published_at": "2016-05-25T00:00:00.000Z",
-    "renderedSummary": "<p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n"
-  },
-  {
-    "id": "hassle-free-third-party-dependencies",
-    "slug": "hassle-free-third-party-dependencies",
+    "id": "coffeescript-at-teamwork",
+    "slug": "coffeescript-at-teamwork",
     "collection": null,
     "keywords": [
-      "dependencies",
-      "assets",
-      "javascript",
-      "css",
-      "third-party"
+      "coffeescript",
+      "teamwork"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/hassle-free-third-party-dependencies-9b6e0a4884ce"
+      "url": "https://engineroom.teamwork.com/coffeescript-at-teamwork-e596eed63590"
     },
-    "title": "Hassle-free third-party dependencies",
-    "summary": "How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…\n",
-    "photo": "/images/blog-content/hassle-free-third-party-dependencies/bower.png",
-    "published_at": "2014-08-29T00:00:00.000Z",
-    "renderedSummary": "<p>How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…</p>\n"
-  },
-  {
-    "id": "nwjs-app-and-shortcut-apis",
-    "slug": "nwjs-app-and-shortcut-apis",
-    "collection": null,
-    "keywords": [
-      "node-webkit",
-      "desktop",
-      "javascript",
-      "app",
-      "shortcut"
-    ],
-    "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/nwjs-app-and-shortcut-apis"
-    },
-    "title": "NW.js: The App and Shortcut APIs",
-    "summary": "The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...\n",
-    "published_at": "2015-12-18T00:00:00.000Z",
-    "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
+    "title": "CoffeeScript at Teamwork",
+    "summary": "The first project at Teamwork to use CoffeeScript was the Teamwork.com iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…\n",
+    "photo": "/images/blog-content/coffeescript-at-teamwork/biscotto-output.jpg",
+    "published_at": "2014-09-26T00:00:00.000Z",
+    "renderedSummary": "<p>The first project at Teamwork to use CoffeeScript was the <a href=\"http://Teamwork.com\" rel=\"noopener\">Teamwork.com</a> iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…</p>\n"
   },
   {
     "id": "under-the-hood-of-a-hybrid-app",
@@ -218,6 +156,50 @@
     "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
   },
   {
+    "id": "hassle-free-third-party-dependencies",
+    "slug": "hassle-free-third-party-dependencies",
+    "collection": null,
+    "keywords": [
+      "dependencies",
+      "assets",
+      "javascript",
+      "css",
+      "third-party"
+    ],
+    "original": {
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/hassle-free-third-party-dependencies-9b6e0a4884ce"
+    },
+    "title": "Hassle-free third-party dependencies",
+    "summary": "How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…\n",
+    "photo": "/images/blog-content/hassle-free-third-party-dependencies/bower.png",
+    "published_at": "2014-08-29T00:00:00.000Z",
+    "renderedSummary": "<p>How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…</p>\n"
+  },
+  {
+    "id": "installing-your-nwjs-app-windows",
+    "slug": "installing-your-nwjs-app-windows",
+    "collection": null,
+    "keywords": [
+      "node-webkit",
+      "desktop",
+      "javascript",
+      "windows",
+      "install",
+      "installer"
+    ],
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
+    },
+    "title": "Installing your NW.js app on Windows",
+    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+    "published_at": "2015-12-09T00:00:00.000Z",
+    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+  },
+  {
     "id": "transparency-and-nwjs",
     "slug": "transparency-and-nwjs",
     "collection": null,
@@ -242,28 +224,46 @@
     "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
   },
   {
-    "id": "npm-distribution-path-length-problems",
-    "slug": "npm-distribution-path-length-problems",
+    "id": "developing-an-electron-edge",
+    "slug": "developing-an-electron-edge",
     "collection": null,
+    "isBook": true,
     "keywords": [
-      "node-webkit",
+      "electron",
       "desktop",
-      "javascript",
-      "npm",
-      "distribution",
-      "windows",
-      "paths"
+      "javascript"
     ],
     "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
+      "blogLink": "https://bleedingedgepress.com/",
+      "blogName": "Bleeding Edge Press",
+      "url": "https://bleedingedgepress.com/developing-an-electron-edge/",
+      "onlyExternal": true
     },
-    "title": "npm and distribution path length problems",
-    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-    "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
-    "published_at": "2015-12-07T00:00:00.000Z",
-    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+    "title": "Developing an Electron Edge",
+    "summary": "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n",
+    "published_at": "2016-05-25T00:00:00.000Z",
+    "renderedSummary": "<p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n"
+  },
+  {
+    "id": "olc-ruin-someones-day-with-homoglyphs",
+    "slug": "olc-ruin-someones-day-with-homoglyphs",
+    "collection": null,
+    "keywords": [
+      "javascript",
+      "node.js",
+      "homoglyphs",
+      "prank"
+    ],
+    "original": {
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/olc-ruin-someones-day-with-homoglyphs-b14e9a1a05a4"
+    },
+    "title": "Olc: Ruin someone’s day with homoglyphs",
+    "summary": "You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…\n",
+    "photo": "/images/blog-content/olc-ruin-someones-day-with-homoglyphs/tweet.png",
+    "published_at": "2015-10-27T00:00:00.000Z",
+    "renderedSummary": "<p>You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…</p>\n"
   },
   {
     "id": "platform-detection",

@@ -1,7 +1,7 @@
 [
   {
-    "id": "installer",
-    "name": "installer"
+    "id": "shortcut",
+    "name": "shortcut"
   },
   {
     "id": "gulp",
@@ -56,10 +56,6 @@
     "name": "product"
   },
   {
-    "id": "nuxtjs",
-    "name": "nuxt.js"
-  },
-  {
     "id": "npm",
     "name": "npm"
   },
@@ -70,6 +66,10 @@
   {
     "id": "windows",
     "name": "windows"
+  },
+  {
+    "id": "nuxtjs",
+    "name": "nuxt.js"
   },
   {
     "id": "vuejs",
@@ -88,16 +88,16 @@
     "name": "third-party"
   },
   {
-    "id": "headless-cms",
-    "name": "headless-cms"
-  },
-  {
-    "id": "shortcut",
-    "name": "shortcut"
-  },
-  {
     "id": "install",
     "name": "install"
+  },
+  {
+    "id": "installer",
+    "name": "installer"
+  },
+  {
+    "id": "headless-cms",
+    "name": "headless-cms"
   },
   {
     "id": "static-site-generation",
