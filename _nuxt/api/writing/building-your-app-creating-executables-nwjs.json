@@ -67,6 +67,27 @@
   "month": 11,
   "day": 18,
   "next": {
+    "id": "nwjs-app-and-shortcut-apis",
+    "slug": "nwjs-app-and-shortcut-apis",
+    "collection": null,
+    "keywords": [
+      "node-webkit",
+      "desktop",
+      "javascript",
+      "app",
+      "shortcut"
+    ],
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/nwjs-app-and-shortcut-apis"
+    },
+    "title": "NW.js: The App and Shortcut APIs",
+    "summary": "The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...\n",
+    "published_at": "2015-12-18T00:00:00.000Z",
+    "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
+  },
+  "prev": {
     "id": "under-the-hood-of-a-hybrid-app",
     "slug": "under-the-hood-of-a-hybrid-app",
     "collection": null,
@@ -90,26 +111,5 @@
     "photo": "/images/blog-content/under-the-hood-of-a-hybrid-app/nav.png",
     "published_at": "2016-04-16T00:00:00.000Z",
     "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
-  },
-  "prev": {
-    "id": "olc-ruin-someones-day-with-homoglyphs",
-    "slug": "olc-ruin-someones-day-with-homoglyphs",
-    "collection": null,
-    "keywords": [
-      "javascript",
-      "node.js",
-      "homoglyphs",
-      "prank"
-    ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/olc-ruin-someones-day-with-homoglyphs-b14e9a1a05a4"
-    },
-    "title": "Olc: Ruin someone’s day with homoglyphs",
-    "summary": "You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…\n",
-    "photo": "/images/blog-content/olc-ruin-someones-day-with-homoglyphs/tweet.png",
-    "published_at": "2015-10-27T00:00:00.000Z",
-    "renderedSummary": "<p>You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…</p>\n"
   }
 }
