@@ -83,5 +83,9 @@ export default {
     }
   },
 
+  mounted () {
+    debugger;//eslint-disable-line
+  },
+
   name: 'Article'
 }
