@@ -58,28 +58,25 @@
   "month": 3,
   "day": 22,
   "next": {
-    "id": "transparency-and-nwjs",
-    "slug": "transparency-and-nwjs",
+    "id": "static-site-regeneration",
+    "slug": "static-site-regeneration",
     "collection": null,
     "keywords": [
-      "node-webkit",
-      "desktop",
-      "javascript",
-      "platform",
-      "linux",
-      "mac",
-      "windows"
+      "writing",
+      "static-site-generation",
+      "headless-cms",
+      "jamstack",
+      "git",
+      "markdown",
+      "vue.js",
+      "nuxt.js",
+      "javascript"
     ],
-    "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
-    },
-    "title": "Transparency and NW.js",
-    "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
-    "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
-    "published_at": "2016-01-26T00:00:00.000Z",
-    "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
+    "title": "Static site regeneration and focusing on what's important",
+    "summary": "I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.\n",
+    "photo": "/images/blog-content/static-site-regeneration/nuxt.png",
+    "published_at": "2018-02-03T00:00:00.000Z",
+    "renderedSummary": "<p>I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.</p>\n"
   },
   "prev": {
     "id": "a-peek-under-the-hood-of-teamwork-chat",
