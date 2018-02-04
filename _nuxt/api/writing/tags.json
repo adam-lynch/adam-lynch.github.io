@@ -132,8 +132,8 @@
     "name": "serverless"
   },
   {
-    "id": "coffeescript",
-    "name": "coffeescript"
+    "id": "electron",
+    "name": "electron"
   },
   {
     "id": "babun",
@@ -164,8 +164,8 @@
     "name": "dependencies"
   },
   {
-    "id": "electron",
-    "name": "electron"
+    "id": "coffeescript",
+    "name": "coffeescript"
   },
   {
     "id": "clippy",

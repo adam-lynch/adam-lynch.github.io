@@ -86,7 +86,7 @@ export default {
 
   mounted () {
     this.isMounted = true
-    console.log('mounted')
+    console.log('mounted', document.getElementById('disqus_thread'))
   },
 
   name: 'Article'
