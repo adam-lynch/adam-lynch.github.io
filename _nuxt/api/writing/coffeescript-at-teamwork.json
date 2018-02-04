@@ -50,47 +50,47 @@
   "month": 9,
   "day": 27,
   "next": {
-    "id": "beyond-the-browser-from-web-apps-to-desktop-apps",
-    "slug": "beyond-the-browser-from-web-apps-to-desktop-apps",
+    "id": "nwjs-app-and-shortcut-apis",
+    "slug": "nwjs-app-and-shortcut-apis",
     "collection": null,
     "keywords": [
       "node-webkit",
-      "electron",
       "desktop",
-      "javascript"
+      "javascript",
+      "app",
+      "shortcut"
     ],
     "original": {
-      "blogLink": "https://www.smashingmagazine.com/",
-      "blogName": "Smashing Magazine",
-      "url": "https://www.smashingmagazine.com/2017/03/beyond-browser-web-desktop-apps/"
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/nwjs-app-and-shortcut-apis"
     },
-    "title": "Beyond The Browser: From Web Apps To Desktop Apps",
-    "summary": "I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.\n",
-    "photo": "/images/blog-content/beyond-the-browser/chromiumDiagram.png",
-    "published_at": "2017-03-21T00:00:00.000Z",
-    "renderedSummary": "<p>I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.</p>\n"
+    "title": "NW.js: The App and Shortcut APIs",
+    "summary": "The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...\n",
+    "published_at": "2015-12-18T00:00:00.000Z",
+    "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
   },
   "prev": {
-    "id": "dealing-with-long-paths",
-    "slug": "dealing-with-long-paths",
+    "id": "platform-detection",
+    "slug": "platform-detection",
     "collection": null,
     "keywords": [
-      "NW.js",
       "node-webkit",
-      "npm",
-      "distribution",
-      "paths",
+      "desktop",
+      "javascript",
+      "platform",
+      "linux",
+      "mac",
       "windows"
     ],
     "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
     },
-    "title": "Dealing with long paths",
-    "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
-    "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
-    "published_at": "2015-07-01T00:00:00.000Z",
-    "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
+    "title": "Platform detection in your NW.js app",
+    "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
+    "published_at": "2016-01-26T00:00:00.000Z",
+    "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
   }
 }
