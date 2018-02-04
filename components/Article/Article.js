@@ -83,9 +83,5 @@ export default {
     }
   },
 
-  mounted () {
-    console.log(document, document.body, document.querySelector('head'))
-  },
-
   name: 'Article'
 }
