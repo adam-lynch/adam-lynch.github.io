@@ -1,32 +1,7 @@
 {
-  "id": "web",
-  "name": "web",
+  "id": "ux",
+  "name": "ux",
   "articles": [
-    {
-      "id": "under-the-hood-of-a-hybrid-app",
-      "slug": "under-the-hood-of-a-hybrid-app",
-      "collection": null,
-      "keywords": [
-        "product",
-        "web",
-        "javascript",
-        "NW.js",
-        "node-webkit",
-        "desktop",
-        "hybrid",
-        "mobile"
-      ],
-      "original": {
-        "blogLink": "https://engineroom.teamwork.com",
-        "blogName": "Teamwork's Engine Room",
-        "url": "https://engineroom.teamwork.com/under-the-hood-of-a-hybrid-app-2215ce6e342a"
-      },
-      "title": "Under the hood of a hybrid (app)",
-      "summary": "It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...\n",
-      "photo": "/images/blog-content/under-the-hood-of-a-hybrid-app/nav.png",
-      "published_at": "2016-04-16T00:00:00.000Z",
-      "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
-    },
     {
       "id": "improve-permissions-ux",
       "slug": "improve-permissions-ux",
