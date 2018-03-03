@@ -91,24 +91,26 @@
     "renderedSummary": "<p>The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from <a href=\"http://electron.atom.io/\" rel=\"noopener\">Electron</a> apps.</p>\n"
   },
   "prev": {
-    "id": "beyond-the-browser-from-web-apps-to-desktop-apps",
-    "slug": "beyond-the-browser-from-web-apps-to-desktop-apps",
+    "id": "a-peek-under-the-hood-of-teamwork-chat",
+    "slug": "a-peek-under-the-hood-of-teamwork-chat",
     "collection": null,
     "keywords": [
+      "teamwork",
+      "chat",
+      "node.js",
+      "javascript",
       "node-webkit",
-      "electron",
-      "desktop",
-      "javascript"
+      "NW.js"
     ],
     "original": {
-      "blogLink": "https://www.smashingmagazine.com/",
-      "blogName": "Smashing Magazine",
-      "url": "https://www.smashingmagazine.com/2017/03/beyond-browser-web-desktop-apps/"
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
     },
-    "title": "Beyond The Browser: From Web Apps To Desktop Apps",
-    "summary": "I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.\n",
-    "photo": "/images/blog-content/beyond-the-browser/chromiumDiagram.png",
-    "published_at": "2017-03-21T00:00:00.000Z",
-    "renderedSummary": "<p>I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.</p>\n"
+    "title": "A peek under the hood of Teamwork Chat",
+    "summary": "The idea was to build a chat application of our own. A whole new standalone product to raise the bar for team communication and collaboration. From the beginning, Teamwork Chat was intended to tie our whole suite of…\n",
+    "photo": "/images/blog-content/a-peek-under-the-hood-of-teamwork-chat/teamwork-chat.png",
+    "published_at": "2015-04-28T00:00:00.000Z",
+    "renderedSummary": "<p>The idea was to build a chat application of our own. A whole new standalone product to raise the bar for team communication and collaboration. From the beginning, Teamwork Chat was intended to tie our whole suite of…</p>\n"
   }
 }

@@ -68,25 +68,25 @@
   "month": 4,
   "day": 29,
   "next": {
-    "id": "beyond-the-browser-from-web-apps-to-desktop-apps",
-    "slug": "beyond-the-browser-from-web-apps-to-desktop-apps",
+    "id": "static-site-regeneration",
+    "slug": "static-site-regeneration",
     "collection": null,
     "keywords": [
-      "node-webkit",
-      "electron",
-      "desktop",
+      "writing",
+      "static-site-generation",
+      "headless-cms",
+      "jamstack",
+      "git",
+      "markdown",
+      "vue.js",
+      "nuxt.js",
       "javascript"
     ],
-    "original": {
-      "blogLink": "https://www.smashingmagazine.com/",
-      "blogName": "Smashing Magazine",
-      "url": "https://www.smashingmagazine.com/2017/03/beyond-browser-web-desktop-apps/"
-    },
-    "title": "Beyond The Browser: From Web Apps To Desktop Apps",
-    "summary": "I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.\n",
-    "photo": "/images/blog-content/beyond-the-browser/chromiumDiagram.png",
-    "published_at": "2017-03-21T00:00:00.000Z",
-    "renderedSummary": "<p>I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.</p>\n"
+    "title": "Static site regeneration and focusing on what's important",
+    "summary": "I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.\n",
+    "photo": "/images/blog-content/static-site-regeneration/nuxt.png",
+    "published_at": "2018-02-04T00:00:00.000Z",
+    "renderedSummary": "<p>I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.</p>\n"
   },
   "prev": {
     "id": "10-things-to-know-about-gulp",

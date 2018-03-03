@@ -3,8 +3,9 @@ date: 2018-03-03
 tags:
   - ux
   - permissions
-  - javascript
+  - pwa
   - web
+  - javascript
   - notifications
   - geolocation
   - extension
