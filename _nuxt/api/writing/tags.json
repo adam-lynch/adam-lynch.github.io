@@ -4,72 +4,36 @@
     "name": "browsers"
   },
   {
-    "id": "teamwork",
-    "name": "teamwork"
+    "id": "gulp",
+    "name": "gulp"
   },
   {
     "id": "terminal",
     "name": "terminal"
   },
   {
-    "id": "vuejs",
-    "name": "vue.js"
-  },
-  {
-    "id": "writing",
-    "name": "writing"
-  },
-  {
-    "id": "web",
-    "name": "web"
-  },
-  {
-    "id": "ux",
-    "name": "ux"
-  },
-  {
-    "id": "third-party",
-    "name": "third-party"
-  },
-  {
-    "id": "windows",
-    "name": "windows"
-  },
-  {
-    "id": "homoglyphs",
-    "name": "homoglyphs"
-  },
-  {
-    "id": "desktop",
-    "name": "desktop"
-  },
-  {
-    "id": "distribution",
-    "name": "distribution"
-  },
-  {
-    "id": "generation",
-    "name": "generation"
-  },
-  {
-    "id": "electron",
-    "name": "electron"
+    "id": "javascript",
+    "name": "javascript"
   },
   {
     "id": "nodejs",
     "name": "node.js"
   },
   {
-    "id": "npm",
-    "name": "npm"
-  },
-  {
-    "id": "paths",
-    "name": "paths"
+    "id": "teamwork",
+    "name": "teamwork"
   },
   {
     "id": "ide",
     "name": "ide"
+  },
+  {
+    "id": "node-webkit",
+    "name": "node-webkit"
+  },
+  {
+    "id": "nwjs",
+    "name": "NW.js"
   },
   {
     "id": "jetbrains",
@@ -88,32 +52,68 @@
     "name": "product"
   },
   {
-    "id": "gulp",
-    "name": "gulp"
+    "id": "nuxtjs",
+    "name": "nuxt.js"
+  },
+  {
+    "id": "vuejs",
+    "name": "vue.js"
+  },
+  {
+    "id": "npm",
+    "name": "npm"
+  },
+  {
+    "id": "paths",
+    "name": "paths"
+  },
+  {
+    "id": "windows",
+    "name": "windows"
+  },
+  {
+    "id": "markdown",
+    "name": "markdown"
+  },
+  {
+    "id": "jamstack",
+    "name": "jamstack"
+  },
+  {
+    "id": "headless-cms",
+    "name": "headless-cms"
+  },
+  {
+    "id": "third-party",
+    "name": "third-party"
+  },
+  {
+    "id": "ux",
+    "name": "ux"
   },
   {
     "id": "permissions",
     "name": "permissions"
   },
   {
-    "id": "nwjs",
-    "name": "NW.js"
+    "id": "web",
+    "name": "web"
   },
   {
     "id": "notifications",
     "name": "notifications"
   },
   {
-    "id": "geolocation",
-    "name": "geolocation"
+    "id": "static-site-generation",
+    "name": "static-site-generation"
   },
   {
-    "id": "extension",
-    "name": "extension"
+    "id": "writing",
+    "name": "writing"
   },
   {
-    "id": "nuxtjs",
-    "name": "nuxt.js"
+    "id": "serverless",
+    "name": "serverless"
   },
   {
     "id": "install",
@@ -124,16 +124,16 @@
     "name": "installer"
   },
   {
-    "id": "javascript",
-    "name": "javascript"
+    "id": "mac",
+    "name": "mac"
   },
   {
     "id": "shortcut",
     "name": "shortcut"
   },
   {
-    "id": "executable",
-    "name": "executable"
+    "id": "homoglyphs",
+    "name": "homoglyphs"
   },
   {
     "id": "prank",
@@ -148,80 +148,80 @@
     "name": "linux"
   },
   {
-    "id": "mac",
-    "name": "mac"
-  },
-  {
-    "id": "markdown",
-    "name": "markdown"
-  },
-  {
-    "id": "serverless",
-    "name": "serverless"
-  },
-  {
-    "id": "git",
-    "name": "git"
-  },
-  {
-    "id": "node-webkit",
-    "name": "node-webkit"
-  },
-  {
-    "id": "static-site-generation",
-    "name": "static-site-generation"
-  },
-  {
-    "id": "headless-cms",
-    "name": "headless-cms"
-  },
-  {
-    "id": "jamstack",
-    "name": "jamstack"
-  },
-  {
-    "id": "assets",
-    "name": "assets"
+    "id": "coffeescript",
+    "name": "coffeescript"
   },
   {
     "id": "babun",
     "name": "babun"
   },
   {
-    "id": "coffeescript",
-    "name": "coffeescript"
-  },
-  {
-    "id": "chat",
-    "name": "chat"
-  },
-  {
     "id": "build",
     "name": "build"
-  },
-  {
-    "id": "css",
-    "name": "css"
-  },
-  {
-    "id": "clippy",
-    "name": "clippy"
-  },
-  {
-    "id": "dependencies",
-    "name": "dependencies"
-  },
-  {
-    "id": "cygwin",
-    "name": "cygwin"
   },
   {
     "id": "build-system",
     "name": "build system"
   },
   {
+    "id": "extension",
+    "name": "extension"
+  },
+  {
+    "id": "geolocation",
+    "name": "geolocation"
+  },
+  {
+    "id": "css",
+    "name": "css"
+  },
+  {
+    "id": "chat",
+    "name": "chat"
+  },
+  {
+    "id": "git",
+    "name": "git"
+  },
+  {
+    "id": "dependencies",
+    "name": "dependencies"
+  },
+  {
+    "id": "clippy",
+    "name": "clippy"
+  },
+  {
+    "id": "electron",
+    "name": "electron"
+  },
+  {
+    "id": "generation",
+    "name": "generation"
+  },
+  {
+    "id": "distribution",
+    "name": "distribution"
+  },
+  {
+    "id": "executable",
+    "name": "executable"
+  },
+  {
+    "id": "desktop",
+    "name": "desktop"
+  },
+  {
+    "id": "cygwin",
+    "name": "cygwin"
+  },
+  {
     "id": "aws",
     "name": "aws"
+  },
+  {
+    "id": "assets",
+    "name": "assets"
   },
   {
     "id": "app",

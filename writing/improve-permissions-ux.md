@@ -110,6 +110,9 @@ To encourage the user to opt-in, you could explain that they will be rewarded in
 
 It's unlikely but there is a chance the user could still reject access once the native prompt is shown (or ignore it). If this happens, you should show some feedback and explain how to manually enable the permission via their browser settings (or link to an explanation).
 
+:::figure improve-permissions-ux/whatsapp.png The overlay WhatsApp (web) shows when the native prompt is shown.
+:::
+
 We can do more than cross our fingers though. When the user interacts with your fake UI and you're about to trigger the native prompt, you could show something to guide them. It could even be an overlay which covers the entire page. By doing this, you can draw more attention to the prompt, prevent it being ignored, and even show some text. I remember when Google Chrome first got popular, some sites would show an arrow pointing at the download bar after you downloaded something. It was crude but it worked. I'd keep this overlay simple though. You shouldn't assume where the native prompt will appear, browser-sniff, or have too much code here in general.
 
 
