@@ -40,24 +40,24 @@
     "name": "jetbrains"
   },
   {
+    "id": "mobile",
+    "name": "mobile"
+  },
+  {
+    "id": "hybrid",
+    "name": "hybrid"
+  },
+  {
+    "id": "product",
+    "name": "product"
+  },
+  {
     "id": "nuxtjs",
     "name": "nuxt.js"
   },
   {
     "id": "vuejs",
     "name": "vue.js"
-  },
-  {
-    "id": "markdown",
-    "name": "markdown"
-  },
-  {
-    "id": "jamstack",
-    "name": "jamstack"
-  },
-  {
-    "id": "headless-cms",
-    "name": "headless-cms"
   },
   {
     "id": "npm",
@@ -72,16 +72,16 @@
     "name": "windows"
   },
   {
-    "id": "static-site-generation",
-    "name": "static-site-generation"
+    "id": "markdown",
+    "name": "markdown"
   },
   {
-    "id": "writing",
-    "name": "writing"
+    "id": "jamstack",
+    "name": "jamstack"
   },
   {
-    "id": "mobile",
-    "name": "mobile"
+    "id": "headless-cms",
+    "name": "headless-cms"
   },
   {
     "id": "third-party",
@@ -104,12 +104,12 @@
     "name": "notifications"
   },
   {
-    "id": "hybrid",
-    "name": "hybrid"
+    "id": "static-site-generation",
+    "name": "static-site-generation"
   },
   {
-    "id": "product",
-    "name": "product"
+    "id": "writing",
+    "name": "writing"
   },
   {
     "id": "serverless",
@@ -124,12 +124,20 @@
     "name": "installer"
   },
   {
-    "id": "prank",
-    "name": "prank"
+    "id": "mac",
+    "name": "mac"
   },
   {
     "id": "shortcut",
     "name": "shortcut"
+  },
+  {
+    "id": "homoglyphs",
+    "name": "homoglyphs"
+  },
+  {
+    "id": "prank",
+    "name": "prank"
   },
   {
     "id": "platform",
@@ -138,14 +146,6 @@
   {
     "id": "linux",
     "name": "linux"
-  },
-  {
-    "id": "mac",
-    "name": "mac"
-  },
-  {
-    "id": "homoglyphs",
-    "name": "homoglyphs"
   },
   {
     "id": "coffeescript",
@@ -180,20 +180,16 @@
     "name": "chat"
   },
   {
+    "id": "git",
+    "name": "git"
+  },
+  {
     "id": "dependencies",
     "name": "dependencies"
   },
   {
-    "id": "electron",
-    "name": "electron"
-  },
-  {
     "id": "clippy",
     "name": "clippy"
-  },
-  {
-    "id": "git",
-    "name": "git"
   },
   {
     "id": "generation",
@@ -210,6 +206,10 @@
   {
     "id": "desktop",
     "name": "desktop"
+  },
+  {
+    "id": "electron",
+    "name": "electron"
   },
   {
     "id": "cygwin",

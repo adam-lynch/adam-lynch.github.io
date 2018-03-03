@@ -178,7 +178,7 @@ I've been thinking about writing this for a long time and it was Jason Grigsby's
 - If the domain is `localhost` or `127.0.0.1`.
 - If you've navigated to the current page from another page on the same domain.
 
-This will at least block requests to enable notifications the first time you go a site. You can see the requests which were caught and whitelist them (it will ask again and reload, to be safe). It's [open-source](https://github.com/adam-lynch/askblocker).
+This will at least block immediate requests to enable notifications the first time you go a site. You can see the requests which were caught and whitelist them (it will ask again and reload, to be safe). It's [open-source](https://github.com/adam-lynch/askblocker).
 
 Note: There aren't any extensions for other browsers (yet) because they don't support the Permissions API. 
 
