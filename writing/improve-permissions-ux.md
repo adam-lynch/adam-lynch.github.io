@@ -26,7 +26,7 @@ We sure can build amazing experiences these days. We can leverage powerful brows
 
 At the last Chrome Dev Summit, Chris Wilson revealed that over 90% of permissions requests in Chrome for Android were unsuccessful. It's understandable. If there were an annoyance scale, I'd position it somewhere between auto-playing media and when native mobile apps open a page from their own website in a WebView, which has a banner that tells you to install their mobile app.
 
-It's not just smaller sites. Examples aren't needed because we've all experienced it. It's not so bad if it's obvious why the permission is needed, but in general, we need to try harder. [Peter-Paul Koch argued](https://www.quirksmode.org/blog/archives/2015/05/web_vs_native_l.html) that the web shouldn't emulate native (apps) because it will lead to bad UX. Was he right? These APIs aren't at fault but our implementations are sloppy. As web developers and designers we should lift our heads up and look around a bit more; we can learn a lot from mobile (and other platforms).
+Examples aren't needed because we've all experienced it. It's not so bad if it's obvious why the permission is needed, but in general, we need to try harder. [Peter-Paul Koch argued](https://www.quirksmode.org/blog/archives/2015/05/web_vs_native_l.html) that the web shouldn't emulate native (apps) because it will lead to bad UX. Was he right? These APIs aren't at fault but our implementations are sloppy. As web developers and designers we should lift our heads up and look around a bit more; we can learn a lot from mobile (and other platforms).
 
 
 ### Why should I care?
@@ -59,7 +59,7 @@ This is where the double request pattern from mobile-land comes in. Show some fa
 
 Requests without context are granted 40% less (another fact Chris Wilson shared in his talk). When showing this fake prompt, explain why the permission is needed, how the user will benefit, what will happen once they accept (the native request prompt will appear), etc. If you want to send notifications, what will the notifications be about? How often will the user receive them? The new Google Calendar's fake notification prompt is a good example.
 
-You were probably imagining a popup (like Google Calendar's one) so far, but hiding the option away in your app's settings would be even better. Allowing the user to opt-in like that is surely the pattern with the highest success rate.
+You were probably imagining a popup (like Google Calendar's one) so far, but hiding the option away in your app's settings would be even better (although they're not mutually exclusively). Allowing the user to opt-in like that is surely the pattern with the highest success rate.
 
 
 #### The permissions API
@@ -103,7 +103,7 @@ navigator.permissions.revoke({ name: 'microphone' })
 
 ### Incentivize the user
 
-To encourage the user to opt-in, you could explain that they will be rewarded in some way. What that reward could be is up to you. Alternatively, you could just use gamification. For example, you could show an on-boarding checklist somewhere in your app, containing "Enable notifications" and anything else you'd like. Simply showing the number of completed items or completion percentage to the user will be enough to get some to enable notifications. Don't blackmail users though; don't block them from using certain features until they've granted a permission or signed up for your newsletter or anything like that.
+To encourage the user to opt-in, you could explain that they will be rewarded in some way. It's to you what that reward could be. Alternatively, you could just use gamification. For example, you could show an on-boarding checklist somewhere in your app, containing "Enable notifications" and anything else you'd like. Simply showing the number of completed items or completion percentage to the user will be enough to get some to enable notifications. Don't blackmail users though; don't block them from using certain features until they've granted a permission or signed up for your newsletter or anything like that.
 
 
 ### What if the native request is rejected?
@@ -115,7 +115,7 @@ We can do more than cross our fingers though. When the user interacts with your 
 
 ### Be reasonable
 
-What you do once they enable the permission is another story. First of all, you should ideally give users the option to opt-out. Especially if it's notifications they're granting, [don't go overboard](https://www.youtube.com/watch?v=gkND9G_VqVo). There is no spam filter for notifications. You could provide further settings to tweak how permissions are used. For example, Slack provides granular settings around notifications. My favourite part is that it defaults to sending you a notification for every message but once you've settled into app, it recommends to reducing your notification level so you'll only get notified when you're @mentioned.
+What you do once they enable the permission is another story. First of all, you should ideally give users the option to opt-out. Especially if it's notifications they're granting, [don't go overboard](https://www.youtube.com/watch?v=gkND9G_VqVo). There is no spam filter for notifications. You could provide further settings to tweak how permissions are used. For example, Slack provides granular settings around notifications. My favourite part is that it defaults to sending you a notification for every message but once you've settled into app, it recommends reducing your notification level so you'll only get notified when you're @mentioned.
 
 Don't send the user multiple notifications for the same thing. Even if I've your app is open in 20 tabs, I should only get one notification per event. The Notification API allows you to provide a "tag" to achieve this;
 
