@@ -14,7 +14,7 @@ tags:
   - satire
 ---
 
-## How the pros work with production databases
+## 10 Pro Tips: How To Work With Production Databases
 
 :::summary
 
