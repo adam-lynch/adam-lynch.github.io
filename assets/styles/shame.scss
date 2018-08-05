@@ -635,6 +635,10 @@ body {
     list-style: initial;
   }
 
+  ol {
+    list-style-type: decimal;
+  }
+
   li {
     margin-bottom: 0.5rem;
   }
