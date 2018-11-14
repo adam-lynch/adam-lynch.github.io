@@ -1,29 +1,7 @@
 {
-  "id": "development",
-  "name": "development",
+  "id": "delegating",
+  "name": "delegating",
   "articles": [
-    {
-      "id": "production-databases-tips",
-      "slug": "production-databases-tips",
-      "collection": null,
-      "keywords": [
-        "database",
-        "database-adminstration",
-        "dba",
-        "production",
-        "productivity",
-        "development",
-        "mysql",
-        "mssql",
-        "postgres",
-        "rockstar",
-        "satire"
-      ],
-      "title": "10 pro tips: how to work with production databases",
-      "summary": "The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...\n",
-      "published_at": "2018-08-05T00:00:00.000Z",
-      "renderedSummary": "<p>The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...</p>\n"
-    },
     {
       "id": "lessons-learned-leading-teams",
       "slug": "lessons-learned-leading-teams",
