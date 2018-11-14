@@ -20,12 +20,16 @@
     "name": "node.js"
   },
   {
-    "id": "node-webkit",
-    "name": "node-webkit"
-  },
-  {
     "id": "ide",
     "name": "ide"
+  },
+  {
+    "id": "teamwork",
+    "name": "teamwork"
+  },
+  {
+    "id": "node-webkit",
+    "name": "node-webkit"
   },
   {
     "id": "jetbrains",
@@ -40,16 +44,8 @@
     "name": "hybrid"
   },
   {
-    "id": "teamwork",
-    "name": "teamwork"
-  },
-  {
     "id": "product",
     "name": "product"
-  },
-  {
-    "id": "nwjs",
-    "name": "NW.js"
   },
   {
     "id": "nuxtjs",
@@ -58,6 +54,10 @@
   {
     "id": "vuejs",
     "name": "vue.js"
+  },
+  {
+    "id": "nwjs",
+    "name": "NW.js"
   },
   {
     "id": "npm",
@@ -288,16 +288,16 @@
     "name": "development"
   },
   {
-    "id": "clippy",
-    "name": "clippy"
-  },
-  {
     "id": "browsers",
     "name": "browsers"
   },
   {
     "id": "build-system",
     "name": "build system"
+  },
+  {
+    "id": "clippy",
+    "name": "clippy"
   },
   {
     "id": "extension",
@@ -312,8 +312,8 @@
     "name": "css"
   },
   {
-    "id": "desktop",
-    "name": "desktop"
+    "id": "coffeescript",
+    "name": "coffeescript"
   },
   {
     "id": "git",
@@ -324,16 +324,12 @@
     "name": "dependencies"
   },
   {
-    "id": "electron",
-    "name": "electron"
-  },
-  {
-    "id": "coffeescript",
-    "name": "coffeescript"
-  },
-  {
     "id": "chat",
     "name": "chat"
+  },
+  {
+    "id": "electron",
+    "name": "electron"
   },
   {
     "id": "generation",
@@ -346,6 +342,10 @@
   {
     "id": "executable",
     "name": "executable"
+  },
+  {
+    "id": "desktop",
+    "name": "desktop"
   },
   {
     "id": "cygwin",

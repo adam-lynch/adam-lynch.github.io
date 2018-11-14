@@ -130,7 +130,7 @@ Even though the role is certainly people oriented, people come and go, what we b
 
 It's important to still be hands-on with code though. Some lessons can only be learned this way. Keep in touch, stay up to date, be respected. Identify patterns over time and keep an eye out for anyone implementing a pattern which'll come back to haunt us. Be careful when dropping the team lead role to play full-time developer on the other hand, other unnoticed issues might bubble up until they are too big to solve quickly.
 
-In general, I'd promote test-driven development, as well as continuous integration, deployment, and delivery. Check out Steve Smith's [Measuring Continuous Delivery](https://www.youtube.com/watch?v=afEzqDExCTE) talk if you haven't seen it. You should also measure app performance, feature usage, and so on. Don't go overboard but carefully select a few key metrics to being with. 
+In general, I'd promote test-driven development, as well as continuous integration, deployment, and delivery. Check out Steve Smith's [Measuring Continuous Delivery](https://www.youtube.com/watch?v=afEzqDExCTE) talk if you haven't seen it. You should also measure app performance, feature usage, and so on. Don't go overboard but carefully select a few key metrics to begin with. 
 
 Let the team influence code style. I absolutely hate arguments over code style, e.g. tabs vs spaces. Discuss as a team and agree, but keep it short. Document the outcome. It shouldn't be acceptable to argue about it in pull requests; code either matches the code style or not. Plan a separate time to discuss a change to the code style if needed. Where possible, use linting tools which automatically formats code as it's written or pre-commit, e.g. [Prettier](https://prettier.io/).
 
