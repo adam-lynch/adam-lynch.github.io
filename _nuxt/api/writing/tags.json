@@ -1,19 +1,75 @@
 [
   {
-    "id": "technical",
-    "name": "technical"
+    "id": "web",
+    "name": "web"
   },
   {
-    "id": "gulp",
-    "name": "gulp"
+    "id": "teamwork",
+    "name": "teamwork"
   },
   {
     "id": "terminal",
     "name": "terminal"
   },
   {
-    "id": "javascript",
-    "name": "javascript"
+    "id": "vuejs",
+    "name": "vue.js"
+  },
+  {
+    "id": "writing",
+    "name": "writing"
+  },
+  {
+    "id": "zeit",
+    "name": "zeit"
+  },
+  {
+    "id": "twitter",
+    "name": "twitter"
+  },
+  {
+    "id": "ux",
+    "name": "ux"
+  },
+  {
+    "id": "technical-lead",
+    "name": "technical lead"
+  },
+  {
+    "id": "transition",
+    "name": "transition"
+  },
+  {
+    "id": "technical",
+    "name": "technical"
+  },
+  {
+    "id": "third-party",
+    "name": "third-party"
+  },
+  {
+    "id": "windows",
+    "name": "windows"
+  },
+  {
+    "id": "prank",
+    "name": "prank"
+  },
+  {
+    "id": "distribution",
+    "name": "distribution"
+  },
+  {
+    "id": "npm",
+    "name": "npm"
+  },
+  {
+    "id": "executable",
+    "name": "executable"
+  },
+  {
+    "id": "generation",
+    "name": "generation"
   },
   {
     "id": "nodejs",
@@ -24,100 +80,12 @@
     "name": "ide"
   },
   {
-    "id": "teamwork",
-    "name": "teamwork"
-  },
-  {
-    "id": "node-webkit",
-    "name": "node-webkit"
-  },
-  {
     "id": "jetbrains",
     "name": "jetbrains"
   },
   {
     "id": "mobile",
     "name": "mobile"
-  },
-  {
-    "id": "hybrid",
-    "name": "hybrid"
-  },
-  {
-    "id": "product",
-    "name": "product"
-  },
-  {
-    "id": "nuxtjs",
-    "name": "nuxt.js"
-  },
-  {
-    "id": "vuejs",
-    "name": "vue.js"
-  },
-  {
-    "id": "nwjs",
-    "name": "NW.js"
-  },
-  {
-    "id": "npm",
-    "name": "npm"
-  },
-  {
-    "id": "paths",
-    "name": "paths"
-  },
-  {
-    "id": "windows",
-    "name": "windows"
-  },
-  {
-    "id": "markdown",
-    "name": "markdown"
-  },
-  {
-    "id": "jamstack",
-    "name": "jamstack"
-  },
-  {
-    "id": "headless-cms",
-    "name": "headless-cms"
-  },
-  {
-    "id": "third-party",
-    "name": "third-party"
-  },
-  {
-    "id": "ux",
-    "name": "ux"
-  },
-  {
-    "id": "permissions",
-    "name": "permissions"
-  },
-  {
-    "id": "pwa",
-    "name": "pwa"
-  },
-  {
-    "id": "web",
-    "name": "web"
-  },
-  {
-    "id": "notifications",
-    "name": "notifications"
-  },
-  {
-    "id": "static-site-generation",
-    "name": "static-site-generation"
-  },
-  {
-    "id": "writing",
-    "name": "writing"
-  },
-  {
-    "id": "serverless",
-    "name": "serverless"
   },
   {
     "id": "install",
@@ -140,8 +108,8 @@
     "name": "teams"
   },
   {
-    "id": "satire",
-    "name": "satire"
+    "id": "hybrid",
+    "name": "hybrid"
   },
   {
     "id": "lead",
@@ -164,40 +132,40 @@
     "name": "programming"
   },
   {
-    "id": "rockstar",
-    "name": "rockstar"
+    "id": "product",
+    "name": "product"
   },
   {
-    "id": "postgres",
-    "name": "postgres"
+    "id": "efficiency",
+    "name": "efficiency"
   },
   {
-    "id": "mssql",
-    "name": "mssql"
+    "id": "nuxtjs",
+    "name": "nuxt.js"
   },
   {
     "id": "people",
     "name": "people"
   },
   {
-    "id": "mysql",
-    "name": "mysql"
+    "id": "javascript",
+    "name": "javascript"
   },
   {
-    "id": "transition",
-    "name": "transition"
+    "id": "electron",
+    "name": "electron"
   },
   {
     "id": "job",
     "name": "job"
   },
   {
-    "id": "productivity",
-    "name": "productivity"
+    "id": "markdown",
+    "name": "markdown"
   },
   {
-    "id": "production",
-    "name": "production"
+    "id": "growth",
+    "name": "growth"
   },
   {
     "id": "product-management",
@@ -212,28 +180,104 @@
     "name": "product lead"
   },
   {
-    "id": "technical-lead",
-    "name": "technical lead"
+    "id": "git",
+    "name": "git"
   },
   {
     "id": "lead-developer",
     "name": "lead developer"
   },
   {
-    "id": "mac",
-    "name": "mac"
+    "id": "jamstack",
+    "name": "jamstack"
   },
   {
-    "id": "shortcut",
-    "name": "shortcut"
+    "id": "permissions",
+    "name": "permissions"
+  },
+  {
+    "id": "pwa",
+    "name": "pwa"
+  },
+  {
+    "id": "headless-cms",
+    "name": "headless-cms"
+  },
+  {
+    "id": "notifications",
+    "name": "notifications"
+  },
+  {
+    "id": "geolocation",
+    "name": "geolocation"
+  },
+  {
+    "id": "extension",
+    "name": "extension"
+  },
+  {
+    "id": "static-site-generation",
+    "name": "static-site-generation"
   },
   {
     "id": "homoglyphs",
     "name": "homoglyphs"
   },
   {
-    "id": "prank",
-    "name": "prank"
+    "id": "paths",
+    "name": "paths"
+  },
+  {
+    "id": "node-webkit",
+    "name": "node-webkit"
+  },
+  {
+    "id": "shortcut",
+    "name": "shortcut"
+  },
+  {
+    "id": "satire",
+    "name": "satire"
+  },
+  {
+    "id": "open-api",
+    "name": "open API"
+  },
+  {
+    "id": "public-api",
+    "name": "public API"
+  },
+  {
+    "id": "gulp",
+    "name": "gulp"
+  },
+  {
+    "id": "rockstar",
+    "name": "rockstar"
+  },
+  {
+    "id": "nwjs",
+    "name": "NW.js"
+  },
+  {
+    "id": "now",
+    "name": "now"
+  },
+  {
+    "id": "serverless",
+    "name": "serverless"
+  },
+  {
+    "id": "faas",
+    "name": "faas"
+  },
+  {
+    "id": "postgres",
+    "name": "postgres"
+  },
+  {
+    "id": "mssql",
+    "name": "mssql"
   },
   {
     "id": "platform",
@@ -244,112 +288,100 @@
     "name": "linux"
   },
   {
-    "id": "geolocation",
-    "name": "geolocation"
+    "id": "mac",
+    "name": "mac"
   },
   {
-    "id": "babun",
-    "name": "babun"
+    "id": "mysql",
+    "name": "mysql"
   },
   {
-    "id": "database-adminstration",
-    "name": "database-adminstration"
+    "id": "productivity",
+    "name": "productivity"
   },
   {
-    "id": "dba",
-    "name": "dba"
-  },
-  {
-    "id": "growth",
-    "name": "growth"
-  },
-  {
-    "id": "career",
-    "name": "career"
-  },
-  {
-    "id": "build",
-    "name": "build"
-  },
-  {
-    "id": "communication",
-    "name": "communication"
-  },
-  {
-    "id": "efficiency",
-    "name": "efficiency"
-  },
-  {
-    "id": "delegating",
-    "name": "delegating"
-  },
-  {
-    "id": "development",
-    "name": "development"
-  },
-  {
-    "id": "browsers",
-    "name": "browsers"
+    "id": "production",
+    "name": "production"
   },
   {
     "id": "build-system",
     "name": "build system"
   },
   {
-    "id": "clippy",
-    "name": "clippy"
-  },
-  {
-    "id": "extension",
-    "name": "extension"
-  },
-  {
-    "id": "database",
-    "name": "database"
-  },
-  {
-    "id": "css",
-    "name": "css"
-  },
-  {
-    "id": "coffeescript",
-    "name": "coffeescript"
-  },
-  {
-    "id": "git",
-    "name": "git"
+    "id": "dba",
+    "name": "dba"
   },
   {
     "id": "dependencies",
     "name": "dependencies"
   },
   {
-    "id": "chat",
-    "name": "chat"
+    "id": "development",
+    "name": "development"
   },
   {
-    "id": "electron",
-    "name": "electron"
-  },
-  {
-    "id": "generation",
-    "name": "generation"
-  },
-  {
-    "id": "distribution",
-    "name": "distribution"
-  },
-  {
-    "id": "executable",
-    "name": "executable"
+    "id": "delegating",
+    "name": "delegating"
   },
   {
     "id": "desktop",
     "name": "desktop"
   },
   {
+    "id": "communication",
+    "name": "communication"
+  },
+  {
+    "id": "babun",
+    "name": "babun"
+  },
+  {
+    "id": "database",
+    "name": "database"
+  },
+  {
+    "id": "browsers",
+    "name": "browsers"
+  },
+  {
+    "id": "chat",
+    "name": "chat"
+  },
+  {
+    "id": "build",
+    "name": "build"
+  },
+  {
+    "id": "database-adminstration",
+    "name": "database-adminstration"
+  },
+  {
+    "id": "career",
+    "name": "career"
+  },
+  {
+    "id": "bot",
+    "name": "bot"
+  },
+  {
     "id": "cygwin",
     "name": "cygwin"
+  },
+  {
+    "id": "cron",
+    "name": "cron"
+  },
+  {
+    "id": "clippy",
+    "name": "clippy"
+  },
+  {
+    "id": "coffeescript",
+    "name": "coffeescript"
+  },
+  {
+    "id": "css",
+    "name": "css"
   },
   {
     "id": "aws",
@@ -362,5 +394,9 @@
   {
     "id": "app",
     "name": "app"
+  },
+  {
+    "id": "api",
+    "name": "api"
   }
 ]
