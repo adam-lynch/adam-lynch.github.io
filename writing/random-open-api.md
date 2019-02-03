@@ -24,7 +24,7 @@ Seriously, I do love the challenge and I know it will make a lot of people happy
 
 I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.
 
-The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' @randomMDN? It tweets a random article from [MDN]([https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/)) multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.
+The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' [@randomMDN](twitter.com/randommdn)? It tweets a random article from [MDN]([https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/)) multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.
 
 :::
 
