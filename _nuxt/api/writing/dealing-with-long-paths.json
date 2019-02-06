@@ -68,27 +68,27 @@
   "month": 7,
   "day": 2,
   "next": {
-    "id": "random-open-api",
-    "slug": "random-open-api",
+    "id": "resurrecting-clippy",
+    "slug": "resurrecting-clippy",
     "collection": null,
     "keywords": [
-      "api",
-      "open API",
-      "public API",
-      "twitter",
-      "bot",
-      "zeit",
-      "now",
-      "serverless",
-      "faas",
-      "node.js",
-      "cron"
+      "clippy",
+      "desktop",
+      "app",
+      "NW.js",
+      "node-webkit",
+      "javascript"
     ],
-    "title": "How I made the @randomOpenAPI Twitter bot in 42 minutes-ish",
-    "summary": "I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.\nThe natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' @randomMDN? It tweets a random article from MDN multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.\n",
-    "photo": "/images/blog-content/random-open-api/tweet.png",
-    "published_at": "2019-02-02T00:00:00.000Z",
-    "renderedSummary": "<p>I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.</p>\n<p>The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' <a href=\"twitter.com/randommdn\">@randomMDN</a>? It tweets a random article from <a href=\"%5Bhttps://developer.mozilla.org/en-US/%5D(https://developer.mozilla.org/en-US/)\">MDN</a> multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.</p>\n"
+    "original": {
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/resurrecting-clippy-89843fcc9871"
+    },
+    "title": "Resurrecting Clippy",
+    "summary": "Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...\n",
+    "photo": "/images/blog-content/resurrecting-clippy/osx.png",
+    "published_at": "2016-03-08T00:00:00.000Z",
+    "renderedSummary": "<p>Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...</p>\n"
   },
   "prev": {
     "id": "coffeescript-at-teamwork",

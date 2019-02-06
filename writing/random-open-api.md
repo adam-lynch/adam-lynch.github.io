@@ -24,7 +24,7 @@ Seriously, I do love the challenge and I know it will make a lot of people happy
 
 I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.
 
-The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' [@randomMDN](twitter.com/randommdn)? It tweets a random article from [MDN]([https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/)) multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.
+The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' [@randomMDN](https://twitter.com/randommdn)? It tweets a random article from [MDN](https://developer.mozilla.org/en-US/) multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.
 
 :::
 
@@ -34,7 +34,7 @@ I decided to time myself while I was at it. It took 42 minutes but read on, it w
 
 I created a new directory with an `index.js` containing `console.log('Hello, world!)` and ran `node index` in the directory.
 
-OK, I managed not to mess that up. Then, I needed data about open APIs. Did you know people make curated lists of these APIs? Did you know there's... of course there's an API to get the list of APIs. Luckily, the [Public API for Public APIs]([https://api.publicapis.org/](https://api.publicapis.org/)) has a `/random` endpoint. At a glance it had enough information:
+OK, I managed not to mess that up. Then, I needed data about open APIs. Did you know people make curated lists of these APIs? Did you know there's... of course there's an API to get the list of APIs. Luckily, the [Public API for Public APIs](https://api.publicapis.org/) has a `/random` endpoint. At a glance it had enough information:
 
 - title (string)
 - description (string)
@@ -112,7 +112,7 @@ I didn't like how it looked when the description was short (e.g. `Discogs: Music
 
 ### Tweet, tweet!
 
-Next is actually sending a tweet. I did a quick google and ended up running `npm install twitter-lite` . I chose [twitter-lite]([https://www.npmjs.com/package/twitter-lite](https://www.npmjs.com/package/twitter-lite)) because:
+Next is actually sending a tweet. I did a quick google and ended up running `npm install twitter-lite` . I chose [twitter-lite](https://www.npmjs.com/package/twitter-lite) because:
 
 1. The documentation showed me what I needed to do at a glance.
 2. It didn't seem too heavy or outdated.
@@ -125,7 +125,7 @@ I needed the following Twitter credentials to post a tweet:
 - Access token key.
 - Access token secret.
 
-This is what took the longest in this project. I created the Twitter account, applied for access to [Twitter's APIs]([https://developer.twitter.com/](https://developer.twitter.com/)), created an app, and got the credentials I needed. I'm not going into too much detail here, it's tedious.
+This is what took the longest in this project. I created the Twitter account, applied for access to [Twitter's APIs](https://developer.twitter.com/), created an app, and got the credentials I needed. I'm not going into too much detail here, it's tedious.
 
 I commented out the Axios call from before and threw in the following:
 
@@ -158,7 +158,7 @@ Isn't it beautiful?
 
 ### Now, where to host this?
 
-I thought serverless would be a good fit for hosting this. I'd heard the praise Zeit's [Now]([https://zeit.co/now](https://zeit.co/now)) had gotten so I thought I'd give it a go. It's a serverless hosting platform which supports static files, JavaScript, PHP, Python, Go, and more. 
+I thought serverless would be a good fit for hosting this. I'd heard the praise Zeit's [Now](https://zeit.co/now) had gotten so I thought I'd give it a go. It's a serverless hosting platform which supports static files, JavaScript, PHP, Python, Go, and more. 
 
 They have integrations with GitHub and more but I went with the slightly more manual approach. I ran `npm install -g now && now login` and added a `now.json` file;
 
@@ -263,12 +263,12 @@ There were workarounds suggested in GitHub issues like having a `setInterval` in
 
 So I gave up on Now. I decided to manually log into Twitter and tweet a few times a day...
 
-I actually settled for a simple but uncomfortable solution. It turns out there's a completely free (and open source) service, [cron-job.org]([cron-job.org](https://cron-job.org/en/)), which will call your URL on a schedule.
+I actually settled for a simple but uncomfortable solution. It turns out there's a completely free (and open source) service, [cron-job.org](https://cron-job.org/en/), which will call your URL on a schedule.
 
 :::figure random-open-api/cron.png The job configuration.
 :::
 
-All I had to do was sign up, create a job with my URL, and schedule it. As you see, I didn't even have to use the horrible [cron format]([http://www.nncron.ru/help/EN/working/cron-format.htm](http://www.nncron.ru/help/EN/working/cron-format.htm)). It was painless.
+All I had to do was sign up, create a job with my URL, and schedule it. As you see, I didn't even have to use the horrible [cron format](http://www.nncron.ru/help/EN/working/cron-format.htm). It was painless.
 
 ### Deployment aliases
 
@@ -297,7 +297,7 @@ While writing this, I noticed that the API returns more than strictly "open" API
 
 Looking through results, even the ones which require authentication are still free and publicly available. It doesn't bother me then if they're not 100% "open", the data is still there to use.
 
-Oh wait, no... they're not all free either. The [Semantria API]([https://semantria.readme.io/docs](https://semantria.readme.io/docs)) is one entry I just found for example; a "paid Saas text analytics service".
+Oh wait, no... they're not all free either. The [Semantria API](https://semantria.readme.io/docs) is one entry I just found for example; a "paid Saas text analytics service".
 
 !["Just when I thought I was out, they pull me back in!" from the Godfather](/images/blog-content/random-open-api/godfather.gif)
 

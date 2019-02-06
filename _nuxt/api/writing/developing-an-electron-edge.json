@@ -52,25 +52,26 @@
   "month": 5,
   "day": 26,
   "next": {
-    "id": "nwjs-app-and-shortcut-apis",
-    "slug": "nwjs-app-and-shortcut-apis",
+    "id": "production-databases-tips",
+    "slug": "production-databases-tips",
     "collection": null,
     "keywords": [
-      "node-webkit",
-      "desktop",
-      "javascript",
-      "app",
-      "shortcut"
+      "database",
+      "database-adminstration",
+      "dba",
+      "production",
+      "productivity",
+      "development",
+      "mysql",
+      "mssql",
+      "postgres",
+      "rockstar",
+      "satire"
     ],
-    "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/nwjs-app-and-shortcut-apis"
-    },
-    "title": "NW.js: The App and Shortcut APIs",
-    "summary": "The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...\n",
-    "published_at": "2015-12-18T00:00:00.000Z",
-    "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
+    "title": "10 pro tips: how to work with production databases",
+    "summary": "The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...\n",
+    "published_at": "2018-08-05T00:00:00.000Z",
+    "renderedSummary": "<p>The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...</p>\n"
   },
   "prev": {
     "id": "static-site-regeneration",

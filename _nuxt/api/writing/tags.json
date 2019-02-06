@@ -1,11 +1,11 @@
 [
   {
-    "id": "web",
-    "name": "web"
+    "id": "product-management",
+    "name": "product management"
   },
   {
-    "id": "mobile",
-    "name": "mobile"
+    "id": "node-webkit",
+    "name": "node-webkit"
   },
   {
     "id": "product",
@@ -16,32 +16,28 @@
     "name": "terminal"
   },
   {
-    "id": "nodejs",
-    "name": "node.js"
-  },
-  {
-    "id": "teamwork",
-    "name": "teamwork"
-  },
-  {
     "id": "nuxtjs",
     "name": "nuxt.js"
-  },
-  {
-    "id": "node-webkit",
-    "name": "node-webkit"
-  },
-  {
-    "id": "nwjs",
-    "name": "NW.js"
   },
   {
     "id": "vuejs",
     "name": "vue.js"
   },
   {
+    "id": "teamwork",
+    "name": "teamwork"
+  },
+  {
     "id": "static-site-generation",
     "name": "static-site-generation"
+  },
+  {
+    "id": "nodejs",
+    "name": "node.js"
+  },
+  {
+    "id": "nwjs",
+    "name": "NW.js"
   },
   {
     "id": "writing",
@@ -60,6 +56,10 @@
     "name": "zeit"
   },
   {
+    "id": "twitter",
+    "name": "twitter"
+  },
+  {
     "id": "npm",
     "name": "npm"
   },
@@ -72,16 +72,8 @@
     "name": "windows"
   },
   {
-    "id": "twitter",
-    "name": "twitter"
-  },
-  {
     "id": "public-api",
     "name": "public API"
-  },
-  {
-    "id": "teams",
-    "name": "teams"
   },
   {
     "id": "open-api",
@@ -92,8 +84,36 @@
     "name": "platform"
   },
   {
+    "id": "third-party",
+    "name": "third-party"
+  },
+  {
+    "id": "prank",
+    "name": "prank"
+  },
+  {
     "id": "satire",
     "name": "satire"
+  },
+  {
+    "id": "ux",
+    "name": "ux"
+  },
+  {
+    "id": "permissions",
+    "name": "permissions"
+  },
+  {
+    "id": "pwa",
+    "name": "pwa"
+  },
+  {
+    "id": "web",
+    "name": "web"
+  },
+  {
+    "id": "notifications",
+    "name": "notifications"
   },
   {
     "id": "rockstar",
@@ -104,32 +124,8 @@
     "name": "postgres"
   },
   {
-    "id": "programming",
-    "name": "programming"
-  },
-  {
-    "id": "mssql",
-    "name": "mssql"
-  },
-  {
-    "id": "mysql",
-    "name": "mysql"
-  },
-  {
     "id": "productivity",
     "name": "productivity"
-  },
-  {
-    "id": "people",
-    "name": "people"
-  },
-  {
-    "id": "technical",
-    "name": "technical"
-  },
-  {
-    "id": "transition",
-    "name": "transition"
   },
   {
     "id": "production",
@@ -140,244 +136,256 @@
     "name": "shortcut"
   },
   {
-    "id": "prank",
-    "name": "prank"
-  },
-  {
-    "id": "product-management",
-    "name": "product management"
-  },
-  {
-    "id": "project-management",
-    "name": "project management"
-  },
-  {
-    "id": "product-lead",
-    "name": "product lead"
+    "id": "teams",
+    "name": "teams"
   },
   {
     "id": "technical-lead",
     "name": "technical lead"
   },
   {
-    "id": "notifications",
-    "name": "notifications"
+    "id": "product-lead",
+    "name": "product lead"
   },
   {
-    "id": "pwa",
-    "name": "pwa"
+    "id": "project-management",
+    "name": "project management"
   },
   {
-    "id": "permissions",
-    "name": "permissions"
+    "id": "transition",
+    "name": "transition"
   },
   {
-    "id": "ux",
-    "name": "ux"
+    "id": "technical",
+    "name": "technical"
   },
   {
-    "id": "third-party",
-    "name": "third-party"
+    "id": "programming",
+    "name": "programming"
   },
   {
-    "id": "api",
-    "name": "api"
-  },
-  {
-    "id": "install",
-    "name": "install"
-  },
-  {
-    "id": "javascript",
-    "name": "javascript"
-  },
-  {
-    "id": "jetbrains",
-    "name": "jetbrains"
-  },
-  {
-    "id": "markdown",
-    "name": "markdown"
-  },
-  {
-    "id": "jamstack",
-    "name": "jamstack"
-  },
-  {
-    "id": "lead-developer",
-    "name": "lead developer"
-  },
-  {
-    "id": "leadership",
-    "name": "leadership"
-  },
-  {
-    "id": "management",
-    "name": "management"
-  },
-  {
-    "id": "installer",
-    "name": "installer"
+    "id": "people",
+    "name": "people"
   },
   {
     "id": "mac",
     "name": "mac"
   },
   {
-    "id": "linux",
-    "name": "linux"
+    "id": "mobile",
+    "name": "mobile"
   },
   {
-    "id": "lead",
-    "name": "lead"
+    "id": "mssql",
+    "name": "mssql"
   },
   {
-    "id": "leading",
-    "name": "leading"
+    "id": "mysql",
+    "name": "mysql"
+  },
+  {
+    "id": "api",
+    "name": "api"
   },
   {
     "id": "managing",
     "name": "managing"
   },
   {
-    "id": "manager",
-    "name": "manager"
+    "id": "markdown",
+    "name": "markdown"
   },
   {
-    "id": "job",
-    "name": "job"
-  },
-  {
-    "id": "cron",
-    "name": "cron"
-  },
-  {
-    "id": "gulp",
-    "name": "gulp"
-  },
-  {
-    "id": "hybrid",
-    "name": "hybrid"
-  },
-  {
-    "id": "ide",
-    "name": "ide"
-  },
-  {
-    "id": "headless-cms",
-    "name": "headless-cms"
-  },
-  {
-    "id": "homoglyphs",
-    "name": "homoglyphs"
-  },
-  {
-    "id": "distribution",
-    "name": "distribution"
-  },
-  {
-    "id": "dba",
-    "name": "dba"
+    "id": "assets",
+    "name": "assets"
   },
   {
     "id": "growth",
     "name": "growth"
   },
   {
-    "id": "efficiency",
-    "name": "efficiency"
+    "id": "leading",
+    "name": "leading"
+  },
+  {
+    "id": "lead",
+    "name": "lead"
+  },
+  {
+    "id": "hybrid",
+    "name": "hybrid"
+  },
+  {
+    "id": "lead-developer",
+    "name": "lead developer"
+  },
+  {
+    "id": "ide",
+    "name": "ide"
+  },
+  {
+    "id": "management",
+    "name": "management"
+  },
+  {
+    "id": "jetbrains",
+    "name": "jetbrains"
+  },
+  {
+    "id": "javascript",
+    "name": "javascript"
+  },
+  {
+    "id": "jamstack",
+    "name": "jamstack"
+  },
+  {
+    "id": "leadership",
+    "name": "leadership"
+  },
+  {
+    "id": "headless-cms",
+    "name": "headless-cms"
+  },
+  {
+    "id": "manager",
+    "name": "manager"
+  },
+  {
+    "id": "gulp",
+    "name": "gulp"
+  },
+  {
+    "id": "job",
+    "name": "job"
+  },
+  {
+    "id": "linux",
+    "name": "linux"
+  },
+  {
+    "id": "installer",
+    "name": "installer"
+  },
+  {
+    "id": "homoglyphs",
+    "name": "homoglyphs"
+  },
+  {
+    "id": "install",
+    "name": "install"
   },
   {
     "id": "delegating",
     "name": "delegating"
   },
   {
-    "id": "development",
-    "name": "development"
-  },
-  {
-    "id": "extension",
-    "name": "extension"
-  },
-  {
-    "id": "geolocation",
-    "name": "geolocation"
-  },
-  {
-    "id": "desktop",
-    "name": "desktop"
-  },
-  {
-    "id": "dependencies",
-    "name": "dependencies"
-  },
-  {
-    "id": "electron",
-    "name": "electron"
-  },
-  {
-    "id": "generation",
-    "name": "generation"
-  },
-  {
-    "id": "faas",
-    "name": "faas"
-  },
-  {
-    "id": "git",
-    "name": "git"
+    "id": "efficiency",
+    "name": "efficiency"
   },
   {
     "id": "executable",
     "name": "executable"
   },
   {
-    "id": "chat",
-    "name": "chat"
+    "id": "generation",
+    "name": "generation"
+  },
+  {
+    "id": "extension",
+    "name": "extension"
+  },
+  {
+    "id": "git",
+    "name": "git"
+  },
+  {
+    "id": "geolocation",
+    "name": "geolocation"
+  },
+  {
+    "id": "faas",
+    "name": "faas"
+  },
+  {
+    "id": "electron",
+    "name": "electron"
   },
   {
     "id": "career",
     "name": "career"
   },
   {
-    "id": "clippy",
-    "name": "clippy"
-  },
-  {
-    "id": "database-adminstration",
-    "name": "database-adminstration"
-  },
-  {
-    "id": "database",
-    "name": "database"
-  },
-  {
-    "id": "communication",
-    "name": "communication"
-  },
-  {
-    "id": "coffeescript",
-    "name": "coffeescript"
-  },
-  {
     "id": "css",
     "name": "css"
+  },
+  {
+    "id": "development",
+    "name": "development"
+  },
+  {
+    "id": "distribution",
+    "name": "distribution"
   },
   {
     "id": "cygwin",
     "name": "cygwin"
   },
   {
-    "id": "build-system",
-    "name": "build system"
+    "id": "database",
+    "name": "database"
+  },
+  {
+    "id": "dependencies",
+    "name": "dependencies"
+  },
+  {
+    "id": "database-adminstration",
+    "name": "database-adminstration"
+  },
+  {
+    "id": "desktop",
+    "name": "desktop"
+  },
+  {
+    "id": "dba",
+    "name": "dba"
+  },
+  {
+    "id": "app",
+    "name": "app"
+  },
+  {
+    "id": "browsers",
+    "name": "browsers"
+  },
+  {
+    "id": "chat",
+    "name": "chat"
+  },
+  {
+    "id": "clippy",
+    "name": "clippy"
   },
   {
     "id": "build",
     "name": "build"
   },
   {
-    "id": "browsers",
-    "name": "browsers"
+    "id": "cron",
+    "name": "cron"
+  },
+  {
+    "id": "build-system",
+    "name": "build system"
+  },
+  {
+    "id": "coffeescript",
+    "name": "coffeescript"
+  },
+  {
+    "id": "communication",
+    "name": "communication"
   },
   {
     "id": "bot",
@@ -390,13 +398,5 @@
   {
     "id": "aws",
     "name": "aws"
-  },
-  {
-    "id": "assets",
-    "name": "assets"
-  },
-  {
-    "id": "app",
-    "name": "app"
   }
 ]
