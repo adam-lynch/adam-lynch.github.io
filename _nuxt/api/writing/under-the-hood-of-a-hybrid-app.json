@@ -76,6 +76,27 @@
   "month": 4,
   "day": 17,
   "next": {
+    "id": "serverless-crash-reporting-for-electron-apps",
+    "slug": "serverless-crash-reporting-for-electron-apps",
+    "collection": null,
+    "keywords": [
+      "serverless",
+      "electron",
+      "javascript",
+      "aws"
+    ],
+    "original": {
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/serverless-crash-reporting-for-electron-apps-fe6e62e5982a"
+    },
+    "title": "Serverless crash reporting for Electron apps",
+    "summary": "The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from Electron apps.\n",
+    "photo": "https://cdn-images-1.medium.com/max/1600/1*7_8IQl1UmmFdv-Z3EwGNJg.png",
+    "published_at": "2016-11-22T00:00:00.000Z",
+    "renderedSummary": "<p>The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from <a href=\"http://electron.atom.io/\" rel=\"noopener\">Electron</a> apps.</p>\n"
+  },
+  "prev": {
     "id": "transparency-and-nwjs",
     "slug": "transparency-and-nwjs",
     "collection": null,
@@ -98,27 +119,5 @@
     "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
     "published_at": "2016-01-26T00:00:00.000Z",
     "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
-  },
-  "prev": {
-    "id": "using-cygwins-bash-terminal-in-a-jetbrains-ide",
-    "slug": "using-cygwins-bash-terminal-in-a-jetbrains-ide",
-    "collection": null,
-    "keywords": [
-      "jetbrains",
-      "cygwin",
-      "ide",
-      "terminal",
-      "babun"
-    ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/using-cygwins-bash-terminal-in-a-jetbrains-ide-d22dd71b52b4"
-    },
-    "title": "Using Cygwin’s bash terminal in a JetBrains IDE",
-    "summary": "JetBrains IDEs are the best. IntelliJ, Android Studio, PHPStorm, PyCharm, and so on. I use IntelliJ Ultimate myself, which is kind of like all of their IDEs in one. One of the things I love about any JetBrains…\n",
-    "photo": "/images/blog-content/using-cygwins-bash-terminal-in-a-jetbrains-ide/typing.gif",
-    "published_at": "2015-07-28T00:00:00.000Z",
-    "renderedSummary": "<p>JetBrains IDEs are the best. IntelliJ, Android Studio, PHPStorm, PyCharm, and so on. I use IntelliJ Ultimate myself, which is kind of like all of their IDEs in one. One of the things I love about any JetBrains…</p>\n"
   }
 }
