@@ -72,29 +72,60 @@
   "year": 2015,
   "month": 12,
   "day": 8,
-  "prev": {
-    "id": "under-the-hood-of-a-hybrid-app",
-    "slug": "under-the-hood-of-a-hybrid-app",
+  "next": {
+    "id": "improve-permissions-ux",
+    "slug": "improve-permissions-ux",
     "collection": null,
     "keywords": [
-      "product",
+      "ux",
+      "permissions",
+      "pwa",
       "web",
       "javascript",
-      "NW.js",
-      "node-webkit",
-      "desktop",
-      "hybrid",
-      "mobile"
+      "notifications",
+      "geolocation",
+      "extension",
+      "browsers"
     ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/under-the-hood-of-a-hybrid-app-2215ce6e342a"
-    },
-    "title": "Under the hood of a hybrid (app)",
-    "summary": "It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...\n",
-    "photo": "/images/blog-content/under-the-hood-of-a-hybrid-app/nav.png",
-    "published_at": "2016-04-16T00:00:00.000Z",
-    "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
+    "title": "How to improve your permissions UX",
+    "summary": "&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose some might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.\n",
+    "photo": "/images/blog-content/improve-permissions-ux/chris-wilson.png",
+    "published_at": "2018-03-03T00:00:00.000Z",
+    "renderedSummary": "<p>&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose <em>some</em> might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.</p>\n"
+  },
+  "prev": {
+    "id": "lessons-learned-leading-teams",
+    "slug": "lessons-learned-leading-teams",
+    "collection": null,
+    "keywords": [
+      "leadership",
+      "management",
+      "teams",
+      "development",
+      "lead",
+      "leading",
+      "managing",
+      "manager",
+      "programming",
+      "delegating",
+      "efficiency",
+      "communication",
+      "people",
+      "technical",
+      "transition",
+      "job",
+      "career",
+      "growth",
+      "product management",
+      "project management",
+      "product lead",
+      "technical lead",
+      "lead developer"
+    ],
+    "title": "Lessons learned leading teams",
+    "summary": "I've been thinking about team leading a lot lately. When revisiting advice a friend asked for when transitioning to a team lead position, I decided to flesh it out and put it online. Most of the following will hopefully be helpful to anyone leading a team or any manager, although some will be more relevant to leaders of developers and developers transitioning into leadership roles. If it helps anyone, great. It will be a good reference for me at least. Alright, let's get to it.\n",
+    "photo": "/images/blog-content/lessons-learned-leading-teams/graph.png",
+    "published_at": "2018-11-14T00:00:00.000Z",
+    "renderedSummary": "<p>I've been thinking about team leading a lot lately. When revisiting advice a friend asked for when transitioning to a team lead position, I decided to flesh it out and put it online. Most of the following will hopefully be helpful to anyone leading a team or any manager, although some will be more relevant to leaders of developers and developers transitioning into leadership roles. If it helps anyone, great. It will be a good reference for me at least. Alright, let's get to it.</p>\n"
   }
 }

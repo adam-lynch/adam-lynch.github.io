@@ -66,6 +66,29 @@
   "month": 8,
   "day": 30,
   "next": {
+    "id": "dealing-with-long-paths",
+    "slug": "dealing-with-long-paths",
+    "collection": null,
+    "keywords": [
+      "NW.js",
+      "node-webkit",
+      "npm",
+      "distribution",
+      "paths",
+      "windows"
+    ],
+    "original": {
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
+    },
+    "title": "Dealing with long paths",
+    "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
+    "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
+    "published_at": "2015-07-01T00:00:00.000Z",
+    "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
+  },
+  "prev": {
     "id": "flexible-data-tables-with-css-grid",
     "slug": "flexible-data-tables-with-css-grid",
     "collection": null,
@@ -89,26 +112,5 @@
     "photo": "/images/blog-content/flexible-data-tables-with-css-grid/wide3.png",
     "published_at": "2019-05-12T00:00:00.000Z",
     "renderedSummary": "<p>Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the <a href=\"https://www.teamwork.com/crm\" rel=\"noopener\">Teamwork CRM</a> puzzle was the &quot;list view&quot;.</p>\n<p>It's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.</p>\n"
-  },
-  "prev": {
-    "id": "improve-permissions-ux",
-    "slug": "improve-permissions-ux",
-    "collection": null,
-    "keywords": [
-      "ux",
-      "permissions",
-      "pwa",
-      "web",
-      "javascript",
-      "notifications",
-      "geolocation",
-      "extension",
-      "browsers"
-    ],
-    "title": "How to improve your permissions UX",
-    "summary": "&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose some might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.\n",
-    "photo": "/images/blog-content/improve-permissions-ux/chris-wilson.png",
-    "published_at": "2018-03-03T00:00:00.000Z",
-    "renderedSummary": "<p>&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose <em>some</em> might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.</p>\n"
   }
 }
