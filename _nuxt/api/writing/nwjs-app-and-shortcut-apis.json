@@ -60,46 +60,26 @@
   "year": 2015,
   "month": 12,
   "day": 19,
-  "next": {
-    "id": "improve-permissions-ux",
-    "slug": "improve-permissions-ux",
-    "collection": null,
-    "keywords": [
-      "ux",
-      "permissions",
-      "pwa",
-      "web",
-      "javascript",
-      "notifications",
-      "geolocation",
-      "extension",
-      "browsers"
-    ],
-    "title": "How to improve your permissions UX",
-    "summary": "&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose some might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.\n",
-    "photo": "/images/blog-content/improve-permissions-ux/chris-wilson.png",
-    "published_at": "2018-03-03T00:00:00.000Z",
-    "renderedSummary": "<p>&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose <em>some</em> might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.</p>\n"
-  },
   "prev": {
-    "id": "static-site-regeneration",
-    "slug": "static-site-regeneration",
+    "id": "using-cygwins-bash-terminal-in-a-jetbrains-ide",
+    "slug": "using-cygwins-bash-terminal-in-a-jetbrains-ide",
     "collection": null,
     "keywords": [
-      "writing",
-      "static-site-generation",
-      "headless-cms",
-      "jamstack",
-      "git",
-      "markdown",
-      "vue.js",
-      "nuxt.js",
-      "javascript"
+      "jetbrains",
+      "cygwin",
+      "ide",
+      "terminal",
+      "babun"
     ],
-    "title": "Static site regeneration and focusing on what's important",
-    "summary": "I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.\n",
-    "photo": "/images/blog-content/static-site-regeneration/nuxt.png",
-    "published_at": "2018-02-04T00:00:00.000Z",
-    "renderedSummary": "<p>I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.</p>\n"
+    "original": {
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/using-cygwins-bash-terminal-in-a-jetbrains-ide-d22dd71b52b4"
+    },
+    "title": "Using Cygwin’s bash terminal in a JetBrains IDE",
+    "summary": "JetBrains IDEs are the best. IntelliJ, Android Studio, PHPStorm, PyCharm, and so on. I use IntelliJ Ultimate myself, which is kind of like all of their IDEs in one. One of the things I love about any JetBrains…\n",
+    "photo": "/images/blog-content/using-cygwins-bash-terminal-in-a-jetbrains-ide/typing.gif",
+    "published_at": "2015-07-28T00:00:00.000Z",
+    "renderedSummary": "<p>JetBrains IDEs are the best. IntelliJ, Android Studio, PHPStorm, PyCharm, and so on. I use IntelliJ Ultimate myself, which is kind of like all of their IDEs in one. One of the things I love about any JetBrains…</p>\n"
   }
 }

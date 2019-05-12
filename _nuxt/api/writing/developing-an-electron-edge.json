@@ -52,25 +52,25 @@
   "month": 5,
   "day": 26,
   "next": {
-    "id": "building-your-app-creating-executables-nwjs",
-    "slug": "building-your-app-creating-executables-nwjs",
+    "id": "installing-your-nwjs-app-windows1",
+    "slug": "installing-your-nwjs-app-windows1",
     "collection": null,
     "keywords": [
       "node-webkit",
       "desktop",
-      "executable",
-      "distribution",
-      "generation",
-      "javascript"
+      "javascript",
+      "windows",
+      "install",
+      "installer"
     ],
     "original": {
       "blogLink": "https://www.packtpub.com/books/content/blogs",
       "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/building-your-app-creating-executables-nwjs"
+      "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
     },
-    "title": "Building Your App: Creating Executables for NW.js",
+    "title": "Installing your NW.js app on Windows",
     "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-    "published_at": "2015-11-17T00:00:00.000Z",
+    "published_at": "2015-12-09T00:00:00.000Z",
     "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
   },
   "prev": {

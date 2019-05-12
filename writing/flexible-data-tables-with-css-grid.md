@@ -29,7 +29,7 @@ It's a powerful page component which exists seven times in the app — a table o
 
 First, I need to give some more context, starting with the purpose and design goals of these screens. Feel free to [skip to the CSS Grid bit](#just-get-to-css-grid-already).
 
-:::figure flexible-data-tables-with-css-grid/wide2.png The leads list view.
+:::figure flexible-data-tables-with-css-grid/wide3.png The leads list view.
 :::
 
 Primarily it allows salespeople to scan a list of items like their leads or contacts, and find anything important they need to take action on. It's not like an Excel spreadsheet — we can do a better job at laying out the data, which there will be a lot of.

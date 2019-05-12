@@ -80,28 +80,26 @@
     "renderedSummary": "<p>I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.</p>\n<p>The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' <a href=\"https://twitter.com/randommdn\" rel=\"noopener\">@randomMDN</a>? It tweets a random article from <a href=\"https://developer.mozilla.org/en-US/\" rel=\"noopener\">MDN</a> multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.</p>\n"
   },
   "prev": {
-    "id": "under-the-hood-of-a-hybrid-app",
-    "slug": "under-the-hood-of-a-hybrid-app",
+    "id": "resurrecting-clippy",
+    "slug": "resurrecting-clippy",
     "collection": null,
     "keywords": [
-      "product",
-      "web",
-      "javascript",
+      "clippy",
+      "desktop",
+      "app",
       "NW.js",
       "node-webkit",
-      "desktop",
-      "hybrid",
-      "mobile"
+      "javascript"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/under-the-hood-of-a-hybrid-app-2215ce6e342a"
+      "url": "https://engineroom.teamwork.com/resurrecting-clippy-89843fcc9871"
     },
-    "title": "Under the hood of a hybrid (app)",
-    "summary": "It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...\n",
-    "photo": "/images/blog-content/under-the-hood-of-a-hybrid-app/nav.png",
-    "published_at": "2016-04-16T00:00:00.000Z",
-    "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
+    "title": "Resurrecting Clippy",
+    "summary": "Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...\n",
+    "photo": "/images/blog-content/resurrecting-clippy/osx.png",
+    "published_at": "2016-03-08T00:00:00.000Z",
+    "renderedSummary": "<p>Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...</p>\n"
   }
 }
