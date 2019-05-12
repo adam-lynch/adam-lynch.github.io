@@ -42,7 +42,7 @@
       }
     ],
     "title": "Building Your App: Creating Executables for NW.js",
-    "updated_at": "2018-08-05T16:25:28.067Z"
+    "updated_at": "2019-05-12T08:34:11.856Z"
   },
   "title": "Building Your App: Creating Executables for NW.js",
   "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n",
@@ -62,48 +62,54 @@
     "javascript"
   ],
   "published_at": "2015-11-17T00:00:00.000Z",
-  "updated_at": "2018-08-05T16:25:28.067Z",
+  "updated_at": "2019-05-12T08:34:11.856Z",
   "year": 2015,
   "month": 11,
   "day": 18,
   "next": {
-    "id": "coffeescript-at-teamwork",
-    "slug": "coffeescript-at-teamwork",
+    "id": "npm-distribution-path-length-problems",
+    "slug": "npm-distribution-path-length-problems",
     "collection": null,
     "keywords": [
-      "coffeescript",
-      "teamwork"
+      "node-webkit",
+      "desktop",
+      "javascript",
+      "npm",
+      "distribution",
+      "windows",
+      "paths"
+    ],
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
+    },
+    "title": "npm and distribution path length problems",
+    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+    "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
+    "published_at": "2015-12-07T00:00:00.000Z",
+    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+  },
+  "prev": {
+    "id": "hassle-free-third-party-dependencies",
+    "slug": "hassle-free-third-party-dependencies",
+    "collection": null,
+    "keywords": [
+      "dependencies",
+      "assets",
+      "javascript",
+      "css",
+      "third-party"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/coffeescript-at-teamwork-e596eed63590"
+      "url": "https://engineroom.teamwork.com/hassle-free-third-party-dependencies-9b6e0a4884ce"
     },
-    "title": "CoffeeScript at Teamwork",
-    "summary": "The first project at Teamwork to use CoffeeScript was the Teamwork.com iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…\n",
-    "photo": "/images/blog-content/coffeescript-at-teamwork/biscotto-output.jpg",
-    "published_at": "2014-09-26T00:00:00.000Z",
-    "renderedSummary": "<p>The first project at Teamwork to use CoffeeScript was the <a href=\"http://Teamwork.com\" rel=\"noopener\">Teamwork.com</a> iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…</p>\n"
-  },
-  "prev": {
-    "id": "beyond-the-browser-from-web-apps-to-desktop-apps",
-    "slug": "beyond-the-browser-from-web-apps-to-desktop-apps",
-    "collection": null,
-    "keywords": [
-      "node-webkit",
-      "electron",
-      "desktop",
-      "javascript"
-    ],
-    "original": {
-      "blogLink": "https://www.smashingmagazine.com/",
-      "blogName": "Smashing Magazine",
-      "url": "https://www.smashingmagazine.com/2017/03/beyond-browser-web-desktop-apps/"
-    },
-    "title": "Beyond The Browser: From Web Apps To Desktop Apps",
-    "summary": "I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.\n",
-    "photo": "/images/blog-content/beyond-the-browser/chromiumDiagram.png",
-    "published_at": "2017-03-21T00:00:00.000Z",
-    "renderedSummary": "<p>I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.</p>\n"
+    "title": "Hassle-free third-party dependencies",
+    "summary": "How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…\n",
+    "photo": "/images/blog-content/hassle-free-third-party-dependencies/bower.png",
+    "published_at": "2014-08-29T00:00:00.000Z",
+    "renderedSummary": "<p>How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…</p>\n"
   }
 }

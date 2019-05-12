@@ -35,7 +35,7 @@
       }
     ],
     "title": "Using Cygwin’s bash terminal in a JetBrains IDE",
-    "updated_at": "2018-08-05T16:25:28.072Z",
+    "updated_at": "2019-05-12T08:34:11.863Z",
     "photo": "/images/blog-content/using-cygwins-bash-terminal-in-a-jetbrains-ide/typing.gif"
   },
   "title": "Using Cygwin’s bash terminal in a JetBrains IDE",
@@ -56,7 +56,7 @@
     "babun"
   ],
   "published_at": "2015-07-28T00:00:00.000Z",
-  "updated_at": "2018-08-05T16:25:28.072Z",
+  "updated_at": "2019-05-12T08:34:11.863Z",
   "year": 2015,
   "month": 7,
   "day": 29,
@@ -86,25 +86,27 @@
     "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
   },
   "prev": {
-    "id": "production-databases-tips",
-    "slug": "production-databases-tips",
+    "id": "transparency-and-nwjs",
+    "slug": "transparency-and-nwjs",
     "collection": null,
     "keywords": [
-      "database",
-      "database-adminstration",
-      "dba",
-      "production",
-      "productivity",
-      "development",
-      "mysql",
-      "mssql",
-      "postgres",
-      "rockstar",
-      "satire"
+      "node-webkit",
+      "desktop",
+      "javascript",
+      "platform",
+      "linux",
+      "mac",
+      "windows"
     ],
-    "title": "10 pro tips: how to work with production databases",
-    "summary": "The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...\n",
-    "published_at": "2018-08-05T00:00:00.000Z",
-    "renderedSummary": "<p>The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...</p>\n"
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+    },
+    "title": "Transparency and NW.js",
+    "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
+    "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
+    "published_at": "2016-01-26T00:00:00.000Z",
+    "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
   }
 }

@@ -45,7 +45,7 @@
       }
     ],
     "title": "Static site regeneration and focusing on what's important",
-    "updated_at": "2018-08-05T16:25:28.071Z",
+    "updated_at": "2019-05-12T08:34:11.862Z",
     "photo": "/images/blog-content/static-site-regeneration/nuxt.png"
   },
   "title": "Static site regeneration and focusing on what's important",
@@ -65,51 +65,56 @@
     "javascript"
   ],
   "published_at": "2018-02-04T00:00:00.000Z",
-  "updated_at": "2018-08-05T16:25:28.071Z",
+  "updated_at": "2019-05-12T08:34:11.862Z",
   "year": 2018,
   "month": 2,
   "day": 5,
   "next": {
-    "id": "developing-an-electron-edge",
-    "slug": "developing-an-electron-edge",
+    "id": "platform-detection",
+    "slug": "platform-detection",
     "collection": null,
-    "isBook": true,
     "keywords": [
-      "electron",
+      "node-webkit",
       "desktop",
-      "javascript"
+      "javascript",
+      "platform",
+      "linux",
+      "mac",
+      "windows"
     ],
     "original": {
-      "blogLink": "https://bleedingedgepress.com/",
-      "blogName": "Bleeding Edge Press",
-      "url": "https://bleedingedgepress.com/developing-an-electron-edge/",
-      "onlyExternal": true
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
     },
-    "title": "Developing an Electron Edge",
-    "summary": "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n",
-    "published_at": "2016-05-25T00:00:00.000Z",
-    "renderedSummary": "<p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n"
+    "title": "Platform detection in your NW.js app",
+    "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
+    "published_at": "2016-01-26T00:00:00.000Z",
+    "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
   },
   "prev": {
-    "id": "hassle-free-third-party-dependencies",
-    "slug": "hassle-free-third-party-dependencies",
+    "id": "under-the-hood-of-a-hybrid-app",
+    "slug": "under-the-hood-of-a-hybrid-app",
     "collection": null,
     "keywords": [
-      "dependencies",
-      "assets",
+      "product",
+      "web",
       "javascript",
-      "css",
-      "third-party"
+      "NW.js",
+      "node-webkit",
+      "desktop",
+      "hybrid",
+      "mobile"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/hassle-free-third-party-dependencies-9b6e0a4884ce"
+      "url": "https://engineroom.teamwork.com/under-the-hood-of-a-hybrid-app-2215ce6e342a"
     },
-    "title": "Hassle-free third-party dependencies",
-    "summary": "How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…\n",
-    "photo": "/images/blog-content/hassle-free-third-party-dependencies/bower.png",
-    "published_at": "2014-08-29T00:00:00.000Z",
-    "renderedSummary": "<p>How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…</p>\n"
+    "title": "Under the hood of a hybrid (app)",
+    "summary": "It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...\n",
+    "photo": "/images/blog-content/under-the-hood-of-a-hybrid-app/nav.png",
+    "published_at": "2016-04-16T00:00:00.000Z",
+    "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
   }
 }

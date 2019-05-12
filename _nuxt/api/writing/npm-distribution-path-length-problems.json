@@ -45,7 +45,7 @@
       }
     ],
     "title": "npm and distribution path length problems",
-    "updated_at": "2018-08-05T16:25:28.069Z",
+    "updated_at": "2019-05-12T08:34:11.858Z",
     "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif"
   },
   "title": "npm and distribution path length problems",
@@ -68,50 +68,54 @@
     "paths"
   ],
   "published_at": "2015-12-07T00:00:00.000Z",
-  "updated_at": "2018-08-05T16:25:28.069Z",
+  "updated_at": "2019-05-12T08:34:11.858Z",
   "year": 2015,
   "month": 12,
   "day": 8,
   "next": {
-    "id": "improve-permissions-ux",
-    "slug": "improve-permissions-ux",
+    "id": "transparency-and-nwjs",
+    "slug": "transparency-and-nwjs",
     "collection": null,
     "keywords": [
-      "ux",
-      "permissions",
-      "pwa",
-      "web",
+      "node-webkit",
+      "desktop",
       "javascript",
-      "notifications",
-      "geolocation",
-      "extension",
-      "browsers"
-    ],
-    "title": "How to improve your permissions UX",
-    "summary": "&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose some might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.\n",
-    "photo": "/images/blog-content/improve-permissions-ux/chris-wilson.png",
-    "published_at": "2018-03-03T00:00:00.000Z",
-    "renderedSummary": "<p>&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose <em>some</em> might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.</p>\n"
-  },
-  "prev": {
-    "id": "serverless-crash-reporting-for-electron-apps",
-    "slug": "serverless-crash-reporting-for-electron-apps",
-    "collection": null,
-    "keywords": [
-      "serverless",
-      "electron",
-      "javascript",
-      "aws"
+      "platform",
+      "linux",
+      "mac",
+      "windows"
     ],
     "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/serverless-crash-reporting-for-electron-apps-fe6e62e5982a"
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
     },
-    "title": "Serverless crash reporting for Electron apps",
-    "summary": "The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from Electron apps.\n",
-    "photo": "https://cdn-images-1.medium.com/max/1600/1*7_8IQl1UmmFdv-Z3EwGNJg.png",
-    "published_at": "2016-11-22T00:00:00.000Z",
-    "renderedSummary": "<p>The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from <a href=\"http://electron.atom.io/\" rel=\"noopener\">Electron</a> apps.</p>\n"
+    "title": "Transparency and NW.js",
+    "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
+    "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
+    "published_at": "2016-01-26T00:00:00.000Z",
+    "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
+  },
+  "prev": {
+    "id": "building-your-app-creating-executables-nwjs",
+    "slug": "building-your-app-creating-executables-nwjs",
+    "collection": null,
+    "keywords": [
+      "node-webkit",
+      "desktop",
+      "executable",
+      "distribution",
+      "generation",
+      "javascript"
+    ],
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/building-your-app-creating-executables-nwjs"
+    },
+    "title": "Building Your App: Creating Executables for NW.js",
+    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+    "published_at": "2015-11-17T00:00:00.000Z",
+    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
   }
 }

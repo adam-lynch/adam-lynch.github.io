@@ -37,7 +37,7 @@
       }
     ],
     "title": "NW.js: The App and Shortcut APIs",
-    "updated_at": "2018-08-05T16:25:28.069Z"
+    "updated_at": "2019-05-12T08:34:11.860Z"
   },
   "title": "NW.js: The App and Shortcut APIs",
   "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n",
@@ -56,52 +56,53 @@
     "shortcut"
   ],
   "published_at": "2015-12-18T00:00:00.000Z",
-  "updated_at": "2018-08-05T16:25:28.069Z",
+  "updated_at": "2019-05-12T08:34:11.860Z",
   "year": 2015,
   "month": 12,
   "day": 19,
   "next": {
-    "id": "serverless-crash-reporting-for-electron-apps",
-    "slug": "serverless-crash-reporting-for-electron-apps",
+    "id": "dealing-with-long-paths",
+    "slug": "dealing-with-long-paths",
     "collection": null,
     "keywords": [
-      "serverless",
-      "electron",
-      "javascript",
-      "aws"
+      "NW.js",
+      "node-webkit",
+      "npm",
+      "distribution",
+      "paths",
+      "windows"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/serverless-crash-reporting-for-electron-apps-fe6e62e5982a"
+      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
     },
-    "title": "Serverless crash reporting for Electron apps",
-    "summary": "The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from Electron apps.\n",
-    "photo": "https://cdn-images-1.medium.com/max/1600/1*7_8IQl1UmmFdv-Z3EwGNJg.png",
-    "published_at": "2016-11-22T00:00:00.000Z",
-    "renderedSummary": "<p>The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from <a href=\"http://electron.atom.io/\" rel=\"noopener\">Electron</a> apps.</p>\n"
+    "title": "Dealing with long paths",
+    "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
+    "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
+    "published_at": "2015-07-01T00:00:00.000Z",
+    "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
   },
   "prev": {
-    "id": "random-open-api",
-    "slug": "random-open-api",
+    "id": "installing-your-nwjs-app-windows1",
+    "slug": "installing-your-nwjs-app-windows1",
     "collection": null,
     "keywords": [
-      "api",
-      "open API",
-      "public API",
-      "twitter",
-      "bot",
-      "zeit",
-      "now",
-      "serverless",
-      "faas",
-      "node.js",
-      "cron"
+      "node-webkit",
+      "desktop",
+      "javascript",
+      "windows",
+      "install",
+      "installer"
     ],
-    "title": "How I made the @randomOpenAPI Twitter bot in 42 minutes-ish",
-    "summary": "I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.\nThe natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' @randomMDN? It tweets a random article from MDN multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.\n",
-    "photo": "/images/blog-content/random-open-api/tweet.png",
-    "published_at": "2019-02-02T00:00:00.000Z",
-    "renderedSummary": "<p>I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.</p>\n<p>The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' <a href=\"https://twitter.com/randommdn\" rel=\"noopener\">@randomMDN</a>? It tweets a random article from <a href=\"https://developer.mozilla.org/en-US/\" rel=\"noopener\">MDN</a> multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.</p>\n"
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
+    },
+    "title": "Installing your NW.js app on Windows",
+    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+    "published_at": "2015-12-09T00:00:00.000Z",
+    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
   }
 }

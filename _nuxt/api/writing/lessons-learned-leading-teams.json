@@ -101,7 +101,7 @@
       }
     ],
     "title": "Lessons learned leading teams",
-    "updated_at": "2018-11-14T21:28:49.077Z",
+    "updated_at": "2019-05-12T08:34:11.858Z",
     "photo": "/images/blog-content/lessons-learned-leading-teams/graph.png"
   },
   "title": "Lessons learned leading teams",
@@ -135,32 +135,55 @@
     "lead developer"
   ],
   "published_at": "2018-11-14T00:00:00.000Z",
-  "updated_at": "2018-11-14T21:28:49.077Z",
+  "updated_at": "2019-05-12T08:34:11.858Z",
   "year": 2018,
   "month": 11,
   "day": 15,
-  "prev": {
-    "id": "transparency-and-nwjs",
-    "slug": "transparency-and-nwjs",
+  "next": {
+    "id": "installing-your-nwjs-app-windows1",
+    "slug": "installing-your-nwjs-app-windows1",
     "collection": null,
     "keywords": [
       "node-webkit",
       "desktop",
       "javascript",
-      "platform",
-      "linux",
-      "mac",
-      "windows"
+      "windows",
+      "install",
+      "installer"
     ],
     "original": {
       "blogLink": "https://www.packtpub.com/books/content/blogs",
       "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+      "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
     },
-    "title": "Transparency and NW.js",
-    "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
-    "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
-    "published_at": "2016-01-26T00:00:00.000Z",
-    "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
+    "title": "Installing your NW.js app on Windows",
+    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+    "published_at": "2015-12-09T00:00:00.000Z",
+    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+  },
+  "prev": {
+    "id": "flexible-data-tables-with-css-grid",
+    "slug": "flexible-data-tables-with-css-grid",
+    "collection": null,
+    "keywords": [
+      "css grid",
+      "css",
+      "javascript",
+      "table",
+      "data",
+      "responsive design",
+      "responsive",
+      "flexbox",
+      "resize column",
+      "web app",
+      "development",
+      "crm",
+      "sales"
+    ],
+    "title": "Flexible data tables with CSS Grid",
+    "summary": "Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the Teamwork CRM puzzle was the &quot;list view&quot;.\nIt's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.\n",
+    "photo": "/images/blog-content/flexible-data-tables-with-css-grid/wide.png",
+    "published_at": "2019-04-12T00:00:00.000Z",
+    "renderedSummary": "<p>Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the <a href=\"https://www.teamwork.com/crm\" rel=\"noopener\">Teamwork CRM</a> puzzle was the &quot;list view&quot;.</p>\n<p>It's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.</p>\n"
   }
 }

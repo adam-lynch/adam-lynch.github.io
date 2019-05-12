@@ -47,7 +47,7 @@
       }
     ],
     "title": "How to improve your permissions UX",
-    "updated_at": "2018-08-05T16:25:28.068Z",
+    "updated_at": "2019-05-12T08:34:11.858Z",
     "photo": "/images/blog-content/improve-permissions-ux/chris-wilson.png"
   },
   "title": "How to improve your permissions UX",
@@ -67,54 +67,51 @@
     "browsers"
   ],
   "published_at": "2018-03-03T00:00:00.000Z",
-  "updated_at": "2018-08-05T16:25:28.068Z",
+  "updated_at": "2019-05-12T08:34:11.858Z",
   "year": 2018,
   "month": 3,
   "day": 4,
   "next": {
-    "id": "installing-your-nwjs-app-windows1",
-    "slug": "installing-your-nwjs-app-windows1",
+    "id": "olc-ruin-someones-day-with-homoglyphs",
+    "slug": "olc-ruin-someones-day-with-homoglyphs",
     "collection": null,
     "keywords": [
-      "node-webkit",
-      "desktop",
       "javascript",
-      "windows",
-      "install",
-      "installer"
+      "node.js",
+      "homoglyphs",
+      "prank"
     ],
     "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/olc-ruin-someones-day-with-homoglyphs-b14e9a1a05a4"
     },
-    "title": "Installing your NW.js app on Windows",
-    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-    "published_at": "2015-12-09T00:00:00.000Z",
-    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+    "title": "Olc: Ruin someone’s day with homoglyphs",
+    "summary": "You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…\n",
+    "photo": "/images/blog-content/olc-ruin-someones-day-with-homoglyphs/tweet.png",
+    "published_at": "2015-10-27T00:00:00.000Z",
+    "renderedSummary": "<p>You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…</p>\n"
   },
   "prev": {
-    "id": "npm-distribution-path-length-problems",
-    "slug": "npm-distribution-path-length-problems",
+    "id": "production-databases-tips",
+    "slug": "production-databases-tips",
     "collection": null,
     "keywords": [
-      "node-webkit",
-      "desktop",
-      "javascript",
-      "npm",
-      "distribution",
-      "windows",
-      "paths"
+      "database",
+      "database-adminstration",
+      "dba",
+      "production",
+      "productivity",
+      "development",
+      "mysql",
+      "mssql",
+      "postgres",
+      "rockstar",
+      "satire"
     ],
-    "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
-    },
-    "title": "npm and distribution path length problems",
-    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-    "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
-    "published_at": "2015-12-07T00:00:00.000Z",
-    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+    "title": "10 pro tips: how to work with production databases",
+    "summary": "The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...\n",
+    "published_at": "2018-08-05T00:00:00.000Z",
+    "renderedSummary": "<p>The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...</p>\n"
   }
 }
