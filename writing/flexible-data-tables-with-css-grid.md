@@ -93,7 +93,7 @@ Since a type like "Date" is selected when creating a custom field, our system al
 
 1. The user hovers over a column header, a resize handle is shown on the right hand side. We're listening for `mousedown` on the resize handle.
 2. When the user clicks the handle, we bind some more `mousemove` and `mousedown` event listeners (to the `window`). We also add some classes for decoration at this point.
-3. When the user moves their mouse, we calculate the new column width. This takes the cursor position, the table's scroll position, and our minimum into account. Then we re-set the `<table>`'s `grid-template-columns`s rule (via `style` attribute), this time replacing the max (`fr`) value with a pixel value. For example, `grid-template-columns: grid-template-columns: minmax(150px, 1.33fr) 296px;`. We do this using `requestAnimationFrame` to keep it as smooth as possible.
+3. When the user moves their mouse, we calculate the new column width. This takes the cursor position, the table's scroll position, and our minimum into account. Then we re-set the `<table>`'s `grid-template-columns`s rule (via `style` attribute), this time replacing the max (`fr`) value with a pixel value. For example, `grid-template-columns: minmax(150px, 1.33fr) 296px;`. We do this using `requestAnimationFrame` to keep it as smooth as possible.
 4. When `mouseup` is fired, we unbind event listeners and remove classes.
 
 Try this simplified example (or ideally <a href="https://codepen.io/adam-lynch/pen/GaqgXP" target="_blank">open it in a new tab</a>):

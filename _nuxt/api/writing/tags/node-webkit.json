@@ -3,49 +3,28 @@
   "name": "node-webkit",
   "articles": [
     {
-      "id": "installing-your-nwjs-app-windows1",
-      "slug": "installing-your-nwjs-app-windows1",
+      "id": "npm-distribution-path-length-problems",
+      "slug": "npm-distribution-path-length-problems",
       "collection": null,
       "keywords": [
         "node-webkit",
         "desktop",
         "javascript",
+        "npm",
+        "distribution",
         "windows",
-        "install",
-        "installer"
+        "paths"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
         "blogName": "Packt books",
-        "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
+        "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
       },
-      "title": "Installing your NW.js app on Windows",
+      "title": "npm and distribution path length problems",
       "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-      "published_at": "2015-12-09T00:00:00.000Z",
+      "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
+      "published_at": "2015-12-07T00:00:00.000Z",
       "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
-    },
-    {
-      "id": "platform-detection",
-      "slug": "platform-detection",
-      "collection": null,
-      "keywords": [
-        "node-webkit",
-        "desktop",
-        "javascript",
-        "platform",
-        "linux",
-        "mac",
-        "windows"
-      ],
-      "original": {
-        "blogLink": "https://www.packtpub.com/books/content/blogs",
-        "blogName": "Packt books",
-        "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
-      },
-      "title": "Platform detection in your NW.js app",
-      "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
-      "published_at": "2016-01-26T00:00:00.000Z",
-      "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
     },
     {
       "id": "under-the-hood-of-a-hybrid-app",
@@ -120,6 +99,29 @@
       "renderedSummary": "<p>Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...</p>\n"
     },
     {
+      "id": "platform-detection",
+      "slug": "platform-detection",
+      "collection": null,
+      "keywords": [
+        "node-webkit",
+        "desktop",
+        "javascript",
+        "platform",
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "original": {
+        "blogLink": "https://www.packtpub.com/books/content/blogs",
+        "blogName": "Packt books",
+        "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+      },
+      "title": "Platform detection in your NW.js app",
+      "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
+      "published_at": "2016-01-26T00:00:00.000Z",
+      "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
+    },
+    {
       "id": "nwjs-app-and-shortcut-apis",
       "slug": "nwjs-app-and-shortcut-apis",
       "collection": null,
@@ -141,27 +143,25 @@
       "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
     },
     {
-      "id": "npm-distribution-path-length-problems",
-      "slug": "npm-distribution-path-length-problems",
+      "id": "installing-your-nwjs-app-windows1",
+      "slug": "installing-your-nwjs-app-windows1",
       "collection": null,
       "keywords": [
         "node-webkit",
         "desktop",
         "javascript",
-        "npm",
-        "distribution",
         "windows",
-        "paths"
+        "install",
+        "installer"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
         "blogName": "Packt books",
-        "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
+        "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
       },
-      "title": "npm and distribution path length problems",
+      "title": "Installing your NW.js app on Windows",
       "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-      "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
-      "published_at": "2015-12-07T00:00:00.000Z",
+      "published_at": "2015-12-09T00:00:00.000Z",
       "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
     },
     {
