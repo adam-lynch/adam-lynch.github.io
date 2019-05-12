@@ -117,7 +117,7 @@ I originally thought that users would like that when they stretched or squeezed 
   <span>Something went wrong. View <a href="https://codepen.io/adam-lynch/pen/wbWvep/" target="_blank">
   Flexible data table with CSS Grid (resizable columns with bad UX)</a> by Adam Lynch (<a href="https://codepen.io/adam-lynch">@adam-lynch</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+</p> 
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 After some user testing, it was clear this is unexpected behaviour. As a user, I feel less in control when there are unpredictable side-effects to my actions. 
