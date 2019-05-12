@@ -29,7 +29,7 @@ It's a powerful page component which exists seven times in the app — a table o
 
 First, I need to give some more context, starting with the purpose and design goals of these screens. Feel free to [skip to the CSS Grid bit](#just-get-to-css-grid-already).
 
-:::figure flexible-data-tables-with-css-grid/wide.png The leads list view.
+:::figure flexible-data-tables-with-css-grid/wide2.png The leads list view.
 :::
 
 Primarily it allows salespeople to scan a list of items like their leads or contacts, and find anything important they need to take action on. It's not like an Excel spreadsheet — we can do a better job at laying out the data, which there will be a lot of.
@@ -74,7 +74,7 @@ We use the same minimum size for all columns but the max (`fr`) value is determi
 
 Here is a simplified example:
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="adam-lynch" data-slug-hash="XwKWdG" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Flexible data table with CSS Grid">
+<p class="codepen" data-height="390" data-theme-id="light" data-default-tab="result" data-user="adam-lynch" data-slug-hash="XwKWdG" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Flexible data table with CSS Grid">
   <span>Something went wrong. View <a href="https://codepen.io/adam-lynch/pen/XwKWdG/" target="_blank">
   Flexible data table with CSS Grid</a> by Adam Lynch (<a href="https://codepen.io/adam-lynch">@adam-lynch</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -98,7 +98,7 @@ Since a type like "Date" is selected when creating a custom field, our system al
 
 Try this simplified example (or ideally <a href="https://codepen.io/adam-lynch/pen/GaqgXP" target="_blank">open it in a new tab</a>):
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="adam-lynch" data-slug-hash="GaqgXP" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Flexible data table with CSS Grid (resizable columns with good UX)">
+<p class="codepen" data-height="390" data-theme-id="light" data-default-tab="result" data-user="adam-lynch" data-slug-hash="GaqgXP" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Flexible data table with CSS Grid (resizable columns with good UX)">
   <span>Something went wrong. View <a href="https://codepen.io/adam-lynch/pen/GaqgXP/" target="_blank">
   Flexible data table with CSS Grid (resizable columns with good UX)</a> by Adam Lynch (<a href="https://codepen.io/adam-lynch">@adam-lynch</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -115,7 +115,7 @@ You might have noticed I didn't tell the whole truth. Not only do we "fix" the w
 
 I originally thought that users would like that when they stretched or squeezed columns, the other ones could adjust too. If the columns filled the screen width nicely and you make one smaller, one (or some) of the others could grow if they had more content to show. Try this example for yourself below (or ideally <a href="https://codepen.io/adam-lynch/pen/wbWvep" target="_blank">open it in a new tab</a>):
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="adam-lynch" data-slug-hash="wbWvep" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Flexible data table with CSS Grid (resizable columns with bad UX)">
+<p class="codepen" data-height="390" data-theme-id="light" data-default-tab="result" data-user="adam-lynch" data-slug-hash="wbWvep" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Flexible data table with CSS Grid (resizable columns with bad UX)">
   <span>Something went wrong. View <a href="https://codepen.io/adam-lynch/pen/wbWvep/" target="_blank">
   Flexible data table with CSS Grid (resizable columns with bad UX)</a> by Adam Lynch (<a href="https://codepen.io/adam-lynch">@adam-lynch</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
