@@ -58,11 +58,9 @@ To begin with, we lay the table out as best we can using regular old-school tabl
 
 I'm no CSS Grid expert but I love it. It's extremely powerful and simple, allowing you to implement previously tricky layouts with minute amounts of code. I'll skip giving an introduction to Grid in this article. Go read Rachel Andrew's [The New CSS Layout](https://abookapart.com/products/the-new-css-layout) or [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) and when you're done wondering where Grid was all your life, come back to me.
 
-The first thing we do is apply `display: grid` to the `<table>` to make it a grid. This won't break anything if the browser doesn't support it. Its children become grid items; the `<thead>` and `<tbody>`. It's not the `<thead>`, `<tbody>`, or even the `<tr>`s we're concerned with though. What we want to do is lay out our `<th>`s and `<td>`s on this grid. We could apply `display: grid` to each of these too (i.e. grids within grids), but that's not ideal. Each `<tr>` grid would be independent of others and that's not good (you'll see later that I had the same problem with Flexbox).
+The first thing we do is apply `display: grid` to the `<table>` to make it a grid. This won't break anything if the browser doesn't support it (it will carry on using `display:table`). Its children become grid items; the `<thead>` and `<tbody>`. It's not the `<thead>`, `<tbody>`, or even the `<tr>`s we're concerned with though. What we want to do is lay out our `<th>`s and `<td>`s on this grid. We could apply `display: grid` to each of these too (i.e. grids within grids), but that's not ideal. Each `<tr>` grid would be independent of others and that's not good (you'll see later that I had the same problem with Flexbox).
 
 A workaround is to use `display: contents` on the `<thead>`, `<tbody>`, and `<tr>`s. This basically removes the them from the Grid layout, bypassing them, and promotes their children (the `<th>`s and `<td>`s) to participate in the the `<table>` grid instead. 
-
-If Grid isn't supported by the browser, it will carry on using `display:table`.
 
 Then we use the magic `grid-template-columns` to control the grid items. Yes, one line of CSS. For example, if we had one date column and one URL column, it might be something like:
 
@@ -134,6 +132,8 @@ Therefore, if you open the app for the first time, the columns are laid out as b
 Once someone takes the time to tailor the screen to their needs, we take note. Any time a column is resized or made fixed, we create an independent localStorage entry mapping a column identifier to a pixel value.
 
 I can't remember exactly why we decided to set the fixed value using pixels, rather than something more fluid. Maybe it was just to keep it simple. Maybe it's because we do actually fall back to using a more archaic approach to setting column widths if Grid and `display: contents` aren't supported. You don't have to do this, it would have been too important to leave out for our users.
+
+Using something fluid probably wouldn't align with the user's intentions anyway. We can't assume that making all columns smaller in order to keep more of them in the screen is the most important thing. If they had resized a column, it's to see a certain amount of content in that column. If we used a fluid unit, and then they made the screen narrower, we'd be disregarding the choice they made. They'd have to resize the column again to see the same content. Users are unlikely to be thinking "Hmm, I want this column to take up 20% of the window even if I resize it". Anyway, users rarely resize windows; I'm going into too much detail on an edge case here.
 
 ## Toggling columns
 

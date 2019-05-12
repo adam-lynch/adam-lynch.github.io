@@ -70,47 +70,49 @@
   "month": 2,
   "day": 5,
   "next": {
-    "id": "serverless-crash-reporting-for-electron-apps",
-    "slug": "serverless-crash-reporting-for-electron-apps",
+    "id": "production-databases-tips",
+    "slug": "production-databases-tips",
     "collection": null,
     "keywords": [
-      "serverless",
-      "electron",
-      "javascript",
-      "aws"
+      "database",
+      "database-adminstration",
+      "dba",
+      "production",
+      "productivity",
+      "development",
+      "mysql",
+      "mssql",
+      "postgres",
+      "rockstar",
+      "satire"
     ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/serverless-crash-reporting-for-electron-apps-fe6e62e5982a"
-    },
-    "title": "Serverless crash reporting for Electron apps",
-    "summary": "The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from Electron apps.\n",
-    "photo": "https://cdn-images-1.medium.com/max/1600/1*7_8IQl1UmmFdv-Z3EwGNJg.png",
-    "published_at": "2016-11-22T00:00:00.000Z",
-    "renderedSummary": "<p>The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from <a href=\"http://electron.atom.io/\" rel=\"noopener\">Electron</a> apps.</p>\n"
+    "title": "10 pro tips: how to work with production databases",
+    "summary": "The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...\n",
+    "published_at": "2018-08-05T00:00:00.000Z",
+    "renderedSummary": "<p>The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...</p>\n"
   },
   "prev": {
-    "id": "random-open-api",
-    "slug": "random-open-api",
+    "id": "transparency-and-nwjs",
+    "slug": "transparency-and-nwjs",
     "collection": null,
     "keywords": [
-      "api",
-      "open API",
-      "public API",
-      "twitter",
-      "bot",
-      "zeit",
-      "now",
-      "serverless",
-      "faas",
-      "node.js",
-      "cron"
+      "node-webkit",
+      "desktop",
+      "javascript",
+      "platform",
+      "linux",
+      "mac",
+      "windows"
     ],
-    "title": "How I made the @randomOpenAPI Twitter bot in 42 minutes-ish",
-    "summary": "I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.\nThe natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' @randomMDN? It tweets a random article from MDN multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.\n",
-    "photo": "/images/blog-content/random-open-api/tweet.png",
-    "published_at": "2019-02-02T00:00:00.000Z",
-    "renderedSummary": "<p>I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.</p>\n<p>The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' <a href=\"https://twitter.com/randommdn\" rel=\"noopener\">@randomMDN</a>? It tweets a random article from <a href=\"https://developer.mozilla.org/en-US/\" rel=\"noopener\">MDN</a> multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.</p>\n"
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+    },
+    "title": "Transparency and NW.js",
+    "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
+    "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
+    "published_at": "2016-01-26T00:00:00.000Z",
+    "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
   }
 }

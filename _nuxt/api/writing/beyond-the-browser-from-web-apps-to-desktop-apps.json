@@ -58,44 +58,61 @@
   "month": 3,
   "day": 22,
   "next": {
-    "id": "production-databases-tips",
-    "slug": "production-databases-tips",
+    "id": "lessons-learned-leading-teams",
+    "slug": "lessons-learned-leading-teams",
     "collection": null,
     "keywords": [
-      "database",
-      "database-adminstration",
-      "dba",
-      "production",
-      "productivity",
+      "leadership",
+      "management",
+      "teams",
       "development",
-      "mysql",
-      "mssql",
-      "postgres",
-      "rockstar",
-      "satire"
+      "lead",
+      "leading",
+      "managing",
+      "manager",
+      "programming",
+      "delegating",
+      "efficiency",
+      "communication",
+      "people",
+      "technical",
+      "transition",
+      "job",
+      "career",
+      "growth",
+      "product management",
+      "project management",
+      "product lead",
+      "technical lead",
+      "lead developer"
     ],
-    "title": "10 pro tips: how to work with production databases",
-    "summary": "The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...\n",
-    "published_at": "2018-08-05T00:00:00.000Z",
-    "renderedSummary": "<p>The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...</p>\n"
+    "title": "Lessons learned leading teams",
+    "summary": "I've been thinking about team leading a lot lately. When revisiting advice a friend asked for when transitioning to a team lead position, I decided to flesh it out and put it online. Most of the following will hopefully be helpful to anyone leading a team or any manager, although some will be more relevant to leaders of developers and developers transitioning into leadership roles. If it helps anyone, great. It will be a good reference for me at least. Alright, let's get to it.\n",
+    "photo": "/images/blog-content/lessons-learned-leading-teams/graph.png",
+    "published_at": "2018-11-14T00:00:00.000Z",
+    "renderedSummary": "<p>I've been thinking about team leading a lot lately. When revisiting advice a friend asked for when transitioning to a team lead position, I decided to flesh it out and put it online. Most of the following will hopefully be helpful to anyone leading a team or any manager, although some will be more relevant to leaders of developers and developers transitioning into leadership roles. If it helps anyone, great. It will be a good reference for me at least. Alright, let's get to it.</p>\n"
   },
   "prev": {
-    "id": "coffeescript-at-teamwork",
-    "slug": "coffeescript-at-teamwork",
+    "id": "dealing-with-long-paths",
+    "slug": "dealing-with-long-paths",
     "collection": null,
     "keywords": [
-      "coffeescript",
-      "teamwork"
+      "NW.js",
+      "node-webkit",
+      "npm",
+      "distribution",
+      "paths",
+      "windows"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/coffeescript-at-teamwork-e596eed63590"
+      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
     },
-    "title": "CoffeeScript at Teamwork",
-    "summary": "The first project at Teamwork to use CoffeeScript was the Teamwork.com iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…\n",
-    "photo": "/images/blog-content/coffeescript-at-teamwork/biscotto-output.jpg",
-    "published_at": "2014-09-26T00:00:00.000Z",
-    "renderedSummary": "<p>The first project at Teamwork to use CoffeeScript was the <a href=\"http://Teamwork.com\" rel=\"noopener\">Teamwork.com</a> iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…</p>\n"
+    "title": "Dealing with long paths",
+    "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
+    "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
+    "published_at": "2015-07-01T00:00:00.000Z",
+    "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
   }
 }
