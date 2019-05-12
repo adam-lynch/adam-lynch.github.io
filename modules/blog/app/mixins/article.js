@@ -75,30 +75,5 @@ export default {
     }
   },
 
-  filters: { formatDate },
-
-  computed: {
-    disqus () {
-      /* eslint-disable camelcase */
-      const disqus = {
-        url: process.env.__NUXT_BLOG__.disqus.url,
-        shortname: process.env.__NUXT_BLOG__.disqus.shortname,
-        api_key: process.env.__NUXT_BLOG__.disqus.api_key,
-        sso_config: JSON.parse(process.env.__NUXT_BLOG__.disqus.sso_config || '{}')
-      }
-      const article = this.article
-
-      return Object.assign({}, disqus, {
-        identifier: article.id,
-        title: article.title,
-        url: `${(disqus.url || '').replace(/\/$/, '')}${this.$route.path}`
-      })
-      /* eslint-enable camelcase */
-    },
-    comments () {
-      return ('comments' in this.article.attributes)
-        ? this.article.attributes.comments
-        : process.env.__NUXT_BLOG__.comments
-    }
-  }
+  filters: { formatDate }
 }

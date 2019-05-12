@@ -19,10 +19,7 @@
     </article>
 
     <aside class="post-comments">
-      <DisqusComments v-bind="disqus" @ready="onDisqusReady"/>
-      <div class="post-skeleton" aria-hidden="true" :class="classes">
-        <span class="post-skeleton-word" v-for="(_, index) in numberOfWordsInCommentsSkeleton" :key="index"></span>
-      </div>
+      <p>Feedback is more than welcome via <a href="https://twitter.com/lynchy010">@lynchy010</a> or <a href="mailto:contact@adamlynch.com">contact@adamlynch.com</a></p>
     </aside>
   </div>
 </template>

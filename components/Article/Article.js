@@ -2,13 +2,11 @@
 import format from 'date-fns/format'
 import Article from '~/modules/blog/app/mixins/article'
 import Clipboard from 'clipboard'
-import DisqusComments from 'vue-disqus/VueDisqus.vue'
 import Anchor from '~/components/Anchor/Anchor.vue'
 
 export default {
   components: {
-    Anchor,
-    DisqusComments
+    Anchor
   },
 
   computed: {
@@ -35,8 +33,6 @@ export default {
 
   data: function () {
     return {
-      isDiqsusReady: false,
-      numberOfWordsInCommentsSkeleton: 85,
       postHeaderAnchorClass: 'post-header-anchor'
     }
   },
@@ -76,10 +72,6 @@ export default {
       setTimeout(() => {
         postHeaderAnchor.classList.remove(copiedClass)
       }, 3000)
-    },
-
-    onDisqusReady () {
-      this.isDiqsusReady = true
     }
   },
 

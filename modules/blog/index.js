@@ -23,12 +23,6 @@ module.exports = function NuxtModule (options) {
       indexCollections: '/collections'
     },
     routes: routes.routes,
-    disqus: {
-      url: options.base || 'http://localhost:3000',
-      shortname: undefined,
-      api_key: undefined, // eslint-disable-line camelcase
-      sso_config: undefined // eslint-disable-line camelcase
-    },
     twitter: null,
     og: null,
     fb: null

@@ -5,10 +5,6 @@ const blogOptions = {
   dir: 'writing',
   api: {
     prefix: 'api/writing'
-  },
-  disqus: {
-    shortname: 'adamlynch-1',
-    url: 'https://adamlynch.com'
   }
 }
 

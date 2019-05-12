@@ -3,26 +3,52 @@
   "name": "node-webkit",
   "articles": [
     {
-      "id": "installing-your-nwjs-app-windows1",
-      "slug": "installing-your-nwjs-app-windows1",
+      "id": "npm-distribution-path-length-problems",
+      "slug": "npm-distribution-path-length-problems",
       "collection": null,
       "keywords": [
         "node-webkit",
         "desktop",
         "javascript",
+        "npm",
+        "distribution",
         "windows",
-        "install",
-        "installer"
+        "paths"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
         "blogName": "Packt books",
-        "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
+        "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
       },
-      "title": "Installing your NW.js app on Windows",
+      "title": "npm and distribution path length problems",
       "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-      "published_at": "2015-12-09T00:00:00.000Z",
+      "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
+      "published_at": "2015-12-07T00:00:00.000Z",
       "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+    },
+    {
+      "id": "transparency-and-nwjs",
+      "slug": "transparency-and-nwjs",
+      "collection": null,
+      "keywords": [
+        "node-webkit",
+        "desktop",
+        "javascript",
+        "platform",
+        "linux",
+        "mac",
+        "windows"
+      ],
+      "original": {
+        "blogLink": "https://www.packtpub.com/books/content/blogs",
+        "blogName": "Packt books",
+        "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+      },
+      "title": "Transparency and NW.js",
+      "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
+      "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
+      "published_at": "2016-01-26T00:00:00.000Z",
+      "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
     },
     {
       "id": "under-the-hood-of-a-hybrid-app",
@@ -48,30 +74,6 @@
       "photo": "/images/blog-content/under-the-hood-of-a-hybrid-app/nav.png",
       "published_at": "2016-04-16T00:00:00.000Z",
       "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
-    },
-    {
-      "id": "transparency-and-nwjs",
-      "slug": "transparency-and-nwjs",
-      "collection": null,
-      "keywords": [
-        "node-webkit",
-        "desktop",
-        "javascript",
-        "platform",
-        "linux",
-        "mac",
-        "windows"
-      ],
-      "original": {
-        "blogLink": "https://www.packtpub.com/books/content/blogs",
-        "blogName": "Packt books",
-        "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
-      },
-      "title": "Transparency and NW.js",
-      "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
-      "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
-      "published_at": "2016-01-26T00:00:00.000Z",
-      "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
     },
     {
       "id": "resurrecting-clippy",
@@ -141,27 +143,25 @@
       "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
     },
     {
-      "id": "npm-distribution-path-length-problems",
-      "slug": "npm-distribution-path-length-problems",
+      "id": "installing-your-nwjs-app-windows1",
+      "slug": "installing-your-nwjs-app-windows1",
       "collection": null,
       "keywords": [
         "node-webkit",
         "desktop",
         "javascript",
-        "npm",
-        "distribution",
         "windows",
-        "paths"
+        "install",
+        "installer"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
         "blogName": "Packt books",
-        "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
+        "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
       },
-      "title": "npm and distribution path length problems",
+      "title": "Installing your NW.js app on Windows",
       "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-      "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
-      "published_at": "2015-12-07T00:00:00.000Z",
+      "published_at": "2015-12-09T00:00:00.000Z",
       "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
     },
     {

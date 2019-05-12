@@ -788,6 +788,24 @@ body {
   margin: 2rem;
   padding: 2rem;
   background: #fff;
+
+  a {
+    color: #3f729e; // TODO: var?
+    padding-bottom: 0.05rem;
+
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    background-repeat: no-repeat;
+    background-size: 100% 1.5px;
+    background-position: center bottom 10%;
+    background-origin: padding-box;
+    text-shadow: 3px 0 #fff, 2px 0 #fff, 1px 0 #fff, -1px 0 #fff, -2px 0 #fff, -3px 0 #fff;
+
+    transition: 0.25s color;
+
+    &:hover {
+      color: darken(#3f729e, 20%);
+    }
+  }
 }
 
 .footer {
