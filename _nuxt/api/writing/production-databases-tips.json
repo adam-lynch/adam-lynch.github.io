@@ -79,49 +79,45 @@
   "month": 8,
   "day": 6,
   "next": {
-    "id": "platform-detection",
-    "slug": "platform-detection",
+    "id": "developing-an-electron-edge",
+    "slug": "developing-an-electron-edge",
     "collection": null,
+    "isBook": true,
     "keywords": [
-      "node-webkit",
+      "electron",
       "desktop",
-      "javascript",
-      "platform",
-      "linux",
-      "mac",
-      "windows"
+      "javascript"
     ],
     "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+      "blogLink": "https://bleedingedgepress.com/",
+      "blogName": "Bleeding Edge Press",
+      "url": "https://bleedingedgepress.com/developing-an-electron-edge/",
+      "onlyExternal": true
     },
-    "title": "Platform detection in your NW.js app",
-    "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
-    "published_at": "2016-01-26T00:00:00.000Z",
-    "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
+    "title": "Developing an Electron Edge",
+    "summary": "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n",
+    "published_at": "2016-05-25T00:00:00.000Z",
+    "renderedSummary": "<p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n"
   },
   "prev": {
-    "id": "random-open-api",
-    "slug": "random-open-api",
+    "id": "olc-ruin-someones-day-with-homoglyphs",
+    "slug": "olc-ruin-someones-day-with-homoglyphs",
     "collection": null,
     "keywords": [
-      "api",
-      "open API",
-      "public API",
-      "twitter",
-      "bot",
-      "zeit",
-      "now",
-      "serverless",
-      "faas",
+      "javascript",
       "node.js",
-      "cron"
+      "homoglyphs",
+      "prank"
     ],
-    "title": "How I made the @randomOpenAPI Twitter bot in 42 minutes-ish",
-    "summary": "I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.\nThe natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' @randomMDN? It tweets a random article from MDN multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.\n",
-    "photo": "/images/blog-content/random-open-api/tweet.png",
-    "published_at": "2019-02-02T00:00:00.000Z",
-    "renderedSummary": "<p>I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.</p>\n<p>The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' <a href=\"https://twitter.com/randommdn\" rel=\"noopener\">@randomMDN</a>? It tweets a random article from <a href=\"https://developer.mozilla.org/en-US/\" rel=\"noopener\">MDN</a> multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.</p>\n"
+    "original": {
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/olc-ruin-someones-day-with-homoglyphs-b14e9a1a05a4"
+    },
+    "title": "Olc: Ruin someone’s day with homoglyphs",
+    "summary": "You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…\n",
+    "photo": "/images/blog-content/olc-ruin-someones-day-with-homoglyphs/tweet.png",
+    "published_at": "2015-10-27T00:00:00.000Z",
+    "renderedSummary": "<p>You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…</p>\n"
   }
 }

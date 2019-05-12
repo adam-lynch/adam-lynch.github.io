@@ -66,48 +66,47 @@
   "month": 8,
   "day": 30,
   "next": {
-    "id": "dealing-with-long-paths",
-    "slug": "dealing-with-long-paths",
+    "id": "random-open-api",
+    "slug": "random-open-api",
     "collection": null,
     "keywords": [
-      "NW.js",
-      "node-webkit",
-      "npm",
-      "distribution",
-      "paths",
-      "windows"
+      "api",
+      "open API",
+      "public API",
+      "twitter",
+      "bot",
+      "zeit",
+      "now",
+      "serverless",
+      "faas",
+      "node.js",
+      "cron"
     ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
-    },
-    "title": "Dealing with long paths",
-    "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
-    "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
-    "published_at": "2015-07-01T00:00:00.000Z",
-    "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
+    "title": "How I made the @randomOpenAPI Twitter bot in 42 minutes-ish",
+    "summary": "I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.\nThe natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' @randomMDN? It tweets a random article from MDN multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.\n",
+    "photo": "/images/blog-content/random-open-api/tweet.png",
+    "published_at": "2019-02-02T00:00:00.000Z",
+    "renderedSummary": "<p>I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.</p>\n<p>The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' <a href=\"https://twitter.com/randommdn\" rel=\"noopener\">@randomMDN</a>? It tweets a random article from <a href=\"https://developer.mozilla.org/en-US/\" rel=\"noopener\">MDN</a> multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.</p>\n"
   },
   "prev": {
-    "id": "installing-your-nwjs-app-windows1",
-    "slug": "installing-your-nwjs-app-windows1",
+    "id": "developing-an-electron-edge",
+    "slug": "developing-an-electron-edge",
     "collection": null,
+    "isBook": true,
     "keywords": [
-      "node-webkit",
+      "electron",
       "desktop",
-      "javascript",
-      "windows",
-      "install",
-      "installer"
+      "javascript"
     ],
     "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
+      "blogLink": "https://bleedingedgepress.com/",
+      "blogName": "Bleeding Edge Press",
+      "url": "https://bleedingedgepress.com/developing-an-electron-edge/",
+      "onlyExternal": true
     },
-    "title": "Installing your NW.js app on Windows",
-    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-    "published_at": "2015-12-09T00:00:00.000Z",
-    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+    "title": "Developing an Electron Edge",
+    "summary": "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n",
+    "published_at": "2016-05-25T00:00:00.000Z",
+    "renderedSummary": "<p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n"
   }
 }

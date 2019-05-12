@@ -61,45 +61,49 @@
   "month": 7,
   "day": 29,
   "next": {
-    "id": "nwjs-app-and-shortcut-apis",
-    "slug": "nwjs-app-and-shortcut-apis",
+    "id": "serverless-crash-reporting-for-electron-apps",
+    "slug": "serverless-crash-reporting-for-electron-apps",
     "collection": null,
     "keywords": [
-      "node-webkit",
-      "desktop",
+      "serverless",
+      "electron",
       "javascript",
-      "app",
-      "shortcut"
-    ],
-    "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/nwjs-app-and-shortcut-apis"
-    },
-    "title": "NW.js: The App and Shortcut APIs",
-    "summary": "The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...\n",
-    "published_at": "2015-12-18T00:00:00.000Z",
-    "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
-  },
-  "prev": {
-    "id": "olc-ruin-someones-day-with-homoglyphs",
-    "slug": "olc-ruin-someones-day-with-homoglyphs",
-    "collection": null,
-    "keywords": [
-      "javascript",
-      "node.js",
-      "homoglyphs",
-      "prank"
+      "aws"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/olc-ruin-someones-day-with-homoglyphs-b14e9a1a05a4"
+      "url": "https://engineroom.teamwork.com/serverless-crash-reporting-for-electron-apps-fe6e62e5982a"
     },
-    "title": "Olc: Ruin someone’s day with homoglyphs",
-    "summary": "You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…\n",
-    "photo": "/images/blog-content/olc-ruin-someones-day-with-homoglyphs/tweet.png",
-    "published_at": "2015-10-27T00:00:00.000Z",
-    "renderedSummary": "<p>You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…</p>\n"
+    "title": "Serverless crash reporting for Electron apps",
+    "summary": "The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from Electron apps.\n",
+    "photo": "https://cdn-images-1.medium.com/max/1600/1*7_8IQl1UmmFdv-Z3EwGNJg.png",
+    "published_at": "2016-11-22T00:00:00.000Z",
+    "renderedSummary": "<p>The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from <a href=\"http://electron.atom.io/\" rel=\"noopener\">Electron</a> apps.</p>\n"
+  },
+  "prev": {
+    "id": "under-the-hood-of-a-hybrid-app",
+    "slug": "under-the-hood-of-a-hybrid-app",
+    "collection": null,
+    "keywords": [
+      "product",
+      "web",
+      "javascript",
+      "NW.js",
+      "node-webkit",
+      "desktop",
+      "hybrid",
+      "mobile"
+    ],
+    "original": {
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/under-the-hood-of-a-hybrid-app-2215ce6e342a"
+    },
+    "title": "Under the hood of a hybrid (app)",
+    "summary": "It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...\n",
+    "photo": "/images/blog-content/under-the-hood-of-a-hybrid-app/nav.png",
+    "published_at": "2016-04-16T00:00:00.000Z",
+    "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
   }
 }

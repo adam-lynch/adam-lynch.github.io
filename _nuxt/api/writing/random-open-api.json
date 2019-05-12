@@ -84,46 +84,49 @@
   "month": 2,
   "day": 3,
   "next": {
-    "id": "production-databases-tips",
-    "slug": "production-databases-tips",
+    "id": "npm-distribution-path-length-problems",
+    "slug": "npm-distribution-path-length-problems",
     "collection": null,
     "keywords": [
-      "database",
-      "database-adminstration",
-      "dba",
-      "production",
-      "productivity",
-      "development",
-      "mysql",
-      "mssql",
-      "postgres",
-      "rockstar",
-      "satire"
+      "node-webkit",
+      "desktop",
+      "javascript",
+      "npm",
+      "distribution",
+      "windows",
+      "paths"
     ],
-    "title": "10 pro tips: how to work with production databases",
-    "summary": "The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...\n",
-    "published_at": "2018-08-05T00:00:00.000Z",
-    "renderedSummary": "<p>The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...</p>\n"
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
+    },
+    "title": "npm and distribution path length problems",
+    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+    "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
+    "published_at": "2015-12-07T00:00:00.000Z",
+    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
   },
   "prev": {
-    "id": "serverless-crash-reporting-for-electron-apps",
-    "slug": "serverless-crash-reporting-for-electron-apps",
+    "id": "hassle-free-third-party-dependencies",
+    "slug": "hassle-free-third-party-dependencies",
     "collection": null,
     "keywords": [
-      "serverless",
-      "electron",
+      "dependencies",
+      "assets",
       "javascript",
-      "aws"
+      "css",
+      "third-party"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/serverless-crash-reporting-for-electron-apps-fe6e62e5982a"
+      "url": "https://engineroom.teamwork.com/hassle-free-third-party-dependencies-9b6e0a4884ce"
     },
-    "title": "Serverless crash reporting for Electron apps",
-    "summary": "The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from Electron apps.\n",
-    "photo": "https://cdn-images-1.medium.com/max/1600/1*7_8IQl1UmmFdv-Z3EwGNJg.png",
-    "published_at": "2016-11-22T00:00:00.000Z",
-    "renderedSummary": "<p>The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from <a href=\"http://electron.atom.io/\" rel=\"noopener\">Electron</a> apps.</p>\n"
+    "title": "Hassle-free third-party dependencies",
+    "summary": "How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…\n",
+    "photo": "/images/blog-content/hassle-free-third-party-dependencies/bower.png",
+    "published_at": "2014-08-29T00:00:00.000Z",
+    "renderedSummary": "<p>How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…</p>\n"
   }
 }

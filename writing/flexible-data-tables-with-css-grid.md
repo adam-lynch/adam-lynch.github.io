@@ -45,7 +45,7 @@ Responsive tables are tricky. There are [several existing patterns](https://brad
 
 Once we have enough pixels in our canvas to play with, we switch to a more typical table layout such that the columns are... well, columns. There are no major layout changes beyond this point but we still want to display the columns as best as we can for the salesperson viewing it.
 
-Assume there are a lot of columns (we'll look at how the user can configure the columns in more detail later). The table should fill the width of the screen (at least). Column widths then should be determined by their content and the type of values they contain; e.g. short / long text, date, number, URL, etc. Date columns should take up less room than long text col1umns. 
+Assume there are a lot of columns (we'll look at how the user can configure the columns in more detail later). The table should fill the width of the screen (at least). Column widths then should be determined by their content and the type of values they contain; e.g. short / long text, date, number, URL, etc. Date columns should take up less room than long text columns. 
 
 Columns must have a minimum width and therefore only so many can fit into the viewport. As a result this table will be vertically and horizontally scrollable for a lot of salespeople.
 
@@ -148,7 +148,7 @@ Over time, more and more columns will become fixed. The only way for users to ge
 
 We also store an array of column identifiers in localStorage, separate to the column width entries.
 
-## "Why didn't you just use <insert library>?"
+## "Why didn't you just use {{ libraryName }}?"
 
 I didn't want to just offload the problem to a heavy JavaScript library. It would be heavy, janky, wouldn't be responsive, and might not even use `<table>` at all. I also didn't want to write something like that myself. There must be a better way, I thought.
 

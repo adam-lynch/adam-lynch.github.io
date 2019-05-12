@@ -75,49 +75,49 @@
   "month": 1,
   "day": 27,
   "next": {
-    "id": "improve-permissions-ux",
-    "slug": "improve-permissions-ux",
+    "id": "under-the-hood-of-a-hybrid-app",
+    "slug": "under-the-hood-of-a-hybrid-app",
     "collection": null,
     "keywords": [
-      "ux",
-      "permissions",
-      "pwa",
+      "product",
       "web",
       "javascript",
-      "notifications",
-      "geolocation",
-      "extension",
-      "browsers"
+      "NW.js",
+      "node-webkit",
+      "desktop",
+      "hybrid",
+      "mobile"
     ],
-    "title": "How to improve your permissions UX",
-    "summary": "&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose some might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.\n",
-    "photo": "/images/blog-content/improve-permissions-ux/chris-wilson.png",
-    "published_at": "2018-03-03T00:00:00.000Z",
-    "renderedSummary": "<p>&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose <em>some</em> might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.</p>\n"
+    "original": {
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/under-the-hood-of-a-hybrid-app-2215ce6e342a"
+    },
+    "title": "Under the hood of a hybrid (app)",
+    "summary": "It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...\n",
+    "photo": "/images/blog-content/under-the-hood-of-a-hybrid-app/nav.png",
+    "published_at": "2016-04-16T00:00:00.000Z",
+    "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
   },
   "prev": {
-    "id": "flexible-data-tables-with-css-grid",
-    "slug": "flexible-data-tables-with-css-grid",
+    "id": "static-site-regeneration",
+    "slug": "static-site-regeneration",
     "collection": null,
     "keywords": [
-      "css grid",
-      "css",
-      "javascript",
-      "table",
-      "data",
-      "responsive design",
-      "responsive",
-      "flexbox",
-      "resize column",
-      "web app",
-      "development",
-      "crm",
-      "sales"
+      "writing",
+      "static-site-generation",
+      "headless-cms",
+      "jamstack",
+      "git",
+      "markdown",
+      "vue.js",
+      "nuxt.js",
+      "javascript"
     ],
-    "title": "Flexible data tables with CSS Grid",
-    "summary": "Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the Teamwork CRM puzzle was the &quot;list view&quot;.\nIt's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.\n",
-    "photo": "/images/blog-content/flexible-data-tables-with-css-grid/wide3.png",
-    "published_at": "2019-05-12T00:00:00.000Z",
-    "renderedSummary": "<p>Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the <a href=\"https://www.teamwork.com/crm\" rel=\"noopener\">Teamwork CRM</a> puzzle was the &quot;list view&quot;.</p>\n<p>It's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.</p>\n"
+    "title": "Static site regeneration and focusing on what's important",
+    "summary": "I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.\n",
+    "photo": "/images/blog-content/static-site-regeneration/nuxt.png",
+    "published_at": "2018-02-04T00:00:00.000Z",
+    "renderedSummary": "<p>I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.</p>\n"
   }
 }

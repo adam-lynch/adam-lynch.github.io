@@ -73,6 +73,28 @@
   "month": 1,
   "day": 27,
   "next": {
+    "id": "installing-your-nwjs-app-windows1",
+    "slug": "installing-your-nwjs-app-windows1",
+    "collection": null,
+    "keywords": [
+      "node-webkit",
+      "desktop",
+      "javascript",
+      "windows",
+      "install",
+      "installer"
+    ],
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
+    },
+    "title": "Installing your NW.js app on Windows",
+    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+    "published_at": "2015-12-09T00:00:00.000Z",
+    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+  },
+  "prev": {
     "id": "npm-distribution-path-length-problems",
     "slug": "npm-distribution-path-length-problems",
     "collection": null,
@@ -95,27 +117,5 @@
     "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
     "published_at": "2015-12-07T00:00:00.000Z",
     "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
-  },
-  "prev": {
-    "id": "production-databases-tips",
-    "slug": "production-databases-tips",
-    "collection": null,
-    "keywords": [
-      "database",
-      "database-adminstration",
-      "dba",
-      "production",
-      "productivity",
-      "development",
-      "mysql",
-      "mssql",
-      "postgres",
-      "rockstar",
-      "satire"
-    ],
-    "title": "10 pro tips: how to work with production databases",
-    "summary": "The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...\n",
-    "published_at": "2018-08-05T00:00:00.000Z",
-    "renderedSummary": "<p>The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...</p>\n"
   }
 }

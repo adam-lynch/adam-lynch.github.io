@@ -73,31 +73,6 @@
   "month": 12,
   "day": 8,
   "next": {
-    "id": "flexible-data-tables-with-css-grid",
-    "slug": "flexible-data-tables-with-css-grid",
-    "collection": null,
-    "keywords": [
-      "css grid",
-      "css",
-      "javascript",
-      "table",
-      "data",
-      "responsive design",
-      "responsive",
-      "flexbox",
-      "resize column",
-      "web app",
-      "development",
-      "crm",
-      "sales"
-    ],
-    "title": "Flexible data tables with CSS Grid",
-    "summary": "Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the Teamwork CRM puzzle was the &quot;list view&quot;.\nIt's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.\n",
-    "photo": "/images/blog-content/flexible-data-tables-with-css-grid/wide3.png",
-    "published_at": "2019-05-12T00:00:00.000Z",
-    "renderedSummary": "<p>Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the <a href=\"https://www.teamwork.com/crm\" rel=\"noopener\">Teamwork CRM</a> puzzle was the &quot;list view&quot;.</p>\n<p>It's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.</p>\n"
-  },
-  "prev": {
     "id": "platform-detection",
     "slug": "platform-detection",
     "collection": null,
@@ -119,5 +94,28 @@
     "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
     "published_at": "2016-01-26T00:00:00.000Z",
     "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
+  },
+  "prev": {
+    "id": "random-open-api",
+    "slug": "random-open-api",
+    "collection": null,
+    "keywords": [
+      "api",
+      "open API",
+      "public API",
+      "twitter",
+      "bot",
+      "zeit",
+      "now",
+      "serverless",
+      "faas",
+      "node.js",
+      "cron"
+    ],
+    "title": "How I made the @randomOpenAPI Twitter bot in 42 minutes-ish",
+    "summary": "I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.\nThe natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' @randomMDN? It tweets a random article from MDN multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.\n",
+    "photo": "/images/blog-content/random-open-api/tweet.png",
+    "published_at": "2019-02-02T00:00:00.000Z",
+    "renderedSummary": "<p>I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.</p>\n<p>The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' <a href=\"https://twitter.com/randommdn\" rel=\"noopener\">@randomMDN</a>? It tweets a random article from <a href=\"https://developer.mozilla.org/en-US/\" rel=\"noopener\">MDN</a> multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.</p>\n"
   }
 }
