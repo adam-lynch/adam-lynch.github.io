@@ -140,7 +140,7 @@ I can't remember exactly why we decided to set the fixed value using pixels, rat
 :::figure flexible-data-tables-with-css-grid/manage-columns.png Our modal for customizing which columns are shown.
 :::
 
-Imagine a salesperson has changed the column set using the above modal. If none of the chosen columns have been resized previously, they get laid out using the default `grid-template-column` values depending on their data type. For example, minmax(150px, 3.33fr)`.
+Imagine a salesperson has changed the column set using the above modal. If none of the chosen columns have been resized previously, they get laid out using the default `grid-template-column` values depending on their data type. For example, `minmax(150px, 3.33fr)`.
 
 If any of the columns has a fixed width stored in localStorage, we make *all* of the chosen columns fixed width (and store those widths in localStorage too).
 
@@ -154,7 +154,9 @@ I didn't want to just offload the problem to a heavy JavaScript library. It woul
 
 ## "Why didn't you just use Flexbox?"
 
-Each row would be evaluated / spaced independently of each other. A column might not be aligned with the column above it because of varying content length. I could have switched to `<div>`s representing the column containing the vertically stacked cells within. I didn't want to have to do this though. I wanted to use a `<table>`. On top of that, I could have easily ran into issues from the reverse angle anyway, like cells not matching in height across columns.
+Each row would be evaluated / spaced independently of each other. A column might not be aligned with the column above it because of varying content length.
+
+I could have switched to `<div>`s representing the column containing the vertically stacked cells within. I didn't want to have to do this though. I wanted to use a `<table>`. On top of that, I could have easily ran into issues from the reverse angle anyway, like cells not matching in height across columns.
 
 ## "Why didn't you just use a `<colgroup>`?"
 
@@ -176,7 +178,7 @@ Yes, tables can do a lot of smart things out of the box, but they can't efficien
 
 We discovered a [strange bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1550728) when combining it with native drag & drop in Firefox.
 
-Fortunately, subgrid on the way which will properly allow descendants to participate in grids. This use case is simple in that we want to effectively flatten the markup but subgrid will open the door for wilder multi-dimensional grid orgies. See [Why display: contents is not CSS Grid Layout subgrid](https://rachelandrew.co.uk/archives/2017/07/20/why-display-contents-is-not-css-grid-layout-subgrid/).
+Fortunately, subgrid on the way which will properly allow descendants to participate in grids. Our use case is simple in that we want to effectively flatten the markup but subgrid will open the door for wilder multi-dimensional grid orgies. See [Why display: contents is not CSS Grid Layout subgrid](https://rachelandrew.co.uk/archives/2017/07/20/why-display-contents-is-not-css-grid-layout-subgrid/).
 
 ## I'm probably forgetting something
 
