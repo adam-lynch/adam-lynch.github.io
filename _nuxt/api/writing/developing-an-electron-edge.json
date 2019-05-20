@@ -52,28 +52,29 @@
   "month": 5,
   "day": 26,
   "next": {
-    "id": "transparency-and-nwjs",
-    "slug": "transparency-and-nwjs",
+    "id": "flexible-data-tables-with-css-grid",
+    "slug": "flexible-data-tables-with-css-grid",
     "collection": null,
     "keywords": [
-      "node-webkit",
-      "desktop",
+      "css grid",
+      "css",
       "javascript",
-      "platform",
-      "linux",
-      "mac",
-      "windows"
+      "table",
+      "data",
+      "responsive design",
+      "responsive",
+      "flexbox",
+      "resize column",
+      "web app",
+      "development",
+      "crm",
+      "sales"
     ],
-    "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
-    },
-    "title": "Transparency and NW.js",
-    "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
-    "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
-    "published_at": "2016-01-26T00:00:00.000Z",
-    "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
+    "title": "Flexible data tables with CSS Grid",
+    "summary": "Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the Teamwork CRM puzzle was the &quot;list view&quot;.\nIt's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.\n",
+    "photo": "/images/blog-content/flexible-data-tables-with-css-grid/wide3.png",
+    "published_at": "2019-05-12T00:00:00.000Z",
+    "renderedSummary": "<p>Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the <a href=\"https://www.teamwork.com/crm\" rel=\"noopener\">Teamwork CRM</a> puzzle was the &quot;list view&quot;.</p>\n<p>It's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.</p>\n"
   },
   "prev": {
     "id": "hassle-free-third-party-dependencies",

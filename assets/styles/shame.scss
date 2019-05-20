@@ -6,18 +6,13 @@ $gray: #808080;
 
 $siteBackground: #ECECEC;
 
-$navItemBaseBackgroundColor: desaturate(#8aa8c3, 15%);
 $columnDesaturationDelta: 5%;
 $columnLightnessDelta: 4%;
 $rowDarknessDelta: 5%;
 $rowSaturationDelta: 2%;
 
-$writingNavItemBackgroundColor: $navItemBaseBackgroundColor;
-$codeNavItemBackgroundColor: desaturate(lighten($writingNavItemBackgroundColor, $columnLightnessDelta), $columnDesaturationDelta);
-$editNavItemBackgroundColor: desaturate(lighten($codeNavItemBackgroundColor, $columnLightnessDelta), $columnDesaturationDelta);
-$twitterNavItemBackgroundColor: darken(saturate($writingNavItemBackgroundColor, $rowSaturationDelta), $rowDarknessDelta);
-$emailNavItemBackgroundColor: darken(saturate($codeNavItemBackgroundColor, $rowSaturationDelta), $rowDarknessDelta);
-$linkedInNavItemBackgroundColor: darken(saturate($editNavItemBackgroundColor, $rowSaturationDelta), $rowDarknessDelta);
+$linkColor: #5C7B8F;
+$linkColorHover: #6882c5;
 
 $minWidthToShowTitleInline: 42rem;
 $minWidthToShowNavigationItemsInline: 45rem;
@@ -208,12 +203,13 @@ body {
   position: relative;
   cursor: pointer; // needed for .navigation-link:after
 
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 0.85rem;
+  font-weight: 200;
+
+  transition: 0.25s background-color;
 
   @media(min-width: 25rem) {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
   }
 
   @media(min-width: $minWidthToShowNavigationItemsInline) {
@@ -227,39 +223,24 @@ body {
   }
 }
 
-@mixin navigation-item-background($baseBackgroundColor) {
-  background: fade-out($baseBackgroundColor, 0.1);
-  transition: 0.25s background-color;
+@for $i from 1 through 6 {
+  .navigation-item:nth-child(#{$i}) {
+    $backgroundColor: adjust-color(
+      $linkColor,
+      $saturation: -100,
+      $lightness: if(
+        $i <= 3,
+        40 + $i * 2.5,
+        38 + ($i - 3) * 2.5
+      )
+    );
+    background: $backgroundColor;
 
-  &:hover {
-    background: darken($baseBackgroundColor, 5%);
+    &:hover {
+      background: darken($backgroundColor, 2%);
+    }
   }
 }
-
-.writing-navigation-item {
-  @include navigation-item-background($writingNavItemBackgroundColor);
-}
-
-.edit-navigation-item {
-  @include navigation-item-background($editNavItemBackgroundColor);
-}
-
-.code-navigation-item {
-  @include navigation-item-background($codeNavItemBackgroundColor);
-}
-
-.twitter-navigation-item {
-  @include navigation-item-background($twitterNavItemBackgroundColor);
-}
-
-.email-navigation-item {
-  @include navigation-item-background($emailNavItemBackgroundColor);
-}
-
-.linkedin-navigation-item {
-  @include navigation-item-background($linkedInNavItemBackgroundColor);
-}
-
 
 .navigation-link {
   flex: 1;
@@ -269,13 +250,13 @@ body {
   padding: 1rem;
 
   text-decoration: none;
-  color: #f5f5f5;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  color: black;
 
   transition: 0.25s color;
 
   @media(min-width: 25rem) {
-    padding: 1.5rem;
+    padding: 1.4rem;
   }
 
   &:after {
@@ -289,14 +270,14 @@ body {
     height: 0;
     width: 100%;
 
-    background: #000;
-    opacity: 0.02;
+    background: #fff;
+    opacity: 0.1;
     cursor: pointer;
     transition: 0.2s all ease-out;
   }
 
   &:hover {
-    color: #fff;
+    // color: #fff;
     &:after {
       top: 50%;
       height: 50%;
@@ -392,10 +373,10 @@ body {
   }
 
   :not(figure) > a {
-    color: #3f729e; // TODO: var?
+    color: saturate($linkColor, 20);
     padding-bottom: 0.05rem;
 
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    background-image: linear-gradient(rgba($linkColorHover, 0.4), rgba($linkColorHover, 0.4));
     background-repeat: no-repeat;
     background-size: 100% 1.5px;
     background-position: center bottom 10%;
@@ -405,7 +386,7 @@ body {
     transition: 0.25s color;
 
     &:hover {
-      color: darken(#3f729e, 20%);
+      color: $linkColorHover;
     }
   }
 
@@ -767,7 +748,7 @@ body {
   transition: 0.25s color;
 
   &:hover {
-    color: $twitterNavItemBackgroundColor;
+    color: $linkColorHover;
   }
 }
 
@@ -775,7 +756,7 @@ body {
 .post-read-more-link,
 .site-happy-text-tagline-link,
 .footer-link {
-  color: darken($twitterNavItemBackgroundColor, 20%);
+  color: $linkColor;
 }
 
 .post-read-more-link {
@@ -790,7 +771,7 @@ body {
   background: #fff;
 
   a {
-    color: #3f729e; // TODO: var?
+    color: $linkColor;
     padding-bottom: 0.05rem;
 
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
@@ -803,7 +784,7 @@ body {
     transition: 0.25s color;
 
     &:hover {
-      color: darken(#3f729e, 20%);
+      color: $linkColorHover;
     }
   }
 }

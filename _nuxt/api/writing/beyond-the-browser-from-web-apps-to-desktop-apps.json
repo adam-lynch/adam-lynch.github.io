@@ -58,47 +58,51 @@
   "month": 3,
   "day": 22,
   "next": {
-    "id": "serverless-crash-reporting-for-electron-apps",
-    "slug": "serverless-crash-reporting-for-electron-apps",
+    "id": "platform-detection",
+    "slug": "platform-detection",
     "collection": null,
     "keywords": [
-      "serverless",
-      "electron",
+      "node-webkit",
+      "desktop",
       "javascript",
-      "aws"
+      "platform",
+      "linux",
+      "mac",
+      "windows"
     ],
     "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/serverless-crash-reporting-for-electron-apps-fe6e62e5982a"
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
     },
-    "title": "Serverless crash reporting for Electron apps",
-    "summary": "The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from Electron apps.\n",
-    "photo": "https://cdn-images-1.medium.com/max/1600/1*7_8IQl1UmmFdv-Z3EwGNJg.png",
-    "published_at": "2016-11-22T00:00:00.000Z",
-    "renderedSummary": "<p>The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from <a href=\"http://electron.atom.io/\" rel=\"noopener\">Electron</a> apps.</p>\n"
+    "title": "Platform detection in your NW.js app",
+    "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
+    "published_at": "2016-01-26T00:00:00.000Z",
+    "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
   },
   "prev": {
-    "id": "a-peek-under-the-hood-of-teamwork-chat",
-    "slug": "a-peek-under-the-hood-of-teamwork-chat",
+    "id": "flexible-data-tables-with-css-grid",
+    "slug": "flexible-data-tables-with-css-grid",
     "collection": null,
     "keywords": [
-      "teamwork",
-      "chat",
-      "node.js",
+      "css grid",
+      "css",
       "javascript",
-      "node-webkit",
-      "NW.js"
+      "table",
+      "data",
+      "responsive design",
+      "responsive",
+      "flexbox",
+      "resize column",
+      "web app",
+      "development",
+      "crm",
+      "sales"
     ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
-    },
-    "title": "A peek under the hood of Teamwork Chat",
-    "summary": "The idea was to build a chat application of our own. A whole new standalone product to raise the bar for team communication and collaboration. From the beginning, Teamwork Chat was intended to tie our whole suite of…\n",
-    "photo": "/images/blog-content/a-peek-under-the-hood-of-teamwork-chat/teamwork-chat.png",
-    "published_at": "2015-04-28T00:00:00.000Z",
-    "renderedSummary": "<p>The idea was to build a chat application of our own. A whole new standalone product to raise the bar for team communication and collaboration. From the beginning, Teamwork Chat was intended to tie our whole suite of…</p>\n"
+    "title": "Flexible data tables with CSS Grid",
+    "summary": "Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the Teamwork CRM puzzle was the &quot;list view&quot;.\nIt's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.\n",
+    "photo": "/images/blog-content/flexible-data-tables-with-css-grid/wide3.png",
+    "published_at": "2019-05-12T00:00:00.000Z",
+    "renderedSummary": "<p>Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the <a href=\"https://www.teamwork.com/crm\" rel=\"noopener\">Teamwork CRM</a> puzzle was the &quot;list view&quot;.</p>\n<p>It's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.</p>\n"
   }
 }
