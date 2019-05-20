@@ -742,13 +742,20 @@ body {
 .post-title,
 .post-blog-link,
 .post-read-more-link,
-.site-happy-text-headline-link,
 .site-happy-text-tagline-link,
 .footer-link {
   transition: 0.25s color;
 
   &:hover {
     color: $linkColorHover;
+  }
+}
+
+.site-happy-text-headline-link {
+  transition: 0.25s color;
+
+  &:hover {
+    color: $linkColor;
   }
 }
 
