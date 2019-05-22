@@ -1,7 +1,7 @@
 [
   {
-    "id": "technical",
-    "name": "technical"
+    "id": "delegating",
+    "name": "delegating"
   },
   {
     "id": "gulp",
@@ -64,18 +64,6 @@
     "name": "markdown"
   },
   {
-    "id": "npm",
-    "name": "npm"
-  },
-  {
-    "id": "paths",
-    "name": "paths"
-  },
-  {
-    "id": "windows",
-    "name": "windows"
-  },
-  {
     "id": "jamstack",
     "name": "jamstack"
   },
@@ -118,6 +106,18 @@
   {
     "id": "sales",
     "name": "sales"
+  },
+  {
+    "id": "windows",
+    "name": "windows"
+  },
+  {
+    "id": "install",
+    "name": "install"
+  },
+  {
+    "id": "installer",
+    "name": "installer"
   },
   {
     "id": "now",
@@ -164,12 +164,28 @@
     "name": "open API"
   },
   {
-    "id": "install",
-    "name": "install"
+    "id": "npm",
+    "name": "npm"
   },
   {
-    "id": "installer",
-    "name": "installer"
+    "id": "paths",
+    "name": "paths"
+  },
+  {
+    "id": "satire",
+    "name": "satire"
+  },
+  {
+    "id": "shortcut",
+    "name": "shortcut"
+  },
+  {
+    "id": "homoglyphs",
+    "name": "homoglyphs"
+  },
+  {
+    "id": "prank",
+    "name": "prank"
   },
   {
     "id": "leadership",
@@ -204,10 +220,6 @@
     "name": "programming"
   },
   {
-    "id": "satire",
-    "name": "satire"
-  },
-  {
     "id": "rockstar",
     "name": "rockstar"
   },
@@ -216,12 +228,16 @@
     "name": "postgres"
   },
   {
+    "id": "mssql",
+    "name": "mssql"
+  },
+  {
     "id": "people",
     "name": "people"
   },
   {
-    "id": "mssql",
-    "name": "mssql"
+    "id": "technical",
+    "name": "technical"
   },
   {
     "id": "transition",
@@ -260,22 +276,6 @@
     "name": "lead developer"
   },
   {
-    "id": "production",
-    "name": "production"
-  },
-  {
-    "id": "shortcut",
-    "name": "shortcut"
-  },
-  {
-    "id": "homoglyphs",
-    "name": "homoglyphs"
-  },
-  {
-    "id": "prank",
-    "name": "prank"
-  },
-  {
     "id": "platform",
     "name": "platform"
   },
@@ -288,16 +288,16 @@
     "name": "mac"
   },
   {
+    "id": "production",
+    "name": "production"
+  },
+  {
     "id": "cron",
     "name": "cron"
   },
   {
-    "id": "database",
-    "name": "database"
-  },
-  {
-    "id": "dba",
-    "name": "dba"
+    "id": "database-adminstration",
+    "name": "database-adminstration"
   },
   {
     "id": "development",
@@ -316,16 +316,12 @@
     "name": "desktop"
   },
   {
-    "id": "executable",
-    "name": "executable"
-  },
-  {
     "id": "efficiency",
     "name": "efficiency"
   },
   {
-    "id": "delegating",
-    "name": "delegating"
+    "id": "executable",
+    "name": "executable"
   },
   {
     "id": "distribution",
@@ -336,6 +332,10 @@
     "name": "generation"
   },
   {
+    "id": "git",
+    "name": "git"
+  },
+  {
     "id": "extension",
     "name": "extension"
   },
@@ -344,32 +344,32 @@
     "name": "geolocation"
   },
   {
-    "id": "git",
-    "name": "git"
-  },
-  {
     "id": "flexbox",
     "name": "flexbox"
+  },
+  {
+    "id": "dba",
+    "name": "dba"
   },
   {
     "id": "dependencies",
     "name": "dependencies"
   },
   {
-    "id": "database-adminstration",
-    "name": "database-adminstration"
-  },
-  {
     "id": "faas",
     "name": "faas"
   },
   {
-    "id": "browsers",
-    "name": "browsers"
+    "id": "api",
+    "name": "api"
   },
   {
     "id": "crm",
     "name": "crm"
+  },
+  {
+    "id": "database",
+    "name": "database"
   },
   {
     "id": "cygwin",
@@ -388,26 +388,6 @@
     "name": "css"
   },
   {
-    "id": "build",
-    "name": "build"
-  },
-  {
-    "id": "babun",
-    "name": "babun"
-  },
-  {
-    "id": "coffeescript",
-    "name": "coffeescript"
-  },
-  {
-    "id": "clippy",
-    "name": "clippy"
-  },
-  {
-    "id": "build-system",
-    "name": "build system"
-  },
-  {
     "id": "communication",
     "name": "communication"
   },
@@ -416,12 +396,36 @@
     "name": "bot"
   },
   {
+    "id": "coffeescript",
+    "name": "coffeescript"
+  },
+  {
+    "id": "build-system",
+    "name": "build system"
+  },
+  {
+    "id": "clippy",
+    "name": "clippy"
+  },
+  {
+    "id": "build",
+    "name": "build"
+  },
+  {
+    "id": "browsers",
+    "name": "browsers"
+  },
+  {
     "id": "career",
     "name": "career"
   },
   {
     "id": "chat",
     "name": "chat"
+  },
+  {
+    "id": "babun",
+    "name": "babun"
   },
   {
     "id": "aws",
@@ -434,9 +438,5 @@
   {
     "id": "app",
     "name": "app"
-  },
-  {
-    "id": "api",
-    "name": "api"
   }
 ]

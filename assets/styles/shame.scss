@@ -749,6 +749,12 @@ body {
 
   &:hover {
     color: $linkColorHover;
+
+    background: linear-gradient(to right,$linkColor, $linkColorHover);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-decoration-break: clone;
   }
 }
 
