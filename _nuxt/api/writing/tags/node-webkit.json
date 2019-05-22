@@ -25,31 +25,6 @@
       "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
     },
     {
-      "id": "transparency-and-nwjs",
-      "slug": "transparency-and-nwjs",
-      "collection": null,
-      "keywords": [
-        "node-webkit",
-        "desktop",
-        "javascript",
-        "platform",
-        "linux",
-        "mac",
-        "windows",
-        "development"
-      ],
-      "original": {
-        "blogLink": "https://www.packtpub.com/books/content/blogs",
-        "blogName": "Packt books",
-        "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
-      },
-      "title": "Transparency and NW.js",
-      "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
-      "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
-      "published_at": "2016-01-26T00:00:00.000Z",
-      "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
-    },
-    {
       "id": "under-the-hood-of-a-hybrid-app",
       "slug": "under-the-hood-of-a-hybrid-app",
       "collection": null,
@@ -74,6 +49,31 @@
       "photo": "/images/blog-content/under-the-hood-of-a-hybrid-app/nav.png",
       "published_at": "2016-04-16T00:00:00.000Z",
       "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
+    },
+    {
+      "id": "transparency-and-nwjs",
+      "slug": "transparency-and-nwjs",
+      "collection": null,
+      "keywords": [
+        "node-webkit",
+        "desktop",
+        "javascript",
+        "platform",
+        "linux",
+        "mac",
+        "windows",
+        "development"
+      ],
+      "original": {
+        "blogLink": "https://www.packtpub.com/books/content/blogs",
+        "blogName": "Packt books",
+        "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+      },
+      "title": "Transparency and NW.js",
+      "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
+      "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
+      "published_at": "2016-01-26T00:00:00.000Z",
+      "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
     },
     {
       "id": "resurrecting-clippy",

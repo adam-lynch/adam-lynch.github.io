@@ -76,54 +76,52 @@
   "year": 2018,
   "month": 3,
   "day": 4,
-  "relevanceScore": 1.4166666666666665,
+  "relevanceScore": 0.41666666666666663,
   "next": {
-    "id": "hassle-free-third-party-dependencies",
-    "slug": "hassle-free-third-party-dependencies",
+    "id": "dealing-with-long-paths",
+    "slug": "dealing-with-long-paths",
     "collection": null,
     "keywords": [
-      "dependencies",
-      "assets",
-      "javascript",
-      "css",
-      "third-party",
+      "NW.js",
+      "node-webkit",
+      "npm",
+      "distribution",
+      "paths",
+      "windows",
       "development"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/hassle-free-third-party-dependencies-9b6e0a4884ce"
+      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
     },
-    "title": "Hassle-free third-party dependencies",
-    "summary": "How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…\n",
-    "photo": "/images/blog-content/hassle-free-third-party-dependencies/bower.png",
-    "published_at": "2014-08-29T00:00:00.000Z",
-    "renderedSummary": "<p>How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…</p>\n"
+    "title": "Dealing with long paths",
+    "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
+    "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
+    "published_at": "2015-07-01T00:00:00.000Z",
+    "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
   },
   "prev": {
-    "id": "npm-distribution-path-length-problems",
-    "slug": "npm-distribution-path-length-problems",
+    "id": "serverless-crash-reporting-for-electron-apps",
+    "slug": "serverless-crash-reporting-for-electron-apps",
     "collection": null,
     "keywords": [
-      "node-webkit",
-      "desktop",
+      "serverless",
+      "electron",
       "javascript",
-      "npm",
-      "distribution",
-      "windows",
-      "paths",
+      "aws",
       "development"
     ],
     "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/serverless-crash-reporting-for-electron-apps-fe6e62e5982a"
     },
-    "title": "npm and distribution path length problems",
-    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-    "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
-    "published_at": "2015-12-07T00:00:00.000Z",
-    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+    "title": "Serverless crash reporting for Electron apps",
+    "summary": "The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from Electron apps.\n",
+    "photo": "https://cdn-images-1.medium.com/max/1600/1*7_8IQl1UmmFdv-Z3EwGNJg.png",
+    "published_at": "2016-11-22T00:00:00.000Z",
+    "renderedSummary": "<p>The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from <a href=\"http://electron.atom.io/\" rel=\"noopener\">Electron</a> apps.</p>\n"
   },
   "moreArticles": [
     {

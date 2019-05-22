@@ -80,30 +80,6 @@
   "day": 6,
   "relevanceScore": 0.625,
   "next": {
-    "id": "platform-detection",
-    "slug": "platform-detection",
-    "collection": null,
-    "keywords": [
-      "node-webkit",
-      "desktop",
-      "javascript",
-      "platform",
-      "linux",
-      "mac",
-      "windows",
-      "development"
-    ],
-    "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
-    },
-    "title": "Platform detection in your NW.js app",
-    "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
-    "published_at": "2016-01-26T00:00:00.000Z",
-    "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
-  },
-  "prev": {
     "id": "random-open-api",
     "slug": "random-open-api",
     "collection": null,
@@ -126,6 +102,30 @@
     "photo": "/images/blog-content/random-open-api/tweet.png",
     "published_at": "2019-02-02T00:00:00.000Z",
     "renderedSummary": "<p>I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.</p>\n<p>The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' <a href=\"https://twitter.com/randommdn\" rel=\"noopener\">@randomMDN</a>? It tweets a random article from <a href=\"https://developer.mozilla.org/en-US/\" rel=\"noopener\">MDN</a> multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.</p>\n"
+  },
+  "prev": {
+    "id": "platform-detection",
+    "slug": "platform-detection",
+    "collection": null,
+    "keywords": [
+      "node-webkit",
+      "desktop",
+      "javascript",
+      "platform",
+      "linux",
+      "mac",
+      "windows",
+      "development"
+    ],
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+    },
+    "title": "Platform detection in your NW.js app",
+    "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
+    "published_at": "2016-01-26T00:00:00.000Z",
+    "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
   },
   "moreArticles": [
     {

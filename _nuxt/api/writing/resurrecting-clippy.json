@@ -73,8 +73,33 @@
   "year": 2016,
   "month": 3,
   "day": 9,
-  "relevanceScore": 0,
+  "relevanceScore": 2.416666666666667,
   "next": {
+    "id": "npm-distribution-path-length-problems",
+    "slug": "npm-distribution-path-length-problems",
+    "collection": null,
+    "keywords": [
+      "node-webkit",
+      "desktop",
+      "javascript",
+      "npm",
+      "distribution",
+      "windows",
+      "paths",
+      "development"
+    ],
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
+    },
+    "title": "npm and distribution path length problems",
+    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+    "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
+    "published_at": "2015-12-07T00:00:00.000Z",
+    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+  },
+  "prev": {
     "id": "random-open-api",
     "slug": "random-open-api",
     "collection": null,
@@ -97,26 +122,6 @@
     "photo": "/images/blog-content/random-open-api/tweet.png",
     "published_at": "2019-02-02T00:00:00.000Z",
     "renderedSummary": "<p>I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.</p>\n<p>The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' <a href=\"https://twitter.com/randommdn\" rel=\"noopener\">@randomMDN</a>? It tweets a random article from <a href=\"https://developer.mozilla.org/en-US/\" rel=\"noopener\">MDN</a> multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.</p>\n"
-  },
-  "prev": {
-    "id": "coffeescript-at-teamwork",
-    "slug": "coffeescript-at-teamwork",
-    "collection": null,
-    "keywords": [
-      "coffeescript",
-      "teamwork",
-      "development"
-    ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/coffeescript-at-teamwork-e596eed63590"
-    },
-    "title": "CoffeeScript at Teamwork",
-    "summary": "The first project at Teamwork to use CoffeeScript was the Teamwork.com iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…\n",
-    "photo": "/images/blog-content/coffeescript-at-teamwork/biscotto-output.jpg",
-    "published_at": "2014-09-26T00:00:00.000Z",
-    "renderedSummary": "<p>The first project at Teamwork to use CoffeeScript was the <a href=\"http://Teamwork.com\" rel=\"noopener\">Teamwork.com</a> iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…</p>\n"
   },
   "moreArticles": [
     {

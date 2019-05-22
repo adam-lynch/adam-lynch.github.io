@@ -74,48 +74,51 @@
   "day": 2,
   "relevanceScore": 0,
   "next": {
-    "id": "using-cygwins-bash-terminal-in-a-jetbrains-ide",
-    "slug": "using-cygwins-bash-terminal-in-a-jetbrains-ide",
+    "id": "flexible-data-tables-with-css-grid",
+    "slug": "flexible-data-tables-with-css-grid",
     "collection": null,
     "keywords": [
-      "jetbrains",
-      "cygwin",
-      "ide",
-      "terminal",
-      "babun"
+      "css grid",
+      "css",
+      "javascript",
+      "table",
+      "data",
+      "responsive design",
+      "responsive",
+      "flexbox",
+      "resize column",
+      "web app",
+      "development",
+      "crm",
+      "sales"
     ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/using-cygwins-bash-terminal-in-a-jetbrains-ide-d22dd71b52b4"
-    },
-    "title": "Using Cygwin’s bash terminal in a JetBrains IDE",
-    "summary": "JetBrains IDEs are the best. IntelliJ, Android Studio, PHPStorm, PyCharm, and so on. I use IntelliJ Ultimate myself, which is kind of like all of their IDEs in one. One of the things I love about any JetBrains…\n",
-    "photo": "/images/blog-content/using-cygwins-bash-terminal-in-a-jetbrains-ide/typing.gif",
-    "published_at": "2015-07-28T00:00:00.000Z",
-    "renderedSummary": "<p>JetBrains IDEs are the best. IntelliJ, Android Studio, PHPStorm, PyCharm, and so on. I use IntelliJ Ultimate myself, which is kind of like all of their IDEs in one. One of the things I love about any JetBrains…</p>\n"
+    "title": "Flexible data tables with CSS Grid",
+    "summary": "Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the Teamwork CRM puzzle was the &quot;list view&quot;.\nIt's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.\n",
+    "photo": "/images/blog-content/flexible-data-tables-with-css-grid/wide3.png",
+    "published_at": "2019-05-12T00:00:00.000Z",
+    "renderedSummary": "<p>Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the <a href=\"https://www.teamwork.com/crm\" rel=\"noopener\">Teamwork CRM</a> puzzle was the &quot;list view&quot;.</p>\n<p>It's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.</p>\n"
   },
   "prev": {
-    "id": "developing-an-electron-edge",
-    "slug": "developing-an-electron-edge",
+    "id": "improve-permissions-ux",
+    "slug": "improve-permissions-ux",
     "collection": null,
-    "isBook": true,
     "keywords": [
-      "electron",
-      "desktop",
+      "ux",
+      "permissions",
+      "pwa",
+      "web",
       "javascript",
+      "notifications",
+      "geolocation",
+      "extension",
+      "browsers",
       "development"
     ],
-    "original": {
-      "blogLink": "https://bleedingedgepress.com/",
-      "blogName": "Bleeding Edge Press",
-      "url": "https://bleedingedgepress.com/developing-an-electron-edge/",
-      "onlyExternal": true
-    },
-    "title": "Developing an Electron Edge",
-    "summary": "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n",
-    "published_at": "2016-05-25T00:00:00.000Z",
-    "renderedSummary": "<p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n"
+    "title": "How to improve your permissions UX",
+    "summary": "&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose some might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.\n",
+    "photo": "/images/blog-content/improve-permissions-ux/chris-wilson.png",
+    "published_at": "2018-03-03T00:00:00.000Z",
+    "renderedSummary": "<p>&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose <em>some</em> might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.</p>\n"
   },
   "moreArticles": [
     {

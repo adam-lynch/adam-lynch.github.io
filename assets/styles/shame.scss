@@ -14,12 +14,17 @@ $rowSaturationDelta: 2%;
 $linkColor: #5C7B8F;
 $linkColorHover: #6882c5;
 
+$wrapperMaxWidth: 60rem;
+
 $minWidthToShowTitleInline: 42rem;
 $minWidthToShowNavigationItemsInline: 45rem;
 $minWidthToShowAllHeaderItemsInline: 59rem;
 $minWidthToShowAllHeaderItemsInlineWithLargerText: 61rem;
 
-$postsPadding: 2rem;
+$postsPaddingVertical: 2rem;
+$postsPaddingHorizontal: 1rem;
+$postsPaddingHorizontal--when-wide: 2rem;
+$widthWhenPostsGetMorePadding: 470px;
 
 html {
   font-size: 14px;
@@ -37,18 +42,23 @@ body {
 }
 
 .wrapper {
-  max-width: 60rem;
+  max-width: $wrapperMaxWidth;
   margin: 0 auto;
 }
 
 .header {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 2rem;
+  padding: 0 $postsPaddingHorizontal;
   background: $siteBackground;
 
   @media(min-width: $minWidthToShowAllHeaderItemsInline) {
     flex-wrap: nowrap;
+  }
+
+  @media(min-width: $widthWhenPostsGetMorePadding) {
+    padding-left: $postsPaddingHorizontal--when-wide;
+    padding-right: $postsPaddingHorizontal--when-wide;
   }
 }
 
@@ -290,11 +300,15 @@ body {
 }
 
 .posts {
-  padding: $postsPadding;
+  padding: $postsPaddingVertical $postsPaddingHorizontal;
+
+  @media(min-width: $widthWhenPostsGetMorePadding) {
+    padding: $postsPaddingVertical $postsPaddingHorizontal--when-wide;
+  }
 }
 
 .post-wrapper {
-  padding-bottom: $postsPadding;
+  padding-bottom: $postsPaddingVertical;
 
   &:last-child {
     padding-bottom: 0;
@@ -302,13 +316,17 @@ body {
 }
 
 .post {
-  padding: $postsPadding;
-  margin: $postsPadding;
+  padding: $postsPaddingVertical $postsPaddingHorizontal;
+  margin: $postsPaddingVertical 0;
   background: #fff;
-  max-width: 60rem;
+  max-width: $wrapperMaxWidth;
   overflow: hidden;
 
   position: relative;
+
+  @media(min-width: $widthWhenPostsGetMorePadding) {
+    padding: $postsPaddingVertical $postsPaddingHorizontal--when-wide;
+  }
 
   &:before {
     content: ' ';
@@ -361,6 +379,13 @@ body {
 
   > *:first-child {
     margin-top: 0;
+  }
+}
+
+.post-page-post-wrapper {
+  @media(min-width: ($wrapperMaxWidth + $postsPaddingHorizontal--when-wide)) {
+    margin-left: $postsPaddingHorizontal--when-wide;
+    margin-right: $postsPaddingHorizontal--when-wide;
   }
 }
 
@@ -539,9 +564,9 @@ body {
 
   .post-header-anchor {
     position: absolute;
-    left: -$postsPadding;
+    left: -$postsPaddingHorizontal;
     top: 20px;
-    width: $postsPadding;
+    width: $postsPaddingHorizontal;
     transform: translate(0, -50%);
     background: none;
     text-align: center;
@@ -851,8 +876,13 @@ body {
   }
 
   .post-wrapper--entering-from-posts {
-    left: $postsPadding;
-    right: $postsPadding;
+    left: 0;
+    right: 0;
+
+    @media(min-width: ($wrapperMaxWidth + $postsPaddingHorizontal--when-wide)) {
+      margin-left: $postsPaddingHorizontal--when-wide;
+      margin-right: $postsPaddingHorizontal--when-wide;
+    }
   }
 }
 

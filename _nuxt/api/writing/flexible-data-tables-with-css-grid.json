@@ -91,55 +91,50 @@
   "year": 2019,
   "month": 5,
   "day": 13,
-  "relevanceScore": 2,
+  "relevanceScore": 1,
   "next": {
-    "id": "under-the-hood-of-a-hybrid-app",
-    "slug": "under-the-hood-of-a-hybrid-app",
+    "id": "coffeescript-at-teamwork",
+    "slug": "coffeescript-at-teamwork",
     "collection": null,
     "keywords": [
-      "product",
-      "web",
-      "javascript",
-      "NW.js",
-      "node-webkit",
-      "desktop",
-      "hybrid",
-      "mobile",
+      "coffeescript",
+      "teamwork",
       "development"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/under-the-hood-of-a-hybrid-app-2215ce6e342a"
+      "url": "https://engineroom.teamwork.com/coffeescript-at-teamwork-e596eed63590"
     },
-    "title": "Under the hood of a hybrid (app)",
-    "summary": "It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...\n",
-    "photo": "/images/blog-content/under-the-hood-of-a-hybrid-app/nav.png",
-    "published_at": "2016-04-16T00:00:00.000Z",
-    "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
+    "title": "CoffeeScript at Teamwork",
+    "summary": "The first project at Teamwork to use CoffeeScript was the Teamwork.com iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…\n",
+    "photo": "/images/blog-content/coffeescript-at-teamwork/biscotto-output.jpg",
+    "published_at": "2014-09-26T00:00:00.000Z",
+    "renderedSummary": "<p>The first project at Teamwork to use CoffeeScript was the <a href=\"http://Teamwork.com\" rel=\"noopener\">Teamwork.com</a> iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…</p>\n"
   },
   "prev": {
-    "id": "installing-your-nwjs-app-windows1",
-    "slug": "installing-your-nwjs-app-windows1",
+    "id": "dealing-with-long-paths",
+    "slug": "dealing-with-long-paths",
     "collection": null,
     "keywords": [
+      "NW.js",
       "node-webkit",
-      "desktop",
-      "javascript",
+      "npm",
+      "distribution",
+      "paths",
       "windows",
-      "install",
-      "installer",
       "development"
     ],
     "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
     },
-    "title": "Installing your NW.js app on Windows",
-    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-    "published_at": "2015-12-09T00:00:00.000Z",
-    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+    "title": "Dealing with long paths",
+    "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
+    "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
+    "published_at": "2015-07-01T00:00:00.000Z",
+    "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
   },
   "moreArticles": [
     {
