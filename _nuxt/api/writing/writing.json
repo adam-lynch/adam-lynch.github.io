@@ -91,26 +91,6 @@
     "renderedSummary": "<p>I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.</p>\n"
   },
   {
-    "id": "coffeescript-at-teamwork",
-    "slug": "coffeescript-at-teamwork",
-    "collection": null,
-    "keywords": [
-      "coffeescript",
-      "teamwork",
-      "development"
-    ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/coffeescript-at-teamwork-e596eed63590"
-    },
-    "title": "CoffeeScript at Teamwork",
-    "summary": "The first project at Teamwork to use CoffeeScript was the Teamwork.com iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…\n",
-    "photo": "/images/blog-content/coffeescript-at-teamwork/biscotto-output.jpg",
-    "published_at": "2014-09-26T00:00:00.000Z",
-    "renderedSummary": "<p>The first project at Teamwork to use CoffeeScript was the <a href=\"http://Teamwork.com\" rel=\"noopener\">Teamwork.com</a> iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…</p>\n"
-  },
-  {
     "id": "dealing-with-long-paths",
     "slug": "dealing-with-long-paths",
     "collection": null,
@@ -155,6 +135,26 @@
     "summary": "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n",
     "published_at": "2016-05-25T00:00:00.000Z",
     "renderedSummary": "<p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n"
+  },
+  {
+    "id": "coffeescript-at-teamwork",
+    "slug": "coffeescript-at-teamwork",
+    "collection": null,
+    "keywords": [
+      "coffeescript",
+      "teamwork",
+      "development"
+    ],
+    "original": {
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/coffeescript-at-teamwork-e596eed63590"
+    },
+    "title": "CoffeeScript at Teamwork",
+    "summary": "The first project at Teamwork to use CoffeeScript was the Teamwork.com iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…\n",
+    "photo": "/images/blog-content/coffeescript-at-teamwork/biscotto-output.jpg",
+    "published_at": "2014-09-26T00:00:00.000Z",
+    "renderedSummary": "<p>The first project at Teamwork to use CoffeeScript was the <a href=\"http://Teamwork.com\" rel=\"noopener\">Teamwork.com</a> iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…</p>\n"
   },
   {
     "id": "flexible-data-tables-with-css-grid",
@@ -285,29 +285,6 @@
     "renderedSummary": "<p>I've been thinking about team leading a lot lately. When revisiting advice a friend asked for when transitioning to a team lead position, I decided to flesh it out and put it online. Most of the following will hopefully be helpful to anyone leading a team or any manager, although some will be more relevant to leaders of developers and developers transitioning into leadership roles. If it helps anyone, great. It will be a good reference for me at least. Alright, let's get to it.</p>\n"
   },
   {
-    "id": "building-your-app-creating-executables-nwjs",
-    "slug": "building-your-app-creating-executables-nwjs",
-    "collection": null,
-    "keywords": [
-      "node-webkit",
-      "desktop",
-      "executable",
-      "distribution",
-      "generation",
-      "javascript",
-      "development"
-    ],
-    "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/building-your-app-creating-executables-nwjs"
-    },
-    "title": "Building Your App: Creating Executables for NW.js",
-    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-    "published_at": "2015-11-17T00:00:00.000Z",
-    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
-  },
-  {
     "id": "under-the-hood-of-a-hybrid-app",
     "slug": "under-the-hood-of-a-hybrid-app",
     "collection": null,
@@ -332,6 +309,29 @@
     "photo": "/images/blog-content/under-the-hood-of-a-hybrid-app/nav.png",
     "published_at": "2016-04-16T00:00:00.000Z",
     "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
+  },
+  {
+    "id": "building-your-app-creating-executables-nwjs",
+    "slug": "building-your-app-creating-executables-nwjs",
+    "collection": null,
+    "keywords": [
+      "node-webkit",
+      "desktop",
+      "executable",
+      "distribution",
+      "generation",
+      "javascript",
+      "development"
+    ],
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/building-your-app-creating-executables-nwjs"
+    },
+    "title": "Building Your App: Creating Executables for NW.js",
+    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+    "published_at": "2015-11-17T00:00:00.000Z",
+    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
   },
   {
     "id": "olc-ruin-someones-day-with-homoglyphs",

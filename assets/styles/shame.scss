@@ -40,6 +40,7 @@ body {
   // color: #464646;
   color: #333;
   padding-top: 2rem;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -321,7 +322,6 @@ body {
   margin: $postsPaddingVertical 0;
   background: #fff;
   max-width: $wrapperMaxWidth;
-  overflow: hidden;
 
   position: relative;
 

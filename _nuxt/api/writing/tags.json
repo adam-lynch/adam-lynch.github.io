@@ -24,12 +24,20 @@
     "name": "ide"
   },
   {
-    "id": "node-webkit",
-    "name": "node-webkit"
+    "id": "teamwork",
+    "name": "teamwork"
   },
   {
     "id": "jetbrains",
     "name": "jetbrains"
+  },
+  {
+    "id": "node-webkit",
+    "name": "node-webkit"
+  },
+  {
+    "id": "nwjs",
+    "name": "NW.js"
   },
   {
     "id": "mobile",
@@ -48,20 +56,8 @@
     "name": "nuxt.js"
   },
   {
-    "id": "teamwork",
-    "name": "teamwork"
-  },
-  {
     "id": "vuejs",
     "name": "vue.js"
-  },
-  {
-    "id": "nwjs",
-    "name": "NW.js"
-  },
-  {
-    "id": "markdown",
-    "name": "markdown"
   },
   {
     "id": "npm",
@@ -74,6 +70,10 @@
   {
     "id": "windows",
     "name": "windows"
+  },
+  {
+    "id": "markdown",
+    "name": "markdown"
   },
   {
     "id": "jamstack",
@@ -308,16 +308,16 @@
     "name": "growth"
   },
   {
+    "id": "electron",
+    "name": "electron"
+  },
+  {
     "id": "desktop",
     "name": "desktop"
   },
   {
     "id": "executable",
     "name": "executable"
-  },
-  {
-    "id": "distribution",
-    "name": "distribution"
   },
   {
     "id": "efficiency",
@@ -328,12 +328,12 @@
     "name": "delegating"
   },
   {
-    "id": "generation",
-    "name": "generation"
+    "id": "distribution",
+    "name": "distribution"
   },
   {
-    "id": "electron",
-    "name": "electron"
+    "id": "generation",
+    "name": "generation"
   },
   {
     "id": "extension",
@@ -364,8 +364,8 @@
     "name": "faas"
   },
   {
-    "id": "chat",
-    "name": "chat"
+    "id": "browsers",
+    "name": "browsers"
   },
   {
     "id": "crm",
@@ -388,8 +388,8 @@
     "name": "css"
   },
   {
-    "id": "communication",
-    "name": "communication"
+    "id": "build",
+    "name": "build"
   },
   {
     "id": "babun",
@@ -404,24 +404,24 @@
     "name": "clippy"
   },
   {
-    "id": "browsers",
-    "name": "browsers"
-  },
-  {
     "id": "build-system",
     "name": "build system"
+  },
+  {
+    "id": "communication",
+    "name": "communication"
   },
   {
     "id": "bot",
     "name": "bot"
   },
   {
-    "id": "build",
-    "name": "build"
-  },
-  {
     "id": "career",
     "name": "career"
+  },
+  {
+    "id": "chat",
+    "name": "chat"
   },
   {
     "id": "aws",
