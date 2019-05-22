@@ -289,7 +289,6 @@ body {
   }
 
   &:hover {
-    // color: #fff;
     &:after {
       top: 50%;
       height: 50%;
@@ -775,6 +774,7 @@ body {
 .post-title,
 .post-blog-link,
 .post-read-more-link,
+.site-happy-text-headline-link,
 .site-happy-text-tagline-link,
 .footer-link {
   transition: 0.25s color;
@@ -787,14 +787,6 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     box-decoration-break: clone;
-  }
-}
-
-.site-happy-text-headline-link {
-  transition: 0.25s color;
-
-  &:hover {
-    color: $linkColor;
   }
 }
 
