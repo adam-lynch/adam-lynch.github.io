@@ -88,7 +88,7 @@ body {
 .site-link {
   display: inline-block;
   background: url(~/static/images/icons/Logo.png) left center no-repeat; // TODO
-  background-size: 5.99rem; // Would have 6rem here but Opera cuts off the bottom then... weird :/
+  background-size: 6.09rem; // The 0.9rem makes it look better in Firefox 🤷‍♂️
   height: 9rem;
   width: 6rem;
   margin: 0 auto;

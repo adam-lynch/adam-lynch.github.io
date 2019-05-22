@@ -90,26 +90,27 @@
   "day": 3,
   "relevanceScore": 0.875,
   "next": {
-    "id": "production-databases-tips",
-    "slug": "production-databases-tips",
+    "id": "hassle-free-third-party-dependencies",
+    "slug": "hassle-free-third-party-dependencies",
     "collection": null,
     "keywords": [
-      "database",
-      "database-adminstration",
-      "dba",
-      "production",
-      "productivity",
-      "development",
-      "mysql",
-      "mssql",
-      "postgres",
-      "rockstar",
-      "satire"
+      "dependencies",
+      "assets",
+      "javascript",
+      "css",
+      "third-party",
+      "development"
     ],
-    "title": "10 pro tips: how to work with production databases",
-    "summary": "The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...\n",
-    "published_at": "2018-08-05T00:00:00.000Z",
-    "renderedSummary": "<p>The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...</p>\n"
+    "original": {
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/hassle-free-third-party-dependencies-9b6e0a4884ce"
+    },
+    "title": "Hassle-free third-party dependencies",
+    "summary": "How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…\n",
+    "photo": "/images/blog-content/hassle-free-third-party-dependencies/bower.png",
+    "published_at": "2014-08-29T00:00:00.000Z",
+    "renderedSummary": "<p>How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…</p>\n"
   },
   "prev": {
     "id": "resurrecting-clippy",

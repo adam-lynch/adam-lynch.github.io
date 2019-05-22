@@ -79,52 +79,53 @@
   "year": 2016,
   "month": 1,
   "day": 27,
-  "relevanceScore": 0.33333333333333326,
+  "relevanceScore": 3.333333333333333,
   "next": {
-    "id": "static-site-regeneration",
-    "slug": "static-site-regeneration",
+    "id": "npm-distribution-path-length-problems",
+    "slug": "npm-distribution-path-length-problems",
     "collection": null,
     "keywords": [
-      "writing",
-      "static-site-generation",
-      "headless-cms",
-      "jamstack",
-      "git",
-      "markdown",
-      "vue.js",
-      "nuxt.js",
+      "node-webkit",
+      "desktop",
       "javascript",
+      "npm",
+      "distribution",
+      "windows",
+      "paths",
       "development"
     ],
-    "title": "Static site regeneration and focusing on what's important",
-    "summary": "I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.\n",
-    "photo": "/images/blog-content/static-site-regeneration/nuxt.png",
-    "published_at": "2018-02-04T00:00:00.000Z",
-    "renderedSummary": "<p>I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.</p>\n"
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
+    },
+    "title": "npm and distribution path length problems",
+    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+    "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
+    "published_at": "2015-12-07T00:00:00.000Z",
+    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
   },
   "prev": {
-    "id": "a-peek-under-the-hood-of-teamwork-chat",
-    "slug": "a-peek-under-the-hood-of-teamwork-chat",
+    "id": "using-cygwins-bash-terminal-in-a-jetbrains-ide",
+    "slug": "using-cygwins-bash-terminal-in-a-jetbrains-ide",
     "collection": null,
     "keywords": [
-      "teamwork",
-      "chat",
-      "node.js",
-      "javascript",
-      "node-webkit",
-      "NW.js",
-      "development"
+      "jetbrains",
+      "cygwin",
+      "ide",
+      "terminal",
+      "babun"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
+      "url": "https://engineroom.teamwork.com/using-cygwins-bash-terminal-in-a-jetbrains-ide-d22dd71b52b4"
     },
-    "title": "A peek under the hood of Teamwork Chat",
-    "summary": "The idea was to build a chat application of our own. A whole new standalone product to raise the bar for team communication and collaboration. From the beginning, Teamwork Chat was intended to tie our whole suite of…\n",
-    "photo": "/images/blog-content/a-peek-under-the-hood-of-teamwork-chat/teamwork-chat.png",
-    "published_at": "2015-04-28T00:00:00.000Z",
-    "renderedSummary": "<p>The idea was to build a chat application of our own. A whole new standalone product to raise the bar for team communication and collaboration. From the beginning, Teamwork Chat was intended to tie our whole suite of…</p>\n"
+    "title": "Using Cygwin’s bash terminal in a JetBrains IDE",
+    "summary": "JetBrains IDEs are the best. IntelliJ, Android Studio, PHPStorm, PyCharm, and so on. I use IntelliJ Ultimate myself, which is kind of like all of their IDEs in one. One of the things I love about any JetBrains…\n",
+    "photo": "/images/blog-content/using-cygwins-bash-terminal-in-a-jetbrains-ide/typing.gif",
+    "published_at": "2015-07-28T00:00:00.000Z",
+    "renderedSummary": "<p>JetBrains IDEs are the best. IntelliJ, Android Studio, PHPStorm, PyCharm, and so on. I use IntelliJ Ultimate myself, which is kind of like all of their IDEs in one. One of the things I love about any JetBrains…</p>\n"
   },
   "moreArticles": [
     {
