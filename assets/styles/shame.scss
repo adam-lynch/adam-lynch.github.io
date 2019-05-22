@@ -12,9 +12,6 @@ $rowDarknessDelta: 5%;
 $rowSaturationDelta: 2%;
 
 $linkColor: #5C7B8F;
-$linkColorHover: #6882c5;
-
-$wrapperMaxWidth: 60rem;
 
 $minWidthToShowTitleInline: 42rem;
 $minWidthToShowNavigationItemsInline: 45rem;
@@ -25,6 +22,10 @@ $postsPaddingVertical: 2rem;
 $postsPaddingHorizontal: 1rem;
 $postsPaddingHorizontal--when-wide: 2rem;
 $widthWhenPostsGetMorePadding: 470px;
+$linkColorHover: #6882c5;
+
+$wrapperMaxWidth: 60rem;
+$widthWhenWrapperAndPaddingIsVisible: $wrapperMaxWidth + $postsPaddingHorizontal--when-wide;
 
 html {
   font-size: 14px;
@@ -383,7 +384,7 @@ body {
 }
 
 .post-page-post-wrapper {
-  @media(min-width: ($wrapperMaxWidth + $postsPaddingHorizontal--when-wide)) {
+  @media(min-width: $widthWhenWrapperAndPaddingIsVisible) {
     margin-left: $postsPaddingHorizontal--when-wide;
     margin-right: $postsPaddingHorizontal--when-wide;
   }
@@ -809,6 +810,11 @@ body {
   padding: 2rem;
   background: #fff;
 
+  @media(min-width: $widthWhenWrapperAndPaddingIsVisible) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   a {
     color: $linkColor;
     padding-bottom: 0.05rem;
@@ -825,6 +831,13 @@ body {
     &:hover {
       color: $linkColorHover;
     }
+  }
+}
+
+.more-articles {
+  @media(min-width: $widthWhenWrapperAndPaddingIsVisible){
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -879,7 +892,7 @@ body {
     left: 0;
     right: 0;
 
-    @media(min-width: ($wrapperMaxWidth + $postsPaddingHorizontal--when-wide)) {
+    @media(min-width: $widthWhenWrapperAndPaddingIsVisible) {
       margin-left: $postsPaddingHorizontal--when-wide;
       margin-right: $postsPaddingHorizontal--when-wide;
     }
