@@ -77,53 +77,50 @@
   "year": 2016,
   "month": 1,
   "day": 27,
-  "relevanceScore": 1.3333333333333333,
+  "relevanceScore": 0.33333333333333326,
   "next": {
-    "id": "dealing-with-long-paths",
-    "slug": "dealing-with-long-paths",
+    "id": "olc-ruin-someones-day-with-homoglyphs",
+    "slug": "olc-ruin-someones-day-with-homoglyphs",
     "collection": null,
     "keywords": [
-      "NW.js",
-      "node-webkit",
-      "npm",
-      "distribution",
-      "paths",
-      "windows",
+      "javascript",
+      "node.js",
+      "homoglyphs",
+      "prank",
       "development"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
+      "url": "https://engineroom.teamwork.com/olc-ruin-someones-day-with-homoglyphs-b14e9a1a05a4"
     },
-    "title": "Dealing with long paths",
-    "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
-    "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
-    "published_at": "2015-07-01T00:00:00.000Z",
-    "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
+    "title": "Olc: Ruin someone’s day with homoglyphs",
+    "summary": "You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…\n",
+    "photo": "/images/blog-content/olc-ruin-someones-day-with-homoglyphs/tweet.png",
+    "published_at": "2015-10-27T00:00:00.000Z",
+    "renderedSummary": "<p>You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…</p>\n"
   },
   "prev": {
-    "id": "hassle-free-third-party-dependencies",
-    "slug": "hassle-free-third-party-dependencies",
+    "id": "production-databases-tips",
+    "slug": "production-databases-tips",
     "collection": null,
     "keywords": [
-      "dependencies",
-      "assets",
-      "javascript",
-      "css",
-      "third-party",
-      "development"
+      "database",
+      "database-adminstration",
+      "dba",
+      "production",
+      "productivity",
+      "development",
+      "mysql",
+      "mssql",
+      "postgres",
+      "rockstar",
+      "satire"
     ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/hassle-free-third-party-dependencies-9b6e0a4884ce"
-    },
-    "title": "Hassle-free third-party dependencies",
-    "summary": "How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…\n",
-    "photo": "/images/blog-content/hassle-free-third-party-dependencies/bower.png",
-    "published_at": "2014-08-29T00:00:00.000Z",
-    "renderedSummary": "<p>How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…</p>\n"
+    "title": "10 pro tips: how to work with production databases",
+    "summary": "The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...\n",
+    "published_at": "2018-08-05T00:00:00.000Z",
+    "renderedSummary": "<p>The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...</p>\n"
   },
   "moreArticles": [
     {

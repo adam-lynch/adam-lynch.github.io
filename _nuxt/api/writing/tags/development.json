@@ -64,26 +64,51 @@
       "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
     },
     {
-      "id": "nwjs-app-and-shortcut-apis",
-      "slug": "nwjs-app-and-shortcut-apis",
+      "id": "npm-distribution-path-length-problems",
+      "slug": "npm-distribution-path-length-problems",
       "collection": null,
       "keywords": [
         "node-webkit",
         "desktop",
         "javascript",
-        "app",
-        "shortcut",
+        "npm",
+        "distribution",
+        "windows",
+        "paths",
         "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
         "blogName": "Packt books",
-        "url": "https://www.packtpub.com/books/content/nwjs-app-and-shortcut-apis"
+        "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
       },
-      "title": "NW.js: The App and Shortcut APIs",
-      "summary": "The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...\n",
-      "published_at": "2015-12-18T00:00:00.000Z",
-      "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
+      "title": "npm and distribution path length problems",
+      "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+      "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
+      "published_at": "2015-12-07T00:00:00.000Z",
+      "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+    },
+    {
+      "id": "beyond-the-browser-from-web-apps-to-desktop-apps",
+      "slug": "beyond-the-browser-from-web-apps-to-desktop-apps",
+      "collection": null,
+      "keywords": [
+        "node-webkit",
+        "electron",
+        "desktop",
+        "javascript",
+        "development"
+      ],
+      "original": {
+        "blogLink": "https://www.smashingmagazine.com/",
+        "blogName": "Smashing Magazine",
+        "url": "https://www.smashingmagazine.com/2017/03/beyond-browser-web-desktop-apps/"
+      },
+      "title": "Beyond The Browser: From Web Apps To Desktop Apps",
+      "summary": "I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.\n",
+      "photo": "/images/blog-content/beyond-the-browser/chromiumDiagram.png",
+      "published_at": "2017-03-21T00:00:00.000Z",
+      "renderedSummary": "<p>I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.</p>\n"
     },
     {
       "id": "coffeescript-at-teamwork",
@@ -106,29 +131,28 @@
       "renderedSummary": "<p>The first project at Teamwork to use CoffeeScript was the <a href=\"http://Teamwork.com\" rel=\"noopener\">Teamwork.com</a> iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…</p>\n"
     },
     {
-      "id": "transparency-and-nwjs",
-      "slug": "transparency-and-nwjs",
+      "id": "dealing-with-long-paths",
+      "slug": "dealing-with-long-paths",
       "collection": null,
       "keywords": [
+        "NW.js",
         "node-webkit",
-        "desktop",
-        "javascript",
-        "platform",
-        "linux",
-        "mac",
+        "npm",
+        "distribution",
+        "paths",
         "windows",
         "development"
       ],
       "original": {
-        "blogLink": "https://www.packtpub.com/books/content/blogs",
-        "blogName": "Packt books",
-        "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+        "blogLink": "https://engineroom.teamwork.com",
+        "blogName": "Teamwork's Engine Room",
+        "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
       },
-      "title": "Transparency and NW.js",
-      "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
-      "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
-      "published_at": "2016-01-26T00:00:00.000Z",
-      "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
+      "title": "Dealing with long paths",
+      "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
+      "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
+      "published_at": "2015-07-01T00:00:00.000Z",
+      "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
     },
     {
       "id": "developing-an-electron-edge",
@@ -151,28 +175,6 @@
       "summary": "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n",
       "published_at": "2016-05-25T00:00:00.000Z",
       "renderedSummary": "<p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n"
-    },
-    {
-      "id": "serverless-crash-reporting-for-electron-apps",
-      "slug": "serverless-crash-reporting-for-electron-apps",
-      "collection": null,
-      "keywords": [
-        "serverless",
-        "electron",
-        "javascript",
-        "aws",
-        "development"
-      ],
-      "original": {
-        "blogLink": "https://engineroom.teamwork.com",
-        "blogName": "Teamwork's Engine Room",
-        "url": "https://engineroom.teamwork.com/serverless-crash-reporting-for-electron-apps-fe6e62e5982a"
-      },
-      "title": "Serverless crash reporting for Electron apps",
-      "summary": "The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from Electron apps.\n",
-      "photo": "https://cdn-images-1.medium.com/max/1600/1*7_8IQl1UmmFdv-Z3EwGNJg.png",
-      "published_at": "2016-11-22T00:00:00.000Z",
-      "renderedSummary": "<p>The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from <a href=\"http://electron.atom.io/\" rel=\"noopener\">Electron</a> apps.</p>\n"
     },
     {
       "id": "flexible-data-tables-with-css-grid",
@@ -200,27 +202,27 @@
       "renderedSummary": "<p>Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the <a href=\"https://www.teamwork.com/crm\" rel=\"noopener\">Teamwork CRM</a> puzzle was the &quot;list view&quot;.</p>\n<p>It's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.</p>\n"
     },
     {
-      "id": "installing-your-nwjs-app-windows1",
-      "slug": "installing-your-nwjs-app-windows1",
+      "id": "hassle-free-third-party-dependencies",
+      "slug": "hassle-free-third-party-dependencies",
       "collection": null,
       "keywords": [
-        "node-webkit",
-        "desktop",
+        "dependencies",
+        "assets",
         "javascript",
-        "windows",
-        "install",
-        "installer",
+        "css",
+        "third-party",
         "development"
       ],
       "original": {
-        "blogLink": "https://www.packtpub.com/books/content/blogs",
-        "blogName": "Packt books",
-        "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
+        "blogLink": "https://engineroom.teamwork.com",
+        "blogName": "Teamwork's Engine Room",
+        "url": "https://engineroom.teamwork.com/hassle-free-third-party-dependencies-9b6e0a4884ce"
       },
-      "title": "Installing your NW.js app on Windows",
-      "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-      "published_at": "2015-12-09T00:00:00.000Z",
-      "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+      "title": "Hassle-free third-party dependencies",
+      "summary": "How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…\n",
+      "photo": "/images/blog-content/hassle-free-third-party-dependencies/bower.png",
+      "published_at": "2014-08-29T00:00:00.000Z",
+      "renderedSummary": "<p>How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…</p>\n"
     },
     {
       "id": "improve-permissions-ux",
@@ -245,75 +247,97 @@
       "renderedSummary": "<p>&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose <em>some</em> might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.</p>\n"
     },
     {
-      "id": "npm-distribution-path-length-problems",
-      "slug": "npm-distribution-path-length-problems",
+      "id": "installing-your-nwjs-app-windows1",
+      "slug": "installing-your-nwjs-app-windows1",
       "collection": null,
       "keywords": [
         "node-webkit",
         "desktop",
         "javascript",
-        "npm",
-        "distribution",
         "windows",
-        "paths",
+        "install",
+        "installer",
         "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
         "blogName": "Packt books",
-        "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
+        "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
       },
-      "title": "npm and distribution path length problems",
+      "title": "Installing your NW.js app on Windows",
       "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-      "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
-      "published_at": "2015-12-07T00:00:00.000Z",
+      "published_at": "2015-12-09T00:00:00.000Z",
       "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
     },
     {
-      "id": "static-site-regeneration",
-      "slug": "static-site-regeneration",
+      "id": "building-your-app-creating-executables-nwjs",
+      "slug": "building-your-app-creating-executables-nwjs",
       "collection": null,
       "keywords": [
-        "writing",
-        "static-site-generation",
-        "headless-cms",
-        "jamstack",
-        "git",
-        "markdown",
-        "vue.js",
-        "nuxt.js",
+        "node-webkit",
+        "desktop",
+        "executable",
+        "distribution",
+        "generation",
         "javascript",
         "development"
       ],
-      "title": "Static site regeneration and focusing on what's important",
-      "summary": "I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.\n",
-      "photo": "/images/blog-content/static-site-regeneration/nuxt.png",
-      "published_at": "2018-02-04T00:00:00.000Z",
-      "renderedSummary": "<p>I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.</p>\n"
+      "original": {
+        "blogLink": "https://www.packtpub.com/books/content/blogs",
+        "blogName": "Packt books",
+        "url": "https://www.packtpub.com/books/content/building-your-app-creating-executables-nwjs"
+      },
+      "title": "Building Your App: Creating Executables for NW.js",
+      "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+      "published_at": "2015-11-17T00:00:00.000Z",
+      "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
     },
     {
-      "id": "dealing-with-long-paths",
-      "slug": "dealing-with-long-paths",
+      "id": "transparency-and-nwjs",
+      "slug": "transparency-and-nwjs",
       "collection": null,
       "keywords": [
-        "NW.js",
         "node-webkit",
-        "npm",
-        "distribution",
-        "paths",
+        "desktop",
+        "javascript",
+        "platform",
+        "linux",
+        "mac",
         "windows",
         "development"
       ],
       "original": {
-        "blogLink": "https://engineroom.teamwork.com",
-        "blogName": "Teamwork's Engine Room",
-        "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
+        "blogLink": "https://www.packtpub.com/books/content/blogs",
+        "blogName": "Packt books",
+        "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
       },
-      "title": "Dealing with long paths",
-      "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
-      "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
-      "published_at": "2015-07-01T00:00:00.000Z",
-      "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
+      "title": "Transparency and NW.js",
+      "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
+      "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
+      "published_at": "2016-01-26T00:00:00.000Z",
+      "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
+    },
+    {
+      "id": "nwjs-app-and-shortcut-apis",
+      "slug": "nwjs-app-and-shortcut-apis",
+      "collection": null,
+      "keywords": [
+        "node-webkit",
+        "desktop",
+        "javascript",
+        "app",
+        "shortcut",
+        "development"
+      ],
+      "original": {
+        "blogLink": "https://www.packtpub.com/books/content/blogs",
+        "blogName": "Packt books",
+        "url": "https://www.packtpub.com/books/content/nwjs-app-and-shortcut-apis"
+      },
+      "title": "NW.js: The App and Shortcut APIs",
+      "summary": "The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...\n",
+      "published_at": "2015-12-18T00:00:00.000Z",
+      "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
     },
     {
       "id": "olc-ruin-someones-day-with-homoglyphs",
@@ -360,29 +384,6 @@
       "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
       "published_at": "2016-01-26T00:00:00.000Z",
       "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
-    },
-    {
-      "id": "hassle-free-third-party-dependencies",
-      "slug": "hassle-free-third-party-dependencies",
-      "collection": null,
-      "keywords": [
-        "dependencies",
-        "assets",
-        "javascript",
-        "css",
-        "third-party",
-        "development"
-      ],
-      "original": {
-        "blogLink": "https://engineroom.teamwork.com",
-        "blogName": "Teamwork's Engine Room",
-        "url": "https://engineroom.teamwork.com/hassle-free-third-party-dependencies-9b6e0a4884ce"
-      },
-      "title": "Hassle-free third-party dependencies",
-      "summary": "How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…\n",
-      "photo": "/images/blog-content/hassle-free-third-party-dependencies/bower.png",
-      "published_at": "2014-08-29T00:00:00.000Z",
-      "renderedSummary": "<p>How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…</p>\n"
     },
     {
       "id": "production-databases-tips",
@@ -455,49 +456,48 @@
       "renderedSummary": "<p>Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...</p>\n"
     },
     {
-      "id": "building-your-app-creating-executables-nwjs",
-      "slug": "building-your-app-creating-executables-nwjs",
+      "id": "serverless-crash-reporting-for-electron-apps",
+      "slug": "serverless-crash-reporting-for-electron-apps",
       "collection": null,
       "keywords": [
-        "node-webkit",
-        "desktop",
-        "executable",
-        "distribution",
-        "generation",
+        "serverless",
+        "electron",
         "javascript",
+        "aws",
         "development"
       ],
       "original": {
-        "blogLink": "https://www.packtpub.com/books/content/blogs",
-        "blogName": "Packt books",
-        "url": "https://www.packtpub.com/books/content/building-your-app-creating-executables-nwjs"
+        "blogLink": "https://engineroom.teamwork.com",
+        "blogName": "Teamwork's Engine Room",
+        "url": "https://engineroom.teamwork.com/serverless-crash-reporting-for-electron-apps-fe6e62e5982a"
       },
-      "title": "Building Your App: Creating Executables for NW.js",
-      "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-      "published_at": "2015-11-17T00:00:00.000Z",
-      "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+      "title": "Serverless crash reporting for Electron apps",
+      "summary": "The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from Electron apps.\n",
+      "photo": "https://cdn-images-1.medium.com/max/1600/1*7_8IQl1UmmFdv-Z3EwGNJg.png",
+      "published_at": "2016-11-22T00:00:00.000Z",
+      "renderedSummary": "<p>The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from <a href=\"http://electron.atom.io/\" rel=\"noopener\">Electron</a> apps.</p>\n"
     },
     {
-      "id": "beyond-the-browser-from-web-apps-to-desktop-apps",
-      "slug": "beyond-the-browser-from-web-apps-to-desktop-apps",
+      "id": "static-site-regeneration",
+      "slug": "static-site-regeneration",
       "collection": null,
       "keywords": [
-        "node-webkit",
-        "electron",
-        "desktop",
+        "writing",
+        "static-site-generation",
+        "headless-cms",
+        "jamstack",
+        "git",
+        "markdown",
+        "vue.js",
+        "nuxt.js",
         "javascript",
         "development"
       ],
-      "original": {
-        "blogLink": "https://www.smashingmagazine.com/",
-        "blogName": "Smashing Magazine",
-        "url": "https://www.smashingmagazine.com/2017/03/beyond-browser-web-desktop-apps/"
-      },
-      "title": "Beyond The Browser: From Web Apps To Desktop Apps",
-      "summary": "I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.\n",
-      "photo": "/images/blog-content/beyond-the-browser/chromiumDiagram.png",
-      "published_at": "2017-03-21T00:00:00.000Z",
-      "renderedSummary": "<p>I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.</p>\n"
+      "title": "Static site regeneration and focusing on what's important",
+      "summary": "I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.\n",
+      "photo": "/images/blog-content/static-site-regeneration/nuxt.png",
+      "published_at": "2018-02-04T00:00:00.000Z",
+      "renderedSummary": "<p>I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.</p>\n"
     },
     {
       "id": "a-peek-under-the-hood-of-teamwork-chat",

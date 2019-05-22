@@ -575,6 +575,12 @@ body {
     text-shadow: none;
     transition: opacity 0.25s ease-in-out;
 
+    @media(min-width: $widthWhenPostsGetMorePadding) {
+      left: -$postsPaddingHorizontal--when-wide;
+      top: 20px;
+      width: $postsPaddingHorizontal--when-wide;
+    }
+
     &:focus {
       outline: none; // shameful but keyboard users aren't going to use this anchor anyway
     }
