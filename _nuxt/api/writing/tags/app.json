@@ -12,7 +12,8 @@
         "app",
         "NW.js",
         "node-webkit",
-        "javascript"
+        "javascript",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",
@@ -34,7 +35,8 @@
         "desktop",
         "javascript",
         "app",
-        "shortcut"
+        "shortcut",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",

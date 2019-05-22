@@ -12,6 +12,7 @@ tags:
   - linux
   - mac
   - windows
+  - development
 ---
 
 ## Platform detection in your NW.js app

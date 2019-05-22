@@ -14,7 +14,8 @@
         "node-webkit",
         "desktop",
         "hybrid",
-        "mobile"
+        "mobile",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",
@@ -37,7 +38,8 @@
         "app",
         "NW.js",
         "node-webkit",
-        "javascript"
+        "javascript",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",
@@ -60,7 +62,8 @@
         "npm",
         "distribution",
         "paths",
-        "windows"
+        "windows",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",
@@ -83,7 +86,8 @@
         "node.js",
         "javascript",
         "node-webkit",
-        "NW.js"
+        "NW.js",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",

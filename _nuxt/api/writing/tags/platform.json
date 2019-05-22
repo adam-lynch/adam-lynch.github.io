@@ -13,7 +13,8 @@
         "platform",
         "linux",
         "mac",
-        "windows"
+        "windows",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
@@ -37,7 +38,8 @@
         "platform",
         "linux",
         "mac",
-        "windows"
+        "windows",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",

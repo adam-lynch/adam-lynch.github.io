@@ -306,6 +306,7 @@ body {
   margin: $postsPadding;
   background: #fff;
   max-width: 60rem;
+  overflow: hidden;
 
   position: relative;
 
@@ -773,7 +774,7 @@ body {
 }
 
 .post-comments {
-  margin: 2rem;
+  margin: 2rem 2rem 0;
   padding: 2rem;
   background: #fff;
 

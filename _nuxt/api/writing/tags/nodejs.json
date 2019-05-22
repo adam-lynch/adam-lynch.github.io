@@ -17,7 +17,8 @@
         "serverless",
         "faas",
         "node.js",
-        "cron"
+        "cron",
+        "development"
       ],
       "title": "How I made the @randomOpenAPI Twitter bot in 42 minutes-ish",
       "summary": "I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.\nThe natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' @randomMDN? It tweets a random article from MDN multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.\n",
@@ -33,7 +34,8 @@
         "javascript",
         "node.js",
         "homoglyphs",
-        "prank"
+        "prank",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",
@@ -56,7 +58,8 @@
         "node.js",
         "javascript",
         "node-webkit",
-        "NW.js"
+        "NW.js",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",
@@ -78,7 +81,8 @@
         "build",
         "build system",
         "javascript",
-        "node.js"
+        "node.js",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",

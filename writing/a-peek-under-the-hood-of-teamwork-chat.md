@@ -12,6 +12,7 @@ tags:
   - javascript
   - node-webkit
   - NW.js
+  - development
 ---
 
 ## A peek under the hood of Teamwork Chat

@@ -2,7 +2,7 @@
   "id": "installing-your-nwjs-app-windows1",
   "slug": "installing-your-nwjs-app-windows1",
   "highlightedLanguages": [],
-  "source": "---\ndate: 2015-12-09\nsummary: NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\noriginal:\n  blogLink: https://www.packtpub.com/books/content/blogs\n  blogName: Packt books\n  url: https://www.packtpub.com/books/content/installing-your-nwjs-app-windows\ntags:\n  - node-webkit\n  - desktop\n  - javascript\n  - windows\n  - install\n  - installer\n---\n\n## Installing your NW.js app on Windows\n\n[NW.js](https://github.com/nwjs/nw.js) is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like [Creating Your First Desktop App With HTML, JS and Node-WebKit](http://tutorialzine.com/2015/01/your-first-node-webkit-app/) to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users. I've been through it myself with [Teamwork Chat](https://www.teamwork.com/chat) and there are a few things to consider. What exactly should you provide the end user with? How? Where? And why?\n\n### What to ship\n\nIf you want to keep it simple you can simply package everything up into a ZIP archive for your users to download. The ZIP should include your app, along with all of the files generated during the build; the dynamic-link libraries (`.dll`s), the nw.pak and the other PAK files in the locales directory. All of these extra files are required to be certain your app will function correctly on Windows, even if they already have some of these from a previous installation of Google Chrome, for example.\n\nWhen I say you need to include \"your app\" in this archive, I of course mean your `myApp.exe` if you've used the [nw-builder module](https://github.com/nwjs/nw-builder) to build your app (which I recommend).\n\nIf you want to use the [.nw method](https://github.com/nwjs/nw.js/wiki/How-to-run-apps) of running your app, you will have to distribute your app in separate pieces; `nw.exe`, a `.nw` archive containing your app code and `myApp.ink` a shortcut which executes `nw.exe` with your `.nw` archive. This is how the popular [Popcorn Time](https://popcorntime.io/) app works.\n\nYou could rename `nw.exe` to something nicer but it's not advised to ensure [native module compatibility](https://github.com/nwjs/nw.js/issues/199#issuecomment-91411953).\n\n### Installers\n\nGiving the user a simple ZIP isn't optimal though. It isn't the most user-friendly option and you wouldn't have much control over what the user does with your app; where they put it, how many copies of your app they have, etc. This is where installers come in. E.g. [Inno Setup](http://www.jrsoftware.org/isinfo.php), [NSIS](http://nsis.sourceforge.net/Main_Page) or [Install Shield](http://www.flexerasoftware.com/producer/products/software-installation/installshield-software-installer/). The applications provided to build these installers can be configured to grab all of your files and store them wherever you choose on the user's machine, pin your app to their start menu and a whole host of other options.\n\n### Where to store your app\n\nThe first place that springs to mind is Program Files, right? Well, if your app has to add / overwrite / remove files from the directory in which it's located then you'll run into problems with permissions. To get around this I suggest storing your app in `C:\\Users\\<username>\\AppData\\Roaming\\MyApp` like a handful of big name apps do.\n\nIf you really need to store your app in Program Files then you could theoretically use something like the node-windows node module to elevate the privileges of the current user to a local administrator and execute the problematic filesystem interactions using Windows services. This means though that Windows' UAC (User Account Control) may show for the user depending on their settings. If you were to use node-windows, this also means that you'd have to pass Windows commands as strings instead of using the fs module.\n\nAnother possible location is `C:\\Users\\Default\\AppData\\Roaming\\MyApp`. Anything stored here will be copied to `C:\\Users\\<new-username>\\AppData\\Roaming\\MyApp` for each new user profile created on the machine. This may or may not suit your application or you might even want to let the user to decide (by having this as an option in the installer).\n\n### What to sign\n\nIf you're digitally signing your app with a certificate, make sure you sign each and every executable; not only `myApp.exe` / `nw.exe` but also any `.exe`s your app spawns as well as any executables any of your node_modules dependencies spawn (which aren't already signed by the maintainers). If you were to use the [node-webkit-updatermodule](https://github.com/edjafarov/node-webkit-updater/), for example, it contains an `unsignedunzip.exe`. Make sure to sign all of these before building your installer, as well as signing the installer itself.\n\nThat's all folks! I've had to figure a lot of this stuff myself by trial and error so I hope it saves you some time. If I've missed anything, feel free to let me know in a comment below.\n",
+  "source": "---\ndate: 2015-12-09\nsummary: NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\noriginal:\n  blogLink: https://www.packtpub.com/books/content/blogs\n  blogName: Packt books\n  url: https://www.packtpub.com/books/content/installing-your-nwjs-app-windows\ntags:\n  - node-webkit\n  - desktop\n  - javascript\n  - windows\n  - install\n  - installer\n  - development\n---\n\n## Installing your NW.js app on Windows\n\n[NW.js](https://github.com/nwjs/nw.js) is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like [Creating Your First Desktop App With HTML, JS and Node-WebKit](http://tutorialzine.com/2015/01/your-first-node-webkit-app/) to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users. I've been through it myself with [Teamwork Chat](https://www.teamwork.com/chat) and there are a few things to consider. What exactly should you provide the end user with? How? Where? And why?\n\n### What to ship\n\nIf you want to keep it simple you can simply package everything up into a ZIP archive for your users to download. The ZIP should include your app, along with all of the files generated during the build; the dynamic-link libraries (`.dll`s), the nw.pak and the other PAK files in the locales directory. All of these extra files are required to be certain your app will function correctly on Windows, even if they already have some of these from a previous installation of Google Chrome, for example.\n\nWhen I say you need to include \"your app\" in this archive, I of course mean your `myApp.exe` if you've used the [nw-builder module](https://github.com/nwjs/nw-builder) to build your app (which I recommend).\n\nIf you want to use the [.nw method](https://github.com/nwjs/nw.js/wiki/How-to-run-apps) of running your app, you will have to distribute your app in separate pieces; `nw.exe`, a `.nw` archive containing your app code and `myApp.ink` a shortcut which executes `nw.exe` with your `.nw` archive. This is how the popular [Popcorn Time](https://popcorntime.io/) app works.\n\nYou could rename `nw.exe` to something nicer but it's not advised to ensure [native module compatibility](https://github.com/nwjs/nw.js/issues/199#issuecomment-91411953).\n\n### Installers\n\nGiving the user a simple ZIP isn't optimal though. It isn't the most user-friendly option and you wouldn't have much control over what the user does with your app; where they put it, how many copies of your app they have, etc. This is where installers come in. E.g. [Inno Setup](http://www.jrsoftware.org/isinfo.php), [NSIS](http://nsis.sourceforge.net/Main_Page) or [Install Shield](http://www.flexerasoftware.com/producer/products/software-installation/installshield-software-installer/). The applications provided to build these installers can be configured to grab all of your files and store them wherever you choose on the user's machine, pin your app to their start menu and a whole host of other options.\n\n### Where to store your app\n\nThe first place that springs to mind is Program Files, right? Well, if your app has to add / overwrite / remove files from the directory in which it's located then you'll run into problems with permissions. To get around this I suggest storing your app in `C:\\Users\\<username>\\AppData\\Roaming\\MyApp` like a handful of big name apps do.\n\nIf you really need to store your app in Program Files then you could theoretically use something like the node-windows node module to elevate the privileges of the current user to a local administrator and execute the problematic filesystem interactions using Windows services. This means though that Windows' UAC (User Account Control) may show for the user depending on their settings. If you were to use node-windows, this also means that you'd have to pass Windows commands as strings instead of using the fs module.\n\nAnother possible location is `C:\\Users\\Default\\AppData\\Roaming\\MyApp`. Anything stored here will be copied to `C:\\Users\\<new-username>\\AppData\\Roaming\\MyApp` for each new user profile created on the machine. This may or may not suit your application or you might even want to let the user to decide (by having this as an option in the installer).\n\n### What to sign\n\nIf you're digitally signing your app with a certificate, make sure you sign each and every executable; not only `myApp.exe` / `nw.exe` but also any `.exe`s your app spawns as well as any executables any of your node_modules dependencies spawn (which aren't already signed by the maintainers). If you were to use the [node-webkit-updatermodule](https://github.com/edjafarov/node-webkit-updater/), for example, it contains an `unsignedunzip.exe`. Make sure to sign all of these before building your installer, as well as signing the installer itself.\n\nThat's all folks! I've had to figure a lot of this stuff myself by trial and error so I hope it saves you some time. If I've missed anything, feel free to let me know in a comment below.\n",
   "unfilteredRenderedBody": "<h2><a id=\"installing-your-nwjs-app-on-windows\" class=\"post-header-anchor\" href=\"#installing-your-nwjs-app-on-windows\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 8 8\"><path d=\"M5.88.03c-.18.01-.36.03-.53.09-.27.1-.53.25-.75.47a.5.5 0 1 0 .69.69c.11-.11.24-.17.38-.22.35-.12.78-.07 1.06.22.39.39.39 1.04 0 1.44l-1.5 1.5c-.44.44-.8.48-1.06.47-.26-.01-.41-.13-.41-.13a.5.5 0 1 0-.5.88s.34.22.84.25c.5.03 1.2-.16 1.81-.78l1.5-1.5c.78-.78.78-2.04 0-2.81-.28-.28-.61-.45-.97-.53-.18-.04-.38-.04-.56-.03zm-2 2.31c-.5-.02-1.19.15-1.78.75l-1.5 1.5c-.78.78-.78 2.04 0 2.81.56.56 1.36.72 2.06.47.27-.1.53-.25.75-.47a.5.5 0 1 0-.69-.69c-.11.11-.24.17-.38.22-.35.12-.78.07-1.06-.22-.39-.39-.39-1.04 0-1.44l1.5-1.5c.4-.4.75-.45 1.03-.44.28.01.47.09.47.09a.5.5 0 1 0 .44-.88s-.34-.2-.84-.22z\"></path></svg></a>Installing your NW.js app on Windows</h2>\n<p><a href=\"https://github.com/nwjs/nw.js\" rel=\"noopener\">NW.js</a> is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like <a href=\"http://tutorialzine.com/2015/01/your-first-node-webkit-app/\" rel=\"noopener\">Creating Your First Desktop App With HTML, JS and Node-WebKit</a> to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users. I've been through it myself with <a href=\"https://www.teamwork.com/chat\" rel=\"noopener\">Teamwork Chat</a> and there are a few things to consider. What exactly should you provide the end user with? How? Where? And why?</p>\n<h3><a id=\"what-to-ship\" class=\"post-header-anchor\" href=\"#what-to-ship\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 8 8\"><path d=\"M5.88.03c-.18.01-.36.03-.53.09-.27.1-.53.25-.75.47a.5.5 0 1 0 .69.69c.11-.11.24-.17.38-.22.35-.12.78-.07 1.06.22.39.39.39 1.04 0 1.44l-1.5 1.5c-.44.44-.8.48-1.06.47-.26-.01-.41-.13-.41-.13a.5.5 0 1 0-.5.88s.34.22.84.25c.5.03 1.2-.16 1.81-.78l1.5-1.5c.78-.78.78-2.04 0-2.81-.28-.28-.61-.45-.97-.53-.18-.04-.38-.04-.56-.03zm-2 2.31c-.5-.02-1.19.15-1.78.75l-1.5 1.5c-.78.78-.78 2.04 0 2.81.56.56 1.36.72 2.06.47.27-.1.53-.25.75-.47a.5.5 0 1 0-.69-.69c-.11.11-.24.17-.38.22-.35.12-.78.07-1.06-.22-.39-.39-.39-1.04 0-1.44l1.5-1.5c.4-.4.75-.45 1.03-.44.28.01.47.09.47.09a.5.5 0 1 0 .44-.88s-.34-.2-.84-.22z\"></path></svg></a>What to ship</h3>\n<p>If you want to keep it simple you can simply package everything up into a ZIP archive for your users to download. The ZIP should include your app, along with all of the files generated during the build; the dynamic-link libraries (<code>.dll</code>s), the nw.pak and the other PAK files in the locales directory. All of these extra files are required to be certain your app will function correctly on Windows, even if they already have some of these from a previous installation of Google Chrome, for example.</p>\n<p>When I say you need to include &quot;your app&quot; in this archive, I of course mean your <code>myApp.exe</code> if you've used the <a href=\"https://github.com/nwjs/nw-builder\" rel=\"noopener\">nw-builder module</a> to build your app (which I recommend).</p>\n<p>If you want to use the <a href=\"https://github.com/nwjs/nw.js/wiki/How-to-run-apps\" rel=\"noopener\">.nw method</a> of running your app, you will have to distribute your app in separate pieces; <code>nw.exe</code>, a <code>.nw</code> archive containing your app code and <code>myApp.ink</code> a shortcut which executes <code>nw.exe</code> with your <code>.nw</code> archive. This is how the popular <a href=\"https://popcorntime.io/\" rel=\"noopener\">Popcorn Time</a> app works.</p>\n<p>You could rename <code>nw.exe</code> to something nicer but it's not advised to ensure <a href=\"https://github.com/nwjs/nw.js/issues/199#issuecomment-91411953\" rel=\"noopener\">native module compatibility</a>.</p>\n<h3><a id=\"installers\" class=\"post-header-anchor\" href=\"#installers\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 8 8\"><path d=\"M5.88.03c-.18.01-.36.03-.53.09-.27.1-.53.25-.75.47a.5.5 0 1 0 .69.69c.11-.11.24-.17.38-.22.35-.12.78-.07 1.06.22.39.39.39 1.04 0 1.44l-1.5 1.5c-.44.44-.8.48-1.06.47-.26-.01-.41-.13-.41-.13a.5.5 0 1 0-.5.88s.34.22.84.25c.5.03 1.2-.16 1.81-.78l1.5-1.5c.78-.78.78-2.04 0-2.81-.28-.28-.61-.45-.97-.53-.18-.04-.38-.04-.56-.03zm-2 2.31c-.5-.02-1.19.15-1.78.75l-1.5 1.5c-.78.78-.78 2.04 0 2.81.56.56 1.36.72 2.06.47.27-.1.53-.25.75-.47a.5.5 0 1 0-.69-.69c-.11.11-.24.17-.38.22-.35.12-.78.07-1.06-.22-.39-.39-.39-1.04 0-1.44l1.5-1.5c.4-.4.75-.45 1.03-.44.28.01.47.09.47.09a.5.5 0 1 0 .44-.88s-.34-.2-.84-.22z\"></path></svg></a>Installers</h3>\n<p>Giving the user a simple ZIP isn't optimal though. It isn't the most user-friendly option and you wouldn't have much control over what the user does with your app; where they put it, how many copies of your app they have, etc. This is where installers come in. E.g. <a href=\"http://www.jrsoftware.org/isinfo.php\" rel=\"noopener\">Inno Setup</a>, <a href=\"http://nsis.sourceforge.net/Main_Page\" rel=\"noopener\">NSIS</a> or <a href=\"http://www.flexerasoftware.com/producer/products/software-installation/installshield-software-installer/\" rel=\"noopener\">Install Shield</a>. The applications provided to build these installers can be configured to grab all of your files and store them wherever you choose on the user's machine, pin your app to their start menu and a whole host of other options.</p>\n<h3><a id=\"where-to-store-your-app\" class=\"post-header-anchor\" href=\"#where-to-store-your-app\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 8 8\"><path d=\"M5.88.03c-.18.01-.36.03-.53.09-.27.1-.53.25-.75.47a.5.5 0 1 0 .69.69c.11-.11.24-.17.38-.22.35-.12.78-.07 1.06.22.39.39.39 1.04 0 1.44l-1.5 1.5c-.44.44-.8.48-1.06.47-.26-.01-.41-.13-.41-.13a.5.5 0 1 0-.5.88s.34.22.84.25c.5.03 1.2-.16 1.81-.78l1.5-1.5c.78-.78.78-2.04 0-2.81-.28-.28-.61-.45-.97-.53-.18-.04-.38-.04-.56-.03zm-2 2.31c-.5-.02-1.19.15-1.78.75l-1.5 1.5c-.78.78-.78 2.04 0 2.81.56.56 1.36.72 2.06.47.27-.1.53-.25.75-.47a.5.5 0 1 0-.69-.69c-.11.11-.24.17-.38.22-.35.12-.78.07-1.06-.22-.39-.39-.39-1.04 0-1.44l1.5-1.5c.4-.4.75-.45 1.03-.44.28.01.47.09.47.09a.5.5 0 1 0 .44-.88s-.34-.2-.84-.22z\"></path></svg></a>Where to store your app</h3>\n<p>The first place that springs to mind is Program Files, right? Well, if your app has to add / overwrite / remove files from the directory in which it's located then you'll run into problems with permissions. To get around this I suggest storing your app in <code>C:\\Users\\&lt;username&gt;\\AppData\\Roaming\\MyApp</code> like a handful of big name apps do.</p>\n<p>If you really need to store your app in Program Files then you could theoretically use something like the node-windows node module to elevate the privileges of the current user to a local administrator and execute the problematic filesystem interactions using Windows services. This means though that Windows' UAC (User Account Control) may show for the user depending on their settings. If you were to use node-windows, this also means that you'd have to pass Windows commands as strings instead of using the fs module.</p>\n<p>Another possible location is <code>C:\\Users\\Default\\AppData\\Roaming\\MyApp</code>. Anything stored here will be copied to <code>C:\\Users\\&lt;new-username&gt;\\AppData\\Roaming\\MyApp</code> for each new user profile created on the machine. This may or may not suit your application or you might even want to let the user to decide (by having this as an option in the installer).</p>\n<h3><a id=\"what-to-sign\" class=\"post-header-anchor\" href=\"#what-to-sign\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 8 8\"><path d=\"M5.88.03c-.18.01-.36.03-.53.09-.27.1-.53.25-.75.47a.5.5 0 1 0 .69.69c.11-.11.24-.17.38-.22.35-.12.78-.07 1.06.22.39.39.39 1.04 0 1.44l-1.5 1.5c-.44.44-.8.48-1.06.47-.26-.01-.41-.13-.41-.13a.5.5 0 1 0-.5.88s.34.22.84.25c.5.03 1.2-.16 1.81-.78l1.5-1.5c.78-.78.78-2.04 0-2.81-.28-.28-.61-.45-.97-.53-.18-.04-.38-.04-.56-.03zm-2 2.31c-.5-.02-1.19.15-1.78.75l-1.5 1.5c-.78.78-.78 2.04 0 2.81.56.56 1.36.72 2.06.47.27-.1.53-.25.75-.47a.5.5 0 1 0-.69-.69c-.11.11-.24.17-.38.22-.35.12-.78.07-1.06-.22-.39-.39-.39-1.04 0-1.44l1.5-1.5c.4-.4.75-.45 1.03-.44.28.01.47.09.47.09a.5.5 0 1 0 .44-.88s-.34-.2-.84-.22z\"></path></svg></a>What to sign</h3>\n<p>If you're digitally signing your app with a certificate, make sure you sign each and every executable; not only <code>myApp.exe</code> / <code>nw.exe</code> but also any <code>.exe</code>s your app spawns as well as any executables any of your node_modules dependencies spawn (which aren't already signed by the maintainers). If you were to use the <a href=\"https://github.com/edjafarov/node-webkit-updater/\" rel=\"noopener\">node-webkit-updatermodule</a>, for example, it contains an <code>unsignedunzip.exe</code>. Make sure to sign all of these before building your installer, as well as signing the installer itself.</p>\n<p>That's all folks! I've had to figure a lot of this stuff myself by trial and error so I hope it saves you some time. If I've missed anything, feel free to let me know in a comment below.</p>\n",
   "attributes": {
     "date": "2015-12-09T00:00:00.000Z",
@@ -36,10 +36,14 @@
       {
         "id": "installer",
         "name": "installer"
+      },
+      {
+        "id": "development",
+        "name": "development"
       }
     ],
     "title": "Installing your NW.js app on Windows",
-    "updated_at": "2019-05-12T08:34:11.858Z"
+    "updated_at": "2019-05-22T08:25:55.401Z"
   },
   "title": "Installing your NW.js app on Windows",
   "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n",
@@ -56,55 +60,146 @@
     "javascript",
     "windows",
     "install",
-    "installer"
+    "installer",
+    "development"
   ],
   "published_at": "2015-12-09T00:00:00.000Z",
-  "updated_at": "2019-05-12T08:34:11.858Z",
+  "updated_at": "2019-05-22T08:25:55.401Z",
   "year": 2015,
   "month": 12,
   "day": 10,
+  "relevanceScore": 0.29166666666666674,
   "next": {
-    "id": "dealing-with-long-paths",
-    "slug": "dealing-with-long-paths",
+    "id": "improve-permissions-ux",
+    "slug": "improve-permissions-ux",
     "collection": null,
     "keywords": [
-      "NW.js",
-      "node-webkit",
-      "npm",
-      "distribution",
-      "paths",
-      "windows"
+      "ux",
+      "permissions",
+      "pwa",
+      "web",
+      "javascript",
+      "notifications",
+      "geolocation",
+      "extension",
+      "browsers",
+      "development"
     ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
-    },
-    "title": "Dealing with long paths",
-    "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
-    "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
-    "published_at": "2015-07-01T00:00:00.000Z",
-    "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
+    "title": "How to improve your permissions UX",
+    "summary": "&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose some might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.\n",
+    "photo": "/images/blog-content/improve-permissions-ux/chris-wilson.png",
+    "published_at": "2018-03-03T00:00:00.000Z",
+    "renderedSummary": "<p>&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose <em>some</em> might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.</p>\n"
   },
   "prev": {
-    "id": "olc-ruin-someones-day-with-homoglyphs",
-    "slug": "olc-ruin-someones-day-with-homoglyphs",
+    "id": "lessons-learned-leading-teams",
+    "slug": "lessons-learned-leading-teams",
     "collection": null,
     "keywords": [
-      "javascript",
-      "node.js",
-      "homoglyphs",
-      "prank"
+      "leadership",
+      "management",
+      "teams",
+      "development",
+      "lead",
+      "leading",
+      "managing",
+      "manager",
+      "programming",
+      "delegating",
+      "efficiency",
+      "communication",
+      "people",
+      "technical",
+      "transition",
+      "job",
+      "career",
+      "growth",
+      "product management",
+      "project management",
+      "product lead",
+      "technical lead",
+      "lead developer"
     ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/olc-ruin-someones-day-with-homoglyphs-b14e9a1a05a4"
+    "title": "Lessons learned leading teams",
+    "summary": "I've been thinking about team leading a lot lately. When revisiting advice a friend asked for when transitioning to a team lead position, I decided to flesh it out and put it online. Most of the following will hopefully be helpful to anyone leading a team or any manager, although some will be more relevant to leaders of developers and developers transitioning into leadership roles. If it helps anyone, great. It will be a good reference for me at least. Alright, let's get to it.\n",
+    "photo": "/images/blog-content/lessons-learned-leading-teams/graph.png",
+    "published_at": "2018-11-14T00:00:00.000Z",
+    "renderedSummary": "<p>I've been thinking about team leading a lot lately. When revisiting advice a friend asked for when transitioning to a team lead position, I decided to flesh it out and put it online. Most of the following will hopefully be helpful to anyone leading a team or any manager, although some will be more relevant to leaders of developers and developers transitioning into leadership roles. If it helps anyone, great. It will be a good reference for me at least. Alright, let's get to it.</p>\n"
+  },
+  "moreArticles": [
+    {
+      "id": "transparency-and-nwjs",
+      "slug": "transparency-and-nwjs",
+      "collection": null,
+      "keywords": [
+        "node-webkit",
+        "desktop",
+        "javascript",
+        "platform",
+        "linux",
+        "mac",
+        "windows",
+        "development"
+      ],
+      "original": {
+        "blogLink": "https://www.packtpub.com/books/content/blogs",
+        "blogName": "Packt books",
+        "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+      },
+      "title": "Transparency and NW.js",
+      "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
+      "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
+      "published_at": "2016-01-26T00:00:00.000Z",
+      "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
     },
-    "title": "Olc: Ruin someone’s day with homoglyphs",
-    "summary": "You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…\n",
-    "photo": "/images/blog-content/olc-ruin-someones-day-with-homoglyphs/tweet.png",
-    "published_at": "2015-10-27T00:00:00.000Z",
-    "renderedSummary": "<p>You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…</p>\n"
-  }
+    {
+      "id": "platform-detection",
+      "slug": "platform-detection",
+      "collection": null,
+      "keywords": [
+        "node-webkit",
+        "desktop",
+        "javascript",
+        "platform",
+        "linux",
+        "mac",
+        "windows",
+        "development"
+      ],
+      "original": {
+        "blogLink": "https://www.packtpub.com/books/content/blogs",
+        "blogName": "Packt books",
+        "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+      },
+      "title": "Platform detection in your NW.js app",
+      "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
+      "published_at": "2016-01-26T00:00:00.000Z",
+      "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
+    },
+    {
+      "id": "npm-distribution-path-length-problems",
+      "slug": "npm-distribution-path-length-problems",
+      "collection": null,
+      "keywords": [
+        "node-webkit",
+        "desktop",
+        "javascript",
+        "npm",
+        "distribution",
+        "windows",
+        "paths",
+        "development"
+      ],
+      "original": {
+        "blogLink": "https://www.packtpub.com/books/content/blogs",
+        "blogName": "Packt books",
+        "url": "https://www.packtpub.com/books/content/npm-and-distribution-path-length-problems"
+      },
+      "title": "npm and distribution path length problems",
+      "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+      "photo": "/images/blog-content/npm-distribution-path-length-problems/dance.gif",
+      "published_at": "2015-12-07T00:00:00.000Z",
+      "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+    }
+  ]
 }

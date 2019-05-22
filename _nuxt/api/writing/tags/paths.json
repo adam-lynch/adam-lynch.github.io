@@ -13,7 +13,8 @@
         "npm",
         "distribution",
         "windows",
-        "paths"
+        "paths",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
@@ -36,7 +37,8 @@
         "npm",
         "distribution",
         "paths",
-        "windows"
+        "windows",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",

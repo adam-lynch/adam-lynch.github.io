@@ -2,6 +2,7 @@ const chalk = require('chalk')
 const path = require('path')
 const blog = require('../../blog')
 const helpers = require('../helpers')
+const getRelatedArticles = require('../../helpers/getRelatedArticles')
 
 const format = require('../../helpers/path').format
 
@@ -79,7 +80,12 @@ module.exports = function (router, context, options) {
     const url = request(format(templates.article, req.params))
 
     if (dev()) {
-      blog.create(options, true).then(() => helpers.sendJson(blog.addPaginationLinks(blog.findArticle(req.params)), res))
+      blog.create(options, true).then(() => {
+        const article = blog.findArticle(req.params)
+        const contents = blog.addPaginationLinks(article)
+        contents.moreArticles = getRelatedArticles(article, blog.articles).map(article => article.preview)
+        return helpers.sendJson(contents, res)
+      })
       return
     }
 

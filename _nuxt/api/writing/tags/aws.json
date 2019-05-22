@@ -10,7 +10,8 @@
         "serverless",
         "electron",
         "javascript",
-        "aws"
+        "aws",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",

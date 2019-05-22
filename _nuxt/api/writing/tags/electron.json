@@ -10,7 +10,8 @@
         "serverless",
         "electron",
         "javascript",
-        "aws"
+        "aws",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",
@@ -31,7 +32,8 @@
       "keywords": [
         "electron",
         "desktop",
-        "javascript"
+        "javascript",
+        "development"
       ],
       "original": {
         "blogLink": "https://bleedingedgepress.com/",
@@ -52,7 +54,8 @@
         "node-webkit",
         "electron",
         "desktop",
-        "javascript"
+        "javascript",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.smashingmagazine.com/",

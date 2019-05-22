@@ -10,6 +10,7 @@ tags:
   - electron
   - desktop
   - javascript
+  - development
 ---
 
 ## Developing an Electron Edge

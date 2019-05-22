@@ -4,64 +4,92 @@
     "name": "technical"
   },
   {
-    "id": "node-webkit",
-    "name": "node-webkit"
-  },
-  {
-    "id": "product",
-    "name": "product"
+    "id": "gulp",
+    "name": "gulp"
   },
   {
     "id": "terminal",
     "name": "terminal"
   },
   {
-    "id": "nuxtjs",
-    "name": "nuxt.js"
-  },
-  {
-    "id": "teamwork",
-    "name": "teamwork"
-  },
-  {
-    "id": "vuejs",
-    "name": "vue.js"
-  },
-  {
-    "id": "static-site-generation",
-    "name": "static-site-generation"
-  },
-  {
-    "id": "writing",
-    "name": "writing"
+    "id": "javascript",
+    "name": "javascript"
   },
   {
     "id": "nodejs",
     "name": "node.js"
   },
   {
-    "id": "platform",
-    "name": "platform"
+    "id": "ide",
+    "name": "ide"
+  },
+  {
+    "id": "teamwork",
+    "name": "teamwork"
+  },
+  {
+    "id": "jetbrains",
+    "name": "jetbrains"
+  },
+  {
+    "id": "node-webkit",
+    "name": "node-webkit"
   },
   {
     "id": "nwjs",
     "name": "NW.js"
   },
   {
-    "id": "serverless",
-    "name": "serverless"
+    "id": "mobile",
+    "name": "mobile"
   },
   {
-    "id": "now",
-    "name": "now"
+    "id": "hybrid",
+    "name": "hybrid"
+  },
+  {
+    "id": "product",
+    "name": "product"
+  },
+  {
+    "id": "nuxtjs",
+    "name": "nuxt.js"
+  },
+  {
+    "id": "vuejs",
+    "name": "vue.js"
+  },
+  {
+    "id": "markdown",
+    "name": "markdown"
+  },
+  {
+    "id": "npm",
+    "name": "npm"
+  },
+  {
+    "id": "paths",
+    "name": "paths"
+  },
+  {
+    "id": "windows",
+    "name": "windows"
+  },
+  {
+    "id": "jamstack",
+    "name": "jamstack"
+  },
+  {
+    "id": "headless-cms",
+    "name": "headless-cms"
   },
   {
     "id": "table",
     "name": "table"
   },
   {
-    "id": "zeit",
-    "name": "zeit"
+    "id": "static-site-generation",
+    "name": "static-site-generation"
   },
   {
     "id": "responsive-design",
@@ -72,8 +100,8 @@
     "name": "responsive"
   },
   {
-    "id": "twitter",
-    "name": "twitter"
+    "id": "writing",
+    "name": "writing"
   },
   {
     "id": "resize-column",
@@ -84,24 +112,20 @@
     "name": "web app"
   },
   {
-    "id": "public-api",
-    "name": "public API"
-  },
-  {
-    "id": "open-api",
-    "name": "open API"
+    "id": "serverless",
+    "name": "serverless"
   },
   {
     "id": "sales",
     "name": "sales"
   },
   {
-    "id": "satire",
-    "name": "satire"
+    "id": "now",
+    "name": "now"
   },
   {
-    "id": "rockstar",
-    "name": "rockstar"
+    "id": "zeit",
+    "name": "zeit"
   },
   {
     "id": "third-party",
@@ -128,164 +152,36 @@
     "name": "notifications"
   },
   {
-    "id": "postgres",
-    "name": "postgres"
+    "id": "twitter",
+    "name": "twitter"
   },
   {
-    "id": "productivity",
-    "name": "productivity"
+    "id": "public-api",
+    "name": "public API"
   },
   {
-    "id": "production",
-    "name": "production"
-  },
-  {
-    "id": "npm",
-    "name": "npm"
-  },
-  {
-    "id": "shortcut",
-    "name": "shortcut"
-  },
-  {
-    "id": "paths",
-    "name": "paths"
-  },
-  {
-    "id": "windows",
-    "name": "windows"
-  },
-  {
-    "id": "technical-lead",
-    "name": "technical lead"
-  },
-  {
-    "id": "product-lead",
-    "name": "product lead"
-  },
-  {
-    "id": "project-management",
-    "name": "project management"
-  },
-  {
-    "id": "prank",
-    "name": "prank"
-  },
-  {
-    "id": "product-management",
-    "name": "product management"
-  },
-  {
-    "id": "transition",
-    "name": "transition"
-  },
-  {
-    "id": "teams",
-    "name": "teams"
-  },
-  {
-    "id": "people",
-    "name": "people"
-  },
-  {
-    "id": "programming",
-    "name": "programming"
-  },
-  {
-    "id": "development",
-    "name": "development"
-  },
-  {
-    "id": "mobile",
-    "name": "mobile"
-  },
-  {
-    "id": "mssql",
-    "name": "mssql"
-  },
-  {
-    "id": "mysql",
-    "name": "mysql"
-  },
-  {
-    "id": "bot",
-    "name": "bot"
-  },
-  {
-    "id": "managing",
-    "name": "managing"
-  },
-  {
-    "id": "markdown",
-    "name": "markdown"
-  },
-  {
-    "id": "data",
-    "name": "data"
-  },
-  {
-    "id": "electron",
-    "name": "electron"
-  },
-  {
-    "id": "job",
-    "name": "job"
-  },
-  {
-    "id": "hybrid",
-    "name": "hybrid"
-  },
-  {
-    "id": "growth",
-    "name": "growth"
-  },
-  {
-    "id": "leadership",
-    "name": "leadership"
-  },
-  {
-    "id": "homoglyphs",
-    "name": "homoglyphs"
-  },
-  {
-    "id": "installer",
-    "name": "installer"
+    "id": "open-api",
+    "name": "open API"
   },
   {
     "id": "install",
     "name": "install"
   },
   {
-    "id": "lead-developer",
-    "name": "lead developer"
+    "id": "installer",
+    "name": "installer"
   },
   {
-    "id": "generation",
-    "name": "generation"
+    "id": "leadership",
+    "name": "leadership"
   },
   {
-    "id": "executable",
-    "name": "executable"
+    "id": "management",
+    "name": "management"
   },
   {
-    "id": "javascript",
-    "name": "javascript"
-  },
-  {
-    "id": "ide",
-    "name": "ide"
-  },
-  {
-    "id": "jetbrains",
-    "name": "jetbrains"
-  },
-  {
-    "id": "gulp",
-    "name": "gulp"
-  },
-  {
-    "id": "extension",
-    "name": "extension"
+    "id": "teams",
+    "name": "teams"
   },
   {
     "id": "lead",
@@ -296,6 +192,154 @@
     "name": "leading"
   },
   {
+    "id": "managing",
+    "name": "managing"
+  },
+  {
+    "id": "manager",
+    "name": "manager"
+  },
+  {
+    "id": "programming",
+    "name": "programming"
+  },
+  {
+    "id": "satire",
+    "name": "satire"
+  },
+  {
+    "id": "rockstar",
+    "name": "rockstar"
+  },
+  {
+    "id": "postgres",
+    "name": "postgres"
+  },
+  {
+    "id": "people",
+    "name": "people"
+  },
+  {
+    "id": "mssql",
+    "name": "mssql"
+  },
+  {
+    "id": "transition",
+    "name": "transition"
+  },
+  {
+    "id": "job",
+    "name": "job"
+  },
+  {
+    "id": "mysql",
+    "name": "mysql"
+  },
+  {
+    "id": "productivity",
+    "name": "productivity"
+  },
+  {
+    "id": "product-management",
+    "name": "product management"
+  },
+  {
+    "id": "project-management",
+    "name": "project management"
+  },
+  {
+    "id": "product-lead",
+    "name": "product lead"
+  },
+  {
+    "id": "technical-lead",
+    "name": "technical lead"
+  },
+  {
+    "id": "lead-developer",
+    "name": "lead developer"
+  },
+  {
+    "id": "production",
+    "name": "production"
+  },
+  {
+    "id": "shortcut",
+    "name": "shortcut"
+  },
+  {
+    "id": "homoglyphs",
+    "name": "homoglyphs"
+  },
+  {
+    "id": "prank",
+    "name": "prank"
+  },
+  {
+    "id": "platform",
+    "name": "platform"
+  },
+  {
+    "id": "linux",
+    "name": "linux"
+  },
+  {
+    "id": "mac",
+    "name": "mac"
+  },
+  {
+    "id": "cron",
+    "name": "cron"
+  },
+  {
+    "id": "database",
+    "name": "database"
+  },
+  {
+    "id": "dba",
+    "name": "dba"
+  },
+  {
+    "id": "development",
+    "name": "development"
+  },
+  {
+    "id": "growth",
+    "name": "growth"
+  },
+  {
+    "id": "electron",
+    "name": "electron"
+  },
+  {
+    "id": "desktop",
+    "name": "desktop"
+  },
+  {
+    "id": "executable",
+    "name": "executable"
+  },
+  {
+    "id": "efficiency",
+    "name": "efficiency"
+  },
+  {
+    "id": "delegating",
+    "name": "delegating"
+  },
+  {
+    "id": "distribution",
+    "name": "distribution"
+  },
+  {
+    "id": "generation",
+    "name": "generation"
+  },
+  {
+    "id": "extension",
+    "name": "extension"
+  },
+  {
     "id": "geolocation",
     "name": "geolocation"
   },
@@ -304,108 +348,52 @@
     "name": "git"
   },
   {
-    "id": "jamstack",
-    "name": "jamstack"
-  },
-  {
-    "id": "headless-cms",
-    "name": "headless-cms"
-  },
-  {
-    "id": "mac",
-    "name": "mac"
-  },
-  {
-    "id": "manager",
-    "name": "manager"
-  },
-  {
     "id": "flexbox",
     "name": "flexbox"
-  },
-  {
-    "id": "linux",
-    "name": "linux"
-  },
-  {
-    "id": "management",
-    "name": "management"
-  },
-  {
-    "id": "faas",
-    "name": "faas"
-  },
-  {
-    "id": "delegating",
-    "name": "delegating"
-  },
-  {
-    "id": "efficiency",
-    "name": "efficiency"
-  },
-  {
-    "id": "browsers",
-    "name": "browsers"
-  },
-  {
-    "id": "css-grid",
-    "name": "css grid"
-  },
-  {
-    "id": "desktop",
-    "name": "desktop"
-  },
-  {
-    "id": "distribution",
-    "name": "distribution"
-  },
-  {
-    "id": "database",
-    "name": "database"
-  },
-  {
-    "id": "database-adminstration",
-    "name": "database-adminstration"
-  },
-  {
-    "id": "cygwin",
-    "name": "cygwin"
-  },
-  {
-    "id": "dba",
-    "name": "dba"
   },
   {
     "id": "dependencies",
     "name": "dependencies"
   },
   {
-    "id": "aws",
-    "name": "aws"
+    "id": "database-adminstration",
+    "name": "database-adminstration"
   },
   {
-    "id": "cron",
-    "name": "cron"
+    "id": "faas",
+    "name": "faas"
+  },
+  {
+    "id": "browsers",
+    "name": "browsers"
+  },
+  {
+    "id": "crm",
+    "name": "crm"
+  },
+  {
+    "id": "cygwin",
+    "name": "cygwin"
+  },
+  {
+    "id": "css-grid",
+    "name": "css grid"
+  },
+  {
+    "id": "data",
+    "name": "data"
   },
   {
     "id": "css",
     "name": "css"
   },
   {
+    "id": "build",
+    "name": "build"
+  },
+  {
     "id": "babun",
     "name": "babun"
-  },
-  {
-    "id": "chat",
-    "name": "chat"
-  },
-  {
-    "id": "communication",
-    "name": "communication"
-  },
-  {
-    "id": "crm",
-    "name": "crm"
   },
   {
     "id": "coffeescript",
@@ -416,16 +404,28 @@
     "name": "clippy"
   },
   {
-    "id": "career",
-    "name": "career"
-  },
-  {
     "id": "build-system",
     "name": "build system"
   },
   {
-    "id": "build",
-    "name": "build"
+    "id": "communication",
+    "name": "communication"
+  },
+  {
+    "id": "bot",
+    "name": "bot"
+  },
+  {
+    "id": "career",
+    "name": "career"
+  },
+  {
+    "id": "chat",
+    "name": "chat"
+  },
+  {
+    "id": "aws",
+    "name": "aws"
   },
   {
     "id": "assets",

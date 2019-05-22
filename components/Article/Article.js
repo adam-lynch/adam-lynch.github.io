@@ -3,10 +3,12 @@ import format from 'date-fns/format'
 import Article from '~/modules/blog/app/mixins/article'
 import Clipboard from 'clipboard'
 import Anchor from '~/components/Anchor/Anchor.vue'
+import PostPreview from '~/components/PostPreview/PostPreview.vue'
 
 export default {
   components: {
-    Anchor
+    Anchor,
+    PostPreview
   },
 
   computed: {

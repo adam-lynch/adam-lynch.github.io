@@ -12,7 +12,8 @@
         "executable",
         "distribution",
         "generation",
-        "javascript"
+        "javascript",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",

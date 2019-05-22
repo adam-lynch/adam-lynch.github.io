@@ -12,6 +12,7 @@ tags:
   - faas
   - node.js
   - cron
+  - development
 ---
 
 ## How I made the @randomOpenAPI Twitter bot in 42 minutes-ish

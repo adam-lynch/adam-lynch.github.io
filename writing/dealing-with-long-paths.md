@@ -12,6 +12,7 @@ tags:
   - distribution
   - paths
   - windows
+  - development
 ---
 
 ## Dealing with long paths

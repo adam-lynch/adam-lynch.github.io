@@ -6,6 +6,7 @@ const Container = require('./container')
 const Tag = require('./tag')
 const Article = require('./article')
 const format = require('../helpers/path').format
+const getRelatedArticles = require('../helpers/getRelatedArticles')
 
 function compare (a, b) {
   return Object.keys(a).every(key => a[key] === b[key])
@@ -74,6 +75,10 @@ module.exports = class Blog {
 
     this.articles.forEach((article) => {
       output[format(resolve(templates.article), article)] = this.addPaginationLinks(article)
+      output[format(resolve(templates.article), article)] = {
+        ...this.addPaginationLinks(article),
+        moreArticles: getRelatedArticles(article, this.articles).map(article => article.preview)
+      }
     })
     this.tags.forEach((tag) => {
       output[format(resolve(templates.tag), tag)] = tag.toPlainObject()

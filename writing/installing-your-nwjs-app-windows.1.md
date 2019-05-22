@@ -12,6 +12,7 @@ tags:
   - windows
   - install
   - installer
+  - development
 ---
 
 ## Installing your NW.js app on Windows

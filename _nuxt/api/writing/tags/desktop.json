@@ -14,7 +14,8 @@
         "node-webkit",
         "desktop",
         "hybrid",
-        "mobile"
+        "mobile",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",
@@ -38,7 +39,8 @@
         "platform",
         "linux",
         "mac",
-        "windows"
+        "windows",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
@@ -61,7 +63,8 @@
         "app",
         "NW.js",
         "node-webkit",
-        "javascript"
+        "javascript",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",
@@ -85,7 +88,8 @@
         "platform",
         "linux",
         "mac",
-        "windows"
+        "windows",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
@@ -106,7 +110,8 @@
         "desktop",
         "javascript",
         "app",
-        "shortcut"
+        "shortcut",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
@@ -129,7 +134,8 @@
         "npm",
         "distribution",
         "windows",
-        "paths"
+        "paths",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
@@ -152,7 +158,8 @@
         "javascript",
         "windows",
         "install",
-        "installer"
+        "installer",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
@@ -172,7 +179,8 @@
       "keywords": [
         "electron",
         "desktop",
-        "javascript"
+        "javascript",
+        "development"
       ],
       "original": {
         "blogLink": "https://bleedingedgepress.com/",
@@ -195,7 +203,8 @@
         "executable",
         "distribution",
         "generation",
-        "javascript"
+        "javascript",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
@@ -215,7 +224,8 @@
         "node-webkit",
         "electron",
         "desktop",
-        "javascript"
+        "javascript",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.smashingmagazine.com/",

@@ -11,6 +11,7 @@ tags:
   - javascript
   - app
   - shortcut
+  - development
 ---
 
 ## NW.js: The App and Shortcut APIs

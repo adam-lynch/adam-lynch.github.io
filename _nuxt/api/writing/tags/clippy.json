@@ -12,7 +12,8 @@
         "app",
         "NW.js",
         "node-webkit",
-        "javascript"
+        "javascript",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",

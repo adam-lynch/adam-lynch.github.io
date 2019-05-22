@@ -1,6 +1,7 @@
 const routes = require('../app/routes').routes
 const format = require('../helpers/path').format
 const blog = require('../blog')
+const getRelatedEntities = require('../helpers/getRelatedArticles')
 
 function toPlainObject (any) {
   if (Array.isArray(any)) {
@@ -22,10 +23,14 @@ module.exports = async function () {
         })
         break
       case '@nuxtjs/blog:article':
-        paths.push(...blog.articles.map(article => ({
-          route: format(route.path, article),
-          payload: toPlainObject(article)
-        })))
+        paths.push(...blog.articles.map(article => {
+          const result = toPlainObject(article)
+          result.moreArticles = getRelatedEntities(article, blog.articles)
+          return {
+            route: format(route.path, article),
+            payload: result
+          }
+        }))
         break
       case '@nuxtjs/blog:tag':
         paths.push(...blog.tags.map(tag => ({

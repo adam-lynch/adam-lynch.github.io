@@ -14,6 +14,7 @@ tags:
   - desktop
   - hybrid
   - mobile
+  - development
 ---
 
 ## Under the hood of a hybrid (app)

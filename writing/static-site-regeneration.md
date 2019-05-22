@@ -10,6 +10,7 @@ tags:
   - vue.js
   - nuxt.js
   - javascript
+  - development
 ---
 
 ## Static site regeneration and focusing on what's important

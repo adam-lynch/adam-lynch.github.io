@@ -12,6 +12,7 @@ tags:
   - distribution
   - generation
   - javascript
+  - development
 ---
 
 ## Building Your App: Creating Executables for NW.js

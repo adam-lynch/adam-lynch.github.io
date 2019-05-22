@@ -11,7 +11,8 @@
         "assets",
         "javascript",
         "css",
-        "third-party"
+        "third-party",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",

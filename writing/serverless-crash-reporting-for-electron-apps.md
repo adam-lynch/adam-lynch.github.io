@@ -9,6 +9,7 @@ tags:
   - electron
   - javascript
   - aws
+  - development
 ---
 
 ## Serverless crash reporting for Electron apps

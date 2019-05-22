@@ -15,7 +15,8 @@
         "markdown",
         "vue.js",
         "nuxt.js",
-        "javascript"
+        "javascript",
+        "development"
       ],
       "title": "Static site regeneration and focusing on what's important",
       "summary": "I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.\n",

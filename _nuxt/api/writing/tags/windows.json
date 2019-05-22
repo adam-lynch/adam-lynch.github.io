@@ -13,7 +13,8 @@
         "platform",
         "linux",
         "mac",
-        "windows"
+        "windows",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
@@ -37,7 +38,8 @@
         "platform",
         "linux",
         "mac",
-        "windows"
+        "windows",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
@@ -60,7 +62,8 @@
         "npm",
         "distribution",
         "windows",
-        "paths"
+        "paths",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
@@ -83,7 +86,8 @@
         "javascript",
         "windows",
         "install",
-        "installer"
+        "installer",
+        "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
@@ -105,7 +109,8 @@
         "npm",
         "distribution",
         "paths",
-        "windows"
+        "windows",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",

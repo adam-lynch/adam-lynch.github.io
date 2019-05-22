@@ -2,7 +2,7 @@
   "id": "developing-an-electron-edge",
   "slug": "developing-an-electron-edge",
   "highlightedLanguages": [],
-  "source": "---\ndate: 2016-05-25\nisBook: true\noriginal:\n  blogLink: https://bleedingedgepress.com/\n  blogName: Bleeding Edge Press\n  url: https://bleedingedgepress.com/developing-an-electron-edge/\n  onlyExternal: true\ntags:\n  - electron\n  - desktop\n  - javascript\n---\n\n## Developing an Electron Edge\n\n:::summary\n\nElectron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n\n:::\n",
+  "source": "---\ndate: 2016-05-25\nisBook: true\noriginal:\n  blogLink: https://bleedingedgepress.com/\n  blogName: Bleeding Edge Press\n  url: https://bleedingedgepress.com/developing-an-electron-edge/\n  onlyExternal: true\ntags:\n  - electron\n  - desktop\n  - javascript\n  - development\n---\n\n## Developing an Electron Edge\n\n:::summary\n\nElectron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n\n:::\n",
   "unfilteredRenderedBody": "<h2><a id=\"developing-an-electron-edge\" class=\"post-header-anchor\" href=\"#developing-an-electron-edge\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 8 8\"><path d=\"M5.88.03c-.18.01-.36.03-.53.09-.27.1-.53.25-.75.47a.5.5 0 1 0 .69.69c.11-.11.24-.17.38-.22.35-.12.78-.07 1.06.22.39.39.39 1.04 0 1.44l-1.5 1.5c-.44.44-.8.48-1.06.47-.26-.01-.41-.13-.41-.13a.5.5 0 1 0-.5.88s.34.22.84.25c.5.03 1.2-.16 1.81-.78l1.5-1.5c.78-.78.78-2.04 0-2.81-.28-.28-.61-.45-.97-.53-.18-.04-.38-.04-.56-.03zm-2 2.31c-.5-.02-1.19.15-1.78.75l-1.5 1.5c-.78.78-.78 2.04 0 2.81.56.56 1.36.72 2.06.47.27-.1.53-.25.75-.47a.5.5 0 1 0-.69-.69c-.11.11-.24.17-.38.22-.35.12-.78.07-1.06-.22-.39-.39-.39-1.04 0-1.44l1.5-1.5c.4-.4.75-.45 1.03-.44.28.01.47.09.47.09a.5.5 0 1 0 .44-.88s-.34-.2-.84-.22z\"></path></svg></a>Developing an Electron Edge</h2>\n<article-summary><p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n</article-summary>",
   "attributes": {
     "date": "2016-05-25T00:00:00.000Z",
@@ -25,10 +25,14 @@
       {
         "id": "javascript",
         "name": "javascript"
+      },
+      {
+        "id": "development",
+        "name": "development"
       }
     ],
     "title": "Developing an Electron Edge",
-    "updated_at": "2019-05-12T08:34:11.857Z"
+    "updated_at": "2019-05-22T08:25:41.666Z"
   },
   "title": "Developing an Electron Edge",
   "renderedSummary": "<p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n",
@@ -44,54 +48,127 @@
   "keywords": [
     "electron",
     "desktop",
-    "javascript"
+    "javascript",
+    "development"
   ],
   "published_at": "2016-05-25T00:00:00.000Z",
-  "updated_at": "2019-05-12T08:34:11.857Z",
+  "updated_at": "2019-05-22T08:25:41.666Z",
   "year": 2016,
   "month": 5,
   "day": 26,
   "next": {
-    "id": "beyond-the-browser-from-web-apps-to-desktop-apps",
-    "slug": "beyond-the-browser-from-web-apps-to-desktop-apps",
+    "id": "coffeescript-at-teamwork",
+    "slug": "coffeescript-at-teamwork",
     "collection": null,
     "keywords": [
-      "node-webkit",
-      "electron",
-      "desktop",
-      "javascript"
-    ],
-    "original": {
-      "blogLink": "https://www.smashingmagazine.com/",
-      "blogName": "Smashing Magazine",
-      "url": "https://www.smashingmagazine.com/2017/03/beyond-browser-web-desktop-apps/"
-    },
-    "title": "Beyond The Browser: From Web Apps To Desktop Apps",
-    "summary": "I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.\n",
-    "photo": "/images/blog-content/beyond-the-browser/chromiumDiagram.png",
-    "published_at": "2017-03-21T00:00:00.000Z",
-    "renderedSummary": "<p>I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.</p>\n"
-  },
-  "prev": {
-    "id": "hassle-free-third-party-dependencies",
-    "slug": "hassle-free-third-party-dependencies",
-    "collection": null,
-    "keywords": [
-      "dependencies",
-      "assets",
-      "javascript",
-      "css",
-      "third-party"
+      "coffeescript",
+      "teamwork",
+      "development"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/hassle-free-third-party-dependencies-9b6e0a4884ce"
+      "url": "https://engineroom.teamwork.com/coffeescript-at-teamwork-e596eed63590"
     },
-    "title": "Hassle-free third-party dependencies",
-    "summary": "How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…\n",
-    "photo": "/images/blog-content/hassle-free-third-party-dependencies/bower.png",
-    "published_at": "2014-08-29T00:00:00.000Z",
-    "renderedSummary": "<p>How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…</p>\n"
-  }
+    "title": "CoffeeScript at Teamwork",
+    "summary": "The first project at Teamwork to use CoffeeScript was the Teamwork.com iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…\n",
+    "photo": "/images/blog-content/coffeescript-at-teamwork/biscotto-output.jpg",
+    "published_at": "2014-09-26T00:00:00.000Z",
+    "renderedSummary": "<p>The first project at Teamwork to use CoffeeScript was the <a href=\"http://Teamwork.com\" rel=\"noopener\">Teamwork.com</a> iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…</p>\n"
+  },
+  "prev": {
+    "id": "dealing-with-long-paths",
+    "slug": "dealing-with-long-paths",
+    "collection": null,
+    "keywords": [
+      "NW.js",
+      "node-webkit",
+      "npm",
+      "distribution",
+      "paths",
+      "windows",
+      "development"
+    ],
+    "original": {
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
+    },
+    "title": "Dealing with long paths",
+    "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
+    "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
+    "published_at": "2015-07-01T00:00:00.000Z",
+    "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
+  },
+  "moreArticles": [
+    {
+      "id": "beyond-the-browser-from-web-apps-to-desktop-apps",
+      "slug": "beyond-the-browser-from-web-apps-to-desktop-apps",
+      "collection": null,
+      "keywords": [
+        "node-webkit",
+        "electron",
+        "desktop",
+        "javascript",
+        "development"
+      ],
+      "original": {
+        "blogLink": "https://www.smashingmagazine.com/",
+        "blogName": "Smashing Magazine",
+        "url": "https://www.smashingmagazine.com/2017/03/beyond-browser-web-desktop-apps/"
+      },
+      "title": "Beyond The Browser: From Web Apps To Desktop Apps",
+      "summary": "I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.\n",
+      "photo": "/images/blog-content/beyond-the-browser/chromiumDiagram.png",
+      "published_at": "2017-03-21T00:00:00.000Z",
+      "renderedSummary": "<p>I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.</p>\n"
+    },
+    {
+      "id": "flexible-data-tables-with-css-grid",
+      "slug": "flexible-data-tables-with-css-grid",
+      "collection": null,
+      "keywords": [
+        "css grid",
+        "css",
+        "javascript",
+        "table",
+        "data",
+        "responsive design",
+        "responsive",
+        "flexbox",
+        "resize column",
+        "web app",
+        "development",
+        "crm",
+        "sales"
+      ],
+      "title": "Flexible data tables with CSS Grid",
+      "summary": "Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the Teamwork CRM puzzle was the &quot;list view&quot;.\nIt's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.\n",
+      "photo": "/images/blog-content/flexible-data-tables-with-css-grid/wide3.png",
+      "published_at": "2019-05-12T00:00:00.000Z",
+      "renderedSummary": "<p>Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the <a href=\"https://www.teamwork.com/crm\" rel=\"noopener\">Teamwork CRM</a> puzzle was the &quot;list view&quot;.</p>\n<p>It's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.</p>\n"
+    },
+    {
+      "id": "serverless-crash-reporting-for-electron-apps",
+      "slug": "serverless-crash-reporting-for-electron-apps",
+      "collection": null,
+      "keywords": [
+        "serverless",
+        "electron",
+        "javascript",
+        "aws",
+        "development"
+      ],
+      "original": {
+        "blogLink": "https://engineroom.teamwork.com",
+        "blogName": "Teamwork's Engine Room",
+        "url": "https://engineroom.teamwork.com/serverless-crash-reporting-for-electron-apps-fe6e62e5982a"
+      },
+      "title": "Serverless crash reporting for Electron apps",
+      "summary": "The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from Electron apps.\n",
+      "photo": "https://cdn-images-1.medium.com/max/1600/1*7_8IQl1UmmFdv-Z3EwGNJg.png",
+      "published_at": "2016-11-22T00:00:00.000Z",
+      "renderedSummary": "<p>The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from <a href=\"http://electron.atom.io/\" rel=\"noopener\">Electron</a> apps.</p>\n"
+    }
+  ]
 }

@@ -14,7 +14,8 @@
         "node-webkit",
         "desktop",
         "hybrid",
-        "mobile"
+        "mobile",
+        "development"
       ],
       "original": {
         "blogLink": "https://engineroom.teamwork.com",
