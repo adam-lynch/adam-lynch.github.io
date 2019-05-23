@@ -71,53 +71,48 @@
   "year": 2015,
   "month": 11,
   "day": 18,
-  "relevanceScore": 2.25,
+  "relevanceScore": 0,
   "next": {
-    "id": "nwjs-app-and-shortcut-apis",
-    "slug": "nwjs-app-and-shortcut-apis",
+    "id": "coffeescript-at-teamwork",
+    "slug": "coffeescript-at-teamwork",
     "collection": null,
     "keywords": [
-      "node-webkit",
-      "desktop",
-      "javascript",
-      "app",
-      "shortcut",
+      "coffeescript",
+      "teamwork",
       "development"
     ],
     "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/nwjs-app-and-shortcut-apis"
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/coffeescript-at-teamwork-e596eed63590"
     },
-    "title": "NW.js: The App and Shortcut APIs",
-    "summary": "The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...\n",
-    "published_at": "2015-12-18T00:00:00.000Z",
-    "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
+    "title": "CoffeeScript at Teamwork",
+    "summary": "The first project at Teamwork to use CoffeeScript was the Teamwork.com iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…\n",
+    "photo": "/images/blog-content/coffeescript-at-teamwork/biscotto-output.jpg",
+    "published_at": "2014-09-26T00:00:00.000Z",
+    "renderedSummary": "<p>The first project at Teamwork to use CoffeeScript was the <a href=\"http://Teamwork.com\" rel=\"noopener\">Teamwork.com</a> iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…</p>\n"
   },
   "prev": {
-    "id": "flexible-data-tables-with-css-grid",
-    "slug": "flexible-data-tables-with-css-grid",
+    "id": "beyond-the-browser-from-web-apps-to-desktop-apps",
+    "slug": "beyond-the-browser-from-web-apps-to-desktop-apps",
     "collection": null,
     "keywords": [
-      "css grid",
-      "css",
+      "node-webkit",
+      "electron",
+      "desktop",
       "javascript",
-      "table",
-      "data",
-      "responsive design",
-      "responsive",
-      "flexbox",
-      "resize column",
-      "web app",
-      "development",
-      "crm",
-      "sales"
+      "development"
     ],
-    "title": "Flexible data tables with CSS Grid",
-    "summary": "Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the Teamwork CRM puzzle was the &quot;list view&quot;.\nIt's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.\n",
-    "photo": "/images/blog-content/flexible-data-tables-with-css-grid/wide3.png",
-    "published_at": "2019-05-12T00:00:00.000Z",
-    "renderedSummary": "<p>Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the <a href=\"https://www.teamwork.com/crm\" rel=\"noopener\">Teamwork CRM</a> puzzle was the &quot;list view&quot;.</p>\n<p>It's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.</p>\n"
+    "original": {
+      "blogLink": "https://www.smashingmagazine.com/",
+      "blogName": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/2017/03/beyond-browser-web-desktop-apps/"
+    },
+    "title": "Beyond The Browser: From Web Apps To Desktop Apps",
+    "summary": "I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.\n",
+    "photo": "/images/blog-content/beyond-the-browser/chromiumDiagram.png",
+    "published_at": "2017-03-21T00:00:00.000Z",
+    "renderedSummary": "<p>I started out as a web developer, and that’s now one part of what I do as a full-stack developer, but never had I imagined I’d create things for the desktop. I love the web. I love how altruistic our community is, how it embraces open-source, testing and pushing the envelope. I love discovering beautiful websites and powerful apps. When I was first tasked with creating a desktop app, I was apprehensive and intimidated. It seemed like it would be difficult, or at least… different.</p>\n"
   },
   "moreArticles": [
     {
