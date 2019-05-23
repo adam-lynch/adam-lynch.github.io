@@ -3,28 +3,26 @@
   "name": "node-webkit",
   "articles": [
     {
-      "id": "platform-detection",
-      "slug": "platform-detection",
+      "id": "nwjs-app-and-shortcut-apis",
+      "slug": "nwjs-app-and-shortcut-apis",
       "collection": null,
       "keywords": [
         "node-webkit",
         "desktop",
         "javascript",
-        "platform",
-        "linux",
-        "mac",
-        "windows",
+        "app",
+        "shortcut",
         "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
         "blogName": "Packt books",
-        "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+        "url": "https://www.packtpub.com/books/content/nwjs-app-and-shortcut-apis"
       },
-      "title": "Platform detection in your NW.js app",
-      "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
-      "published_at": "2016-01-26T00:00:00.000Z",
-      "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
+      "title": "NW.js: The App and Shortcut APIs",
+      "summary": "The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...\n",
+      "published_at": "2015-12-18T00:00:00.000Z",
+      "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
     },
     {
       "id": "under-the-hood-of-a-hybrid-app",
@@ -102,26 +100,28 @@
       "renderedSummary": "<p>Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...</p>\n"
     },
     {
-      "id": "nwjs-app-and-shortcut-apis",
-      "slug": "nwjs-app-and-shortcut-apis",
+      "id": "platform-detection",
+      "slug": "platform-detection",
       "collection": null,
       "keywords": [
         "node-webkit",
         "desktop",
         "javascript",
-        "app",
-        "shortcut",
+        "platform",
+        "linux",
+        "mac",
+        "windows",
         "development"
       ],
       "original": {
         "blogLink": "https://www.packtpub.com/books/content/blogs",
         "blogName": "Packt books",
-        "url": "https://www.packtpub.com/books/content/nwjs-app-and-shortcut-apis"
+        "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
       },
-      "title": "NW.js: The App and Shortcut APIs",
-      "summary": "The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...\n",
-      "published_at": "2015-12-18T00:00:00.000Z",
-      "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
+      "title": "Platform detection in your NW.js app",
+      "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
+      "published_at": "2016-01-26T00:00:00.000Z",
+      "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
     },
     {
       "id": "npm-distribution-path-length-problems",
