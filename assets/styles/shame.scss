@@ -13,6 +13,8 @@ $rowSaturationDelta: 2%;
 
 $linkColor: #5C7B8F;
 
+$cardBorderRadius: 5px;
+
 $minWidthToShowTitleInline: 42rem;
 $minWidthToShowNavigationItemsInline: 45rem;
 $minWidthToShowAllHeaderItemsInline: 59rem;
@@ -197,6 +199,8 @@ body {
   flex-wrap: wrap;
   min-width: 100%;
   width: 100%;
+  border-radius: $cardBorderRadius;
+  overflow: hidden;
 
   @media(min-width: $minWidthToShowAllHeaderItemsInline) {
     flex: 1 1 100%;
@@ -366,6 +370,7 @@ body {
 
   .posts & {
     margin: 0 auto;
+    border-radius: $cardBorderRadius;
 
     &:before,
     &:after {
@@ -374,6 +379,12 @@ body {
 
     &:before {
       animation: none;
+    }
+  }
+
+  .post-page-post-wrapper & {
+    @media(min-width: $widthWhenWrapperAndPaddingIsVisible) {
+      border-radius: $cardBorderRadius;
     }
   }
 
@@ -807,6 +818,7 @@ body {
   margin: 2rem 2rem 0;
   padding: 2rem;
   background: #fff;
+  border-radius: $cardBorderRadius;
 
   @media(min-width: $widthWhenWrapperAndPaddingIsVisible) {
     margin-left: 0;

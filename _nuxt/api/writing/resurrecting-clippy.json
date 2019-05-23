@@ -110,28 +110,26 @@
     "renderedSummary": "<p>I've been thinking about team leading a lot lately. When revisiting advice a friend asked for when transitioning to a team lead position, I decided to flesh it out and put it online. Most of the following will hopefully be helpful to anyone leading a team or any manager, although some will be more relevant to leaders of developers and developers transitioning into leadership roles. If it helps anyone, great. It will be a good reference for me at least. Alright, let's get to it.</p>\n"
   },
   "prev": {
-    "id": "platform-detection",
-    "slug": "platform-detection",
+    "id": "production-databases-tips",
+    "slug": "production-databases-tips",
     "collection": null,
     "keywords": [
-      "node-webkit",
-      "desktop",
-      "javascript",
-      "platform",
-      "linux",
-      "mac",
-      "windows",
-      "development"
+      "database",
+      "database-adminstration",
+      "dba",
+      "production",
+      "productivity",
+      "development",
+      "mysql",
+      "mssql",
+      "postgres",
+      "rockstar",
+      "satire"
     ],
-    "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
-    },
-    "title": "Platform detection in your NW.js app",
-    "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
-    "published_at": "2016-01-26T00:00:00.000Z",
-    "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
+    "title": "10 pro tips: how to work with production databases",
+    "summary": "The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...\n",
+    "published_at": "2018-08-05T00:00:00.000Z",
+    "renderedSummary": "<p>The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...</p>\n"
   },
   "moreArticles": [
     {

@@ -1,48 +1,25 @@
 [
   {
-    "id": "installing-your-nwjs-app-windows1",
-    "slug": "installing-your-nwjs-app-windows1",
+    "id": "nwjs-app-and-shortcut-apis",
+    "slug": "nwjs-app-and-shortcut-apis",
     "collection": null,
     "keywords": [
       "node-webkit",
       "desktop",
       "javascript",
-      "windows",
-      "install",
-      "installer",
+      "app",
+      "shortcut",
       "development"
     ],
     "original": {
       "blogLink": "https://www.packtpub.com/books/content/blogs",
       "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
+      "url": "https://www.packtpub.com/books/content/nwjs-app-and-shortcut-apis"
     },
-    "title": "Installing your NW.js app on Windows",
-    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-    "published_at": "2015-12-09T00:00:00.000Z",
-    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
-  },
-  {
-    "id": "serverless-crash-reporting-for-electron-apps",
-    "slug": "serverless-crash-reporting-for-electron-apps",
-    "collection": null,
-    "keywords": [
-      "serverless",
-      "electron",
-      "javascript",
-      "aws",
-      "development"
-    ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/serverless-crash-reporting-for-electron-apps-fe6e62e5982a"
-    },
-    "title": "Serverless crash reporting for Electron apps",
-    "summary": "The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from Electron apps.\n",
-    "photo": "https://cdn-images-1.medium.com/max/1600/1*7_8IQl1UmmFdv-Z3EwGNJg.png",
-    "published_at": "2016-11-22T00:00:00.000Z",
-    "renderedSummary": "<p>The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from <a href=\"http://electron.atom.io/\" rel=\"noopener\">Electron</a> apps.</p>\n"
+    "title": "NW.js: The App and Shortcut APIs",
+    "summary": "The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...\n",
+    "published_at": "2015-12-18T00:00:00.000Z",
+    "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
   },
   {
     "id": "under-the-hood-of-a-hybrid-app",
@@ -93,30 +70,8 @@
     "renderedSummary": "<p>JetBrains IDEs are the best. IntelliJ, Android Studio, PHPStorm, PyCharm, and so on. I use IntelliJ Ultimate myself, which is kind of like all of their IDEs in one. One of the things I love about any JetBrains…</p>\n"
   },
   {
-    "id": "static-site-regeneration",
-    "slug": "static-site-regeneration",
-    "collection": null,
-    "keywords": [
-      "writing",
-      "static-site-generation",
-      "headless-cms",
-      "jamstack",
-      "git",
-      "markdown",
-      "vue.js",
-      "nuxt.js",
-      "javascript",
-      "development"
-    ],
-    "title": "Static site regeneration and focusing on what's important",
-    "summary": "I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.\n",
-    "photo": "/images/blog-content/static-site-regeneration/nuxt.png",
-    "published_at": "2018-02-04T00:00:00.000Z",
-    "renderedSummary": "<p>I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.</p>\n"
-  },
-  {
-    "id": "transparency-and-nwjs",
-    "slug": "transparency-and-nwjs",
+    "id": "platform-detection",
+    "slug": "platform-detection",
     "collection": null,
     "keywords": [
       "node-webkit",
@@ -133,33 +88,144 @@
       "blogName": "Packt books",
       "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
     },
-    "title": "Transparency and NW.js",
-    "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
-    "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
+    "title": "Platform detection in your NW.js app",
+    "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
     "published_at": "2016-01-26T00:00:00.000Z",
-    "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
+    "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
   },
   {
-    "id": "nwjs-app-and-shortcut-apis",
-    "slug": "nwjs-app-and-shortcut-apis",
+    "id": "building-your-app-creating-executables-nwjs",
+    "slug": "building-your-app-creating-executables-nwjs",
     "collection": null,
     "keywords": [
       "node-webkit",
       "desktop",
+      "executable",
+      "distribution",
+      "generation",
       "javascript",
-      "app",
-      "shortcut",
       "development"
     ],
     "original": {
       "blogLink": "https://www.packtpub.com/books/content/blogs",
       "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/nwjs-app-and-shortcut-apis"
+      "url": "https://www.packtpub.com/books/content/building-your-app-creating-executables-nwjs"
     },
-    "title": "NW.js: The App and Shortcut APIs",
-    "summary": "The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...\n",
-    "published_at": "2015-12-18T00:00:00.000Z",
-    "renderedSummary": "<p>The NW.js GUI library provides an &quot;App&quot; API, which contains a variety of methods and properties, some of which are essential to pretty much any app, and some have more obscure use cases. You can access the API as follows...</p>\n"
+    "title": "Building Your App: Creating Executables for NW.js",
+    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+    "published_at": "2015-11-17T00:00:00.000Z",
+    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+  },
+  {
+    "id": "developing-an-electron-edge",
+    "slug": "developing-an-electron-edge",
+    "collection": null,
+    "isBook": true,
+    "keywords": [
+      "electron",
+      "desktop",
+      "javascript",
+      "development"
+    ],
+    "original": {
+      "blogLink": "https://bleedingedgepress.com/",
+      "blogName": "Bleeding Edge Press",
+      "url": "https://bleedingedgepress.com/developing-an-electron-edge/",
+      "onlyExternal": true
+    },
+    "title": "Developing an Electron Edge",
+    "summary": "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n",
+    "published_at": "2016-05-25T00:00:00.000Z",
+    "renderedSummary": "<p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n"
+  },
+  {
+    "id": "coffeescript-at-teamwork",
+    "slug": "coffeescript-at-teamwork",
+    "collection": null,
+    "keywords": [
+      "coffeescript",
+      "teamwork",
+      "development"
+    ],
+    "original": {
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/coffeescript-at-teamwork-e596eed63590"
+    },
+    "title": "CoffeeScript at Teamwork",
+    "summary": "The first project at Teamwork to use CoffeeScript was the Teamwork.com iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…\n",
+    "photo": "/images/blog-content/coffeescript-at-teamwork/biscotto-output.jpg",
+    "published_at": "2014-09-26T00:00:00.000Z",
+    "renderedSummary": "<p>The first project at Teamwork to use CoffeeScript was the <a href=\"http://Teamwork.com\" rel=\"noopener\">Teamwork.com</a> iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…</p>\n"
+  },
+  {
+    "id": "dealing-with-long-paths",
+    "slug": "dealing-with-long-paths",
+    "collection": null,
+    "keywords": [
+      "NW.js",
+      "node-webkit",
+      "npm",
+      "distribution",
+      "paths",
+      "windows",
+      "development"
+    ],
+    "original": {
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
+    },
+    "title": "Dealing with long paths",
+    "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
+    "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
+    "published_at": "2015-07-01T00:00:00.000Z",
+    "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
+  },
+  {
+    "id": "improve-permissions-ux",
+    "slug": "improve-permissions-ux",
+    "collection": null,
+    "keywords": [
+      "ux",
+      "permissions",
+      "pwa",
+      "web",
+      "javascript",
+      "notifications",
+      "geolocation",
+      "extension",
+      "browsers",
+      "development"
+    ],
+    "title": "How to improve your permissions UX",
+    "summary": "&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose some might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.\n",
+    "photo": "/images/blog-content/improve-permissions-ux/chris-wilson.png",
+    "published_at": "2018-03-03T00:00:00.000Z",
+    "renderedSummary": "<p>&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose <em>some</em> might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.</p>\n"
+  },
+  {
+    "id": "installing-your-nwjs-app-windows1",
+    "slug": "installing-your-nwjs-app-windows1",
+    "collection": null,
+    "keywords": [
+      "node-webkit",
+      "desktop",
+      "javascript",
+      "windows",
+      "install",
+      "installer",
+      "development"
+    ],
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
+    },
+    "title": "Installing your NW.js app on Windows",
+    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
+    "published_at": "2015-12-09T00:00:00.000Z",
+    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
   },
   {
     "id": "hassle-free-third-party-dependencies",
@@ -183,30 +249,6 @@
     "photo": "/images/blog-content/hassle-free-third-party-dependencies/bower.png",
     "published_at": "2014-08-29T00:00:00.000Z",
     "renderedSummary": "<p>How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…</p>\n"
-  },
-  {
-    "id": "random-open-api",
-    "slug": "random-open-api",
-    "collection": null,
-    "keywords": [
-      "api",
-      "open API",
-      "public API",
-      "twitter",
-      "bot",
-      "zeit",
-      "now",
-      "serverless",
-      "faas",
-      "node.js",
-      "cron",
-      "development"
-    ],
-    "title": "How I made the @randomOpenAPI Twitter bot in 42 minutes-ish",
-    "summary": "I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.\nThe natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' @randomMDN? It tweets a random article from MDN multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.\n",
-    "photo": "/images/blog-content/random-open-api/tweet.png",
-    "published_at": "2019-02-02T00:00:00.000Z",
-    "renderedSummary": "<p>I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.</p>\n<p>The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' <a href=\"https://twitter.com/randommdn\" rel=\"noopener\">@randomMDN</a>? It tweets a random article from <a href=\"https://developer.mozilla.org/en-US/\" rel=\"noopener\">MDN</a> multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.</p>\n"
   },
   {
     "id": "npm-distribution-path-length-problems",
@@ -234,26 +276,76 @@
     "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
   },
   {
-    "id": "improve-permissions-ux",
-    "slug": "improve-permissions-ux",
+    "id": "transparency-and-nwjs",
+    "slug": "transparency-and-nwjs",
     "collection": null,
     "keywords": [
-      "ux",
-      "permissions",
-      "pwa",
-      "web",
+      "node-webkit",
+      "desktop",
       "javascript",
-      "notifications",
-      "geolocation",
-      "extension",
-      "browsers",
+      "platform",
+      "linux",
+      "mac",
+      "windows",
       "development"
     ],
-    "title": "How to improve your permissions UX",
-    "summary": "&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose some might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.\n",
-    "photo": "/images/blog-content/improve-permissions-ux/chris-wilson.png",
-    "published_at": "2018-03-03T00:00:00.000Z",
-    "renderedSummary": "<p>&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose <em>some</em> might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.</p>\n"
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+    },
+    "title": "Transparency and NW.js",
+    "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
+    "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
+    "published_at": "2016-01-26T00:00:00.000Z",
+    "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
+  },
+  {
+    "id": "flexible-data-tables-with-css-grid",
+    "slug": "flexible-data-tables-with-css-grid",
+    "collection": null,
+    "keywords": [
+      "css grid",
+      "css",
+      "javascript",
+      "table",
+      "data",
+      "responsive design",
+      "responsive",
+      "flexbox",
+      "resize column",
+      "web app",
+      "development",
+      "crm",
+      "sales"
+    ],
+    "title": "Flexible data tables with CSS Grid",
+    "summary": "Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the Teamwork CRM puzzle was the &quot;list view&quot;.\nIt's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.\n",
+    "photo": "/images/blog-content/flexible-data-tables-with-css-grid/wide3.png",
+    "published_at": "2019-05-12T00:00:00.000Z",
+    "renderedSummary": "<p>Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the <a href=\"https://www.teamwork.com/crm\" rel=\"noopener\">Teamwork CRM</a> puzzle was the &quot;list view&quot;.</p>\n<p>It's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.</p>\n"
+  },
+  {
+    "id": "olc-ruin-someones-day-with-homoglyphs",
+    "slug": "olc-ruin-someones-day-with-homoglyphs",
+    "collection": null,
+    "keywords": [
+      "javascript",
+      "node.js",
+      "homoglyphs",
+      "prank",
+      "development"
+    ],
+    "original": {
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/olc-ruin-someones-day-with-homoglyphs-b14e9a1a05a4"
+    },
+    "title": "Olc: Ruin someone’s day with homoglyphs",
+    "summary": "You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…\n",
+    "photo": "/images/blog-content/olc-ruin-someones-day-with-homoglyphs/tweet.png",
+    "published_at": "2015-10-27T00:00:00.000Z",
+    "renderedSummary": "<p>You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…</p>\n"
   },
   {
     "id": "lessons-learned-leading-teams",
@@ -315,52 +407,6 @@
     "renderedSummary": "<p>Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...</p>\n"
   },
   {
-    "id": "platform-detection",
-    "slug": "platform-detection",
-    "collection": null,
-    "keywords": [
-      "node-webkit",
-      "desktop",
-      "javascript",
-      "platform",
-      "linux",
-      "mac",
-      "windows",
-      "development"
-    ],
-    "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
-    },
-    "title": "Platform detection in your NW.js app",
-    "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
-    "published_at": "2016-01-26T00:00:00.000Z",
-    "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
-  },
-  {
-    "id": "olc-ruin-someones-day-with-homoglyphs",
-    "slug": "olc-ruin-someones-day-with-homoglyphs",
-    "collection": null,
-    "keywords": [
-      "javascript",
-      "node.js",
-      "homoglyphs",
-      "prank",
-      "development"
-    ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/olc-ruin-someones-day-with-homoglyphs-b14e9a1a05a4"
-    },
-    "title": "Olc: Ruin someone’s day with homoglyphs",
-    "summary": "You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…\n",
-    "photo": "/images/blog-content/olc-ruin-someones-day-with-homoglyphs/tweet.png",
-    "published_at": "2015-10-27T00:00:00.000Z",
-    "renderedSummary": "<p>You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…</p>\n"
-  },
-  {
     "id": "production-databases-tips",
     "slug": "production-databases-tips",
     "collection": null,
@@ -383,118 +429,72 @@
     "renderedSummary": "<p>The goal here is get what you need done as quickly as possible and keep rolling. &quot;Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.&quot; - Mark Zuckerberg. 1. Connect to your production databases using the same tool you use for development. There's no need to...</p>\n"
   },
   {
-    "id": "flexible-data-tables-with-css-grid",
-    "slug": "flexible-data-tables-with-css-grid",
+    "id": "random-open-api",
+    "slug": "random-open-api",
     "collection": null,
     "keywords": [
-      "css grid",
-      "css",
-      "javascript",
-      "table",
-      "data",
-      "responsive design",
-      "responsive",
-      "flexbox",
-      "resize column",
-      "web app",
-      "development",
-      "crm",
-      "sales"
+      "api",
+      "open API",
+      "public API",
+      "twitter",
+      "bot",
+      "zeit",
+      "now",
+      "serverless",
+      "faas",
+      "node.js",
+      "cron",
+      "development"
     ],
-    "title": "Flexible data tables with CSS Grid",
-    "summary": "Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the Teamwork CRM puzzle was the &quot;list view&quot;.\nIt's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.\n",
-    "photo": "/images/blog-content/flexible-data-tables-with-css-grid/wide3.png",
-    "published_at": "2019-05-12T00:00:00.000Z",
-    "renderedSummary": "<p>Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the <a href=\"https://www.teamwork.com/crm\" rel=\"noopener\">Teamwork CRM</a> puzzle was the &quot;list view&quot;.</p>\n<p>It's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.</p>\n"
+    "title": "How I made the @randomOpenAPI Twitter bot in 42 minutes-ish",
+    "summary": "I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.\nThe natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' @randomMDN? It tweets a random article from MDN multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.\n",
+    "photo": "/images/blog-content/random-open-api/tweet.png",
+    "published_at": "2019-02-02T00:00:00.000Z",
+    "renderedSummary": "<p>I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.</p>\n<p>The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' <a href=\"https://twitter.com/randommdn\" rel=\"noopener\">@randomMDN</a>? It tweets a random article from <a href=\"https://developer.mozilla.org/en-US/\" rel=\"noopener\">MDN</a> multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.</p>\n"
   },
   {
-    "id": "developing-an-electron-edge",
-    "slug": "developing-an-electron-edge",
+    "id": "serverless-crash-reporting-for-electron-apps",
+    "slug": "serverless-crash-reporting-for-electron-apps",
     "collection": null,
-    "isBook": true,
     "keywords": [
+      "serverless",
       "electron",
-      "desktop",
       "javascript",
-      "development"
-    ],
-    "original": {
-      "blogLink": "https://bleedingedgepress.com/",
-      "blogName": "Bleeding Edge Press",
-      "url": "https://bleedingedgepress.com/developing-an-electron-edge/",
-      "onlyExternal": true
-    },
-    "title": "Developing an Electron Edge",
-    "summary": "Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.\n",
-    "published_at": "2016-05-25T00:00:00.000Z",
-    "renderedSummary": "<p>Electron combines Chromium and Node.js, empowering you to create real desktop apps with HTML, CSS, and JavaScript, which integrate tightly into the desktop environment. In Developing an Electron Edge, we cover all things Electron. We breakdown what Electron is and what you can achieve with it over a typical desktop or Web app. Not only will we cover the complete development process from beginning to end, but the packaging and delivery of your app as well. You’ll discover some platform specific issues, learn how to deploy automatic updates, and even take a look at using one codebase for the desktop and the Web.</p>\n"
-  },
-  {
-    "id": "dealing-with-long-paths",
-    "slug": "dealing-with-long-paths",
-    "collection": null,
-    "keywords": [
-      "NW.js",
-      "node-webkit",
-      "npm",
-      "distribution",
-      "paths",
-      "windows",
+      "aws",
       "development"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/dealing-with-long-paths-fcf412649a01"
+      "url": "https://engineroom.teamwork.com/serverless-crash-reporting-for-electron-apps-fe6e62e5982a"
     },
-    "title": "Dealing with long paths",
-    "summary": "You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…\n",
-    "photo": "/images/blog-content/dealing-with-long-paths/helping-hand.gif",
-    "published_at": "2015-07-01T00:00:00.000Z",
-    "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
+    "title": "Serverless crash reporting for Electron apps",
+    "summary": "The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from Electron apps.\n",
+    "photo": "https://cdn-images-1.medium.com/max/1600/1*7_8IQl1UmmFdv-Z3EwGNJg.png",
+    "published_at": "2016-11-22T00:00:00.000Z",
+    "renderedSummary": "<p>The term “serverless” has been trendy for a while now. In this post, I’m going to share my experience dabbling with serverless architecture, specifically for handling crash reports from <a href=\"http://electron.atom.io/\" rel=\"noopener\">Electron</a> apps.</p>\n"
   },
   {
-    "id": "coffeescript-at-teamwork",
-    "slug": "coffeescript-at-teamwork",
+    "id": "static-site-regeneration",
+    "slug": "static-site-regeneration",
     "collection": null,
     "keywords": [
-      "coffeescript",
-      "teamwork",
-      "development"
-    ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/coffeescript-at-teamwork-e596eed63590"
-    },
-    "title": "CoffeeScript at Teamwork",
-    "summary": "The first project at Teamwork to use CoffeeScript was the Teamwork.com iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…\n",
-    "photo": "/images/blog-content/coffeescript-at-teamwork/biscotto-output.jpg",
-    "published_at": "2014-09-26T00:00:00.000Z",
-    "renderedSummary": "<p>The first project at Teamwork to use CoffeeScript was the <a href=\"http://Teamwork.com\" rel=\"noopener\">Teamwork.com</a> iPad app. Fast forward two years. We now have web, mobile and even desktop apps built with CoffeeScript. If you need a primer, there’s no better place…</p>\n"
-  },
-  {
-    "id": "building-your-app-creating-executables-nwjs",
-    "slug": "building-your-app-creating-executables-nwjs",
-    "collection": null,
-    "keywords": [
-      "node-webkit",
-      "desktop",
-      "executable",
-      "distribution",
-      "generation",
+      "writing",
+      "static-site-generation",
+      "headless-cms",
+      "jamstack",
+      "git",
+      "markdown",
+      "vue.js",
+      "nuxt.js",
       "javascript",
       "development"
     ],
-    "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/building-your-app-creating-executables-nwjs"
-    },
-    "title": "Building Your App: Creating Executables for NW.js",
-    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-    "published_at": "2015-11-17T00:00:00.000Z",
-    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+    "title": "Static site regeneration and focusing on what's important",
+    "summary": "I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.\n",
+    "photo": "/images/blog-content/static-site-regeneration/nuxt.png",
+    "published_at": "2018-02-04T00:00:00.000Z",
+    "renderedSummary": "<p>I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.</p>\n"
   },
   {
     "id": "beyond-the-browser-from-web-apps-to-desktop-apps",

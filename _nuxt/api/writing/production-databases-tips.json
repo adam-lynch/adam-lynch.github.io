@@ -80,51 +80,52 @@
   "day": 6,
   "relevanceScore": 0.625,
   "next": {
-    "id": "olc-ruin-someones-day-with-homoglyphs",
-    "slug": "olc-ruin-someones-day-with-homoglyphs",
+    "id": "resurrecting-clippy",
+    "slug": "resurrecting-clippy",
     "collection": null,
     "keywords": [
+      "clippy",
+      "desktop",
+      "app",
+      "NW.js",
+      "node-webkit",
       "javascript",
-      "node.js",
-      "homoglyphs",
-      "prank",
       "development"
     ],
     "original": {
       "blogLink": "https://engineroom.teamwork.com",
       "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/olc-ruin-someones-day-with-homoglyphs-b14e9a1a05a4"
+      "url": "https://engineroom.teamwork.com/resurrecting-clippy-89843fcc9871"
     },
-    "title": "Olc: Ruin someone’s day with homoglyphs",
-    "summary": "You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…\n",
-    "photo": "/images/blog-content/olc-ruin-someones-day-with-homoglyphs/tweet.png",
-    "published_at": "2015-10-27T00:00:00.000Z",
-    "renderedSummary": "<p>You might have seen Ben Johnson’s tweet. I’m sorry everyone, I’ve made a module which makes this a lot easier to do. It’s called Olc. “Olc” is the Irish word for “bad” and is inconspicious enough to go…</p>\n"
+    "title": "Resurrecting Clippy",
+    "summary": "Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...\n",
+    "photo": "/images/blog-content/resurrecting-clippy/osx.png",
+    "published_at": "2016-03-08T00:00:00.000Z",
+    "renderedSummary": "<p>Remember Clippy? First shipped with Windows 97, Clippy was a “smart” assistant for Microsoft Office. A selfless shape-shifting paperclip who would appear out of nowhere to help you in any way it could. And how did you treat...</p>\n"
   },
   "prev": {
-    "id": "flexible-data-tables-with-css-grid",
-    "slug": "flexible-data-tables-with-css-grid",
+    "id": "random-open-api",
+    "slug": "random-open-api",
     "collection": null,
     "keywords": [
-      "css grid",
-      "css",
-      "javascript",
-      "table",
-      "data",
-      "responsive design",
-      "responsive",
-      "flexbox",
-      "resize column",
-      "web app",
-      "development",
-      "crm",
-      "sales"
+      "api",
+      "open API",
+      "public API",
+      "twitter",
+      "bot",
+      "zeit",
+      "now",
+      "serverless",
+      "faas",
+      "node.js",
+      "cron",
+      "development"
     ],
-    "title": "Flexible data tables with CSS Grid",
-    "summary": "Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the Teamwork CRM puzzle was the &quot;list view&quot;.\nIt's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.\n",
-    "photo": "/images/blog-content/flexible-data-tables-with-css-grid/wide3.png",
-    "published_at": "2019-05-12T00:00:00.000Z",
-    "renderedSummary": "<p>Now that we've launched, I can finally talk about the secret project I've been working on for the last two years. One interesting piece of the <a href=\"https://www.teamwork.com/crm\" rel=\"noopener\">Teamwork CRM</a> puzzle was the &quot;list view&quot;.</p>\n<p>It's a powerful page component which exists seven times in the app — a table on steroids essentially. I could talk about it for days but I won't bore you. I'll focus on how we added a lot of flexibility with a few lines of CSS (Grid). Namely, how we lay out data-heavy tables, how we support resizing of columns, and more.</p>\n"
+    "title": "How I made the @randomOpenAPI Twitter bot in 42 minutes-ish",
+    "summary": "I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.\nThe natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' @randomMDN? It tweets a random article from MDN multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.\n",
+    "photo": "/images/blog-content/random-open-api/tweet.png",
+    "published_at": "2019-02-02T00:00:00.000Z",
+    "renderedSummary": "<p>I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.</p>\n<p>The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' <a href=\"https://twitter.com/randommdn\" rel=\"noopener\">@randomMDN</a>? It tweets a random article from <a href=\"https://developer.mozilla.org/en-US/\" rel=\"noopener\">MDN</a> multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.</p>\n"
   },
   "moreArticles": [
     {

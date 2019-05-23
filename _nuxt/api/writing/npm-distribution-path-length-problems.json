@@ -77,52 +77,54 @@
   "year": 2015,
   "month": 12,
   "day": 8,
-  "relevanceScore": 0,
+  "relevanceScore": 0.29166666666666674,
   "next": {
-    "id": "random-open-api",
-    "slug": "random-open-api",
+    "id": "hassle-free-third-party-dependencies",
+    "slug": "hassle-free-third-party-dependencies",
     "collection": null,
     "keywords": [
-      "api",
-      "open API",
-      "public API",
-      "twitter",
-      "bot",
-      "zeit",
-      "now",
-      "serverless",
-      "faas",
-      "node.js",
-      "cron",
+      "dependencies",
+      "assets",
+      "javascript",
+      "css",
+      "third-party",
       "development"
     ],
-    "title": "How I made the @randomOpenAPI Twitter bot in 42 minutes-ish",
-    "summary": "I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.\nThe natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' @randomMDN? It tweets a random article from MDN multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.\n",
-    "photo": "/images/blog-content/random-open-api/tweet.png",
-    "published_at": "2019-02-02T00:00:00.000Z",
-    "renderedSummary": "<p>I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.</p>\n<p>The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' <a href=\"https://twitter.com/randommdn\" rel=\"noopener\">@randomMDN</a>? It tweets a random article from <a href=\"https://developer.mozilla.org/en-US/\" rel=\"noopener\">MDN</a> multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.</p>\n"
+    "original": {
+      "blogLink": "https://engineroom.teamwork.com",
+      "blogName": "Teamwork's Engine Room",
+      "url": "https://engineroom.teamwork.com/hassle-free-third-party-dependencies-9b6e0a4884ce"
+    },
+    "title": "Hassle-free third-party dependencies",
+    "summary": "How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…\n",
+    "photo": "/images/blog-content/hassle-free-third-party-dependencies/bower.png",
+    "published_at": "2014-08-29T00:00:00.000Z",
+    "renderedSummary": "<p>How do you manage your third-party assets? With my simple setup, all I have to do is run one command and reload the page. Lets take a look at managing our third-party dependencies with Bower and preprocessing them…</p>\n"
   },
   "prev": {
-    "id": "improve-permissions-ux",
-    "slug": "improve-permissions-ux",
+    "id": "transparency-and-nwjs",
+    "slug": "transparency-and-nwjs",
     "collection": null,
     "keywords": [
-      "ux",
-      "permissions",
-      "pwa",
-      "web",
+      "node-webkit",
+      "desktop",
       "javascript",
-      "notifications",
-      "geolocation",
-      "extension",
-      "browsers",
+      "platform",
+      "linux",
+      "mac",
+      "windows",
       "development"
     ],
-    "title": "How to improve your permissions UX",
-    "summary": "&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose some might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.\n",
-    "photo": "/images/blog-content/improve-permissions-ux/chris-wilson.png",
-    "published_at": "2018-03-03T00:00:00.000Z",
-    "renderedSummary": "<p>&quot;Welcome to Costco, can I have your phone number?&quot; Most people would refuse, right? Well I suppose <em>some</em> might oblige, but that depends on a host of factors. This is what permissions requests are like on the web. Let's take a look at how we can do better, before it's too late. Side note: a phone number is like a SnapChat username to your parents.</p>\n"
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+    },
+    "title": "Transparency and NW.js",
+    "summary": "Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...\n",
+    "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
+    "published_at": "2016-01-26T00:00:00.000Z",
+    "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
   },
   "moreArticles": [
     {
@@ -150,6 +152,30 @@
       "renderedSummary": "<p>You might have been unfortunate enough to learn that Windows has a 256-character limit on file paths. You could’ve run into this problem locally or on end users’ machines. We’ve created a simple little module called gulp-path-length to…</p>\n"
     },
     {
+      "id": "platform-detection",
+      "slug": "platform-detection",
+      "collection": null,
+      "keywords": [
+        "node-webkit",
+        "desktop",
+        "javascript",
+        "platform",
+        "linux",
+        "mac",
+        "windows",
+        "development"
+      ],
+      "original": {
+        "blogLink": "https://www.packtpub.com/books/content/blogs",
+        "blogName": "Packt books",
+        "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+      },
+      "title": "Platform detection in your NW.js app",
+      "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
+      "published_at": "2016-01-26T00:00:00.000Z",
+      "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
+    },
+    {
       "id": "transparency-and-nwjs",
       "slug": "transparency-and-nwjs",
       "collection": null,
@@ -173,30 +199,6 @@
       "photo": "/images/blog-content/transparency-and-nwjs/transparent-window-frame.png",
       "published_at": "2016-01-26T00:00:00.000Z",
       "renderedSummary": "<p>Yes, NW.js does support transparency, albeit it is disabled by default. One way to enable transparency is to use the transparency property to your application's manifest like this...</p>\n"
-    },
-    {
-      "id": "platform-detection",
-      "slug": "platform-detection",
-      "collection": null,
-      "keywords": [
-        "node-webkit",
-        "desktop",
-        "javascript",
-        "platform",
-        "linux",
-        "mac",
-        "windows",
-        "development"
-      ],
-      "original": {
-        "blogLink": "https://www.packtpub.com/books/content/blogs",
-        "blogName": "Packt books",
-        "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
-      },
-      "title": "Platform detection in your NW.js app",
-      "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
-      "published_at": "2016-01-26T00:00:00.000Z",
-      "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
     }
   ]
 }

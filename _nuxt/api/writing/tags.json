@@ -1,7 +1,7 @@
 [
   {
-    "id": "job",
-    "name": "job"
+    "id": "managing",
+    "name": "managing"
   },
   {
     "id": "node-webkit",
@@ -14,42 +14,6 @@
   {
     "id": "terminal",
     "name": "terminal"
-  },
-  {
-    "id": "serverless",
-    "name": "serverless"
-  },
-  {
-    "id": "now",
-    "name": "now"
-  },
-  {
-    "id": "zeit",
-    "name": "zeit"
-  },
-  {
-    "id": "twitter",
-    "name": "twitter"
-  },
-  {
-    "id": "teamwork",
-    "name": "teamwork"
-  },
-  {
-    "id": "public-api",
-    "name": "public API"
-  },
-  {
-    "id": "nodejs",
-    "name": "node.js"
-  },
-  {
-    "id": "nwjs",
-    "name": "NW.js"
-  },
-  {
-    "id": "open-api",
-    "name": "open API"
   },
   {
     "id": "nuxtjs",
@@ -66,6 +30,42 @@
   {
     "id": "writing",
     "name": "writing"
+  },
+  {
+    "id": "serverless",
+    "name": "serverless"
+  },
+  {
+    "id": "now",
+    "name": "now"
+  },
+  {
+    "id": "zeit",
+    "name": "zeit"
+  },
+  {
+    "id": "nodejs",
+    "name": "node.js"
+  },
+  {
+    "id": "teamwork",
+    "name": "teamwork"
+  },
+  {
+    "id": "twitter",
+    "name": "twitter"
+  },
+  {
+    "id": "nwjs",
+    "name": "NW.js"
+  },
+  {
+    "id": "public-api",
+    "name": "public API"
+  },
+  {
+    "id": "open-api",
+    "name": "open API"
   },
   {
     "id": "table",
@@ -108,18 +108,6 @@
     "name": "productivity"
   },
   {
-    "id": "production",
-    "name": "production"
-  },
-  {
-    "id": "third-party",
-    "name": "third-party"
-  },
-  {
-    "id": "shortcut",
-    "name": "shortcut"
-  },
-  {
     "id": "npm",
     "name": "npm"
   },
@@ -152,12 +140,8 @@
     "name": "notifications"
   },
   {
-    "id": "prank",
-    "name": "prank"
-  },
-  {
-    "id": "platform",
-    "name": "platform"
+    "id": "production",
+    "name": "production"
   },
   {
     "id": "technical-lead",
@@ -172,10 +156,6 @@
     "name": "project management"
   },
   {
-    "id": "teams",
-    "name": "teams"
-  },
-  {
     "id": "product-management",
     "name": "product management"
   },
@@ -188,100 +168,84 @@
     "name": "technical"
   },
   {
+    "id": "third-party",
+    "name": "third-party"
+  },
+  {
     "id": "people",
     "name": "people"
+  },
+  {
+    "id": "shortcut",
+    "name": "shortcut"
+  },
+  {
+    "id": "platform",
+    "name": "platform"
   },
   {
     "id": "programming",
     "name": "programming"
   },
   {
-    "id": "crm",
-    "name": "crm"
+    "id": "teams",
+    "name": "teams"
   },
   {
-    "id": "delegating",
-    "name": "delegating"
+    "id": "prank",
+    "name": "prank"
+  },
+  {
+    "id": "mssql",
+    "name": "mssql"
   },
   {
     "id": "mobile",
     "name": "mobile"
   },
   {
-    "id": "manager",
-    "name": "manager"
+    "id": "mysql",
+    "name": "mysql"
   },
   {
-    "id": "managing",
-    "name": "managing"
-  },
-  {
-    "id": "leading",
-    "name": "leading"
-  },
-  {
-    "id": "desktop",
-    "name": "desktop"
-  },
-  {
-    "id": "hybrid",
-    "name": "hybrid"
-  },
-  {
-    "id": "growth",
-    "name": "growth"
-  },
-  {
-    "id": "lead",
-    "name": "lead"
-  },
-  {
-    "id": "management",
-    "name": "management"
-  },
-  {
-    "id": "leadership",
-    "name": "leadership"
-  },
-  {
-    "id": "executable",
-    "name": "executable"
-  },
-  {
-    "id": "lead-developer",
-    "name": "lead developer"
-  },
-  {
-    "id": "install",
-    "name": "install"
-  },
-  {
-    "id": "installer",
-    "name": "installer"
-  },
-  {
-    "id": "extension",
-    "name": "extension"
-  },
-  {
-    "id": "linux",
-    "name": "linux"
+    "id": "flexbox",
+    "name": "flexbox"
   },
   {
     "id": "mac",
     "name": "mac"
   },
   {
+    "id": "markdown",
+    "name": "markdown"
+  },
+  {
+    "id": "management",
+    "name": "management"
+  },
+  {
+    "id": "manager",
+    "name": "manager"
+  },
+  {
+    "id": "api",
+    "name": "api"
+  },
+  {
+    "id": "linux",
+    "name": "linux"
+  },
+  {
+    "id": "css",
+    "name": "css"
+  },
+  {
     "id": "homoglyphs",
     "name": "homoglyphs"
   },
   {
-    "id": "geolocation",
-    "name": "geolocation"
-  },
-  {
-    "id": "distribution",
-    "name": "distribution"
+    "id": "hybrid",
+    "name": "hybrid"
   },
   {
     "id": "ide",
@@ -292,40 +256,76 @@
     "name": "jetbrains"
   },
   {
-    "id": "faas",
-    "name": "faas"
-  },
-  {
-    "id": "generation",
-    "name": "generation"
+    "id": "job",
+    "name": "job"
   },
   {
     "id": "javascript",
     "name": "javascript"
   },
   {
-    "id": "dependencies",
-    "name": "dependencies"
+    "id": "leading",
+    "name": "leading"
   },
   {
-    "id": "mysql",
-    "name": "mysql"
+    "id": "installer",
+    "name": "installer"
   },
   {
-    "id": "mssql",
-    "name": "mssql"
+    "id": "install",
+    "name": "install"
+  },
+  {
+    "id": "jamstack",
+    "name": "jamstack"
+  },
+  {
+    "id": "lead",
+    "name": "lead"
+  },
+  {
+    "id": "lead-developer",
+    "name": "lead developer"
+  },
+  {
+    "id": "leadership",
+    "name": "leadership"
+  },
+  {
+    "id": "faas",
+    "name": "faas"
   },
   {
     "id": "efficiency",
     "name": "efficiency"
   },
   {
-    "id": "flexbox",
-    "name": "flexbox"
+    "id": "executable",
+    "name": "executable"
   },
   {
-    "id": "development",
-    "name": "development"
+    "id": "geolocation",
+    "name": "geolocation"
+  },
+  {
+    "id": "generation",
+    "name": "generation"
+  },
+  {
+    "id": "growth",
+    "name": "growth"
+  },
+  {
+    "id": "git",
+    "name": "git"
+  },
+  {
+    "id": "headless-cms",
+    "name": "headless-cms"
+  },
+  {
+    "id": "extension",
+    "name": "extension"
   },
   {
     "id": "electron",
@@ -336,32 +336,8 @@
     "name": "gulp"
   },
   {
-    "id": "markdown",
-    "name": "markdown"
-  },
-  {
-    "id": "headless-cms",
-    "name": "headless-cms"
-  },
-  {
-    "id": "jamstack",
-    "name": "jamstack"
-  },
-  {
-    "id": "git",
-    "name": "git"
-  },
-  {
-    "id": "database-adminstration",
-    "name": "database-adminstration"
-  },
-  {
-    "id": "css-grid",
-    "name": "css grid"
-  },
-  {
-    "id": "cygwin",
-    "name": "cygwin"
+    "id": "browsers",
+    "name": "browsers"
   },
   {
     "id": "database",
@@ -372,32 +348,60 @@
     "name": "dba"
   },
   {
-    "id": "data",
-    "name": "data"
+    "id": "distribution",
+    "name": "distribution"
   },
   {
-    "id": "build",
-    "name": "build"
+    "id": "dependencies",
+    "name": "dependencies"
   },
   {
-    "id": "clippy",
-    "name": "clippy"
+    "id": "desktop",
+    "name": "desktop"
   },
   {
-    "id": "communication",
-    "name": "communication"
+    "id": "delegating",
+    "name": "delegating"
+  },
+  {
+    "id": "database-adminstration",
+    "name": "database-adminstration"
+  },
+  {
+    "id": "development",
+    "name": "development"
   },
   {
     "id": "coffeescript",
     "name": "coffeescript"
   },
   {
-    "id": "css",
-    "name": "css"
+    "id": "communication",
+    "name": "communication"
   },
   {
     "id": "cron",
     "name": "cron"
+  },
+  {
+    "id": "crm",
+    "name": "crm"
+  },
+  {
+    "id": "css-grid",
+    "name": "css grid"
+  },
+  {
+    "id": "cygwin",
+    "name": "cygwin"
+  },
+  {
+    "id": "data",
+    "name": "data"
+  },
+  {
+    "id": "clippy",
+    "name": "clippy"
   },
   {
     "id": "chat",
@@ -412,8 +416,8 @@
     "name": "build system"
   },
   {
-    "id": "browsers",
-    "name": "browsers"
+    "id": "build",
+    "name": "build"
   },
   {
     "id": "bot",
@@ -434,9 +438,5 @@
   {
     "id": "app",
     "name": "app"
-  },
-  {
-    "id": "api",
-    "name": "api"
   }
 ]

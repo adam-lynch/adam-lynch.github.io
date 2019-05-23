@@ -88,26 +88,28 @@
     "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
   },
   "prev": {
-    "id": "static-site-regeneration",
-    "slug": "static-site-regeneration",
+    "id": "platform-detection",
+    "slug": "platform-detection",
     "collection": null,
     "keywords": [
-      "writing",
-      "static-site-generation",
-      "headless-cms",
-      "jamstack",
-      "git",
-      "markdown",
-      "vue.js",
-      "nuxt.js",
+      "node-webkit",
+      "desktop",
       "javascript",
+      "platform",
+      "linux",
+      "mac",
+      "windows",
       "development"
     ],
-    "title": "Static site regeneration and focusing on what's important",
-    "summary": "I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.\n",
-    "photo": "/images/blog-content/static-site-regeneration/nuxt.png",
-    "published_at": "2018-02-04T00:00:00.000Z",
-    "renderedSummary": "<p>I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.</p>\n"
+    "original": {
+      "blogLink": "https://www.packtpub.com/books/content/blogs",
+      "blogName": "Packt books",
+      "url": "https://www.packtpub.com/books/content/transparency-and-nwjs"
+    },
+    "title": "Platform detection in your NW.js app",
+    "summary": "There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's os module, it isn't too difficult.\n",
+    "published_at": "2016-01-26T00:00:00.000Z",
+    "renderedSummary": "<p>There are various reasons why you might want to detect which platform or operating system your app is currently being ran on. Your keyboard shortcuts or UI may differ per platform, you might want to store files in platform-specific directories on disk, etc. Thanks to node's <a href=\"https://nodejs.org/api/os.html#os_os_platform\" rel=\"noopener\"><code>os</code></a> module, it isn't too difficult.</p>\n"
   },
   "moreArticles": [
     {

@@ -63,53 +63,50 @@
   "day": 23,
   "relevanceScore": 0.75,
   "next": {
-    "id": "installing-your-nwjs-app-windows1",
-    "slug": "installing-your-nwjs-app-windows1",
+    "id": "random-open-api",
+    "slug": "random-open-api",
     "collection": null,
     "keywords": [
-      "node-webkit",
-      "desktop",
-      "javascript",
-      "windows",
-      "install",
-      "installer",
+      "api",
+      "open API",
+      "public API",
+      "twitter",
+      "bot",
+      "zeit",
+      "now",
+      "serverless",
+      "faas",
+      "node.js",
+      "cron",
       "development"
     ],
-    "original": {
-      "blogLink": "https://www.packtpub.com/books/content/blogs",
-      "blogName": "Packt books",
-      "url": "https://www.packtpub.com/books/content/installing-your-nwjs-app-windows"
-    },
-    "title": "Installing your NW.js app on Windows",
-    "summary": "NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.\n",
-    "published_at": "2015-12-09T00:00:00.000Z",
-    "renderedSummary": "<p>NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.</p>\n"
+    "title": "How I made the @randomOpenAPI Twitter bot in 42 minutes-ish",
+    "summary": "I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.\nThe natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' @randomMDN? It tweets a random article from MDN multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.\n",
+    "photo": "/images/blog-content/random-open-api/tweet.png",
+    "published_at": "2019-02-02T00:00:00.000Z",
+    "renderedSummary": "<p>I love APIs. Especially open APIs. I wish there were way more of them. There's a lot of data out there we can't get our hands on. Imagine all of the unborn apps, studies, and infographics.</p>\n<p>The natural conclusion was to create a Twitter bot. Have you ever seen Stefan Judis' <a href=\"https://twitter.com/randommdn\" rel=\"noopener\">@randomMDN</a>? It tweets a random article from <a href=\"https://developer.mozilla.org/en-US/\" rel=\"noopener\">MDN</a> multiple times a day. I decided to create one of my own to raise awareness about open APIs. Plus it's an excuse for a small fun project.</p>\n"
   },
   "prev": {
-    "id": "under-the-hood-of-a-hybrid-app",
-    "slug": "under-the-hood-of-a-hybrid-app",
+    "id": "static-site-regeneration",
+    "slug": "static-site-regeneration",
     "collection": null,
     "keywords": [
-      "product",
-      "web",
+      "writing",
+      "static-site-generation",
+      "headless-cms",
+      "jamstack",
+      "git",
+      "markdown",
+      "vue.js",
+      "nuxt.js",
       "javascript",
-      "NW.js",
-      "node-webkit",
-      "desktop",
-      "hybrid",
-      "mobile",
       "development"
     ],
-    "original": {
-      "blogLink": "https://engineroom.teamwork.com",
-      "blogName": "Teamwork's Engine Room",
-      "url": "https://engineroom.teamwork.com/under-the-hood-of-a-hybrid-app-2215ce6e342a"
-    },
-    "title": "Under the hood of a hybrid (app)",
-    "summary": "It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...\n",
-    "photo": "/images/blog-content/under-the-hood-of-a-hybrid-app/nav.png",
-    "published_at": "2016-04-16T00:00:00.000Z",
-    "renderedSummary": "<p>It has been about a year since we had A peek under the hood of Teamwork Chat. Since then, we’ve added a few nice features, fixed some bugs, and introduced a couple. You know how it goes. More...</p>\n"
+    "title": "Static site regeneration and focusing on what's important",
+    "summary": "I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.\n",
+    "photo": "/images/blog-content/static-site-regeneration/nuxt.png",
+    "published_at": "2018-02-04T00:00:00.000Z",
+    "renderedSummary": "<p>I've had my own site for years now but I haven't used it for much. A refresh was needed. I was focusing on the wrong things, trying to do everything, and getting nowhere slowly. It hasn't changed much in appearance, but that's just the tip of the iceberg. It has been completely redone beneath the surface.</p>\n"
   },
   "moreArticles": [
     {
