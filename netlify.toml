@@ -1,3 +1,7 @@
 [[redirects]]
   from = "/ked"
   to = "https://adam-lynch.github.io/ked"
+  
+[[redirects]]
+  from = "/askblocker"
+  to = "https://adam-lynch.github.io/askblocker"
