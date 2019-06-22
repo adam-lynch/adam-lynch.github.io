@@ -1,5 +1,5 @@
 ---
-permalink: '/:slug'
+layout: 'ArticleList'
 ---
 
-hello
+hello, test.md

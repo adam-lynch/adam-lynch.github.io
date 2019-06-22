@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "dependencies": {},
   "devDependencies": {
-    "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0",
-    "vuepress": "^1.0.0-alpha.48"
+    "@vuepress/plugin-blog": "^1.1.0",
+    "@vuepress/theme-blog": "^1.1.0",
+    "vuepress": "^1.0.0-rc.1"
   },
   "scripts": {
     "start": "vuepress dev src",
@@ -19,13 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adam-lynch/adam-lynch.github.io.git"
+    "url": "https://github.com/adam-lynch/adam-lynch.github.io.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Adam Lynch",
+  "license": "MIT",
+  "private": true,
   "bugs": {
     "url": "https://github.com/adam-lynch/adam-lynch.github.io/issues"
   },
-  "homepage": "https://github.com/adam-lynch/adam-lynch.github.io#readme"
+  "homepage": "https://github.com/adam-lynch/adam-lynch.github.io"
 }
