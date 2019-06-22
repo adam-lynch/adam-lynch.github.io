@@ -39,11 +39,13 @@ module.exports = {
         directories: [
           {
             // Unique ID of current classification
-            id: 'post',
+            id: 'article',
             // Target directory
             dirname: 'writing',
             // Path of the `entry page` (or `list page`)
             path: '/',
+            layout: 'ArticlesIndex',
+            itemLayout: 'Article',
           },
         ],
       },
@@ -93,5 +95,5 @@ module.exports = {
   //   // },
   //   search: false
   // },
-  // cache: false,
+  cache: false,
 }

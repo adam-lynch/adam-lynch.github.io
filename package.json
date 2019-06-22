@@ -6,7 +6,6 @@
   "dependencies": {},
   "devDependencies": {
     "@vuepress/plugin-blog": "^1.1.0",
-    "@vuepress/theme-blog": "^1.1.0",
     "vuepress": "^1.0.0-rc.1"
   },
   "scripts": {
