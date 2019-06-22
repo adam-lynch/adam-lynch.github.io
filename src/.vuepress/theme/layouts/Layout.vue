@@ -1,100 +1,108 @@
 <template>
-  <div
-    class="theme-container"
-    :class="pageClasses"
-    @touchstart="onTouchStart"
-    @touchend="onTouchEnd"
-  >
-    <Navbar
-      v-if="shouldShowNavbar"
-      @toggle-sidebar="toggleSidebar"
-    />
+<div class="wrapper"
+  :class="pageClasses">
+    <main class="content">
 
-    <div
-      class="sidebar-mask"
-      @click="toggleSidebar(false)"
-    ></div>
+      <Header/>
 
-    <Sidebar
-      :items="sidebarItems"
-      @toggle-sidebar="toggleSidebar"
-    >
-      <slot
-        name="sidebar-top"
-        slot="top"
-      />
-      <slot
-        name="sidebar-bottom"
-        slot="bottom"
-      />
-    </Sidebar>
+      <!-- <Navbar
+        v-if="shouldShowNavbar"
+        @toggle-sidebar="toggleSidebar"
+      /> -->
 
-    <Home v-if="$page.frontmatter.home"/>
+      <!-- <div
+        class="sidebar-mask"
+        @click="toggleSidebar(false)"
+      ></div>
 
-    <Page
-      v-else
-      :sidebar-items="sidebarItems"
-    >
-      <slot
-        name="page-top"
-        slot="top"
-      />
+      <Sidebar
+        :items="sidebarItems"
+        @toggle-sidebar="toggleSidebar"
+      >
+        <slot
+          name="sidebar-top"
+          slot="top"
+        />
+        <slot
+          name="sidebar-bottom"
+          slot="bottom"
+        />
+      </Sidebar> -->
 
-      <slot
-        name="page-content"
-        slot="content"
-      />
+      <Home v-if="$page.frontmatter.home"/>
 
-      <slot
-        name="page-bottom"
-        slot="bottom"
-      />
-    </Page>
+      <Page
+        v-else
+        :sidebar-items="sidebarItems"
+      >
+        <slot
+          name="page-top"
+          slot="top"
+        />
+
+        <slot
+          name="page-content"
+          slot="content"
+        />
+
+        <slot
+          name="page-bottom"
+          slot="bottom"
+        />
+      </Page>
+    </main>
   </div>
 </template>
 
 <script>
 import Home from '@theme/components/Home.vue'
-import Navbar from '@theme/components/Navbar.vue'
+// import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
-import Sidebar from '@theme/components/Sidebar.vue'
+// import Sidebar from '@theme/components/Sidebar.vue'
+import Header from '@theme/components/Header/Header.vue'
 import { resolveSidebarItems } from '../util'
 
 export default {
-  components: { Home, Page, Sidebar, Navbar },
+  components: {
+    Header,
+    Home,
+    Page,
+    // Sidebar,
+    // Navbar,
+  },
 
   data () {
     return {
-      isSidebarOpen: false
+      // isSidebarOpen: false
     }
   },
 
   computed: {
-    shouldShowNavbar () {
-      const { themeConfig } = this.$site
-      const { frontmatter } = this.$page
-      if (
-        frontmatter.navbar === false
-        || themeConfig.navbar === false) {
-        return false
-      }
-      return (
-        this.$title
-        || themeConfig.logo
-        || themeConfig.repo
-        || themeConfig.nav
-        || this.$themeLocaleConfig.nav
-      )
-    },
+    // shouldShowNavbar () {
+    //   const { themeConfig } = this.$site
+    //   const { frontmatter } = this.$page
+    //   if (
+    //     frontmatter.navbar === false
+    //     || themeConfig.navbar === false) {
+    //     return false
+    //   }
+    //   return (
+    //     this.$title
+    //     || themeConfig.logo
+    //     || themeConfig.repo
+    //     || themeConfig.nav
+    //     || this.$themeLocaleConfig.nav
+    //   )
+    // },
 
-    shouldShowSidebar () {
-      const { frontmatter } = this.$page
-      return (
-        !frontmatter.home
-        && frontmatter.sidebar !== false
-        && this.sidebarItems.length
-      )
-    },
+    // shouldShowSidebar () {
+    //   const { frontmatter } = this.$page
+    //   return (
+    //     !frontmatter.home
+    //     && frontmatter.sidebar !== false
+    //     && this.sidebarItems.length
+    //   )
+    // },
 
     sidebarItems () {
       return resolveSidebarItems(
@@ -108,48 +116,49 @@ export default {
     pageClasses () {
       const userPageClass = this.$page.frontmatter.pageClass
       return [
-        {
-          'no-navbar': !this.shouldShowNavbar,
-          'sidebar-open': this.isSidebarOpen,
-          'no-sidebar': !this.shouldShowSidebar
-        },
+        // {
+        //   'no-navbar': !this.shouldShowNavbar,
+        //   'sidebar-open': this.isSidebarOpen,
+        //   'no-sidebar': !this.shouldShowSidebar
+        // },
         userPageClass
       ]
     }
   },
 
   mounted () {
-    this.$router.afterEach(() => {
-      this.isSidebarOpen = false
-    })
+    // this.$router.afterEach(() => {
+    //   this.isSidebarOpen = false
+    // })
   },
 
   methods: {
-    toggleSidebar (to) {
-      this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
-    },
+    // toggleSidebar (to) {
+    //   this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
+    // },
 
     // side swipe
-    onTouchStart (e) {
-      this.touchStart = {
-        x: e.changedTouches[0].clientX,
-        y: e.changedTouches[0].clientY
-      }
-    },
+    // onTouchStart (e) {
+    //   this.touchStart = {
+    //     x: e.changedTouches[0].clientX,
+    //     y: e.changedTouches[0].clientY
+    //   }
+    // },
 
-    onTouchEnd (e) {
-      const dx = e.changedTouches[0].clientX - this.touchStart.x
-      const dy = e.changedTouches[0].clientY - this.touchStart.y
-      if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) {
-        if (dx > 0 && this.touchStart.x <= 80) {
-          this.toggleSidebar(true)
-        } else {
-          this.toggleSidebar(false)
-        }
-      }
-    }
+    // onTouchEnd (e) {
+    //   const dx = e.changedTouches[0].clientX - this.touchStart.x
+    //   const dy = e.changedTouches[0].clientY - this.touchStart.y
+    //   if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) {
+    //     if (dx > 0 && this.touchStart.x <= 80) {
+    //       this.toggleSidebar(true)
+    //     } else {
+    //       this.toggleSidebar(false)
+    //     }
+    //   }
+    // }
   }
 }
 </script>
 
+<style lang="scss" src="@theme/styles/index.scss"></style>
 <style src="prismjs/themes/prism-tomorrow.css"></style>

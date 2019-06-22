@@ -20,6 +20,52 @@ module.exports = {
   //   ['script', { src: 'https://use.typekit.net/tci5xbk.js' }],
   //   ['script', null, 'try{Typekit.load({ async: true });}catch(e){}'],
   // ],
+  markdown: {
+    // TODO: anchor
+    // TODO: externalLinks
+    // TODO: extendMarkdown?
+    config: marked => {
+      const containerPlugin = require('markdown-it-container');
+      const figureRegex = /^figure ([^ ]+\.[a-z]+)( .+|\s+)?$/i
+      marked.use(containerPlugin, 'figure', {
+        validate: function (params) {
+          console.log('!!! marked validate')
+          return params.trim().match(figureRegex)
+        },
+
+        render: function (tokens, idx) {
+          const currentToken = tokens[idx]
+          const isCurrentTokenOpeningTag = currentToken.type === 'container_figure_open'
+          if (!isCurrentTokenOpeningTag) {
+            return ''
+          }
+
+          const matches = tokens[idx].info.trim().match(figureRegex)
+          const [fullMatch, relativePath, caption] = matches // eslint-disable-line no-unused-vars
+
+          const url = `/blog-content/${relativePath}`
+
+          let figcaption
+          if (caption) {
+            const trimmedCaption = caption.trim()
+            figcaption = trimmedCaption ? `<figcaption>${marked.render(trimmedCaption)}</figcaption>` : ''
+          } else {
+            figcaption = ''
+          }
+
+          return `<figure>
+            <a href="${url}"><img src="${url}" alt=""/></a>
+            ${figcaption}
+          </figure>`
+        }
+      })
+    },
+    plugins: [
+      // TODO
+
+    ],
+    // TODO: slugify
+  },
   plugins: [
     [
       '@vuepress/blog',
@@ -33,7 +79,7 @@ module.exports = {
             // Path of the `entry page` (or `list page`)
             path: '/',
             layout: 'ArticlesIndex',
-            itemLayout: 'Article',
+            itemLayout: 'ArticleLayout',
             itemPermalink: '/:slug',
             pagination: {
               // TODO
@@ -43,19 +89,11 @@ module.exports = {
       },
     ],
   ],
+  repoLink: false,
   themeConfig: {
-    repo: repoUrl,
+    docsRepo: repoUrl,
     editLinks: true,
     editLinkText: 'Edit page',
-    markdown: {
-      // TODO: anchor
-      // TODO: externalLinks
-      // TODO: extendMarkdown?
-      plugins: [
-        // TODO
-      ],
-      // TODO: slugify
-    },
     nav: [
       // TODO: links
       { text: 'Writing', link: '/' },

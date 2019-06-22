@@ -6,6 +6,10 @@
   "dependencies": {},
   "devDependencies": {
     "@vuepress/plugin-blog": "^1.1.0",
+    "date-fns": "^1.29.0",
+    "markdown-it-container": "^2.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
     "vuepress": "^1.0.0-rc.1"
   },
   "scripts": {

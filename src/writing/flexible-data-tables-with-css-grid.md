@@ -150,7 +150,7 @@ Over time, more and more columns will become fixed. The only way for users to ge
 
 We also store an array of column identifiers in localStorage, separate to the column width entries.
 
-## "Why didn't you just use {{ libraryName }}?"
+<h2>"Why didn't you just use <span v-html="'{{ libraryName }}'"/>?"</h2>
 
 I didn't want to just offload the problem to a heavy JavaScript library. It would be heavy, janky, wouldn't be responsive, and might not even use `<table>` at all. I also didn't want to write something like that myself. There must be a better way, I thought.
 
