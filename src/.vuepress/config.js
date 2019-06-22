@@ -1,18 +1,9 @@
+const repoUrl = 'https://github.com/adam-lynch/adam-lynch.github.io'
+
 module.exports = {
-  // title: 'Hello VuePress2',
-  // chainWebpack:  (config, isServer) => {
-  //   // config is an instance of ChainableConfig
-  // },
-  // configureWebpack: {
-  //   resolve: {
-  //     alias: {
-  //       // '@theme': '@vuepress/theme-default',
-  //     }
-  //   },
-  // },
-  // description: "I like to code, write, and dabble in design. I'm Teamwork CRM's technical lead.", // TODO
-  // evergreen: true,
-  // extraWatchFiles: [],
+  description: "I like to code, write, and dabble in design. I'm Teamwork CRM's technical lead.", // TODO
+  evergreen: true,
+  // TODO: head
   // head: [
   //   ['meta', { 'theme-color': 'theme-color', content: '#ffffff' }],
   //   ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png', sizes: '76x76' }],
@@ -31,8 +22,6 @@ module.exports = {
   // ],
   // permalink: '/:slug',
   plugins: [
-    // TODO: ga
-    // ga: 'UA-31546953-1',
     [
       '@vuepress/blog',
       {
@@ -46,54 +35,40 @@ module.exports = {
             path: '/',
             layout: 'ArticlesIndex',
             itemLayout: 'Article',
+            itemPermalink: '/:slug',
+            pagination: {
+              // TODO
+            }
           },
         ],
       },
     ],
   ],
-  // shouldPrefetch: () => true,
-  // // theme: '@vuepress/theme-blog',
-  // themeConfig: {
-  //   repo: 'adam-lynch/adam-lynch.github.io',
-  //   editLinks: true,
-  //   nav: [
-  //     { text: 'Writing', link: '/' },
-  //     { text: 'Code', link: 'https://google.com' },
-  //     { text: 'Edit page', link: 'https://google.com' },
-  //     { text: 'Twitter', link: 'https://google.com' },
-  //     { text: 'Email', link: 'https://google.com' },
-  //     { text: 'LinkedIn', link: 'https://google.com' },
-  //   ],
-  //   directories: [
-  //     {
-  //       // Unique ID of current classification
-  //       id: 'post',
-  //       // Target directory
-  //       dirname: '_posts',
-  //       // Path of the `entry page` (or `list page`)
-  //       path: '/',
-  //       pagination: {
-  //         lengthPerPage: 2,
-  //       },
-  //     },
-  //   ],
-  //   // modifyBlogPluginOptions(blogPlugnOptions) {
-  //   //   const writingDirectoryClassifier = {
-  //   //     id: 'writing',
-  //   //     dirname: 'writing',
-  //   //     path: '/',
-  //   //     layout: 'IndexWriting',
-  //   //     itemLayout: 'Writing',
-  //   //     itemPermalink: '/:slug',
-  //   //     pagination: {
-  //   //       perPagePosts: 5,
-  //   //     },
-  //   //   }
-
-  //   //   blogPlugnOptions.directories.push(writingDirectoryClassifier)
-  //   //   return blogPlugnOptions
-  //   // },
-  //   search: false
-  // },
-  cache: false,
+  themeConfig: {
+    repo: repoUrl,
+    editLinks: true,
+    editLinkText: 'Edit page',
+    markdown: {
+      // TODO: anchor
+      // TODO: externalLinks
+      // TODO: extendMarkdown?
+      plugins: [
+        // TODO
+      ],
+      // TODO: slugify
+    },
+    nav: [
+      // TODO: links
+      { text: 'Writing', link: '/' },
+      { text: 'Code', link: repoUrl },
+      { text: 'Edit page', link: 'https://google.com' },
+      { text: 'Twitter', link: 'https://google.com' },
+      { text: 'Email', link: 'https://google.com' },
+      { text: 'LinkedIn', link: 'https://google.com' },
+    ],
+    search: false,
+    sidebar: false,
+  },
+  title: 'Adam Lynch',
+  cache: false, // TODO: remove
 }
