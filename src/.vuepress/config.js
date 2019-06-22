@@ -20,7 +20,6 @@ module.exports = {
   //   ['script', { src: 'https://use.typekit.net/tci5xbk.js' }],
   //   ['script', null, 'try{Typekit.load({ async: true });}catch(e){}'],
   // ],
-  // permalink: '/:slug',
   plugins: [
     [
       '@vuepress/blog',
