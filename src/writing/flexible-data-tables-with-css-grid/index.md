@@ -14,9 +14,8 @@ tags:
   - development
   - crm
   - sales
+title: Flexible data tables with CSS Grid
 ---
-
-## Flexible data tables with CSS Grid
 
 ::: summary
 
@@ -26,10 +25,11 @@ It's a powerful page component which exists seven times in the app — a table o
 
 :::
 
+<!-- more -->
 
 First, I need to give some more context, starting with the purpose and design goals of these screens. Feel free to [skip to the CSS Grid bit](#just-get-to-css-grid-already).
 
-:::figure flexible-data-tables-with-css-grid/wide3.png The leads list view.
+:::figure wide3.png The leads list view2.
 :::
 
 Primarily it allows salespeople to scan a list of items like their leads or contacts, and find anything important they need to take action on. It's not like an Excel spreadsheet — we can do a better job at laying out the data, which there will be a lot of.
@@ -38,7 +38,7 @@ Everything we do is responsively designed. We start with the most narrow / const
 
 At its most minimal, the columns are stacked vertically within rows, spanning the full width of the screen. 
 
-:::figure flexible-data-tables-with-css-grid/narrow.png What a list view looks like on a narrow screen.
+:::figure narrow.png What a list view looks like on a narrow screen.
 :::
 
 Responsive tables are tricky. There are [several existing patterns](https://bradfrost.github.io/this-is-responsive/patterns.html) you could pick from. Consider what your users are trying to achieve and choose wisely. 
@@ -49,7 +49,7 @@ Assume there are a lot of columns (we'll look at how the user can configure the 
 
 Columns must have a minimum width and therefore only so many can fit into the viewport. As a result this table will be vertically and horizontally scrollable for a lot of salespeople.
 
-:::figure flexible-data-tables-with-css-grid/resizing-window.gif How the layout varies per window width. Sorry the GIF is a bit janky, I provide some interactive examples below.
+:::figure resizing-window.gif How the layout varies per window width. Sorry the GIF is a bit janky, I provide some interactive examples below.
 :::
 
 To begin with, we lay the table out as best we can using regular old-school table-layout CSS. Next, I'll show you how we enhance it with CSS Grid. Following that, how we leverage Grid to allow users to resize columns, which would be a lot more awkward with regular table-layout CSS.
@@ -128,7 +128,7 @@ We shouldn't make assumptions based on which column was or wasn't interacted wit
 
 Therefore, if you open the app for the first time, the columns are laid out as best as possible. If you resize your screen, they resize using the same ratios. Once you touch the resize handler of any column, all of the visible columns become fixed width.
 
-:::figure flexible-data-tables-with-css-grid/resizing-columns.gif Before, during, and after resizing a column. Sorry the GIF is a bit janky.
+:::figure resizing-columns.gif Before, during, and after resizing a column. Sorry the GIF is a bit janky.
 :::
 
 Once someone takes the time to tailor the screen to their needs, we take note. Any time a column is resized or made fixed, we create an independent localStorage entry mapping a column identifier to a pixel value.
@@ -139,7 +139,7 @@ Using something fluid probably wouldn't align with the user's intentions anyway.
 
 ## Toggling columns
 
-:::figure flexible-data-tables-with-css-grid/manage-columns.png Our modal for customizing which columns are shown.
+:::figure manage-columns.png Our modal for customizing which columns are shown.
 :::
 
 Imagine a salesperson has changed the column set using the above modal. If none of the chosen columns have been resized previously, they get laid out using the default `grid-template-column` values depending on their data type. For example, `minmax(150px, 3.33fr)`.

@@ -6,10 +6,9 @@ export default {
     Anchor,
     Navigation
   },
-  data() {
-    return {
-      githubAccountUrl: '// TODO',
-      siteUrl: '// TODO',
-    };
+  computed: {
+    githubAccountUrl() {
+      return this.$themeConfig.githubAccountUrl;
+    },
   },
 }

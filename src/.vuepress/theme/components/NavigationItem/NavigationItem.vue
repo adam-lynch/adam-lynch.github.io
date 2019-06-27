@@ -6,6 +6,7 @@
         class="navigation-link"
         :isAnchor="isExternal"
         :nuxtLinkTo="url"
+        :shouldShowOutboundIcon="false"
         :shouldTrackAnchorClicks="shouldTrackAnchorClicks">
           <span class="navigation-item-text">{{ text }}</span>
         </anchor-or-nuxt-link>

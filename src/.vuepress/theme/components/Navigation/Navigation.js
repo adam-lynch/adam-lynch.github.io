@@ -4,11 +4,13 @@ export default {
   components: {
     NavigationItem
   },
-  data() {
-    return {
-      githubAccountUrl: '// TODO',
-      repositoryUrl: '// TODO',
-    };
+  computed: {
+    githubAccountUrl() {
+      return this.$themeConfig.githubAccountUrl;
+    },
+    repositoryUrl() {
+      return this.$themeConfig.docsRepo;
+    },
   },
 }
 

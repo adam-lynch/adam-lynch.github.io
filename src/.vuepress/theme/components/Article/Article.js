@@ -42,7 +42,7 @@ export default {
     },
 
     to () {
-      return { name: '@nuxtjs/blog:article', params: Object.assign({ id: this.$route.params.id }, this.$attrs) }
+      return this.$page.path;
     }
   },
 
