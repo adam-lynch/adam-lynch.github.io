@@ -6,7 +6,9 @@ tags:
 
 ## Empathy is not the answer
 
+::: summary
 Cennydd Bowles wrote an absolutely fantastic book called [Future Ethics](https://www.future-ethics.com/) which covers... well, yeah... ethics. Aside from teaching essential ethics theory like utilitarianism, deontological, and virtue ethics, it challenges us to build a fairer future. Is it OK to do X as long as no one knows? Or as long as it's done in good faith? What if everyone else is doing it? Or if it's for "the greater good"? Interestingly, no one approach to ethics is right, o*r wrong,* all of the time.
+:::
 
 We're given a series of effective questions to challenge ourselves, like "Is this fair behind a 'veil of ignorance'?" I.e. would you think this design is fair even if you didn't know which person in the system you would be?
 
