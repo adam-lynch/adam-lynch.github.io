@@ -1,13 +1,23 @@
 ---
 date: 2019-12-11
 tags:
-  - TODO
+  - ethics
+  - product design
+  - product management
+  - design
+  - empathy
+  - user-centered design
+  - product
+  - compassionate design
+  - inclusive design
+  - inclusion
+  - diversity
 ---
 
-## Empathy is not the answer
+## Why empathy isn't a shortcut to great product design
 
 ::: summary
-Cennydd Bowles wrote an absolutely fantastic book called [Future Ethics](https://www.future-ethics.com/) which covers... well, yeah... ethics. Aside from teaching essential ethics theory like utilitarianism, deontological, and virtue ethics, it challenges us to build a fairer future. Is it OK to do X as long as no one knows? Or as long as it's done in good faith? What if everyone else is doing it? Or if it's for "the greater good"? Interestingly, no one approach to ethics is right, o*r wrong,* all of the time.
+Cennydd Bowles wrote an absolutely fantastic book called [Future Ethics](https://www.future-ethics.com/) which covers... well, yeah... ethics. Aside from teaching essential ethics theory like utilitarianism, deontological, and virtue ethics, it challenges us to build a fairer future. Is it OK to do X as long as no one knows? Or as long as it's done in good faith? What if everyone else is doing it? Or if it's for "the greater good"? Interestingly, no one approach to ethics is right, *or wrong,* all of the time.
 :::
 
 We're given a series of effective questions to challenge ourselves, like "Is this fair behind a 'veil of ignorance'?" I.e. would you think this design is fair even if you didn't know which person in the system you would be?
@@ -74,7 +84,7 @@ The first feels like we can ignore it for now [...] The second, by contrast, fee
 
 The truth is, stress cases exist for all kinds of products and services — even ones you likely never associate with a crisis. Here are just a few scenarios that are more common than we'd like to imagine:
 
-- A person who has received a threat from a previously unknown stalker, and needs to delete or make private every public account as quickly as possible.
+\- A person who has received a threat from a previously unknown stalker, and needs to delete or make private every public account as quickly as possible.
 [...]
 :::
 
@@ -84,7 +94,7 @@ In my experience, it's almost always best to design for the most constrained cas
 
 Similarly, web accessibility is often scoffed at; it's not worth the effort. It won't bring us in many more customers. Let's make something for 90% of people. How much would it improve our bottom line? Blah blah blah... Yet accessibility is good for all;
 
-::: quote https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/ W3C WAI
+::: quote [W3C WAI](https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/)
 While accessibility focuses on people with disabilities, many accessibility requirements also improve usability for everyone. Accessibility especially benefits people without disabilities who are in limiting situations, such as using the web on a mobile phone when visual attention is elsewhere, in bright sunlight, in a dark room, in a quiet environment, in a noisy environment, and in an emergency.
 :::
 
@@ -94,7 +104,7 @@ Needing a business case to validate everything is problematic anyway, but that m
 
 It's probably too late anyway. Products and services are typically created to make money. Designers then try to retroactively introduce empathy. Our intentions are good but this again is where we prematurely pat ourselves on the back.
 
-::: Cennydd Bowles — Future Ethics
+::: quote Cennydd Bowles — Future Ethics
 It can't be unethical; we used empathy!
 :::
 
