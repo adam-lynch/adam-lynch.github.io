@@ -26,7 +26,7 @@ Those principles and techniques are then used to analyse a host of common proble
 
 Notably though, the word "empathy" is absent, until the end of the book that is;
 
-::: quote Cennydd Bowles — Future Ethics
+::: quote https://www.future-ethics.com/ Cennydd Bowles, [Future Ethics](https://www.future-ethics.com/)
 Finally, be sceptical of empathy. Banal overuse has devalued the concept of empathy in design. Of course we should try to understand other people's life experiences, but empathy alone is no shortcut to ethical nirvana.
 :::
 
@@ -42,13 +42,13 @@ When it comes to product design, empathy can produce good results but it's just 
 
 Sometimes it gives us premature satisfaction and results in complacency;
 
-::: quote Cennydd Bowles — Future Ethics
+::: quote https://www.future-ethics.com/ Cennydd Bowles, [Future Ethics](https://www.future-ethics.com/)
 Empathy prompts us to give money to the beggar, but can also convince us we've done our bit, causing us to overlook means of tackling systemic homelessness.
 :::
 
 It can also introduce false positives, which can lead to bloat. We try to please each person who requests a feature or feed our egos as we think we understand what they need;
 
-::: quote Thomas Wendt — [Empathy as Faux Ethics](https://www.epicpeople.org/empathy-faux-ethics/)
+::: quote https://www.epicpeople.org/empathy-faux-ethics/ Thomas Wendt, [Empathy as Faux Ethics](https://www.epicpeople.org/empathy-faux-ethics/)
 It becomes an ethical practice designers use to feel better about the potentiality of making superfluous things that no one actually needs.
 :::
 
@@ -76,7 +76,7 @@ Do we care enough to find out what the experience is of people who are not like 
 
 Eric Meyer & Sara Wachter-Boettcher's [Design for Real Life](https://abookapart.com/products/design-for-real-life) encourages us to frame some edge cases as "stress cases." We may be "delighting" people like us but what if someone has an emergency? What if they're trying to achieve a task while their job is on the line? Impact can matter more than estimated frequency.
 
-::: quote Eric Meyer & Sara Wachter-Boettcher — Design for Real Life
+::: quote https://abookapart.com/products/design-for-real-life Eric Meyer & Sara Wachter-Boettcher, [Design for Real Life](https://abookapart.com/products/design-for-real-life)
 "Someone trying to shut down their account in a hurry is an edge case."
 "Someone trying to shut down their account in a hurry is a stress case."
 
@@ -94,7 +94,7 @@ In my experience, it's almost always best to design for the most constrained cas
 
 Similarly, web accessibility is often scoffed at; it's not worth the effort. It won't bring us in many more customers. Let's make something for 90% of people. How much would it improve our bottom line? Blah blah blah... Yet accessibility is good for all;
 
-::: quote [W3C WAI](https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/)
+::: quote https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/ [W3C WAI](https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/)
 While accessibility focuses on people with disabilities, many accessibility requirements also improve usability for everyone. Accessibility especially benefits people without disabilities who are in limiting situations, such as using the web on a mobile phone when visual attention is elsewhere, in bright sunlight, in a dark room, in a quiet environment, in a noisy environment, and in an emergency.
 :::
 
@@ -104,7 +104,7 @@ Needing a business case to validate everything is problematic anyway, but that m
 
 It's probably too late anyway. Products and services are typically created to make money. Designers then try to retroactively introduce empathy. Our intentions are good but this again is where we prematurely pat ourselves on the back.
 
-::: quote Cennydd Bowles — Future Ethics
+::: quote https://www.future-ethics.com/ Cennydd Bowles, [Future Ethics](https://www.future-ethics.com/)
 It can't be unethical; we used empathy!
 :::
 
