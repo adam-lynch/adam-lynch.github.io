@@ -24,7 +24,7 @@ tags:
   - css
 ---
 
-## TODO: Markdown
+## What to consider before adding Markdown to app
 
 ::: summary
 
@@ -59,7 +59,7 @@ Who will be using your app? How many would say formatting is important? All or j
 
 When adding Markdown, add the least amount possible. Keep it simple. If only a few little bits like bold and italics are needed, then leave it at that. It will make your life a lot easier in the long run.
 
-Sure, Markdown is nice in that in a lot of cases it enhances what users type. I.e. if someone wrote "I \*love\* this song", people generally understand that they're emphasizing "love" in that sentence. It makes sense to enhance that with styling and make it italics. 
+Sure, Markdown is nice in that in a lot of cases it enhances what users type. I.e. if someone wrote "I \*love\* this song", people generally understand that they're emphasizing "love" in that sentence. It makes sense to enhance that with styling and make it italics; I *love* this song.
 
 ::: quote https://daringfireball.net/projects/markdown/syntax#html John Gruber, [Markdown: Syntax](https://daringfireball.net/projects/markdown/syntax#html)
 
