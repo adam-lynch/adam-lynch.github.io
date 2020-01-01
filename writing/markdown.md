@@ -69,7 +69,7 @@ To this end, Markdown’s syntax is comprised entirely of punctuation characters
 
 :::
 
-If for something failed or support was removed, it could be shown as "I \*love\* this song" and no meaning is lost. We could, but it still wouldn't be nice to take away something that was previously supported even if it was an enhancement. Especially for some of the more intricate features of Markdown.
+If something failed or support was removed, it could be shown as "I \*love\* this song" and no meaning is lost. We could, but it still wouldn't be nice to take away something that was previously supported even if it was an enhancement. Especially for some of the more intricate features of Markdown.
 
 Yeah, there's probably more to Markdown than you realise. I advise you to read the specification(s) from top to bottom. Do you really want people to be able to create large headings? If the feature isn't for long-form text entry, like documents, then I wouldn't think so.
 
