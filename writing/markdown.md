@@ -24,7 +24,7 @@ tags:
   - css
 ---
 
-## What to consider before adding Markdown to app
+## What to consider before adding Markdown to your app
 
 ::: summary
 
