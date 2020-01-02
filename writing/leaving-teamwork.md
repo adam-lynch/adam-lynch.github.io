@@ -26,7 +26,7 @@ It was really tough breaking the news to people. I felt guilty and sad. I have a
 :::figure leaving-teamwork/words-vs-tears.png A line graph of tears versus words.
 :::
 
-When I joined, the domain was `http://teamworkpm.net`, there were 8/9 people in the company, and there was only one product. There are now 250 people and 5 products. If I had to guess at the time, I wouldn’t have imagined being here almost 6.5 years.
+When I joined, the domain was `http://teamworkpm.net`, there were 8/9 people in the company, and there was only one product. There are now 250 people and 5 products. If I had to guess at the time, I wouldn’t have imagined being there almost 6.5 years.
 
 I've worked on Teamwork Projects, the website, the mobile apps, desktop apps, launched Teamwork Chat and Teamwork CRM, plus a load of other things. It has been an amazing experience growing with the company. Always exciting and challenging.
 
