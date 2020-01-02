@@ -15,7 +15,7 @@
                 </span>
 
                 <span class="site-happy-text-tagline">
-                    I lead <anchor href="https://www.teamwork.com" class="site-happy-text-tagline-link" :shouldTrackClicks="true">Teamwork.com</anchor>'s next product.
+                    Co-founder & CTO of <anchor href="https://todesktop" class="site-happy-text-tagline-link" :shouldTrackClicks="true">ToDesktop</anchor>.
                 </span>
             </p>
         </div>
