@@ -21,7 +21,7 @@ Teamwork has been a massive part of my life. It has been a fantastic 6.5 years. 
 
 :::
 
-It was really tough breaking the news to people. I felt guilty and sad. I have an exciting opportunity ahead of me, but acknowledging I was leaving Teamwork was tough.
+It was really tough breaking the news to people. I felt guilty and sad. I have an exciting opportunity ahead of me, but it was tough to acknowledge that I was leaving Teamwork.
 
 :::figure leaving-teamwork/words-vs-tears.png A line graph of tears versus words.
 :::
