@@ -40,7 +40,7 @@ When I started my career, I had my eyes on Silicon Valley. I remember interviewi
 
 I'm joining [ToDesktop](https://todesktop.com) as co-founder and CTO. ToDesktop allows you  to convert your web app to a desktop app in 2 minutes. It saves you the hassle of having to build a desktop app from scratch, to figure out the security certificates, automatic app & security updates, building for Mac, Windows, and Linux, and more.
 
-I've known Dave Jeffrey (the CEO and founder) for years. We've ran the CorkJS meetup together for the last few years. He's brilliant. What he has achieved so far with ToDesktop is impressive, especially as a one-man band.
+I've known Dave Jeffery (the CEO and founder) for years. We've ran the CorkJS meetup together for the last few years. He's brilliant. What he has achieved so far with ToDesktop is impressive, especially as a one-man band.
 
 Personally, I've always strived to have the most impact or influence possible on a company. I put my heart and soul into what I work on. Deep down, I've always wanted to do my own thing, to make the big decisions. I'm grateful for the experiences I've had up until now, but I've always felt I had more to give.
 
