@@ -22,10 +22,10 @@ Teamwork has been a massive part of my life. It has been a fantastic 6.5 years. 
 
 It was really tough breaking the news to people. I felt guilty and sad. I have an exciting opportunity ahead of me, but acknowledging I was leaving Teamwork was tough.
 
-:::figure leaving-teamwork/words-vs-tears.png A line graph of tears over ~~time~~ words.
+:::figure leaving-teamwork/words-vs-tears.png A line graph of tears versus words.
 :::
 
-When I joined, the domain was [http://teamworkpm.net](http://teamworkpm.net/), there were 8/9 people in the company, and there was only one product. There are now 250 people and 5 products. If I had to guess at the time, I wouldn’t have imagined being here almost 6.5 years.
+When I joined, the domain was `http://teamworkpm.net`, there were 8/9 people in the company, and there was only one product. There are now 250 people and 5 products. If I had to guess at the time, I wouldn’t have imagined being here almost 6.5 years.
 
 I've worked on Teamwork Projects, the website, the mobile apps, desktop apps, launched Teamwork Chat and Teamwork CRM, plus a load of other things. It has been an amazing experience growing with the company. Always exciting and challenging.
 
@@ -53,4 +53,4 @@ It could be a complete disaster; I might be looking for a new job in a few month
 
 We have an idea of what we want to do but ultimately we're open to wherever this takes us. We have some feedback from customers, roadmap ideas, we'd like to have a remote-first company, and so on... but we don't want to get ahead of ourselves. I'm heading into this open-minded, ready to soak up as much as I can, and work as hard as I can. Who knows what will come out of it.
 
-So I head off tomorrow. I'm feeling both excited and nervous. I guess there would be something wrong if I wasn't nervous. For someone who likes to think long-term, it's a little jarring to be so unsure of what's ahead of me. The opportunity is undeniable though. Who knows where I'll be or what I'll be doing in a year's time, but bring it on.
+So I head off tomorrow. I'm feeling both excited and nervous. I guess there would be something wrong if I wasn't nervous. For someone who likes to think long-term, it's jarring to be so unsure of what's ahead of me. The opportunity is undeniable though. Who knows where I'll be or what I'll be doing in a year's time, but bring it on.
