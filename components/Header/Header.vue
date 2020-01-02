@@ -15,7 +15,7 @@
                 </span>
 
                 <span class="site-happy-text-tagline">
-                    Co-founder & CTO of <anchor href="https://todesktop.com" class="site-happy-text-tagline-link" :shouldTrackClicks="true">ToDesktop</anchor>.
+                    I'm co-founder & CTO of <anchor href="https://todesktop.com" class="site-happy-text-tagline-link" :shouldTrackClicks="true">ToDesktop</anchor>.
                 </span>
             </p>
         </div>
