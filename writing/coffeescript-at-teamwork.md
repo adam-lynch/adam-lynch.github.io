@@ -79,7 +79,7 @@ Let's say your editor is set up to use tabs by default instead of spaces. Now if
 
 ### Documentation
 
-Speaking of editors, Github recently released [Atom](https://atom.io/), their open-source text-editor built with CoffeeScript. I had a quick look through the source code and quickly noticed [Biscotto](https://github.com/gjtorikian/biscotto), a CoffeeScript documentation generator. To use Biscotto, you need to follow some nice comment conventions (which support Markdown); for example:
+Speaking of editors, Github recently released [Atom](https://atom.io/), their open-source text-editor built with CoffeeScript. I had a quick look through the source code and quickly noticed [Biscotto](https://github.com/gjtorikian/biscotto), a CoffeeScript documentation generator. To use Biscotto, you need to follow some nice comment conventions (which support [Markdown](https://adamlynch.com/markdown)); for example:
 
 ```coffeescript
 # Does something to something

@@ -32,7 +32,7 @@ It'll benefit me as well, of course. Writing forces me to further my understandi
 
 I find static site generators fascinating. The end user experience is optimal because it's just static HTML pages, generated in a compile step. It's also a cheaper, more security, and the developer experience is generally better. 
 
-I was compelled to write my own static generator using Gulp, Nunjucks templates, Markdown for content, an RSS feed, a pattern library (which is ridiculous looking back now), and more. The output was hosted on GitHub pages (plus CloudFlare HTTPS). This was the last version of my site. 
+I was compelled to write my own static generator using Gulp, Nunjucks templates, [Markdown](https://adamlynch.com/markdown) for content, an RSS feed, a pattern library (which is ridiculous looking back now), and more. The output was hosted on GitHub pages (plus CloudFlare HTTPS). This was the last version of my site. 
 
 I wanted to do so much and perfect it all but it never got here. Once I had a proof of concept, everything slowed down and my attention went elsewhere. I didn't even get around to properly publishing a blog on the site but I had the proof of concept running locally. Never mind the writing style analyzer, responsive screenshot testing, and other things I had planned to do. I learned that rolling your own static site generator isn't as difficult as it sounds. I might write a post on that.
 
