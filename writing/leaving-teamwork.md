@@ -5,13 +5,13 @@ tags:
   - teamwork
   - desktop apps
   - desktop
-  - startups
+  - startup
   - growth
   - personal growth
   - electron
 ---
 
-## TODO: title
+## I've left Teamwork to chase the startup dream
 
 ::: summary
 
