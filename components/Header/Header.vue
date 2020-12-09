@@ -11,7 +11,7 @@
                 <span class="site-happy-text-tagline">
                     I like to
                     <anchor :href="githubAccountUrl" class="site-happy-text-tagline-link" :shouldTrackClicks="true">code</anchor>,
-                    I like togit status
+                    I like to
                     <nuxt-link :to="{ name: '@nuxtjs/blog:index' }" class="site-happy-text-tagline-link">write</nuxt-link>.
                 </span>
 
