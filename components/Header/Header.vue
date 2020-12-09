@@ -11,11 +11,12 @@
                 <span class="site-happy-text-tagline">
                     I like to
                     <anchor :href="githubAccountUrl" class="site-happy-text-tagline-link" :shouldTrackClicks="true">code</anchor>,
-                    <nuxt-link :to="{ name: '@nuxtjs/blog:index' }" class="site-happy-text-tagline-link">write</nuxt-link>, and dabble in design.
+                    I like togit status
+                    <nuxt-link :to="{ name: '@nuxtjs/blog:index' }" class="site-happy-text-tagline-link">write</nuxt-link>.
                 </span>
 
                 <span class="site-happy-text-tagline">
-                    I'm co-founder & CTO of <anchor href="https://todesktop.com" class="site-happy-text-tagline-link" :shouldTrackClicks="true">ToDesktop</anchor>.
+                    Founder, CTO, developer, author.
                 </span>
             </p>
         </div>
