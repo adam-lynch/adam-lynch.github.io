@@ -59,7 +59,7 @@
     "node-sass": "^4.5.3",
     "nuxt": "^1.0.0",
     "pify": "^3.0.0",
-    "prismjs": "^1.9.0",
+    "prismjs": "^1.21.0",
     "raw-loader": "^0.5.1",
     "remove-markdown": "^0.2.2",
     "sass-loader": "^6.0.6",
