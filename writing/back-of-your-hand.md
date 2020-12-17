@@ -111,7 +111,7 @@ There's another problem it doesn't solve though. Imagine a large road where ther
 
 You could draw a rectangle around the street, expand it by N metres, and then include any same-named streets that intersect it.
 
-That works, but it's no match for Cork City. No matter what you do, it'll fine a way out. E.g. here's the Commons Road (it was formerly one road).
+That works, but it's no match for Cork City. No matter what you do, it'll find a way out. E.g. here's the Commons Road (it was formerly one road).
 
 :::figure back-of-your-hand/commons-road.png There are 13 segments in OpenStreetMap for "Commons Road" in Cork City.
 :::
