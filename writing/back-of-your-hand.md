@@ -132,7 +132,7 @@ I've used TypeScript to define some models, but not necessarily enforce them eve
 
 I used leaflet for the map component as well as some turf utilities. The map tiles are loaded in from two OpenStreetMap tile providers (one with street names, one without). I got the street data (names and shape data) from OpenStreetMap's Overpass API. I had to learn the Overpass Query Language for this but in the end, my query isn't too complicated (more about that later).
 
-I didn't find the need for a CSS preprocessor (there isn't much CSS). Although I did throw in PostCSS / autoprefixer at the end to handle vendor-prefix automatically.
+I didn't find the need for a CSS preprocessor (there isn't much CSS). Although I did throw in PostCSS / autoprefixer at the end to handle vendor-prefixes automatically.
 
 Doing it all client-side worked out well for my pocket and it was a fun challenge but it is limiting. I can't introduce a leaderboard for example.
 
@@ -188,7 +188,7 @@ way(around:2500,51.89854,-8.47029)[highway][name];
 out geom;
 ```
 
-This query uses the Overpass Query Language, rather the original "Overpass XML". You can paste this query into [Overpass Turbo](https://overpass-turbo.eu/) to try it out yourself and see the results on a map. The actual request sent by the app would look like [https://www.overpass-api.de/api/interpreter?data=[out:json](way(around:around:2500,51.89854,-8.47029)[highway][name];);out%20geom](<https://www.overpass-api.de/api/interpreter?data=[out:json](way(around:around:2500,51.89854,-8.47029)[highway][name];);out%20geom;>)
+This query uses the Overpass Query Language, rather the original "Overpass XML". You can paste this query into [Overpass Turbo](https://overpass-turbo.eu/) to try it out yourself and see the results on a map. The actual request sent by the app would look like `https://www.overpass-api.de/api/interpreter?data=[out:json](way(around:around:2500,51.89854,-8.47029)[highway][name];);out%20geom;`.
 
 The query says please find any roads / streets with a name, within 2.5km of a certain point. Oh, and I'd like a JSON response, but please include the geometry points for any matches too.
 
