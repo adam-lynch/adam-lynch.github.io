@@ -163,7 +163,7 @@ I did a lot of the typical stuff;
 
 These are the best scores I got from Lighthouse:
 
-:::figure back-of-your-hand/lighthouse-desktop.png Full marks on desktop in everything except for 93 for "Best practices". This is due to map tile image sizes.
+:::figure back-of-your-hand/lighthouse-desktop.png Full marks on desktop in everything except "Best practices" (93). This is due to map tile image sizes.
 :::
 
 :::figure back-of-your-hand/lighthouse-mobile.png Same as desktop except "Performance" is down to 96.
