@@ -130,7 +130,7 @@ As far as JavaScript goes, I've used Svelte with a sprinkle of TypeScript. I've 
 
 I've used TypeScript to define some models, but not necessarily enforce them everywhere. It was most useful when passing coordinates around between OpenStreetMap and third-party libraries, because each had a different way of representing them.
 
-I used leaflet for the map component as well as some turf utilities. The map tiles are loaded in from two OpenStreetMap tile providers (one with street names, one without). I got the street data (names and shape data) from OpenStreetMap's Overpass API. I had to learn the Overpass Query Language for this but in the end, my query isn't too complicated (more about that later).
+I used [Leaflet](leafletjs.com/) for the map component as well as some [Turf](https://github.com/Turfjs/turf) utilities. The map tiles are loaded in from two OpenStreetMap tile providers (one with street names, one without). I got the street data (names and shape data) from OpenStreetMap's Overpass API. I had to learn the Overpass Query Language for this but in the end, my query isn't too complicated (more about that later).
 
 I didn't find the need for a CSS preprocessor (there isn't much CSS). Although I did throw in PostCSS / autoprefixer at the end to handle vendor-prefixes automatically.
 
