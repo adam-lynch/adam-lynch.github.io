@@ -98,14 +98,14 @@ I thought it didn't matter if the street was shaped like an "S", the street data
 
 Hmm. It turns out that sometimes a street can be broken into multiple streets in the data, even if it's a straight road. I'm not sure why.
 
-:::figure back-of-your-hand/parnell-bridge-etc.png Dad Fact™️: Parnell Bridge is the only place in Cork City where you drive on the wrong side of the road. It's because it's surrounded by one-way systems.
-:::
-
 The desired result is that when a random street is selected by the program, all segments and points are included, so it can be correctly drawn on the screen and the distance can be measured accurately.
 
 One solution could be to include any streets that join it which have the same name. However, in some cases, the streets don't overlap but have endpoints that are right next to each other.
 
 You could extend that to grab streets that would be touching if they were moved by a couple of metres, i.e. almost touching streets. This is a little bit annoying (you'd need to move each street in a few directions) but I guess it works.
+
+:::figure back-of-your-hand/parnell-bridge-etc.png Dad Fact™️: Parnell Bridge is the only place in Cork City where you drive on the wrong side of the road. It's because it's surrounded by one-way systems.
+:::
 
 There's another problem it doesn't solve though. Imagine a large road where there's two parallel lanes and a huge median. They might be separated into separate streets in the data and are not touching or almost touching.
 
