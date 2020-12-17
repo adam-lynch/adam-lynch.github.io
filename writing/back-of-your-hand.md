@@ -35,7 +35,7 @@ And my dad was actually into it. This is a fella who asks "How long will it take
 
 [Back Of Your Hand](https://backofyourhand.com) is the result. It's a map-based game where you're given random street names and you have to locate them on the map. The area can be anywhere in the world (it's not limited to Cork or Ireland). You can play solo or [compete with others](https://backofyourhand.com/learn-more#how-to-compete-with-friends-or-family) using multiple phones / computers.
 
-He doesn't know yet, so keep it between us and the Internet please. Feel free to give a go though. Warning: it's tough (if you're from somewhere where the streets have no name).
+He doesn't know yet, so keep it between us and the Internet please. Feel free to give a go though. Warning: it's tough (unless you're from somewhere where the streets are numbered).
 
 I'll be delighted if he spends even a few minutes playing, but it was also a good little side project for me;
 
