@@ -85,7 +85,7 @@ Side note: I use CSS Grid to achieve this. If CSS Grid isn't supported, the cont
 
 ## Geolocation
 
-You might wonder why the area defaults to Cork (Ireland), and not where you are. I thought that using the browser's built-in Geolocation API (which triggers one of those permission prompts) would add too much friction / hassle.
+You might wonder why the area defaults to Cork (Ireland), and not where you are. I thought that using the browser's built-in Geolocation API (which triggers one of those permission prompts) would add too much [friction / hassle](https://adamlynch.com/improve-permissions-ux).
 I could've used a third-party API to look up your location based on your IP address. That means there would have to be a loading screen when you open the site. To make it worse, the location wouldn't even be that accurate (off by 100km+).
 
 So I decided to keep it simple. If someone can't locate their city on a map, this might not be the game for them anyway? Plus you only need to do it once; it'll be saved for next time.
