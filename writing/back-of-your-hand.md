@@ -101,7 +101,7 @@ Hmm. It turns out that sometimes a street can be broken into multiple streets in
 :::figure back-of-your-hand/parnell-bridge-etc.png Dad Fact™️: Parnell Bridge is the only place in Cork City where you drive on the wrong side of the road. It's because it's surrounded by one-way systems.
 :::
 
-The desired result is that when a random street is selected by the program, all segments and points are included, so it can be correctly drawn on the screen and the distance be measured accurately.
+The desired result is that when a random street is selected by the program, all segments and points are included, so it can be correctly drawn on the screen and the distance can be measured accurately.
 
 One solution could be to include any streets that join it which have the same name. However, in some cases, the streets don't overlap but have endpoints that are right next to each other.
 
