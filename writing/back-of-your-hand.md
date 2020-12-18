@@ -176,7 +176,7 @@ Like I said earlier, I had non-tech savvy users in mind, and even created a guid
 
 I'm sure there is something to improve though, I'm not an accessibility expert. Please let me know if there is. I know that work has been put in to make leaflet (the map component) as accessible as possible.
 
-I didn't do much as far as focus management goes and instead put in some (visually) hidden links to help the user jump back and forth. I didn't want to be to get it wrong / be too controlling. But then again, it is a map? Again, not an expert, open to suggestions.
+I didn't do much as far as focus management goes and instead put in some (visually) hidden links to help the user jump back and forth. I didn't want to get it wrong / be too controlling. But then again, it is a map? Again, not an expert, open to suggestions.
 
 ### Speeding up the Overpass query
 
