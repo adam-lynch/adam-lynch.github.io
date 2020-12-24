@@ -230,8 +230,8 @@ See [adam-lynch/back-of-your-hand](https://github.com/adam-lynch/back-of-your-ha
 
 ## Updates
 
-### Why streets may be split into multiple parts in the OpenStreetMap data
+Some nice members of the OpenStreetMap community have reached out to me and explained why some streets are split into multiple parts in the OpenStreetMap data. A street could be split into two consecutive pieces if the speed limit, surface, or lighting changes, if one part has a footpath but the other doesn't, etc.
 
-Some nice members of the OpenStreetMap community have reached out to me and explained why this is the case. A street could be split into two consecutive pieces if the speed limit, surface, or lighting changes, if one part has a footpath but the other doesn't, etc. This is due to OpenStreetMap's data model. These are all attributes / tags which can be used to slice and dice the data. The street's name is just another tag.
+This is due to OpenStreetMap's data model. These are all attributes / tags which can be used to slice and dice the data. The street's name is just another tag.
 
 Also, a street can is split into two _parallel_ lines when a u-turn is physically impossible (e.g. a motorway with a median / barrier in the center).
