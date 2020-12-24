@@ -96,7 +96,7 @@ At one stage in this project, I was really enjoying the maths side of it, probab
 
 I thought it didn't matter if the street was shaped like an "S", the street data would describe it correctly. However, one time when I made a correct guess, the game said it wasn't and then highlighted another stretch of the same road.
 
-Hmm. It turns out that sometimes a street can be broken into multiple streets in the data, even if it's a straight road. I'm not sure why.
+Hmm. It turns out that sometimes a street can be broken into multiple streets in the data, even if it's a straight road. I'm not sure why. Edit: see [Updates](#updates) for the answer.
 
 The desired result is that when a random street is selected by the program, all segments and points are included, so it can be correctly drawn on the screen and the distance can be measured accurately.
 
@@ -227,3 +227,11 @@ If you're interested in this kind of thing, check these out;
 ## Source code
 
 See [adam-lynch/back-of-your-hand](https://github.com/adam-lynch/back-of-your-hand).
+
+## Updates
+
+### Why streets may be split into multiple parts in the OpenStreetMap data
+
+Some nice members of the OpenStreetMap community have reached out to me and explained why this is the case. A street could be split into two consecutive pieces if the speed limit, surface, or lighting changes, if one part has a footpath but the other doesn't, etc. This is due to OpenStreetMap's data model. These are all attributes / tags which can be used to slice and dice the data. The street's name is just another tag.
+
+Also, a street can is split into two _parallel_ lines when a u-turn is physically impossible (e.g. a motorway with a median / barrier in the center).
