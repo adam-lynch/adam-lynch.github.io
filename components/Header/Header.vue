@@ -16,7 +16,7 @@
                 </span>
 
                 <span class="site-happy-text-tagline">
-                    Founder, CTO, developer, author.
+                    Developer, author. Currently at <a href="https://readwise.io">Readwise</a>.
                 </span>
             </p>
         </div>
