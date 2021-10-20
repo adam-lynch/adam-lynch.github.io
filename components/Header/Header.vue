@@ -16,7 +16,7 @@
                 </span>
 
                 <span class="site-happy-text-tagline">
-                    Developer, author. Currently at <a href="https://readwise.io">Readwise</a>.
+                    Developer, author. Currently at <a class="site-happy-text-tagline-link" href="https://readwise.io">Readwise</a>.
                 </span>
             </p>
         </div>
