@@ -50,7 +50,7 @@
     "flat": "^4.0.0",
     "front-matter": "^2.3.0",
     "fs-extra": "^4.0.2",
-    "markdown-it": "^8.4.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-container": "^2.0.0",
     "markdown-it-github-headings": "^1.1.0",
     "markdown-it-implicit-figures": "^0.6.0",
