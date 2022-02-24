@@ -22,7 +22,7 @@ tags:
 
 ::: summary
 
-I was sitting at my parents kitchen table with my Dad and uncle, some time pre-COVID. They were throwing Dad Facts™ back and forth about Cork City. Like how Brown's Hill is the shortest hill (it's a short alley with nine steps).
+I was sitting at my parents' kitchen table with my Dad and uncle, some time pre-COVID. They were throwing Dad Facts™ back and forth about Cork City. Like how Brown's Hill is the shortest hill (it's a short alley with nine steps).
 
 One thing lead to another and I started naming random streets from Google Maps to test them. It didn't matter how obscure I went, one of them would get it instantly. It was honestly really impressive. I know their jobs pre-retirement must've helped, but I'm convinced they were born part human, part map.
 

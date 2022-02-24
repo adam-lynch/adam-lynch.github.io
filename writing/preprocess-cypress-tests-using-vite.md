@@ -106,7 +106,7 @@ As you can see, we’re told where the input file is and where the compiled file
 
 This callback will fire for HMTL files (when open / visit any HTML fixtures in your tests). This is how to preprocess a HTML file (including any assets imported / loaded by it):
 
-```jsx
+```javascript
 const path = require('path');
 const vite = require('vite');
 
@@ -150,7 +150,7 @@ Side note: yes, Vite uses Rollup under the hood.
 
 For JavaScript files, Vite will ask us to preprocess our test specs. Vite will then traverse imports (e.g. your library) and create a single bundle / output JavaScript file.
 
-```jsx
+```javascript
 if(filename.endsWith('.html')) {
 	// ...
 } else {
@@ -186,7 +186,7 @@ Cypress supports `.spec.ts` test files and imports. None of what I'm covering is
 
 If you run your tests with the interactive test runner (not the headless Electron test runner), you’ll notice that neither your test code nor imported files are being watched. When edited, the tests should stop and re-run. Let’s implement that;
 
-```jsx
+```javascript
 if(filename.endsWith('.html')) {
   // ...
 } else {
@@ -222,7 +222,7 @@ Finally, if Cypress tells us we no longer need to watch the file (via the file `
 
 The same file could be preprocessed multiple times. E.g. if you click a button to rerun the tests or if you save a file in your IDE without any making any changes. Skipping unnecessary rebuilds would speed things up then;
 
-```jsx
+```javascript
 // ...
 
 const cache = {};
