@@ -1,6 +1,5 @@
 ---
 date: 2020-12-17
-dateLastUpdated: 2022-03-13
 tags:
   - map
   - game
@@ -17,6 +16,7 @@ tags:
   - performance
   - lighthouse
   - geoguessr
+updated_at: 2022-03-13
 ---
 
 ## Introducing Back Of Your Hand
