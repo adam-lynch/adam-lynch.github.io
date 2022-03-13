@@ -119,6 +119,7 @@ module.exports = class Article {
       summary: this.summary,
       photo: this.photo,
       published_at: this.published_at, // eslint-disable-line camelcase
+      updated_at: this.updated_at, // eslint-disable-line camelcase
       renderedSummary: this.renderedSummary
     }
   }
