@@ -295,7 +295,7 @@ module.exports = class Article {
     attributes.date = new Date(attributes.date)
 
     if (!('updated_at' in attributes)) {
-      attributes.updated_at = new Date(stats.mtime) // eslint-disable-line camelcase
+      attributes.updated_at = attributes.date // eslint-disable-line camelcase
     }
 
     attributes.updated_at = new Date(attributes.updated_at)
