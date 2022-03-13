@@ -5,6 +5,13 @@ import Clipboard from 'clipboard'
 import Anchor from '~/components/Anchor/Anchor.vue'
 import PostPreview from '~/components/PostPreview/PostPreview.vue'
 
+const getPrettyDate = function (input) {
+  const thisYear = format(new Date(), 'YYYY')
+  const postYear = format(input, 'YYYY')
+  const year = thisYear === postYear ? '' : `, ${postYear}`
+  return format(input, 'MMMM Do') + year
+}
+
 export default {
   components: {
     Anchor,
@@ -22,11 +29,14 @@ export default {
     },
 
     prettyDate () {
-      const thisYear = format(new Date(), 'YYYY')
-      const articleDate = this.article.updated_at || this.article.published_at
-      const postYear = format(articleDate, 'YYYY')
-      const year = thisYear === postYear ? '' : `, ${postYear}`
-      return format(articleDate, 'MMMM Do') + year
+      return getPrettyDate(this.article.published_at)
+    },
+
+    prettyUpdatedAt () {
+      if (!this.article.updated_at) {
+        return ''
+      }
+      return getPrettyDate(this.article.updated_at)
     },
 
     to () {

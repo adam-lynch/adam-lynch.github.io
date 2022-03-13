@@ -6,7 +6,8 @@
       </h2>
 
       <div class="post-meta">
-          <time class="post-blog-date" :datetime="this.article.updated_at || this.article.published_at">{{ prettyDate }}</time>
+          <time class="post-blog-date" :datetime="this.article.published_at">{{ prettyDate }}</time>
+          <span v-if="this.article.updated_at && this.article.updated_at !== this.article.published_at">. Last updated: <time class="post-blog-date" :datetime="this.article.updated_at">{{ prettyUpdatedAt }}</time></span>
           <!-- Production is broken without this, I'm not sure why -->
           <no-ssr>
             <span class="post-blog-title" v-if="article && article.original">
