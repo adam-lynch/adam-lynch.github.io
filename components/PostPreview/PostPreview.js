@@ -32,9 +32,10 @@ export default {
     },
     prettyDate () {
       const thisYear = format(new Date(), 'YYYY')
-      const postYear = format(this.published_at, 'YYYY')
+      const articleDate = this.article.updated_at || this.article.published_at
+      const postYear = format(articleDate, 'YYYY')
       const year = thisYear === postYear ? '' : `, ${postYear}`
-      return format(this.published_at, 'MMMM Do') + year
+      return format(articleDate, 'MMMM Do') + year
     },
     to () {
       return { name: '@nuxtjs/blog:article', params: Object.assign({ id: this.id }, this.$attrs) }
