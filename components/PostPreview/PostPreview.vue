@@ -12,7 +12,7 @@
     </h3>
 
     <div class="post-meta">
-        <time class="post-blog-date">{{ prettyDate }}</time>
+        <time class="post-blog-date" :datetime="this.updated_at || this.published_at">{{ prettyDate }}</time>
           <span class="post-blog-title" v-if="original && original.onlyExternal">
               <anchor :href="original.blogLink" class="post-blog-link" :shouldTrackClicks="true">{{ original.blogName }}</anchor>
           </span>
