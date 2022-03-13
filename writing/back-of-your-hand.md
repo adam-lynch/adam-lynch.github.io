@@ -1,5 +1,6 @@
 ---
 date: 2020-12-17
+dateLastUpdated: 2022-03-13
 tags:
   - map
   - game
@@ -86,9 +87,20 @@ Side note: I use CSS Grid to achieve this. If CSS Grid isn't supported, the cont
 ## Geolocation
 
 You might wonder why the area defaults to Cork (Ireland), and not where you are. I thought that using the browser's built-in Geolocation API (which triggers one of those permission prompts) would add too much [friction / hassle](https://adamlynch.com/improve-permissions-ux).
+
 I could've used a third-party API to look up your location based on your IP address. That means there would have to be a loading screen when you open the site. To make it worse, the location wouldn't even be that accurate (off by 100km+).
 
 So I decided to keep it simple. If someone can't locate their city on a map, this might not be the game for them anyway? Plus you only need to do it once; it'll be saved for next time.
+
+### Edit: geolocation now supported
+
+I've since added geolocation, i.e. it now shows your location by default rather than Cork. If you've played a round before, it'll use the location from that rather than trying to guess where you are.
+
+I had to migrate the site to Cloudflare Pages to achieve this. Their edge handlers / workers provide geolocation information. Netlify (the original host) supports it too but it's in a closed beta (for years now).
+
+The geolocation information isn't always accurate and can even return different results minutes apart (on the same network) but it's good enough. 
+
+I've made one exception for Ireland. It can incorrectly resolve to Dublin sporadically. If it's going to be incorrect I'd rather it just default to Cork, so I made it display Cork whenever it thinks you're in Dublin. Corcaigh abú!
 
 ## The 'Lioscarrig Drive problem'
 
