@@ -32,7 +32,7 @@ export default {
     },
     prettyDate () {
       const thisYear = format(new Date(), 'YYYY')
-      const articleDate = this.article.updated_at || this.article.published_at
+      const articleDate = this.updated_at || this.published_at
       const postYear = format(articleDate, 'YYYY')
       const year = thisYear === postYear ? '' : `, ${postYear}`
       return format(articleDate, 'MMMM Do') + year
@@ -78,6 +78,10 @@ export default {
       type: String
     },
     published_at: {
+      required: true,
+      type: String
+    },
+    updated_at: {
       required: true,
       type: String
     }
