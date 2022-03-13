@@ -82,7 +82,6 @@ export default {
       type: String
     },
     updated_at: {
-      required: true,
       type: String
     }
   }
