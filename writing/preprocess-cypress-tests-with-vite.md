@@ -88,7 +88,8 @@ In your test directory, `plugins/index.js` allows us to hook into the Cypress ru
 
 ```javascript
 module.exports = (on, config) => {
-  on('file:preprocessor', async ({ filePath, outputPath, shouldWatch }) => {
+  on('file:preprocessor', async (file) => {
+    const { filePath, outputPath, shouldWatch } = file;
     // TODO: compile with Vite
     return outputPath;
   });
@@ -111,7 +112,8 @@ const path = require('path');
 const vite = require('vite');
 
 module.exports = (on, config) => {
-  on('file:preprocessor', async ({ filePath, outputPath, shouldWatch }) => {
+  on('file:preprocessor', async (file) => {
+    const { filePath, outputPath, shouldWatch } = file;
     const filename = path.basename(outputPath);
     const filenameWithoutExtension = path.basename(outputPath, path.extname(outputPath));
 
@@ -228,7 +230,8 @@ The same file could be preprocessed multiple times. E.g. if you click a button t
 const cache = {};
 
 module.exports = (on, config) => {
-  on('file:preprocessor', async ({ filePath, outputPath, shouldWatch }) => {
+  on('file:preprocessor', async (file) => {
+    const { filePath, outputPath, shouldWatch } = file;
     if (cache[filePath]) { // *NEW*
       return cache[filePath];
     }
