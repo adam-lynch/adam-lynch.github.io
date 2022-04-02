@@ -43,6 +43,6 @@ Another possible location is `C:\Users\Default\AppData\Roaming\MyApp`. Anything 
 
 ### What to sign
 
-If you're digitally signing your app with a certificate, make sure you sign each and every executable; not only `myApp.exe` / `nw.exe` but also any `.exe`s your app spawns as well as any executables any of your node_modules dependencies spawn (which aren't already signed by the maintainers). If you were to use the [node-webkit-updatermodule](https://github.com/edjafarov/node-webkit-updater/), for example, it contains an `unsignedunzip.exe`. Make sure to sign all of these before building your installer, as well as signing the installer itself.
+If you're digitally signing your app with a certificate, make sure you sign each and every executable; not only `myApp.exe` / `nw.exe` but also any `.exe`s your app spawns as well as any executables any of your node_modules dependencies spawn (which aren't already signed by the maintainers). If you were to use the [node-webkit-updater module](https://github.com/edjafarov/node-webkit-updater/), for example, it contains an `unsignedunzip.exe`. Make sure to sign all of these before building your installer, as well as signing the installer itself.
 
 That's all folks! I've had to figure a lot of this stuff myself by trial and error so I hope it saves you some time. If I've missed anything, feel free to let me know in a comment below.
