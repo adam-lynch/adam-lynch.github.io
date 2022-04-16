@@ -58,7 +58,7 @@ I want to be clear when and where this solution is applicable. For the sake of t
 - **Unit tests**. I.e. test a unit of code like a function or class in isolation, using a barrage of inputs and asserting the outcomes match expected results. These might purely depend on arguments but they could also interact with the DOM. These could be considered integration tests if they included more than one “unit”, but the key point is that it’s a locally imported file / module that’s being tested in isolation.
 - **Component tests**. For example, Cypress has React and Vue integrations which mount your UI components for you and allow you to automate interactions. These generally involve less infrastructure and are faster to boot up. These could be considered integration or unit tests, but the key point is that they’re testing a specific UI component in isolation.
 
-The problem at hand isn't really applicable to end-to-end or component tests. Take end-to-end tests for example; you’d run a Vite command to serve your web app and visit `localhost:*` in your tests.
+The problem at hand isn't really applicable to end-to-end or component tests (although there are exceptions). Take end-to-end tests for example; you’d run a Vite command to serve your web app and visit `localhost:*` in your tests.
 
 Your web app code would be compiled with Vite. Your test code wouldn’t but it probably wouldn’t be a huge issue given most of your test code would be simple calls to Cypress APIs (e.g. `cy.get('button').click()`).
 
