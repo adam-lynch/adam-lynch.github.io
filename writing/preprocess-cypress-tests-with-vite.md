@@ -1,6 +1,6 @@
 ---
 date: 2022-02-24
-updated_at: 2022-04-01
+updated_at: 2022-04-16
 tags:
   - cypress
   - vite
@@ -45,7 +45,7 @@ I’ll give you a real example. I couldn’t use optional chaining, e.g. `if (x?
 
 You could figure out how to get it working with Webpack, sure. You could set up and configure Babel. You see Vite doesn’t use Babel and this kind of thing “just works” out of the box.
 
-This won’t be a once-off either; maybe next time it will be an issue with imports, aliases, or TypeScript. Before you know it, you’ll be reading Webpack version migration guides again. This is what I wanted to get away from.
+This won’t be a once-off either; maybe next time it will be an issue with imports, `package.json` exports, aliases, or TypeScript. Before you know it, you’ll be reading Webpack version migration guides again. This is what I wanted to get away from.
 
 So why bother? It would be easier to use Vite everywhere.
 
