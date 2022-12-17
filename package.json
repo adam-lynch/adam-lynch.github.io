@@ -7,7 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "generate--prod": "cross-env DEPLOY_ENV=GH_PAGES npm run generate && cpx \"dist/**\" .",
+    "generate--prod": "npm run rss && cross-env DEPLOY_ENV=GH_PAGES npm run generate && cpx \"dist/**\" .",
     "lint": "eslint --ext .js,.vue --ignore-path .eslintignore .",
     "precommit": "npm run lint",
     "rss": "node build/generateRssFeed.js"

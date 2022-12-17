@@ -14,9 +14,6 @@ $ npm run generate
 
 # generate static project that I really use for deployment
 $ npm run generate--prod
-
-# generate static/rss.xml for pdo
-$ npm run rss
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
