@@ -325,6 +325,6 @@ There's no reason why `/random` couldn't also accept filter parameters. After I 
 
 It was a nice break to rush head first into a small project, hacking something together without reading documentation, properly handling errors, etc. but I don't recommend working like this. It was almost a disaster.
 
-Follow [@randomOpenAPI](twitter.com/randomOpenAPI) on Twitter. Check out the source code at [github.com/adam-lynch/random-open-api](github.com/adam-lynch/random-open-api).
+Follow [@randomOpenAPI](https://twitter.com/randomOpenAPI) on Twitter. Check out the source code at [github.com/adam-lynch/random-open-api](https://github.com/adam-lynch/random-open-api).
 
 What could you make? I could imagine someone finding value in an account that tweets about *two* random APIs. The mashups might be handy for coming up with project ideas.
