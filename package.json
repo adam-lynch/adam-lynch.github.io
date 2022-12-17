@@ -7,9 +7,10 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "generate--prod": "cross-env DEPLOY_ENV=GH_PAGES npm run generate && cpx \"dist/**\" .",
+    "generate--prod": "npm run rss && cross-env DEPLOY_ENV=GH_PAGES npm run generate && cpx \"dist/**\" .",
     "lint": "eslint --ext .js,.vue --ignore-path .eslintignore .",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "rss": "node build/generateRssFeed.js"
   },
   "repository": {
     "type": "git",
@@ -62,10 +63,10 @@
     "prismjs": "^1.9.0",
     "raw-loader": "^0.5.1",
     "remove-markdown": "^0.2.2",
+    "rss": "^1.2.2",
     "sass-loader": "^6.0.6",
     "slug": "^0.9.1",
     "vue-markdown": "^2.2.4",
     "webpack": "^3.10.0"
-  },
-  "dependencies": {}
+  }
 }

@@ -1,6 +1,6 @@
 ---
 date: 2015-12-07
-summary: NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.
+summary: You might have been unfortunate enough to learn that Windows has a 256 character limit on file paths. You could've ran into this problem locally or on end users' machines. There's no real workaround but there are preventive measures you can take. Even if you haven't, feel free to take pleasure from reading my horror story.
 original:
   blogLink: https://www.packtpub.com/books/content/blogs
   blogName: Packt books

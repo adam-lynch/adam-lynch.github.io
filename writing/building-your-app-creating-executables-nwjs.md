@@ -1,6 +1,6 @@
 ---
 date: 2015-11-17
-summary: NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.
+summary: How hard can it be to package up your NW.js app into real executables? To be a true desktop app, it should be a self-contained `.exe`, `.app`, or similar. There are a few ways to approach this. Let's start with the simplest approach with the least amount of code or configuration.
 original:
   blogLink: https://www.packtpub.com/books/content/blogs
   blogName: Packt books

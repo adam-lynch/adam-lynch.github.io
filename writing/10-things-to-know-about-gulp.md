@@ -1,6 +1,6 @@
 ---
 date: 2015-11-24
-summary: NW.js is great for creating desktop applications using Web app technologies. If you're not familiar with NW.js, I'd advise you to read an introductory article like Creating Your First Desktop App With HTML, JS and Node-WebKit to get a good base first. This is a slightly more advanced article intended for anyone interested into distributing their NW.js app to Windows users.
+summary: I love Gulp. It’s great in so many ways and for so many purposes. I’ve been putting off writing a post on it forever. There’s just too much to write about; I could write a book on it. So instead, I’m going to give a quick introduction and share a few tips.
 original:
   blogLink: https://engineroom.teamwork.com
   blogName: Teamwork's Engine Room
