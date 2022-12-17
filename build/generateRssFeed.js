@@ -18,7 +18,7 @@ const siteUrl = 'https://adamlynch.com'
 var feed = new RSS({
   description: 'I like to code, I like to write. Developer, author. Currently at Readwise.',
   feed_url: siteUrl + '/rss.xml',
-  image_url: 'TODO',
+  image_url: siteUrl + '/apple-touch-icon.png',
   language: 'en',
   pubDate: 'Sat, 17 Dec 2022 22:18:11 GMT',
   site_url: siteUrl,
