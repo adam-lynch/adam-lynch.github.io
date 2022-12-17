@@ -27,23 +27,32 @@ var feed = new RSS({
 })
 const postsDirectory = path.join(__dirname, '../writing')
 
-for (const filename of fs.readdirSync(postsDirectory)) {
-  const contents = fs.readFileSync(path.join(postsDirectory, filename)).toString()
-  const { attributes, body } = getFrontMatter(contents)
+const items = fs.readdirSync(postsDirectory)
+  .map(function (filename) {
+    const contents = fs.readFileSync(path.join(postsDirectory, filename)).toString()
+    const { attributes, body } = getFrontMatter(contents)
 
-  const marked = new Markdown()
-  const html = marked.render(body)
-  const queryHtml = cheerio.load(html)
-  const title = getFirstTagContents(queryHtml, 'h1') || getFirstTagContents(queryHtml, 'h2') || getFirstTagContents(queryHtml, 'h3')
+    const marked = new Markdown()
+    const html = marked.render(body)
+    const queryHtml = cheerio.load(html)
+    const title = getFirstTagContents(queryHtml, 'h1') || getFirstTagContents(queryHtml, 'h2') || getFirstTagContents(queryHtml, 'h3')
+    console.log(typeof attributes.date, attributes.date)
 
-  feed.item({
-    author: 'Adam Lynch',
-    categories: attributes.tags,
-    date: attributes.date,
-    description: attributes.summary,
-    title,
-    url: siteUrl + '/' + filename.replace('.md', '')
+    return {
+      author: 'Adam Lynch',
+      categories: attributes.tags,
+      date: attributes.date,
+      description: attributes.summary,
+      title,
+      url: siteUrl + '/' + filename.replace('.md', '')
+    }
   })
+  .sort(function (a, b) {
+    return b.date - a.date
+  })
+
+for (const item of items) {
+  feed.item(item)
 }
 
 const xml = feed.xml({ indent: true })
