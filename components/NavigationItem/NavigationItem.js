@@ -6,7 +6,7 @@ export default {
   },
   computed: {
     isExternal () {
-      return /^[a-z]+:/.test(this.url)
+      return /^[a-z]+:/.test(this.url) || this.url === '/rss.xml'
     }
   },
   props: {

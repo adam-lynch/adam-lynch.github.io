@@ -13,9 +13,9 @@
                            :url="githubAccountUrl"/>
 
           <navigation-item :shouldTrackAnchorClicks="true"
-                           specificClasses="edit-navigation-item"
-                           text="Edit page"
-                           :url="repositoryUrl"/>
+                           specificClasses="rss-navigation-item"
+                           text="RSS"
+                           url="/rss.xml"/>
 
           <navigation-item :shouldTrackAnchorClicks="true"
                            specificClasses="twitter-navigation-item"
