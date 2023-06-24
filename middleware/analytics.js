@@ -1,8 +1,8 @@
-/* global ga */
+/* global ga, goatcounter */
 export default function ({ route }) {
-  if (typeof global.goatcounter === 'function') {
+  if (typeof goatcounter === 'function') {
     try {
-      global.goatcounter.count({
+      goatcounter.count({
         path: route.fullPath,
         title: document.title
       })
