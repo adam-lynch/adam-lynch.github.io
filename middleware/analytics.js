@@ -3,6 +3,7 @@ export default function ({ route }) {
   if (typeof goatcounter === 'function') {
     try {
       goatcounter.count({
+        event: true,
         path: route.fullPath,
         title: document.title
       })
