@@ -1,4 +1,4 @@
-/* global ga, goatcounter */
+/* global goatcounter */
 export default function (href) {
   if (typeof goatcounter !== 'undefined') {
     goatcounter.count({
@@ -6,8 +6,5 @@ export default function (href) {
       path: href,
       title: 'outbound'
     })
-  }
-  if (typeof ga === 'function') {
-    ga('send', 'event', 'outbound', 'click', href)
   }
 }
